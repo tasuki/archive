@@ -17,11 +17,11 @@
         <li ng-repeat="link in links"><a href="index.html" ng-click="display(link.display)" ng-bind-html="link.text"></a></li>
         <li><a href="index.html" ng-click="flipPick()">
             <svg class="icon">
-              <use xlink:href="/fonts/icons.svg#icon-menu"></use>
+              <use xlink:href="fonts/icons.svg#icon-menu"></use>
             </svg><span>Compare translations</span></a></li>
         <li><a href="index.html" ng-click="showPage('about')">
             <svg class="icon">
-              <use xlink:href="/fonts/icons.svg#icon-star"></use>
+              <use xlink:href="fonts/icons.svg#icon-star"></use>
             </svg><span>About</span></a></li>
       </ul>
     </div>
@@ -32,10 +32,10 @@
             <div class="version-padded">
               <div class="version-menu">
                 <svg ng-show="!pick" class="icon arrow">
-                  <use xlink:href="/fonts/icons.svg#icon-expand-less"></use>
+                  <use xlink:href="fonts/icons.svg#icon-expand-less"></use>
                 </svg>
                 <svg ng-show="pick" class="icon arrow">
-                  <use xlink:href="/fonts/icons.svg#icon-expand-more"></use>
+                  <use xlink:href="fonts/icons.svg#icon-expand-more"></use>
                 </svg>
                 <div ng-bind-html="heading" class="text"></div>
               </div>
