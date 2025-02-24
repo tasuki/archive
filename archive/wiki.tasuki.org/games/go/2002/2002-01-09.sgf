@@ -1,0 +1,39 @@
+(;DT[2002-01-09]PC[Brno]PB[Pea]BR[8kyu]PW[Vitek]WR[4kyu]RE[W+R]SZ[19];B[dp];W[fq];B[dc];W[de];B[qd];W[oc]C[Ahoj lidi, trochu blbnu];B[pq]
+;W[pf];B[qf];W[qg]
+(;B[rf]C[tento tah není joseki, ale asi je (pomìrnì) hratelnı; joseki jsou ve variantách]
+(;W[pe]C[myslím, e bílı udìlal chybu, nechává moc støihù - viz dále; bez støihù viz var];B[pd]C[prı je chyba tlaèit se koòskım skokem, kdy ho potom nestøihnete];W[od];B[pg]C[velmi pìknı støih];W[qh]
+(;B[ph]C[varianta mi pøipadne lepší];W[pi]C[nejde (kdyby bıval èernı hrál dobøe)]
+(;B[oi]C[jenom posiluje bílého; viz var];W[pj];B[ce]C[Pea má rád tenuki];W[dd];B[cd];W[ec];B[df]
+(;W[db]TR[df]C[nejde dost dobøe hrát kvùli pøítomnosti delta kamenu, pøestoe jsem se tohoto tahu po høe velmi zastával; joseki viz var];B[cc];W[fd];B[ee]LB[fe:a]C[a je vıraznì lepší];W[ed]C[moná jsem se nemìl spojovat, na toto téma jsem se pohádal s Martialem i Petrem a asi mìli pravdu oni];B[oe]C[støih znaènì komplikuje situaci obìma hráèùm]
+(;W[of]C[divné; viz var];B[ne];W[md]C[tento tah je špatnı kvùli monım pokraèováním]
+(;B[oh]C[fuj, fuj, fuj; ošklivı nicneøešící tvar, èerného nejvìtší úlet ve høe; viz var];W[nf];B[me];W[mg];B[ld]C[dobré]
+(;W[le]C[samozøejmì, e støih nefunguje, ale èernı chtìl, abych hrál drsnì; viz var];B[lf];W[ke]
+(;B[nd]LB[mf:a]C[ale èernı si nevšiml další monosti komplikace dalším støihem, mìl se spojit viz var
+take ještì jeden velkı úlet . . .];W[mf];B[nc]
+(;W[nb]C[komplikace; viz var];B[mc];W[ob];B[kd]C[out of control: moc slabıch skupin];W[qe]C[snaha bílého oít si roh a støed nechat na pozdìji, bílı mìl velmi bojovnou náladu];B[re];W[rc];B[rd];W[qb]C[bílı doufá, e ije a èernı je mrtvı . . .];B[kf]C[. . . a èernı jde "roundabout attackem" po sedmi kamenech v centru . . .];W[je]C[. . . ale pro bílého je nepøedstavitelné obìtovat dva kameny]
+;B[lh]C[. . . a má spoèítáno, e delta kameny jsou bezpeèné]TR[mg][mf][nf][of][pf][pe][qe];W[mh];B[li];W[mi];B[mj];W[lg];B[kg];W[kh]C[pro èerného je to zdrcující støih]
+;B[ki];W[jh];B[jd];W[lb]C[bílı ve své touze bojovat a zabíjet riskuje a nechává se unést bojem];B[jf];W[ie];B[if];W[nj];B[ni];W[oj]TR[qe][pe][pf][of][nf][mf][mg][lg][mh][mi]C[bílı v gote zabezpeèuje delta kameny v nìèem, co se podobá seki, s rozdílem, e šest èernıch vpravo je mrtvıch]
+;B[he]C[poslední pokus, pomalu konèí komentáø a celá partie];W[id];B[hd];W[ic];B[jc];W[hc];B[gc];W[gb];B[hb];W[ib];B[fb]
+(;W[gd]C[tohle je ještì zajímavé, viz var];B[ga];W[hf]C[a èerného "zeï" jde do háje];B[hg];W[gf];B[gg]C[èernı si z bílého dìlá legraci];W[ig];B[ih];W[ji]C[ale bílı kupodivu zná zpìtné braní
+
+THE END])
+(;W[ha];B[eb];W[gd];B[ge]LB[fe:a][ff:b]C[pro ty, co nevidí - bílı nemùe a kvùli èernému b];W[fc];B[fe];W[gc]C[to by se bílému nelíbilo]))
+(;W[mc];B[nb];W[mb];B[ob];W[kc];B[kf];W[je];B[kh]C[to se bílému nelíbilo]))
+(;B[mf]LB[nd:a][ng:b]C[hrozí a i b]))
+(;W[lc]C[snad to jde hrát víc ne støih];B[nd];W[nc];B[mc];W[mb]))
+(;B[ng]C[tanto tvar je mnohem mnohem mnohem lepší];W[nf];B[me]TR[md]C[nièí delta kámen];W[nh]C[snad?]))
+(;W[og]LB[ne:a]C[tento tah bílı ve høe zavrhl, bál se var2 - a]
+(;B[oh];W[ne]C[ètyøi èerné kameny vlají ve støedu])
+(;B[ne];W[oh];B[mc]
+(;W[nd];B[md];W[me];B[mf];W[le];B[nf]C[sloité pro bílého])
+(;W[mb];B[lb];W[nb];B[lc];W[qe];B[re];W[rc];B[rd];W[qb]))))
+(;W[cc];B[db];W[bc];B[eb]C[jedinı monı zpùsob (podle Ishidy)]))
+(;B[ng]LB[qi:a][oe:b]C[nechává a i pozdìjší hrozby b]))
+(;B[og]LB[oe:a][pi:b]C[Hrozí a i b]))
+(;W[og]LB[od:a]C[jediná hrozba je myslím na a];B[od];W[nd]LB[oe:a][nc:b][pc:c][pd:d]C[Kdy bude èernı hrát:
+a - nijak si asi nepomùe, bílı se spojí vnìjškem
+b - bílému funguje d
+c - bílı dá atari na a
+d - líbí se mi asi nejvíc]))
+(;B[pe];W[rf];B[qe];W[pg]C[joseki])
+(;B[pg];W[qe];B[rf];W[of];B[re];W[ph];B[pc];W[nd]C[joseki]))

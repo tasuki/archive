@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#C60">
+  <link rel="icon" href="../favicon.svg">
+
+  
+  <title>tasuki’s blog</title>
+  
+
+  <link rel="stylesheet" href="../public/pure-min.css">
+  <link rel="stylesheet" href="../public/pure-grids-responsive-min.css">
+  <link rel="stylesheet" href="../public/style.css">
+</head>
+<body>
+    <div id="header">
+      <div class="pad">
+        <a href="../index.html">tasuki’s blog</a>
+      </div>
+    </div>
+    <div id="content" class="pad">
+      
+  
+  <article>
+  <h1>
+  
+  <a href="../fear/index.html">Fear</a>
+  
+  </h1>
+  <div class="meta">
+    <span class="date">2006-06-11</span>
+  </div>
+  <div class="content">
+    <p>
+I am afraid my fear is almost chronical by now. It developed during past months. I irrationally fear almost everything. One of my more understandable fears is fear of heights, but then there are many fears so irrational I’d be ashamed to write about them here, let’s just say they are utterly ridiculous.
+</p>
+<p>
+The thing that is really weird about all this is that I am kind of addicted to fear, I just can’t help but fear when I have the option (I know it sounds weird, but I don’t have to fear when I have something to do, I voluntarily choose it (well, the voluntarity is questionable, but I am kind of obsessed, something like people who are obsessed with hurting themselves (awww, it’s difficult to explain, maybe I should just visit a psychologist/psychiatrist ;-))).
+</p>
+<p>
+But I guess that I still have time to get rid of that obsession… and if I’m not succesful, I should probably seek professional help.
+</p>
+<p>
+PS: Just because you are paranoid doesn’t mean they are NOT out to get you." ;-)
+</p>
+  </div>
+
+  
+</article>
+
+  
+  <article>
+  <h1>
+  
+  <a href="../weird-memorial/index.html">Weird memorial</a>
+  
+  </h1>
+  <div class="meta">
+    <span class="date">2006-06-10</span>
+  </div>
+  <div class="content">
+    <p>
+I was struggling to pedal my bycicle up the hill, when I saw a memorial with rather weird text (yeah, yeah, I promise I will take my camera next time). It stated something like:
+</p>
+<p>
+“Made for 500th anniversary of burning <a  href="http://en.wikipedia.org/wiki/Jan_Hus">Jan Hus</a> to death. Truth prevails.”
+</p>
+<p>
+I guess this is not even a double meaning… seems pretty clear to me. Yet, for some reason, I think it is not what they had in mind… or… could someone elaborate on that?<br />
+As a side note, I just found out that wikipedia’s <a  href="http://he.wikipedia.org/wiki/%D7%99%D7%90%D7%9F_%D7%94%D7%95%D7%A1">hebrew article about Jan Hus</a> is a <a  href="http://en.wikipedia.org/wiki/Wikipedia:Featured_articles">featured article</a>, which is imho pretty cool. And seeing whole wikipedia in right-to-left almost made me fall off my chair (I’ve got a new chair, did I brag already? (btw see how I change topic all the time without hesitation and don’t mind a bit? :-))).
+</p>
+  </div>
+
+  
+</article>
+
+  
+  <article>
+  <h1>
+  
+  <a href="../wifi-problems/index.html">Wifi problems</a>
+  
+  </h1>
+  <div class="meta">
+    <span class="date">2006-06-09</span>
+  </div>
+  <div class="content">
+    <p>
+Ok, again, but this time it isn’t going to be a rant, but rather description of my situation with request for help. :-)
+</p>
+<p>
+We have a small wifi network (I am one of the two clients). We live very close, it’s only like 30-50m between me and the AP. The antennas can “see” each other. I use Intersil Prism 2.5 wavelan chipset. The AP is Draytek Vigor2006Ge.
+</p>
+<p>
+It used to work, but lately my connection is really weird. It jumps between three states: no connection at all (there could be several reasons for it and it usually doesn’t last long anyway, so don’t bother), 100kbit and 3mbit (that’s what I want :-)). Weird thing is that “link quality” stays the same whether it’s 100kbit or 3mbit (it’s around 30-36 all the time). I test my connection with:
+</p>
+<blockquote>
+<p>
+ping -s 1024 -c 1024 -f 10.0.0.138
+</p>
+<p>
+1024 packets transmitted, 217 received, +35 duplicates, 78% packet loss, time 16021ms<br />
+rtt min/avg/max/mdev = 12.104/4771.567/6546.469/1548.455 ms, pipe 417, ipg/ewma 15.661/5394.273 ms
+</p>
+</blockquote>
+<p>
+where -s is size of the packet, -c is number of packets and -f sends one after another very fast (and 10.0.0.138 is the IP of the AP ). When the connection is good I have 0% packet loss (usually one or two drop) and time 5000ms, it’s a <strong>big</strong> difference.<br />
+Another weird thing is that when I had no signal, no connection (yes, I was trying to connect to the correct AP all the time), I could see a lot of packets flying around. There were like 30-60 of them every second, all flying to 10.0.0.1, which is the other guy connected to the AP. Let me give you an example:
+</p>
+<blockquote>
+<p>
+IP 147.230.151.63.11539 &gt; 10.0.0.1.27390: . 187868:189270(1402) ack 1 win 65535
+</p>
+</blockquote>
+<p>
+It’s probably DirectConnect, but that doesn’t really matter, the question is how comes I could see all those packets?
+</p>
+<p>
+Here is some further information, but I doubt it will help anyone:
+</p>
+<blockquote>
+<p>
+ifconfig<br />
+eth1 Link encap:Ethernet HWaddr 00:60:B3:6D:79:6F<br />
+inet addr:10.0.0.32 Bcast:10.0.0.255 Mask:255.255.255.0<br />
+inet6 addr: fe80::260:b3ff:fe6d:796f/64 Scope:Link<br />
+UP BROADCAST RUNNING MULTICAST MTU:1500 Metric:1<br />
+RX packets:782667 errors:343223 dropped:343223 overruns:0 frame:343216<br />
+TX packets:199530 errors:903 dropped:0 overruns:0 carrier:0<br />
+collisions:0 txqueuelen:1000<br />
+RX bytes:687827081 (655.9 MiB) TX bytes:34106034 (32.5 MiB)<br />
+Interrupt:11 Memory:df011000-df011fff
+</p>
+<p>
+iwconfig<br />
+eth1 IEEE 802.11b ESSID:“mynet” Nickname:“zluty kopec”<br />
+Mode:Managed Frequency:2.467 GHz Access Point: 00:11:09:0E:51:33<br />
+Bit Rate:1 Mb/s Sensitivity:1/3<br />
+Retry min limit:8 RTS thr:off Fragment thr:off<br />
+Power Management:off<br />
+Link Quality=32/92 Signal level=-101 dBm Noise level=-149 dBm<br />
+Rx invalid nwid:0 Rx invalid crypt:14 Rx invalid frag:0<br />
+Tx excessive retries:1113 Invalid misc:0 Missed beacon:0
+</p>
+<p>
+route<br />
+Kernel IP routing table<br />
+Destination Gateway Genmask Flags Metric Ref Use Iface<br />
+10.0.0.0 * 255.255.255.0 U 0 0 0 eth1<br />
+default 10.0.0.138 0.0.0.0 UG 0 0 0 eth1
+</p>
+</blockquote>
+<p>
+What totally puzzles me are the jumps. I’ve finally seen it yesterday, it jumped from link quality 0/92 to 34/92 in one second (I’ve got a script that does something like this: iwconfig | grep the relevant line, sleep a second). I probably needn’t mention that the jumps are not connected with any changes we make, it’s completely independent and seemingly random.
+</p>
+<p>
+And how comes I have a <span style="font-style: italic">very </span>different connection speed (30 times lower) with the same signal quality?
+</p>
+  </div>
+
+  
+</article>
+
+  
+  <article>
+  <h1>
+  
+  <a href="../the-da-vinci-code/index.html">The Da Vinci Code</a>
+  
+  </h1>
+  <div class="meta">
+    <span class="date">2006-06-07</span>
+  </div>
+  <div class="content">
+    <p>
+I’ve finally read Dan Brown’s book <a  href="http://en.wikipedia.org/wiki/The_Da_Vinci_Code">The Da Vinci Code</a>. It’s considered a bestseller, so you’ve probably read it or at least heard about it (and if not, feel free to follow the link I gave). What amazes me is how much stir it caused among certain religious organizations. For example the official czech web of opus dei (sorry, no link for ’em) has a news section where the last <em>five</em> messages are about The Da Vinci Code. Quite funny.
+</p>
+<p>
+Having just read the book I have a few questions: Sure, there’s a pope… but… anyone ever seen a popess? :) Why are women so discriminated in religion (particularly in Christianity, as I don’t have much experience with other religions)?
+</p>
+  </div>
+
+  
+</article>
+
+  
+  <article>
+  <h1>
+  
+  <a href="../my-wi-fi-connection/index.html">My wi-fi connection</a>
+  
+  </h1>
+  <div class="meta">
+    <span class="date">2006-06-04</span>
+  </div>
+  <div class="content">
+    <p>
+You can as well skip the next paragraph…
+</p>
+<p>
+On thursday the signal got significantly worse compared to average, my connection speed was reduced about ten times. This kinda annoyed me, but I couldn’t do anything so I thought that waiting would do the trick. The other guy connected to the same wifi said that he had problems too, so we contacted the owner of the access point who told us that no changes were made. I waited two days, and then – another jump, this time to no connection at all. I contacted the guy on the other end of the wi-fi (aka owner of the acces point) again, he told me that he’s made no changes (again) and that the other guy’s problems already dissappeared. Well, so I had to examine my end. With immense help of my father (hey, I’m no hardware guy at all) we couldn’t find any problem anywhere. I was rather depressed (how can I survive without internet connection?), but after 8 hours or so the signal suddenly skyrocketed back to normal and I had my 3mbit again. This has lasted till now (which is like a day or so) and I hope there won’t be further problems. But it’s <strong>really</strong> strange, you know?
+</p>
+<p>
+Good night.
+</p>
+  </div>
+
+  
+</article>
+
+  
+  <article>
+  <h1>
+  
+  <a href="../dapper-drake/index.html">Dapper Drake</a>
+  
+  </h1>
+  <div class="meta">
+    <span class="date">2006-06-02</span>
+  </div>
+  <div class="content">
+    <p>
+Hello from Dapper Drake!
+</p>
+<p>
+I’ve been patiently waiting for the final release not to get myself into trouble (I never installed release candidate I think), well, the upgrade wasn’t as smooth as I expected, but still went kinda ok. Let me sum up the result:
+</p>
+<p>
+Positives:
+</p>
+<ul>
+<li>
+Wine doesn’t take more and more memory when running Pokerstars (which means I will not have to restart it every while).
+</li>
+<li>
+New ubuntu “human” theme rocks! (unlike the previous ones)
+</li>
+<li>
+Firefox 1.5, and generally updated versions of apps.
+</li>
+</ul>
+<p>
+Now for negatives:
+</p>
+<ul>
+<li>
+The upgrade was an ordeal (as usually), I was up till 3am to get it at least a bit working.
+</li>
+<li>
+Gentium font has a very weird ‘u’ that is much taller than it should be (you’d say it is not that important but it’s totally annoying). Had to switch to verdana (any better tips for a font to use in apps ?).
+</li>
+<li>
+Nvidia drivers (for 3d graphics) got deinstalled and I will have to install them again.
+</li>
+<li>
+A lot of problems with Java (no java plugin in firefox (I know it only takes one link, but I can’t remember anymore where it was), CGoban won’t run (java.awt.AWTError: Cannot load AWT toolkit: gnu.java.awt.peer.gtk.GtkToolkit))
+</li>
+<li>
+Wavemon doesn’t run (fatal error: could not get range information), also my wifi connection is very crappy for no apparent reason, maybe it has something to do with it…
+</li>
+</ul>
+<p>
+And I always think “this time thay have to get the upgrade right”. No. Never.
+</p>
+<p>
+Hello from Dapper Drake…
+</p>
+  </div>
+
+  
+</article>
+
+  
+  <article>
+  <h1>
+  
+  <a href="../poker-with-friends/index.html">Poker with friends</a>
+  
+  </h1>
+  <div class="meta">
+    <span class="date">2006-06-01</span>
+  </div>
+  <div class="content">
+    <p>
+This was probably the most enjoyable poker session I experienced so far (well, there weren’t many of them yet). We started five handed, no-limit cash game (the one I hate the most but we always play it live, well, whatever…). While we were starting Joe played both real small stakes nl at our table and was finishing an online sit&amp;go tournament, he managed to get third place and cashed cool $400. For apparent reasons he was kinda excited about it. :)
+</p>
+<p>
+I was involved in two interesting hands (the one when I flopped monster fullhouse wasn’t that interesting really ;-)):
+</p>
+<p>
+In the first one I got A7 of clubs. Nothing interesting before the flop that I remember. We saw flop – me and an agressive opponent (but not maniac, rather reasonable agressive) – containing two clubs, there was a K and something I don’t remember anymore (some not very threatening straight possibility). He bet out and I quickly put him on Kx, and although I thought that my counting of the money in the pot made it rather obvious that I was drawing and counting pot odds, but luckily my opponent didn’t notice. We saw a turn like 9 or something, no clubs. He bet out and again the pot odds were okay for me to call (however I realised that now my flop+turn bets together do not justify the call, but well, it was too late…). River came K again. Well, now he has trip Kings and I am lost with an Ace high. He checked. Uh, does he want to check-raise me on the river? Isn’t it kind of obvious that I missed my draw? Well, I check too and show my missed Ace high draw. And it was good…
+</p>
+<p>
+The second hand was even better – I got KQ, raised, got reraised and called (but not much money yet, just messing around). Flop came QJ4 rainbow… neat, I have top pair with good kicker, I am gonna check-raise him. So I check and he bets around the size of a pot. Now I stop down to think – he is an extremely tight player and not particularly agressive either, it could be just a bluff to punish my checking. After some more thinking I decide he has it – either QJ or AQ. I show my top pair king kicker and he, surprise, surprise… shows AQ. I would be drawing to three outs, hopeless… Needless to say, I was (and still am) very happy about my laydown.
+</p>
+  </div>
+
+  
+</article>
+
+  
+  <article>
+  <h1>
+  
+  <a href="../from-chile-to-england-on-foot/index.html">From Chile to England on foot</a>
+  
+  </h1>
+  <div class="meta">
+    <span class="date">2006-05-31</span>
+  </div>
+  <div class="content">
+    <p>
+<img align="right" style="margin-left: 5px" src="../assets/2006/goliath.jpg" />Chile is a country in South America and England is in Europe, but the problem is that except of it being very far there is an ocean between (in case you don’t know), so it’s probably quite a problem to get from Chile to England on foot.
+</p>
+<p>
+Yet <a  href="http://en.wikipedia.org/wiki/Karl_Bushby">Karl Bushby</a> decided to try it. He started in 1998 and now he’s somewhere in Russia, having crossed the dangerous <a  href="http://en.wikipedia.org/wiki/Bering_Strait">Bering Strait</a>. Karl plans on finishing his more than 50 000 km journey in 2009. It’s almost unbelievable that someone is willing to spend more than 10 years of his life just walking around the world…
+</p>
+<p>
+You can find much more info (photos, journal, etc.) on official pages of the <a  href="http://goliath.mail2web.com/">Goliath expedition</a>.
+</p>
+  </div>
+
+  
+</article>
+
+  
+  <article>
+  <h1>
+  
+  <a href="../bible-on-children-killing/index.html">Bible on children killing</a>
+  
+  </h1>
+  <div class="meta">
+    <span class="date">2006-05-27</span>
+  </div>
+  <div class="content">
+    <p>
+While reading fullcontactpoker forums I stumbled upon a post named “<a  href="http://www.fullcontactpoker.com/poker-forum/index.php?showtopic=53680">What’s so bad with killing children?</a>”. I suggest you to read at least the first page of the thread (later it turned into a series of useless personal attacks). Here is the relevant excerpt from the Bible:
+</p>
+<blockquote>
+<p>
+2 Kings, 2:23-24.
+</p>
+<p>
+23: And he (Elisha) went up from thence unto Bethel: and as he was going up by the way, there came forth little children out of the city, and mocked him, and said unto him, Go up, thou bald head; go up, thou bald head.<br />
+24: And he turned back, and looked on them, and cursed them in the name of the Lord. And there came forth two she bears out of the wood, and tare forty and two children of them.
+</p>
+</blockquote>
+<p>
+Pretty hardcore, huh? I’d rather suggest following ninth <a  href="http://en.wikipedia.org/wiki/Satanism#Satanic_philosophy">Satanic rule</a> – “do not harm little children”.
+</p>
+<p>
+I thought that Bible probably contains more inconsistencies and just plainly weird things, so I made a bit of a searching and found <a  href="http://skepticsannotatedbible.com/">Skeptic’s Annotated Bible</a>. It rocks. It contains full Bible thoroughly commented, you can also search by cathegories (such as contradictions (wouldn’t believe there are <strong>so</strong> many of them), absurdities, cruelty and violence).
+</p>
+<p>
+Here an example of absurdity, God was angry because “the earth was filled with violence.” So he killed every living thing to make the world less violent:
+</p>
+<blockquote>
+<p>
+Genesis 6:11-13
+</p>
+<p>
+<span class="a">11: The earth also was corrupt before God, and the earth was filled with violence.</span>
+</p>
+<p>
+12: And God looked upon the earth, and, behold, it was corrupt; for all flesh had corrupted his way upon the earth.
+</p>
+<p>
+13: And God said unto Noah, The end of all flesh is come before me; for the earth is filled with violence through them; and, behold, I will destroy them with the earth.
+</p>
+</blockquote>
+<p>
+But it isn’t really difficult to find <em>many</em> utterly ridiculous things there – actually it is difficult to find a page in Bible without contradictions with other parts. I seriously pity all the people who have chosen the Bible as something to lead them through their lives.
+</p>
+<p>
+PS: Let the flaming begin, I am prepared to dodge bullets. :-P
+</p>
+  </div>
+
+  
+</article>
+
+  
+  <article>
+  <h1>
+  
+  <a href="../inconsistency/index.html">Inconsistency</a>
+  
+  </h1>
+  <div class="meta">
+    <span class="date">2006-05-13</span>
+  </div>
+  <div class="content">
+    <p>
+Sometimes I write a post (or just intend to write it, like now) about a website that is completely in czech language. It makes no sense to write that in english, since any potential visitor has to know czech rather well to enjoy the site. On the other hand it wouldn’t make sense writing half blog posts in czech and half in english, or would it?
+</p>
+  </div>
+
+  
+</article>
+<div id="pagination" class="pure-g">
+  <div class="older pure-u-1-1 pure-u-sm-1-3">
+  
+    <a href="20.html">&laquo; Older posts</a>
+  
+  </div>
+
+  <div class="page-number pure-u-1-1 pure-u-sm-1-3">
+    Page: 19 of 24
+  </div>
+
+  <div class="newer pure-u-1-1 pure-u-sm-1-3">
+  
+    <a href="18.html">Newer posts &raquo;</a>
+  
+  </div>
+</div>
+
+    </div>
+  </body>
+</html>

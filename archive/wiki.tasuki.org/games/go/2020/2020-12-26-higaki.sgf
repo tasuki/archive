@@ -1,0 +1,234 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[6.50]TM[2400]OT[3x30 byo-yomi]
+PW[Higaki]PB[tasuki]WR[2d]DT[2020-12-26]PC[The KGS Go Server at http://www.gokgs.com/]C[Higaki [2d?\]: miłej gry
+tasuki [-\]: miłej gry do igla!
+Higaki [2d?\]: IGLO
+]RE[W+Resign]
+;B[pd]BL[2383.895]
+;W[dc]WL[2394.618]
+;B[qp]BL[2369.917]
+;W[oq]WL[2376.037]
+;B[dq]BL[2360.147]
+;W[po]WL[2372.741]
+;B[qo]BL[2356.242]
+;W[pn]WL[2371.657]
+;B[qm]BL[2354.244]
+;W[co]WL[2368.943]
+;B[cp]BL[2334.03]
+;W[do]WL[2362.042]
+;B[fq]BL[2331.731]
+;W[ep]WL[2358.19]
+;B[eq]BL[2253.466]
+;W[df]WL[2354.387]
+;B[ck]BL[2209.459]
+;W[ci]WL[2341.954]
+;B[ek]BL[2157.839]
+;W[go]WL[2337.201]
+;B[hp]BL[2008.353]
+;W[cm]WL[2299.58]
+;B[di]BL[1963.754]
+;W[dh]WL[2233.963]
+;B[ei]BL[1852.62]
+;W[cj]WL[2228.317]
+;B[dk]BL[1847.428]
+;W[em]WL[2210.401]
+;B[de]BL[1768.77]
+;W[cf]WL[2137.342]
+;B[nc]BL[1650.113]
+;W[hj]WL[2128.601]
+;B[gl]BL[1539.419]
+;W[in]WL[2082.991]
+;B[il]BL[1532.568]
+;W[jp]WL[1927.708]
+;B[fg]BL[1474.131]
+;W[ff]WL[1910.317]
+;B[gf]BL[1470.637]
+;W[fe]WL[1904.772]
+;B[gg]BL[1391.992]
+;W[hd]WL[1889.228]
+;B[pm]BL[1385.483]
+;W[qg]WL[1868.045]
+;B[qi]BL[1328.057]
+;W[pi]WL[1847.634]
+;B[qj]BL[1262.379]
+;W[qd]WL[1758.614]
+;B[qc]BL[1236.599]
+;W[rc]WL[1750.651]
+;B[qe]BL[1144.611]
+;W[rd]WL[1748.038]
+;B[pe]BL[1141.933]
+;W[re]WL[1746.093]
+;B[pg]BL[1129.386]
+;W[pc]WL[1711.081]
+;B[qb]BL[1066.446]
+;W[ph]WL[1593.505]
+;B[qh]BL[1044.043]
+;W[pf]WL[1588.345]
+;B[og]BL[988.272]
+;W[qf]WL[1560.869]
+;B[of]BL[985.255]
+;W[pb]WL[1535.827]
+;B[oc]BL[952.053]
+;W[oe]WL[1531.986]
+;B[od]BL[931.038]
+;W[rb]WL[1520.156]
+;B[rh]BL[868.296]
+;W[rf]WL[1494.381]
+;B[ie]BL[790.271]
+;W[ne]WL[1488.808]
+;B[mf]BL[686.172]
+;W[me]WL[1478.474]
+;B[lf]BL[599.624]
+;W[le]WL[1467.3]C[tasuki [-\]: ehh nie zauważyłem że ten h10 akurat na drabinkę stoi
+Higaki [2d?\]: Oglądało się Hikaru
+]
+;B[kc]BL[429.967]
+;W[nf]WL[1404.449]
+;B[nh]BL[418.738]
+;W[mh]WL[1378.89]C[awersty: kształt sezonu
+awersty: o12
+]
+;B[ni]BL[411.508]
+;W[ng]WL[1353.518]
+;B[oh]BL[406.868]
+;W[mi]WL[1352.441]
+;B[nj]BL[393.425]
+;W[jd]WL[1351.004]
+;B[kd]BL[384.607]
+;W[ke]WL[1349.29]
+;B[je]BL[370.493]
+;W[id]WL[1292.519]C[Sztygrys [2d\]: O Tasuki korzysta z czasu
+]
+;B[ob]BL[147.554]
+;W[qa]WL[1285.231]C[Sztygrys [2d\]: może to dlatego, że to gra o wygranie ligi :P
+]
+;B[ge]BL[110.612]
+;W[fc]WL[1214.642]
+;B[gd]BL[101.67]
+;W[kb]WL[1151.513]
+;B[jb]BL[65.556]
+;W[lb]WL[1110.193]
+;B[lc]BL[30]OB[3]
+;W[jc]WL[1103.72]C[tasuki [-\]: oh
+tasuki [-\]: nie wazuwazyłem
+]
+;B[mb]BL[30]OB[3]C[Higaki [2d?\]: no takiej sytuacji w Hikaru nie było
+]
+;W[ib]WL[1089.187]
+;B[gc]BL[30]OB[3]
+;W[gb]WL[1033.268]
+;B[hc]BL[30]OB[3]
+;W[ja]WL[977.768]
+;B[hb]BL[30]OB[3]C[Sztygrys [2d\]: A biały nie powinien w H18?
+Sztygrys [2d\]: zamiast k19
+awersty: powinien
+zenek [2d\]: no tez mi sie tak wydawalo
+awersty: obawial sie moze zlego ksztaltu ale zly ksztlat dzialal
+]
+;W[na]WL[918.367]C[awersty: a moze chce kontre w h15
+awersty: nie
+awersty: a to slabo
+]
+;B[kf]BL[30]OB[3]
+;W[mg]WL[911.628]C[Sztygrys [2d\]: Chyba mam do czynienia z typowym schorzeniem goistycznym. Po zabiciu grupy, umiejętności gry spadają o 80%
+]
+;B[lp]BL[30]OB[2]C[zenek [2d\]: ale chyba bialy oddechami wygrywa i tak
+awersty: i tak bialy nie moze narzekac
+]
+;W[ln]WL[878]
+;B[no]BL[30]OB[2]
+;W[qq]WL[820.778]
+;B[pp]BL[30]OB[2]
+;W[pq]WL[802.754]
+;B[op]BL[30]OB[2]
+;W[lr]WL[770.876]
+;B[ma]BL[30]OB[2]
+;W[mc]WL[749.678]
+;B[fd]BL[30]OB[2]
+;W[fb]WL[704.845]
+;B[mr]BL[30]OB[2]
+;W[mq]WL[698.5]
+;B[lq]BL[30]OB[2]
+;W[nr]WL[689.166]
+;B[kr]BL[30]OB[2]
+;W[ms]WL[685.899]
+;B[jq]BL[30]OB[2]
+;W[bp]WL[615.717]
+;B[bq]BL[30]OB[2]
+;W[dp]WL[614.092]
+;B[cq]BL[30]OB[2]
+;W[gp]WL[612.85]
+;B[gq]BL[30]OB[2]
+;W[ip]WL[611.069]
+;B[hq]BL[30]OB[2]
+;W[gm]WL[609.427]
+;B[mj]BL[30]OB[2]
+;W[he]WL[579.901]
+;B[ig]BL[30]OB[2]
+;W[hf]WL[573.114]
+;B[jh]BL[30]OB[2]
+;W[ld]WL[570.53]C[tasuki [-\]: ehh
+tasuki [-\]: unfair
+]
+;B[ed]BL[30]OB[2]
+;W[ce]WL[562.486]C[zenek [2d\]: d16 nie wieksze?
+zenek [2d\]: dla czarnego?
+]
+;B[kn]BL[30]OB[2]C[tomasz [1k\]: małe jest piękne
+awersty: nie
+]
+;W[km]WL[459.327]
+;B[jm]BL[30]OB[2]
+;W[ko]WL[372.387]
+;B[jn]BL[30]OB[2]
+;W[lo]WL[367.611]
+;B[mp]BL[30]OB[2]
+;W[ki]WL[301.365]
+;B[io]BL[30]OB[2]
+;W[ii]WL[259.172]
+;B[hg]BL[30]OB[2]
+;W[lj]WL[230.925]
+;B[kk]BL[30]OB[2]
+;W[ji]WL[182.925]
+;B[lk]BL[30]OB[2]C[awersty: teraz bialy moze zaczac narzekac
+Sztygrys [2d\]: F8 trochę denerwujące dla czarnego
+awersty: chyba ze pojdzie kill h13
+awersty: mhm
+Sztygrys [2d\]: albo E12
+Sztygrys [2d\]: lepiej
+]
+;W[gi]WL[54.227]C[Sztygrys [2d\]: A G11 jest skomplikowane
+]
+;B[eh]BL[30]OB[2]C[Sztygrys [2d\]: zobaczymy czy policzył
+]
+;W[eg]WL[41.032]C[awersty: d12 bylo trudne do realizacji
+]
+;B[ef]BL[30]OB[2]
+;W[dg]WL[35.785]C[awersty: nie zeby teraz bylo latwiej
+]
+;B[fi]BL[30]OB[2]
+;W[hl]WL[23.038]C[Sztygrys [2d\]: no i co, umarł
+]
+;B[hk]BL[30]OB[2]
+;W[ho]WL[20.676]C[awersty: czekej no
+tasuki [-\]: oo
+tasuki [-\]: drabinka?
+]
+;B[jo]BL[30]OB[2]C[Higaki [2d?\]: oglądało się Hikaru
+Sztygrys [2d\]: to dobra gra była
+]
+;W[jl]WL[30]OW[3]
+;B[im]BL[30]OB[2]
+;W[ik]WL[30]OW[3]C[tasuki [-\]: no mi wygląda jak drabinka
+tasuki [-\]: ładnie
+tasuki [-\]: dzięki
+Higaki [2d?\]: dzięki
+tasuki [-\]: jaka dobra gra
+Higaki [2d?\]: jak dla kogo ;p
+tasuki [-\]: po p17 już tylko cierpienie :)
+Higaki [2d?\]: hm
+Sztygrys [2d\]: No trochę cierpienia było
+Higaki [2d?\]: chcesz pogadać na Discordzie?
+tasuki [-\]: pewnie
+tasuki [-\]: to w iglo?
+])

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#C60">
+  <link rel="icon" href="../favicon.svg">
+
+  
+  <title>Choosing a programming language in 2024 &mdash; tasuki’s blog</title>
+  
+
+  <link rel="stylesheet" href="../public/pure-min.css">
+  <link rel="stylesheet" href="../public/pure-grids-responsive-min.css">
+  <link rel="stylesheet" href="../public/style.css">
+</head>
+<body>
+    <div id="header">
+      <div class="pad">
+        <a href="../index.html">tasuki’s blog</a>
+      </div>
+    </div>
+    <div id="content" class="pad">
+      
+
+
+<article>
+  <h1>
+  
+  Choosing a programming language in 2024
+  
+  </h1>
+  <div class="meta">
+    <span class="date">2024-02-22</span>
+  </div>
+  <div class="content">
+    <p>Welp. I want to write a simple backend service and have it low maintenance for the upcoming decade. I will probably want to write other simple backend services in the upcoming decade and I’m getting old so I’d rather stick to fewer than more languages. But also I’d rather the languages to be tidy. This is a stream-of-thought for my own reference, but I might end up pushing the “publish” button anyway.</p>
+
+<p>Without further ado, the contenders:</p>
+
+<h3 id="haskell">Haskell</h3>
+
+<p>I already wrote 30 lines of Haskell to do very simple API call forwarding, so I’m not starting from scratch here. The ergonomics just aren’t there:</p>
+
+<ul>
+  <li>Stack downloads a lot of things and uses exorbitant amounts of disk space. I’m running on a $5 DigitalOcean droplet!</li>
+  <li>With such strong typing I want an amazing IDEs but mostly end up typing things in vim.</li>
+  <li>Haskell is not a beautiful language. Yes it maintains backwards compatibility. Why <code class="language-plaintext highlighter-rouge">fmap</code> on functors and <code class="language-plaintext highlighter-rouge">map</code> only on lists?</li>
+  <li>I count six different string types and I’m trying very hard to count as few as possible. If one wanted to count <em>as many as possible</em>, I shudder to think what the number would be. Ideal number of string types is one.</li>
+</ul>
+
+<p>On the plus side, <a href="https://packages.debian.org/search?keywords=haskell-stack"><code class="language-plaintext highlighter-rouge">stack</code> is in my distro’s repos</a>…</p>
+
+<h3 id="php">PHP</h3>
+
+<p>Hey, I have three-ish things running PHP on the aforementioned $5 DigitalOcean droplet. Less beautiful language than Haskell, very low maintenance, just works. But hey it’s not 2004 anymore…</p>
+
+<h3 id="python">Python</h3>
+
+<p>It’s everywhere and there’s no hope of it ever going away. Its library ecosystem is amazing, its package management story is atrocious. Reads like pseudocode, but all bugs are runtime. Probably a practical choice, but is it really that much better than PHP? If I’m getting invested in another language apart from PHP, I’d like it to be nicer.</p>
+
+<h3 id="scala">Scala</h3>
+
+<p>Maybe. Having worked with Scala professionally for 7 years, I know it well and like it enough. It seems to be losing a lot of steam recently, as in its cake eaten completely by the inferior Kotlin. But it’s not disappearing completely, is it? And the ecosystem of Java (and Kotlin!) libraries is there.</p>
+
+<h3 id="f">F#</h3>
+
+<p><a href="https://fsharp.org/">F#</a> is a nicer language than Scala. But it’s not <em>that much</em> nicer and reportedly the .NET ecosystem is worse. It’s also an ecosystem I don’t know at all. There’s ASP.NET and .NET and .NET core and .NET framework and perhaps they’re complementary or one replaces the other and the naming is confusing…</p>
+
+<h3 id="idris-and-purescript-and-roc">Idris and PureScript and Roc</h3>
+
+<p><a href="https://www.idris-lang.org/">Idris</a> is Haskell without the warts, but no one uses Idris and it has no libraries. Nor even a package manager really.</p>
+
+<p><a href="https://www.purescript.org/">PureScript</a> requires a lot of imports and seems to be more of a frontend language, but perhaps I’m just being uncharitable to it. And uh JavaScript as its main compile target. It makes sense for a frontend language, of course. I use Elm and don’t complain about JavaScript being the compile target. PureScript looks real nice!</p>
+
+<p><a href="https://www.roc-lang.org/">ROC</a> is not even a thing yet.</p>
+
+<p>All three a bit too much bleeding edge.</p>
+
+<h3 id="conclusion">Conclusion</h3>
+
+<p>There is no conclusion! The only conclusion I can possibly come up with is that the nicer the language, the worse its ecosystem. The worse the language, the nicer its ecosystem. Here’s, uh, an infographic:</p>
+
+<div class="wide">
+<img alt="objective ranking of programming languages" src="../assets/2024/languages.svg" />
+</div>
+
+  </div>
+
+  
+  <div class="post-nav">
+    
+    <a href="../tiling-gradients/index.html" class="post-nav-prev">&larr;&nbsp;Tiling gradients</a>
+    
+    
+    <a href="../oklch-and-rainbows/index.html" class="post-nav-next">Notes on OKLCH and rainbows&nbsp;&rarr;</a>
+    
+  </div>
+
+  <div class="comments">
+    
+
+    <h3>No thoughts on &ldquo;Choosing a programming language in 2024&rdquo;</h3><p><a class="add-comment" href="https://github.com/tasuki/blog/edit/master/_posts/2024-02-22-programming-language-2024.md">Add your comment</a>
+       &mdash; <a href="../comment/index.html">How does this work?</a></p>
+  </div>
+  
+</article>
+
+
+    </div>
+  </body>
+</html>

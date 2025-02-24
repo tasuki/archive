@@ -1,0 +1,459 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[6.50]TM[2400]OT[3x30 byo-yomi]
+PW[tasuki]PB[Deejay]BR[1d]DT[2020-12-18]PC[The KGS Go Server at http://www.gokgs.com/]C[Deejay [1d?\]: Hej
+tasuki [-\]: miłej do iglooo
+Deejay [1d?\]: miłej gry do iglo
+]RE[W+12.50]
+;B[pd]BL[2379.453]
+;W[dp]WL[2394.036]
+;B[pp]BL[2365.638]
+;W[dc]WL[2384.888]
+;B[ce]BL[2362.76]
+;W[cd]WL[2375.925]
+;B[de]BL[2359.849]
+;W[fc]WL[2373.276]
+;B[ci]BL[2338.924]
+;W[nq]WL[2356.82]
+;B[qn]BL[2290.119]
+;W[pq]WL[2350.164]
+;B[qq]BL[2288.727]
+;W[qr]WL[2347.795]
+;B[oq]BL[2177.2]
+;W[pr]WL[2343.842]
+;B[np]BL[2128.76]
+;W[or]WL[2340.311]
+;B[op]BL[2127.563]
+;W[mq]WL[2336.599]
+;B[nc]BL[2099.51]
+;W[cn]WL[2307.85]
+;B[qf]BL[1979.525]
+;W[lo]WL[2284.526]
+;B[fq]BL[1924.411]
+;W[eq]WL[2249.949]
+;B[fp]BL[1921.581]
+;W[hq]WL[2186.838]
+;B[fm]BL[1871.573]
+;W[dk]WL[2066.688]
+;B[do]BL[1571.979]
+;W[co]WL[2050.337]
+;B[cq]BL[1540.261]
+;W[ep]WL[1937.334]
+;B[cp]BL[1412.492]
+;W[eo]WL[1861.56]
+;B[dn]BL[1344.723]
+;W[cm]WL[1826.388]C[Sztygrys [2d\]: e2 d2 f2 c2 d7 d8 f6 ?
+Sztygrys [2d\]: Ja niewiem
+zenek [2d\]:  jak poklikalem Twoja sekwencje to bialy zamiast d8 moze e7 ;)
+Sztygrys [2d\]: To czarny D8
+zenek [2d\]: e8 c8 e6 i co potem?
+Sztygrys [2d\]: B5
+Sztygrys [2d\]: skomplikowane rzeczy - Deejay się chyba z tym zgadza
+]
+;B[iq]BL[482.976]C[zenek [2d\]: emm drabinka na 5 kamieni wtedy ;)
+zenek [2d\]: w sumie to nawet po prostym e6 wole bialego, jak myslisz?
+zenek [2d\]: teraz znaczy sie
+tasuki [-\]: sorry
+tasuki [-\]: coś mi tu internety padają
+]
+;W[fo]WL[1531.738]C[Deejay [1d?\]: znów burza?
+tasuki [-\]: hah, tym razem nie
+]
+;B[er]BL[433.752]
+;W[gp]WL[1478.193]
+;B[gr]BL[369.356]
+;W[hr]WL[1457.588]
+;B[go]BL[187.761]
+;W[ho]WL[1437.922]
+;B[gn]BL[184.558]
+;W[en]WL[1434.954]
+;B[pj]BL[45.563]
+;W[di]WL[1250.536]
+;B[dj]BL[30]OB[2]
+;W[ej]WL[1218.933]
+;B[cj]BL[30]OB[2]
+;W[ek]WL[1184.143]
+;B[dh]BL[30]OB[2]
+;W[ei]WL[1179.81]
+;B[hn]BL[30]OB[2]
+;W[io]WL[1165.888]
+;B[in]BL[30]OB[2]
+;W[jo]WL[1159.953]
+;B[km]BL[30]OB[2]C[gimlix [?\]: nie chodzi casem dla bialego d2 d3 e1 f2 (lub ko) c2  b2  b3 b4 b1 a3 g1 i czarny zaczyna tam ko?
+]
+;W[md]WL[1090.631]C[cezary [5d\]: tak
+]
+;B[kd]BL[30]OB[2]
+;W[mc]WL[1082.1]C[cezary [5d\]: e1 nie trzeba wyplacac
+cezary [5d\]: e1 na grozbe bedzie
+]
+;B[nd]BL[30]OB[2]
+;W[me]WL[1074.003]
+;B[kf]BL[30]OB[2]C[cezary [5d\]: nie jestem pewny czy b1 czy a2
+]
+;W[nb]WL[1036.021]C[cezary [5d\]: ah ze w ogole g1 polaczyc
+cezary [5d\]: no to w ogole nokaut
+]
+;B[mg]BL[30]OB[2]C[cezary [5d\]: ja sie skupilem na tym slynnym ksztalcie tam :p 
+gimlix [?\]: no dziala po w rogu ekstrsa oddech
+cezary [5d\]: racja racja
+]
+;W[oc]WL[959.033]
+;B[od]BL[30]OB[2]
+;W[pc]WL[942.195]
+;B[qc]BL[30]OB[2]
+;W[qb]WL[908.533]
+;B[rb]BL[30]OB[2]
+;W[pb]WL[862.891]
+;B[rc]BL[30]OB[2]
+;W[kb]WL[735.437]
+;B[mn]BL[30]OB[2]
+;W[qg]WL[709.442]
+;B[pf]BL[30]OB[2]
+;W[dr]WL[640.692]
+;B[dq]BL[30]OB[2]
+;W[cr]WL[628.039]C[Sztygrys [2d\]: No zobaczymy co im wyjdzie
+]
+;B[br]BL[30]OB[2]C[Mariusz [2k\]: i co podpowiadacie :)
+]
+;W[bq]WL[590.917]
+;B[bp]BL[30]OB[2]
+;W[ar]WL[587.731]C[cezary [5d\]: a widzicie
+cezary [5d\]: vit tez sie skupil na slynnym ksztalcie
+]
+;B[aq]BL[30]OB[2]
+;W[bs]WL[581.501]C[Sztygrys [2d\]: Wniosek taki, zamiast uczyć się sławnych kształtów trza hamecić
+Mariusz [2k\]: może chciał ko
+]
+;B[as]BL[30]OB[2]
+;W[qj]WL[578.432]C[cezary [5d\]: ale po co to ko
+cezary [5d\]: nie mogl chciec ko jesli widzialby g1
+]
+;B[cs]BL[30]OB[1]C[cezary [5d\]: chyba ze to hamecenie polega na tym ze czarny nie odpowie na grozbe bialego ktora jest wieksza od samego ko, ale to sie chyba nie stalo :p 
+]
+;W[qk]WL[513.548]
+;B[qi]BL[30]OB[1]
+;W[ri]WL[509.592]
+;B[rh]BL[30]OB[1]
+;W[qm]WL[458.617]C[Sztygrys [2d\]: Jak biały przeżyje na bardzo małą skalę
+Sztygrys [2d\]: w gote
+Sztygrys [2d\]: to może by było ok
+]
+;B[rj]BL[30]OB[1]
+;W[pi]WL[454.264]C[gimlix [?\]:  r7 troche greedy
+]
+;B[qh]BL[30]OB[1]C[Sztygrys [2d\]: No ale jak złapie S12
+Sztygrys [2d\]: to trochę mało zdobyłby
+leping [2d\]: q6
+Sztygrys [2d\]: R5, co dalej?
+]
+;W[pn]WL[420.28]
+;B[qo]BL[30]OB[1]C[leping [2d\]: s9 chyba
+Sztygrys [2d\]: no to nie wygląda dobrze dla czarnych
+]
+;W[rk]WL[375.387]
+;B[si]BL[30]OB[1]C[Sztygrys [2d\]: ale oczu jeszcze biały nie ma
+leping [2d\]: P10 tylko?
+]
+;W[oj]WL[324.707]C[Hipcio [2d\]: jeszcze nie ale prawie zyje
+]
+;B[pm]BL[30]OB[1]C[Sztygrys [2d\]: No ale tak to nie zabijemy
+Hipcio [2d\]: q6 dead
+]
+;W[om]WL[296.968]
+;B[pl]BL[30]OB[1]
+;W[ol]WL[294.849]
+;B[rm]BL[30]OB[1]
+;W[pk]WL[267.84]C[Sztygrys [2d\]: O9
+Sztygrys [2d\]: to biały chyba zbłądził
+Sztygrys [2d\]: albo nie
+]
+;B[ml]BL[30]OB[1]C[Sztygrys [2d\]: żartowałem
+gimlix [?\]: nie no dobrze dla bialego
+]
+;W[rl]WL[243.979]
+;B[rq]BL[30]OB[1]C[leping [2d\]: uf, czarny dożył
+Sztygrys [2d\]: ciężko będzie coś wymyślić czarnemu
+Deejay [1d?\]: ale się pogubiłem w tym byo :/
+tasuki [-\]: no różnie bywa w byo
+tasuki [-\]: ja też zaraz będę!
+Deejay [1d?\]: uff
+]
+;W[ph]WL[166.647]
+;B[be]BL[30]OB[1]
+;W[bd]WL[154.828]
+;B[gc]BL[30]OB[1]
+;W[fd]WL[118.764]
+;B[jc]BL[30]OB[1]
+;W[jb]WL[112.833]
+;B[ic]BL[30]OB[1]
+;W[pg]WL[107.631]
+;B[rg]BL[30]OB[1]
+;W[hj]WL[21.679]
+;B[ij]BL[30]OB[1]
+;W[ii]WL[30]OW[3]C[leping [2d\]: c9 fajne
+]
+;B[ji]BL[30]OB[1]C[leping [2d\]: dla białego
+]
+;W[ik]WL[30]OW[3]
+;B[jj]BL[30]OB[1]
+;W[hl]WL[30]OW[3]C[gimlix [?\]: bialy chyba o tyle prowadzi ze trzeba by raczej znalesc fajne ruchy dla czarnego ;)
+]
+;B[jl]BL[30]OB[1]
+;W[ih]WL[30]OW[3]
+;B[jh]BL[30]OB[1]
+;W[eh]WL[30]OW[3]C[Mariusz [2k\]: łatwiej znaleźć fany ruch dla białego
+]
+;B[dg]BL[30]OB[1]
+;W[jn]WL[30]OW[3]
+;B[im]BL[30]OB[1]
+;W[ig]WL[30]OW[3]
+;B[ad]BL[30]OB[1]
+;W[ac]WL[30]OW[3]
+;B[ae]BL[30]OB[1]
+;W[bb]WL[30]OW[3]
+;B[bl]BL[30]OB[1]
+;W[cl]WL[30]OW[3]
+;B[bk]BL[30]OB[1]
+;W[ff]WL[30]OW[3]
+;B[gb]BL[30]OB[1]
+;W[fb]WL[30]OW[3]
+;B[mi]BL[30]OB[1]
+;W[rn]WL[30]OW[3]C[leping [2d\]: F7 stoi tak dziwnie, że az sprawdziłem kiedy został zagrany
+]
+;B[ro]BL[30]OB[1]
+;W[sm]WL[30]OW[3]C[cezary [5d\]: hehe
+]
+;B[rr]BL[30]OB[1]
+;W[mj]WL[30]OW[3]
+;B[lj]BL[30]OB[1]
+;W[ni]WL[30]OW[3]
+;B[mk]BL[30]OB[1]
+;W[mh]WL[30]OW[3]
+;B[nj]BL[30]OB[1]
+;W[lh]WL[30]OW[3]
+;B[kg]BL[30]OB[1]
+;W[ng]WL[30]OW[3]
+;B[mp]BL[30]OB[1]
+;W[lp]WL[30]OW[3]
+;B[lq]BL[30]OB[1]
+;W[lr]WL[30]OW[3]
+;B[kq]BL[30]OB[1]
+;W[kr]WL[30]OW[3]
+;B[qs]BL[30]OB[1]
+;W[je]WL[30]OW[3]
+;B[ie]BL[30]OB[1]
+;W[jf]WL[30]OW[3]
+;B[ke]BL[30]OB[1]
+;W[nn]WL[30]OW[3]
+;B[mo]BL[30]OB[1]
+;W[fl]WL[30]OW[3]
+;B[hf]BL[30]OB[1]
+;W[hg]WL[30]OW[3]
+;B[em]BL[30]OB[1]
+;W[dm]WL[30]OW[3]
+;B[gf]BL[30]OB[1]
+;W[gg]WL[30]OW[3]
+;B[ib]BL[30]OB[1]C[cezary [5d\]: wyglada jak w+ cos
+cezary [5d\]: dobrze licze?
+]
+;W[ra]WL[30]OW[3]
+;B[kc]BL[30]OB[1]C[leping [2d\]: b+ sin
+]
+;W[lc]WL[30]OW[3]
+;B[jr]BL[30]OB[1]C[leping [2d\]: chyba tak
+]
+;W[jp]WL[30]OW[3]C[Sztygrys [2d\]: sin?
+Sztygrys [2d\]: a co to sin?
+]
+;B[jq]BL[30]OB[1]C[cezary [5d\]: sin to grzech
+leping [2d\]: chyba sin = -cos ?
+cezary [5d\]: nie jan
+cezary [5d\]: nie piotr
+cezary [5d\]: grzech
+]
+;W[mr]WL[30]OW[3]C[Sztygrys [2d\]: Bo ja taki bezgrzeszny jestem to nie wiem
+Sztygrys [2d\]: Ale sin to chyba niedużo
+]
+;B[js]BL[30]OB[1]C[Sztygrys [2d\]: tak maksymalnie 1 chyba
+cezary [5d\]: sin to raczej nie -cos :p
+]
+;W[is]WL[30]OW[3]C[cezary [5d\]: sin sie zaczyna od 0
+cezary [5d\]: a cos od 1
+]
+;B[ns]BL[30]OB[1]C[leping [2d\]: trzeba jakies pi chyba dodac
+Hipcio [2d\]: lol
+]
+;W[nr]WL[30]OW[3]C[Sztygrys [2d\]: hmmm
+leping [2d\]: do argumentu, ale czy to ważne
+cezary [5d\]: sztypte pi zawsze chetnie
+Hipcio [2d\]: sin^2 alfa + cos^2 alfa = 1
+]
+;B[ps]BL[30]OB[1]
+;W[ir]WL[30]OW[3]C[gimlix [?\]: Radziol jestesmy wszyscy pod wrazeniem Twojej wiedzy z matematyki :P
+leping [2d\]: brzmi jak l&d
+Hipcio [2d\]: dziękuję
+]
+;B[os]BL[30]OB[1]
+;W[ip]WL[30]OW[3]C[cezary [5d\]: chyba to k4 pozbylo bialemu z 5 punktow
+Hipcio [2d\]: niestety czarny nie wroci do gry
+tasuki [-\]: dobre yose
+Mariusz [2k\]: zaraz zaraz a ktoś to sprawdził? co na to boty
+cezary [5d\]: haha
+Mariusz [2k\]: może Hipcio nas kituje
+]
+;B[gq]BL[30]OB[1]C[tasuki [-\]: mi tu dziewczyna rzyga, dziecko krzyczy, a teściowa się stresuje
+Hipcio [2d\]: boty siedzą cichutko w kącie
+tasuki [-\]: idealne warunki do byoyomi
+]
+;W[hp]WL[30]OW[3]C[cezary [5d\]: gdzies tutaj mam masc na bol dupy
+]
+;B[gs]BL[30]OB[1]C[cezary [5d\]: czesto uzywam
+]
+;W[ms]WL[30]OW[3]C[cezary [5d\]: chyba bedzie trzeba vitkowi pozyczyc
+]
+;B[rs]BL[30]OB[1]
+;W[kp]WL[30]OW[3]C[cezary [5d\]: ale chyba i tak wygrywa
+Mariusz [2k\]: jak złapałem hemoroida to i taka maść życie uratowała
+Sztygrys [2d\]: No widać że nowe życie Tasukiego nie rozpieszcza
+]
+;B[of]BL[30]OB[1]C[cezary [5d\]: licze ze czarny to ma tak z 55 punktow
+]
+;W[lg]WL[30]OW[3]C[Hipcio [2d\]: pierwsze dziecko to mila odmiana dla zgnuśniałego pustego życia
+Hipcio [2d\]: :P
+]
+;B[og]BL[30]OB[1]
+;W[oh]WL[30]OW[3]C[Sztygrys [2d\]: A drugie dziecko to miła odmiana od pierwszego ?
+Mariusz [2k\]: no ale teściowa!!!
+]
+;B[ao]BL[30]OB[1]C[Hipcio [2d\]: drugie już nie stanowi szoku
+]
+;W[bm]WL[30]OW[3]C[Hipcio [2d\]: ale wciąż jest wyzwaniem
+cezary [5d\]: a bialy ma 56 na planszy
+]
+;B[am]BL[30]OB[1]
+;W[eg]WL[30]OW[3]C[gimlix [?\]: czemu a5 a nie b7 btw?
+]
+;B[df]BL[30]OB[1]C[Sztygrys [2d\]: Czyli dzieci obejmuje zasada malejącej krańcowej użyteczności?
+]
+;W[ge]WL[30]OW[3]C[Hipcio [2d\]: nie znam
+]
+;B[he]BL[30]OB[1]C[cezary [5d\]: mysle ze definicja jest zgodna z nazwa :p
+]
+;W[li]WL[30]OW[3]C[Hipcio [2d\]: mhm
+]
+;B[mj]BL[30]OB[1]C[Hipcio [2d\]: czyli Ty też nie rozumiesz
+cezary [5d\]: aa haha
+]
+;W[gd]WL[30]OW[3]
+;B[mf]BL[30]OB[1]C[cezary [5d\]: dowody pominiete przez trywialnosc to moje ulubione dowody
+]
+;W[nf]WL[30]OW[3]
+;B[lf]BL[30]OB[1]
+;W[ne]WL[30]OW[3]
+;B[hd]BL[30]OB[1]
+;W[oe]WL[30]OW[3]
+;B[pe]BL[30]OB[1]
+;W[jk]WL[30]OW[3]
+;B[kk]BL[30]OB[1]
+;W[il]WL[30]OW[3]
+;B[jm]BL[30]OB[1]
+;W[gm]WL[30]OW[3]
+;B[hm]BL[30]OB[1]
+;W[gl]WL[30]OW[3]
+;B[fn]BL[30]OB[1]
+;W[jd]WL[30]OW[3]C[cezary [5d\]: a to to chyba nie bylo najwieksze
+]
+;B[kn]BL[30]OB[1]C[gimlix [?\]: m7
+]
+;W[ki]WL[30]OW[3]
+;B[kj]BL[30]OB[1]C[cezary [5d\]: a moze bylo
+]
+;W[mm]WL[30]OW[3]C[cezary [5d\]: jak l11 sente no to okej
+]
+;B[lm]BL[30]OB[1]
+;W[ga]WL[30]OW[3]
+;B[ha]BL[30]OB[1]C[Hipcio [2d\]: t18!
+]
+;W[fa]WL[30]OW[3]
+;B[ja]BL[30]OB[1]
+;W[lb]WL[30]OW[3]
+;B[nm]BL[30]OB[1]
+;W[nl]WL[30]OW[3]
+;B[so]BL[30]OB[1]
+;W[sk]WL[30]OW[3]C[Hipcio [2d\]: t18!
+]
+;B[sj]BL[30]OB[1]
+;W[hc]WL[30]OW[3]
+;B[hb]BL[30]OB[1]
+;W[sn]WL[30]OW[3]
+;B[ed]BL[30]OB[1]
+;W[ec]WL[30]OW[3]
+;B[id]BL[30]OB[1]C[gimlix [?\]: nie doceniaja Twojego t18 ;)
+]
+;W[bn]WL[30]OW[3]
+;B[an]BL[30]OB[1]C[Sztygrys [2d\]: T18 duże
+cezary [5d\]: t18 to 1/3 punkta w sente chyba
+]
+;W[ee]WL[30]OW[3]C[Sztygrys [2d\]: ale gry nie odwróci :P
+]
+;B[dd]BL[30]OB[1]
+;W[ef]WL[30]OW[3]C[Sztygrys [2d\]: otóż nie
+cezary [5d\]: 2/3 ?
+Sztygrys [2d\]: bardziej 1 i 1/3
+]
+;B[ka]BL[30]OB[1]C[Hipcio [2d\]: 1,5
+]
+;W[la]WL[30]OW[3]
+;B[ia]BL[30]OB[1]C[cezary [5d\]: t17
+Hipcio [2d\]: sente!!!!!111oneoneone
+cezary [5d\]: a pozniej to ko to jest o to czy czarny odzyskuje to t17 czy nie
+]
+;W[el]WL[30]OW[3]C[cezary [5d\]: wiec sie nie dodaje tylko odejmuje 
+]
+;B[nk]BL[30]OB[1]C[Hipcio [2d\]: ale czarny nie moze t17
+Sztygrys [2d\]: ALe biały ma R16, nie?
+]
+;W[ok]WL[30]OW[3]C[cezary [5d\]: ma, ale jak czarny zagra t18 to tez ma
+]
+;B[mm]BL[30]OB[1]
+;W[sb]WL[30]OW[3]C[cezary [5d\]: no nie moze prawda
+cezary [5d\]: ale w koncu tam zagra
+kyouken [3k\]: JEEEST "_
+cezary [5d\]: haha
+Sztygrys [2d\]: czarnny nie możę T17
+Hipcio [2d\]: hoooray
+leping [2d\]: no ale przecież nie zagra
+]
+;B[re]BL[30]OB[1]C[cezary [5d\]: no to to jest
+Sztygrys [2d\]: w byo wszystko możliwe
+cezary [5d\]: miedzy 0.5 a 1 w sente :p
+]
+;W[qa]WL[30]OW[3]
+;B[sc]BL[30]OB[1]C[Sztygrys [2d\]: ale faktycznie mniejsze iż myślałem
+]
+;W[sa]WL[30]OW[3]
+;B[po]BL[30]OB[1]
+;W[on]WL[30]OW[3]
+;B[ds]BL[30]OB[1]
+;W[ks]WL[30]OW[3]
+;B[kh]BL[30]OB[1]
+;W[nh]WL[30]OW[3]
+;B[]BL[30]OB[1]
+;W[]WL[30]OW[3]TW[aa][ba][ca][da][ea][ma][na][oa][pa][ab][cb][db][eb][mb][ob][bc][cc][fe][fg][fh][gh][hh][fi][gi][hi][oi][fj][gj][pj][fk][gk][hk][dl][pl][ql][sl][pm][rm][dn][do][iq][jq][kq][lq][jr][js][ls]TB[hc][qd][rd][sd][qe][se][af][bf][cf][rf][sf][ag][bg][cg][sg][ah][bh][ch][sh][ai][bi][ri][aj][bj][ak][lk][al][kl][ll][ap][qp][rp][sp][bq][sq][ar][cr][dr][fr][sr][bs][es][fs][ss]C[Hipcio [2d\]: in dame we trust
+Deejay [1d?\]: dzięki
+tasuki [-\]: dzięki
+Sztygrys [2d\]: To mocny tasuki
+tasuki [-\]: to była jedna z bardziej stresujących gier w moim życiu
+Deejay [1d?\]: mocny, a ja słaby
+Mariusz [2k\]: Deejay ładnie się broniłeś
+Deejay [1d?\]: strasznie po prawej zepsułem
+Sztygrys [2d\]: ten lewy dolny róg był najciekawsz
+Sztygrys [2d\]: nie mam pojęcia co się tam grało
+Deejay [1d?\]: zestresowałem się i nie mogłem policzyć :P i zagrałem co nie chodzi
+tasuki [-\]: właśnie, ten lewy dolny najpierw myślałem że ok dla mnie
+Mariusz [2k\]: ale miałeś szczęście że teściowa żygała vit płakał a dziecko krzyczało bi się tasuki rosporoszył torche
+Sztygrys [2d\]: no rezultat bł dobry
+cezary [5d\]: a2 to blad byl
+Sztygrys [2d\]: dla białych
+tasuki [-\]: a potem stwierdziłem że skoro miałem tam dwa kamyczki to nie aż takie super
+])

@@ -1,0 +1,276 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[6.50]TM[1800]OT[3x30 byo-yomi]
+PW[tasuki]PB[Hipcio]DT[2020-05-03]PC[The KGS Go Server at http://www.gokgs.com/]C[Hipcio [?\]: milej gry :)
+Hipcio [?\]: do iglo
+tasuki [-\]: miłej!
+]RE[B+Resign]
+;B[pd]BL[1774.203]
+;W[dp]WL[1796.345]
+;B[pp]BL[1762.41]
+;W[dd]WL[1788.661]
+;B[nc]BL[1719.215]
+;W[qq]WL[1779.745]
+;B[qp]BL[1689.456]
+;W[pq]WL[1777.513]
+;B[op]BL[1633.625]
+;W[oq]WL[1759.11]
+;B[np]BL[1615.745]
+;W[nq]WL[1741.927]
+;B[mp]BL[1614.144]
+;W[mq]WL[1694.466]
+;B[lp]BL[1601.029]
+;W[qj]WL[1659.515]
+;B[qh]BL[1577.701]
+;W[oj]WL[1641.795]
+;B[ql]BL[1474.599]
+;W[kq]WL[1620.147]
+;B[mj]BL[1465.469]
+;W[oh]WL[1593.926]
+;B[qf]BL[1132.339]
+;W[ol]WL[1564.586]
+;B[pi]BL[1082.36]
+;W[oi]WL[1530.433]
+;B[pj]BL[1075.793]
+;W[pk]WL[1527.564]
+;B[nk]BL[1057.06]
+;W[qk]WL[1503.037]
+;B[ok]BL[1053.6]
+;W[pl]WL[1500.594]
+;B[qm]BL[971.183]
+;W[pn]WL[1466.209]
+;B[ro]BL[811.346]
+;W[mm]WL[1422.141]
+;B[ml]BL[794.211]
+;W[nm]WL[1260.55]
+;B[lm]BL[721.704]
+;W[ln]WL[1257.697]
+;B[kn]BL[720.304]
+;W[rg]WL[1249.576]
+;B[qg]BL[714.415]
+;W[rh]WL[1237.197]
+;B[rf]BL[666.801]
+;W[qi]WL[1172.834]
+;B[ph]BL[663.684]
+;W[rl]WL[1168.154]
+;B[rm]BL[660.361]
+;W[rj]WL[1166.177]
+;B[kp]BL[522.556]
+;W[rq]WL[1002.009]
+;B[lq]BL[388.692]
+;W[pm]WL[962.132]
+;B[fc]BL[291.023]
+;W[df]WL[946.616]
+;B[id]BL[271.027]
+;W[ll]WL[918.345]
+;B[km]BL[266.486]
+;W[lk]WL[911.363]
+;B[lj]BL[246.046]
+;W[if]WL[799.021]
+;B[kk]BL[94.926]
+;W[jd]WL[777.868]C[tasuki [-\]: jesteś?
+]
+;B[ic]BL[30]OB[3]C[tasuki [-\]: ej no\]
+Hipcio [?\]: oui oui
+tasuki [-\]: to teraz Ci nie potrzebnie dodałem minutę XD
+Hipcio [?\]: jak stracę ten set to poddam
+]
+;W[kf]WL[683.824]
+;B[kd]BL[30]OB[3]
+;W[ld]WL[663.103]
+;B[je]BL[30]OB[3]
+;W[ke]WL[635.731]
+;B[jf]BL[30]OB[3]
+;W[jg]WL[619.589]
+;B[jc]BL[30]OB[3]
+;W[kg]WL[613.529]
+;B[ig]BL[30]OB[3]
+;W[ih]WL[606.648]
+;B[hg]BL[30]OB[3]
+;W[hh]WL[602.62]
+;B[jh]BL[30]OB[3]
+;W[gh]WL[591.098]
+;B[hf]BL[30]OB[3]
+;W[ki]WL[546.757]
+;B[fq]BL[30]OB[3]
+;W[dn]WL[531.547]
+;B[ji]BL[30]OB[3]
+;W[jj]WL[495.375]
+;B[ii]BL[30]OB[3]
+;W[kj]WL[480.284]
+;B[jk]BL[30]OB[3]
+;W[ik]WL[453.867]
+;B[kh]BL[30]OB[3]
+;W[lh]WL[447.078]
+;B[ij]BL[30]OB[3]
+;W[li]WL[444.143]
+;B[hj]BL[30]OB[3]
+;W[il]WL[434.496]
+;B[kl]BL[30]OB[3]
+;W[gk]WL[397.467]
+;B[gj]BL[30]OB[3]
+;W[fj]WL[386.521]
+;B[hk]BL[30]OB[3]
+;W[hl]WL[382.294]
+;B[fk]BL[30]OB[3]
+;W[gl]WL[379.279]
+;B[fi]BL[30]OB[3]
+;W[ej]WL[377.161]
+;B[gi]BL[30]OB[3]
+;W[mf]WL[320.122]
+;B[ei]BL[30]OB[3]
+;W[gf]WL[306.753]
+;B[he]BL[30]OB[3]C[Deejay [5d\]: coś ma kłopty tasuki
+KaC [-\]: bardzo szybko w byo weszli
+Deejay [5d\]: ale h15 to nie jestem pewien
+KaC [-\]: wydaje sie nie potrzebne
+KaC [-\]: chociaz
+Deejay [5d\]: hmm choć i tak jest miai
+mogget [3d\]: Tasuki może się nauczy, że jak się z kimś gra, to nie można robić innych rzeczy
+mogget [3d\]: ciężko to dla niego wygląda
+Deejay [5d\]: hehe
+]
+;W[eg]WL[135.022]
+;B[dj]BL[30]OB[3]
+;W[ek]WL[131.937]
+;B[dk]BL[30]OB[3]
+;W[el]WL[131.051]C[Deejay [5d\]: przeżyć i koniec :)
+mogget [3d\]: CHoć to E13 całkiem dobre
+]
+;B[dh]BL[30]OB[3]
+;W[nd]WL[128.262]C[KaC [-\]: hmm c12 chyba lepiej niz d12?
+]
+;B[od]BL[30]OB[3]
+;W[mc]WL[105.873]C[KaC [-\]: gra wyglada dobrze dla czarnych
+mogget [3d\]: pewnie tak
+]
+;B[nb]BL[30]OB[3]C[mogget [3d\]: E12 w sente
+]
+;W[kc]WL[92.973]C[Deejay [5d\]: d8 warto chyba raz agrać
+mogget [3d\]: to możę nawet C13
+]
+;B[jd]BL[30]OB[3]C[KaC [-\]: tasuki ladnie tu gra teraz
+]
+;W[dl]WL[74.01]C[mogget [3d\]: bo komentarze się skończyły
+KaC [-\]: chociaz czarny nie robi zadnych oporów
+Deejay [5d\]: olać górę, grać po lewej
+]
+;B[ne]BL[30]OB[3]
+;W[me]WL[61.629]C[mogget [3d\]: Radziol robi na odwrót :P
+KaC [-\]: d8 bylo bardzo duze
+]
+;B[nf]BL[30]OB[3]C[KaC [-\]: n11 czy tenuki?:P
+]
+;W[ng]WL[30]OW[3]
+;B[mh]BL[30]OB[3]C[mogget [3d\]: teraz to Tasuki umiera powoli
+]
+;W[mi]WL[30]OW[3]
+;B[ni]BL[30]OB[3]
+;W[lg]WL[30]OW[3]
+;B[nh]BL[30]OB[3]C[mogget [3d\]: albo nie
+mogget [3d\]: strong
+]
+;W[oe]WL[30]OW[3]
+;B[md]BL[30]OB[3]C[KaC [-\]: ko
+]
+;W[og]WL[30]OW[3]C[mogget [3d\]: ALe P15 za szybko
+mogget [3d\]: O16
+]
+;B[nj]BL[30]OB[3]
+;W[nd]WL[30]OW[3]C[mogget [3d\]: w sumie groźby ma
+]
+;B[ce]BL[30]OB[3]C[mogget [3d\]: niezła groźba
+]
+;W[of]WL[30]OW[3]C[KaC [-\]: wow
+]
+;B[bg]BL[30]OB[3]C[mogget [3d\]: Tasuki ie ma terenu
+]
+;W[cd]WL[30]OW[3]C[mogget [3d\]: A Radziol nie ma słabych grup
+]
+;B[be]BL[30]OB[3]C[KaC [-\]: troche bojazliwe to b13
+mogget [3d\]: i prawie umiera
+]
+;W[bd]WL[30]OW[3]C[mogget [3d\]: właśnie takie na zabijanie
+mogget [3d\]: D18
+]
+;B[dg]BL[30]OB[3]C[mogget [3d\]: tak to przeżywa
+]
+;W[fd]WL[30]OW[3]
+;B[ec]BL[30]OB[3]C[mogget [3d\]: albo nie
+]
+;W[de]WL[30]OW[3]
+;B[cb]BL[30]OB[3]
+;W[cf]WL[30]OW[3]
+;B[bf]BL[30]OB[3]C[cezary [4d\]: tasuki szykuje juz
+]
+;W[bj]WL[30]OW[3]C[cezary [4d\]: szykuje sobie miejsce
+mogget [3d\]: Ale Radziol ma G13
+cezary [4d\]: a wychodzi w ogole na to
+]
+;B[bi]BL[30]OB[3]C[cezary [4d\]: albo tasuki albo deejay wygrywaja gre ze stasiem
+cezary [4d\]: i jesli wygra deejay to bardzo ciekawe
+]
+;W[ci]WL[30]OW[3]C[cezary [4d\]: bo np w corona cup
+cezary [4d\]: 1-5
+cezary [4d\]: a nas leje jak leszczy ktorymi jestesmy
+]
+;B[ch]BL[30]OB[3]C[Ashitaka [1d\]: co oznacza 1-5?
+]
+;W[ai]WL[30]OW[3]C[cezary [4d\]: ze wdupil 5 gier
+mogget [3d\]: A Ty cezary nie wygrywasz?
+Deejay [5d\]: że wygrałem tylko 1
+]
+;B[bh]BL[30]OB[3]C[cezary [4d\]: no ja dostalem w pape od was fest
+]
+;W[ck]WL[30]OW[3]C[cezary [4d\]: wygralem 2 gry tylko :)
+Ashitaka [1d\]: kk, przepraszam, nie patrzylem na ten turniej ;)
+mogget [3d\]: Ale co, ja z Radziolem pewnie spadamy i tak, nie?
+Deejay [5d\]: yh, co się tu stało :)
+]
+;B[gg]BL[30]OB[3]C[KaC [-\]: ale chyba tylko jeden spada?
+Deejay [5d\]: aha okej
+]
+;W[bb]WL[30]OW[3]C[cezary [4d\]: dwie osoby spadaja
+Deejay [5d\]: cz zabija
+]
+;B[cc]BL[30]OB[3]C[cezary [4d\]: ale kangur zrezygnowal z grania
+mogget [3d\]: też myślałęm, że jeden
+cezary [4d\]: wiec nie awansuje
+Ashitaka [1d\]: :/
+cezary [4d\]: wiec maks zostaje
+Ashitaka [1d\]: szkoda, mialem nadzieje na rewanz za miesiac...
+]
+;W[bc]WL[30]OW[3]C[mogget [3d\]: Ale chociaż Tasuki dostanie sente
+mogget [3d\]: ufff
+]
+;B[ge]BL[30]OB[3]C[Deejay [5d\]: wygląda na trupa
+cezary [4d\]: kusi tak tenuki
+mogget [3d\]: TO jest trup który już porządnie śmierdzi
+cezary [4d\]: ide biegac, trzymajcie kciuki zebym nie dostal mandatu
+]
+;W[dc]WL[30]OW[3]
+;B[db]BL[30]OB[3]
+;W[ca]WL[30]OW[3]C[cezary [4d\]: i jak wroce to dorobie tabelki nowe i eliminacje
+]
+;B[eb]BL[30]OB[3]C[Ashitaka [1d\]: :D
+]
+;W[ff]WL[30]OW[3]
+;B[fg]BL[30]OB[3]
+;W[gd]WL[30]OW[3]
+;B[dr]BL[30]OB[3]C[mogget [3d\]: nice
+]
+;W[fe]WL[30]OW[3]C[mogget [3d\]: Tak się kończy przeżywanie martwymi grupami
+]
+;B[hb]BL[30]OB[3]C[tasuki [-\]: ładnie
+tasuki [-\]: dzięki
+Deejay [5d\]: nom
+Hipcio [?\]: dzięki
+Deejay [5d\]: gratsy
+KaC [-\]: graty
+KaC [-\]: dobra gra
+KaC [-\]: tak zniszzczyc tasukiego
+tasuki [-\]: no, od początku było źle
+Hipcio [?\]: w końcu gra w której w środkowym czybanie nie zrobiłem błędu za miliard
+Hipcio [?\]: co najwyżej za tysiąc
+mogget [3d\]: Ktoś musiał w końcu
+Hipcio [?\]: nie wiem 
+])

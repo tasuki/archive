@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#C60">
+  <link rel="icon" href="../favicon.svg">
+
+  
+  <title>Elm and Maximum call stack size exceeded &mdash; tasuki’s blog</title>
+  
+
+  <link rel="stylesheet" href="../public/pure-min.css">
+  <link rel="stylesheet" href="../public/pure-grids-responsive-min.css">
+  <link rel="stylesheet" href="../public/style.css">
+</head>
+<body>
+    <div id="header">
+      <div class="pad">
+        <a href="../index.html">tasuki’s blog</a>
+      </div>
+    </div>
+    <div id="content" class="pad">
+      
+
+
+<article>
+  <h1>
+  
+  Elm and Maximum call stack size exceeded
+  
+  </h1>
+  <div class="meta">
+    <span class="date">2022-04-21</span>
+  </div>
+  <div class="content">
+    <p>A-ha, this will be an easy blog post!</p>
+
+<p>So perhaps your JavaScript console tells you <code class="language-plaintext highlighter-rouge">Uncaught RangeError: Maximum call stack size exceeded</code>.</p>
+
+<p>That probably means your recursion isn’t <a href="https://en.wikipedia.org/w/index.php?title=Tail_recursion">tail-recursive</a>. A recursive function calls itself. A tail-recursive function calls itself as its final step – it does not further modify the result of the recursive call.</p>
+
+<p>A thing that caught me out just now, while <code class="language-plaintext highlighter-rouge">f (a b)</code> and <code class="language-plaintext highlighter-rouge">f &lt;| a b</code> are functionally equivalent, the <em>former is tail recursive</em> while the <em>latter is not</em>.</p>
+
+<p>From <a href="https://github.com/elm/core/blob/1.0.5/src/Basics.elm#L899-L906"><code class="language-plaintext highlighter-rouge">Basics.elm</code></a>:</p>
+
+<div class="language-elm highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cm">{-| Saying `f &lt;| x` is exactly the same as `f x`.
+
+It can help you avoid parentheses, which can be nice sometimes. Maybe you want
+to apply a function to a `case` expression? That sort of thing.
+-}</span>
+<span class="n">apL</span> <span class="p">:</span> <span class="p">(</span><span class="n">a</span> <span class="o">-&gt;</span> <span class="n">b</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">a</span> <span class="o">-&gt;</span> <span class="n">b</span>
+<span class="n">apL</span> <span class="n">f</span> <span class="n">x</span> <span class="o">=</span>
+  <span class="n">f</span> <span class="n">x</span>
+</code></pre></div></div>
+
+<p>In <code class="language-plaintext highlighter-rouge">f (a b)</code>, the <code class="language-plaintext highlighter-rouge">a b</code> part is evaluated first, and then <code class="language-plaintext highlighter-rouge">f</code> is called as the last thing. In <code class="language-plaintext highlighter-rouge">f &lt;| a b</code>, the <code class="language-plaintext highlighter-rouge">&lt;|</code> itself is application of a function, thus breaking the tail elimination as <code class="language-plaintext highlighter-rouge">f</code> is not the last thing called.</p>
+
+<p>Elm says no runtime exceptions. Generally true, not too much of a stretch. But you still do have to watch out a tiny little bit…</p>
+
+  </div>
+
+  
+  <div class="post-nav">
+    
+    <a href="../audio-books/index.html" class="post-nav-prev">&larr;&nbsp;Audio books</a>
+    
+    
+    <a href="../programming-career/index.html" class="post-nav-next">My programming career&nbsp;&rarr;</a>
+    
+  </div>
+
+  <div class="comments">
+    
+
+    <h3>No thoughts on &ldquo;Elm and Maximum call stack size exceeded&rdquo;</h3><p><a class="add-comment" href="https://github.com/tasuki/blog/edit/master/_posts/2022-04-21-elm-apply-left-vs-parentheses.md">Add your comment</a>
+       &mdash; <a href="../comment/index.html">How does this work?</a></p>
+  </div>
+  
+</article>
+
+
+    </div>
+  </body>
+</html>

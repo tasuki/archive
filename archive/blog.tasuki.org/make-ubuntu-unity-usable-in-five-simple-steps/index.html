@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#C60">
+  <link rel="icon" href="../favicon.svg">
+
+  
+  <title>Make Ubuntu Unity usable in five simple steps &mdash; tasuki’s blog</title>
+  
+
+  <link rel="stylesheet" href="../public/pure-min.css">
+  <link rel="stylesheet" href="../public/pure-grids-responsive-min.css">
+  <link rel="stylesheet" href="../public/style.css">
+</head>
+<body>
+    <div id="header">
+      <div class="pad">
+        <a href="../index.html">tasuki’s blog</a>
+      </div>
+    </div>
+    <div id="content" class="pad">
+      
+
+
+<article>
+  <h1>
+  
+  Make Ubuntu Unity usable in five simple steps
+  
+  </h1>
+  <div class="meta">
+    <span class="date">2012-09-19</span>
+  </div>
+  <div class="content">
+    <p>
+Out of frustration with Unity, I’ve used several window managers/desktops recently. They are excellent at what they do, but I missed how everything (volume control, display brightness, keyboard switcher, sleep on laptop lid close, sound mixer, wifi applet, gnome keyring manager, automounting, etc.) <em>just works</em> out of the box in the default Ubuntu installation. All these things need to be taken care of separately when using a minimalistic window manager, most of them are painful, some impossible.
+</p>
+<p>
+Unity is a strange beast. Some of its features are amazing (merged topbar with window bar, semi-maximizing windows with ctrl+windows_key+left/right), while some are awful (the unholy left menu with its terrible launcher and all the other tentacles). I figured long as I can avoid the few bad parts, I’ll be happy.
+</p>
+<p>
+You’ll need to <a href="apt:compizconfig-settings-manager">install compizconfig-settings-manager</a> for most of the tweaks to work. People who say ccsm breaks things are noobs.
+</p>
+<p>
+<strong>Get the unity sidebar out of the way:</strong><br />
+Appearance: Behavior: Auto-hide: ON<br />
+Optionally also, Reveal location: Top Left Corner, and set sensitivity to something ridiculous so the cthulhu never pops out.
+</p>
+<p>
+<strong>Sensible Alt+F2:</strong><br />
+First, <a href="apt:gmrun">install gmrun</a>, a quick and small program launcher with tab completion.<br />
+Second, unbind Alt+F2 from Unity:<br />
+<pre>
+gconftool-2 \
+-s "/apps/compiz-1/plugins/unityshell/screen0/options/execute_command" \
+-t string ""
+</pre>
+<br />
+Third, bind Alt+F2 to gmrun:<br />
+ccsm: Commands: add command “gmrun”, key bindings bind to Alt+F2
+</p>
+<p>
+<strong>Default four desktops aren’t bourgeoise enough, get more:</strong><br />
+ccsm: General Options: Desktop Size
+</p>
+<p>
+<strong>Focus Follows Mouse:</strong><br />
+ccsm: General Options: Focus &amp; Raise: uncheck “Click To Focus”
+</p>
+<p>
+<strong>Fullscreen Any Window:</strong><br />
+ccsm: Extra WM Actions: Toggle Fullscreen: Alt+F11
+</p>
+<p>
+<strong>Swap Ctrl and Caps Lock:</strong><br />
+gnome-tweak-tool: Typing: Ctrl key position: Swap Ctrl and Caps Lock
+</p>
+<p>
+I find the environment comfortable to use after just these five tweaks (press and hold the windows key to see many useful Unity shortcuts), though I’m still struggling with window switching. Usually bypass it by keeping one fullscreen window per desktop.
+</p>
+<p>
+PS: Why did I write this? Further reference. Yesterday I accidentally ran “unity –reset” (do <strong>NOT</strong> ever run that) and had to google these steps (again). No more!
+</p>
+  </div>
+
+  
+  <div class="post-nav">
+    
+    <a href="../eurovelo-6/index.html" class="post-nav-prev">&larr;&nbsp;From the Atlantic to the Black Sea</a>
+    
+    
+    <a href="../one-week-in-sheffield/index.html" class="post-nav-next">One week in Sheffield&nbsp;&rarr;</a>
+    
+  </div>
+
+  <div class="comments">
+    
+
+    <h3>One thought on &ldquo;Make Ubuntu Unity usable in five simple steps&rdquo;</h3><div class="comment">
+        <p>
+          <span class="author">
+            
+            <a href="http://jens.cz">Jens</a>
+            
+          </span>
+          <span class="date">2012-10-11</span>
+        </p>
+        <p><p>Make Ubuntu Unity usable in TWO simple steps:
+1) format hard-drive with Unity/Ubuntu
+2) install Kubuntu or anything else except Ubuntu</p>
+</p>
+      </div><p><a class="add-comment" href="https://github.com/tasuki/blog/edit/master/_posts/2012-09-19-make-ubuntu-unity-usable-in-five-simple-steps.html">Add your comment</a>
+       &mdash; <a href="../comment/index.html">How does this work?</a></p>
+  </div>
+  
+</article>
+
+
+    </div>
+  </body>
+</html>

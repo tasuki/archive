@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#C60">
+  <link rel="icon" href="../favicon.svg">
+
+  
+  <title>tasuki’s blog</title>
+  
+
+  <link rel="stylesheet" href="../public/pure-min.css">
+  <link rel="stylesheet" href="../public/pure-grids-responsive-min.css">
+  <link rel="stylesheet" href="../public/style.css">
+</head>
+<body>
+    <div id="header">
+      <div class="pad">
+        <a href="../index.html">tasuki’s blog</a>
+      </div>
+    </div>
+    <div id="content" class="pad">
+      
+  
+  <article>
+  <h1>
+  
+  <a href="../variations/index.html">Thoughts on representing variations and commenting on them</a>
+  
+  </h1>
+  <div class="meta">
+    <span class="date">2022-11-07</span>
+  </div>
+  <div class="content">
+    <p>This is an exploratory post, trying to gather my thoughts on the topic and kindly requesting feedback.</p>
+
+<p>I enjoy playing abstract board games: Go, TwixT, Hex, etc. I play <a href="https://senseis.xmp.net/?ToroidalGo">Go on a torus board</a> and <a href="https://en.wikipedia.org/wiki/TwixT">TwixT</a> on <a href="https://www.littlegolem.net/jsp/ld/tournament.jsp?trnid=twixt.ld.SIZE48">large boards</a>. After playing a game, it’s helpful to be able to discuss what went right, what went wrong, and what could be improved. This is best done in the real world, but there are some wonderful facilities to do it online too. These use different ways to comment on games and show variations.</p>
+
+<p>The three ways I’ve seen to comment on games and show variations/branches (do have a look at the linked examples; they’re much clearer than my explanations):</p>
+
+<ol>
+  <li>The usual tree of moves (nodes) with comments on any node. Most popular, used by eg <a href="http://eidogo.com/#1GwdcSWgx">EidoGo</a>, <a href="https://gokgs.com/">KGS</a>, and <a href="https://sabaki.yichuanshen.de/">Sabaki</a>. Henceforth “tree”.</li>
+  <li>A linear sequence of moves, with comments on any node creating expandable variations inline. Seen used only on <a href="https://gokibitz.com/kifu/rytlZL24j?path=7">GoKibitz</a>. Henceforth “inline variations”.</li>
+  <li>A linear sequence of moves, with a global linear sequence of comments. Each comment can show an arbitrary number of variations starting from any move. Seen used only on <a href="http://twixt-commentator.duckdns.org/game/2226218">TwixT Commentator</a>. Henceforth “global comments”.</li>
+</ol>
+
+<p>The <strong>tree</strong> is the most ubiquitous, and I’m sure it’s the best if you want to analyze a game extremely thoroughly. The main drawback is that it’s not obvious in which order you should visit the variations and read the comments.</p>
+
+<p>The <strong>inline variations</strong> allow you to go through the game and see the variations from each move as you visit it. If there are more comments by different people on these variations, they will be ordered by time and easily skimmable. I feel this is the better user experience than the tree, perhaps unless the variations are extremely numerous with a lot of branching (in which case no one will understand them anyway).</p>
+
+<p>The <strong>global comments</strong> take inline variations to the extreme. It is a true conversation between people, you can see all the comments at once and choose which variations you want to explore based on the words that accompany them. I like this system a lot, though I guess it’s suited for light commentary and might fall apart for particularly heavily commented games.</p>
+
+<p>Which one is the best depends on the use case. Analysing a situation to death requires different tools than two casual comments after the game. Still, I’m leaning towards the <strong>inline variations</strong>. They’re simple, and should be easy to convert to <strong>global comments</strong>, and also it should be easy to display the <strong>full tree</strong> from them. Appears to me like the most flexible solution, leaving the most doors open. (Not necessarily saying opening those doors is a good idea.)</p>
+
+  </div>
+
+  
+</article>
+
+  
+  <article>
+  <h1>
+  
+  <a href="../smiling/index.html">Smiling</a>
+  
+  </h1>
+  <div class="meta">
+    <span class="date">2022-10-22</span>
+  </div>
+  <div class="content">
+    <p>He was smiling. An unassuming middle aged man waiting to cross a busy street with no pedestrian crossing, patiently standing by the side of the road with cars whizzing by.</p>
+
+<p>In such situations my instinct is to be annoyed. Why are there so many people in cars? Can’t they take the public transport or walk? I’d like to cross already! Should I make a run for it or wait until it clears? I have other things to do, and certainly don’t want to spend my precious time standing by the road, inhaling your exhaust fumes. Why don’t they paint a crossing here?</p>
+
+<p>Isn’t it unfair that this man was smiling while I’d be upset in the same situation? After some pondering, I recalled a quote by Thich Nhat Hanh:</p>
+
+<blockquote>
+  <p>So next time you’re stopped at a red light, you might like to sit back and practice the fourth exercise: “Breathing in, I’m aware of my body. Breathing out, I release the tension in my body.” Peace is possible at that moment, and it can be practiced many times a day – in the workplace, while you are driving, while you are cooking, while you are doing the dishes, while you are watering the vegetable garden. It is always possible to practice releasing the tension in yourself.</p>
+</blockquote>
+
+<p>Perhaps it was a holy road-crosser. Perhaps he was standing there just to remind me that we can influence what we think and can decide how we feel in the situation we find ourselves in.</p>
+
+  </div>
+
+  
+</article>
+
+  
+  <article>
+  <h1>
+  
+  <a href="../oh-ubuntu/index.html">Oh Ubuntu</a>
+  
+  </h1>
+  <div class="meta">
+    <span class="date">2022-10-15</span>
+  </div>
+  <div class="content">
+    <p>I’ve been a happy Ubuntu user for 17 years, since 2005.</p>
+
+<p>Ubuntu always pushes something on me I don’t want. They pushed Unity, and I hated it. Then Unity was replaced by stock Gnome and I longed for Unity. I got used to Gnome by now. It actually is <a href="https://github.com/tasuki/dotrc/blob/master/gnome3.sh">pretty</a> <a href="https://github.com/tasuki/dotrc/blob/master/gnome3-internet.sh">customizable</a>.</p>
+
+<p>Snaps. Everyone hates them. I swore I’d switch to Debian because of snaps. And yet… I’m on Ubuntu 20.04 and my neovim is old. I’d like to try a newer neovim. Well, <code class="language-plaintext highlighter-rouge">apt remove neovim &amp;&amp; snap install nvim</code>. Eh, that was almost too easy?</p>
+
+  </div>
+
+  
+</article>
+
+  
+  <article>
+  <h1>
+  
+  <a href="../sirens/index.html">Sirens</a>
+  
+  </h1>
+  <div class="meta">
+    <span class="date">2022-09-10</span>
+  </div>
+  <div class="content">
+    <p>The sound of police sirens.</p>
+
+<p>If it’s an ambulance or firefighters, that’s cool. But with police or politicians, it always annoys me. Who are you, so important you have to disturb my and other peoples’ peace?</p>
+
+<p>Well, I watched <a href="https://www.bbc.com/news/av/uk-62854289">King Charles’ first audience</a> with the prime minister<sup id="fnref:audience" role="doc-noteref"><a href="2.html#fn:audience" class="footnote" rel="footnote">1</a></sup> and there it was: the sound of sirens. And who are you, so important you have to disturb both the king and the prime minister?</p>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:audience" role="doc-endnote">
+      <p>I just wanted to see how old he looked and how he was holding up. This was the first video that popped up. <a href="2.html#fnref:audience" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+  </div>
+
+  
+</article>
+
+  
+  <article>
+  <h1>
+  
+  <a href="../social-loops/index.html">Social loops</a>
+  
+  </h1>
+  <div class="meta">
+    <span class="date">2022-06-09</span>
+  </div>
+  <div class="content">
+    <p>It has happened again!</p>
+
+<p>I’m friends on Facebook with people called TK and VBV. They have never met, don’t know each other, and aren’t Facebook Friends™.</p>
+
+<p>There exists a person with initials PC, whose Facebook profile I noticed because he’d organized a tournament of <a href="https://www.throughtheages.com/">Through The Ages</a>. Now PC is friends with both TK and VBV, but I have never met PC nor knew about his existence until about five minutes ago.</p>
+
+<p>Interestingly, TK and VBV are in a similar situation: each of them knows both me and PC, while not knowing each other.</p>
+
+<p>Such situations, in which each of the four people knows exactly two others but not the third, apparently arise pretty often. I’m not a very advanced Facebook stalker, yet I’ve seen this happen at least five times. Wild, isn’t it?</p>
+
+<h3 id="some-back-o-the-napkin-calculations">Some back-o-the-napkin calculations:</h3>
+
+<p>Say there’s 10 million Czechs.<sup id="fnref:czechs" role="doc-noteref"><a href="2.html#fn:czechs" class="footnote" rel="footnote">1</a></sup> Say an average Czech has 200 other Czechs friended on Facebook.<sup id="fnref:friends" role="doc-noteref"><a href="2.html#fn:friends" class="footnote" rel="footnote">2</a></sup> Say the distribution is random. To count the number of friends of friends, 200×200=40k, but I guess there’s vast overlap among those, so say 10k friends of friends per person? So for each friend-of-a-friend, there is a one in 10m/10k=1k chance they’re also a friend-of-another-friend. With 10k friends of friends, about 10 should be connected through two different friends.<sup id="fnref:nonlinear" role="doc-noteref"><a href="2.html#fn:nonlinear" class="footnote" rel="footnote">3</a></sup></p>
+
+<p>However, the distribution is not random. The people one hangs out with and the other people one hangs out with probably have something in common. With TK and VBV and PC, we all come from towns with 10k+ inhabitants, and each of us has lived in one of the two largest cities in the Czech Republic.<sup id="fnref:cities" role="doc-noteref"><a href="2.html#fn:cities" class="footnote" rel="footnote">4</a></sup> This clustering further increases the number of shared friends-of-friends. So perhaps this is not so surprising after all?</p>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:czechs" role="doc-endnote">
+      <p>For simplicity, let’s limit this to the Czechs. I’ve seen this happen with a person where one of our common connections was a Czech non-go-player and the other was a foreign go player, which is even wilder. <a href="2.html#fnref:czechs" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:friends" role="doc-endnote">
+      <p>In 2012, an average Facebook user had 245 friends according to WaPo. By 2019 supposedly 338 friends on average. Not all of them will have been Czechs. Furthermore, I don’t care about accuracy. Ballpark is fine. <a href="2.html#fnref:friends" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:nonlinear" role="doc-endnote">
+      <p>For 10k unique friends of friends, it’s 10 connected through two different friends. For 20k it’s 40, for 30k it’s 90, and for 40k it’s 160. The number of shared friends of friends grows exponentially with how many friends people have. <a href="2.html#fnref:nonlinear" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:cities" role="doc-endnote">
+      <p>In fact I’m the only one of us four who has never lived in Prague! And it just began to dawn on me – maybe I’m the weird one! They all lived in Prague, no surprise some of them met. But, how did it happen I met <em>both</em> VBV and TK? <a href="2.html#fnref:cities" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+  </div>
+
+  
+</article>
+
+  
+  <article>
+  <h1>
+  
+  <a href="../programming-career/index.html">My programming career</a>
+  
+  </h1>
+  <div class="meta">
+    <span class="date">2022-04-26</span>
+  </div>
+  <div class="content">
+    <p>I started my programming career writing <a href="https://www.idris-lang.org/">Idris</a>. It’s a programming language similar to Haskell, with dependent types. That means types are first class citizens, so you can perform computation on them. It’s quite a bit of hassle, all for the dubious benefit of program correctness. The library ecosystem was almost nonexistent.</p>
+
+<p>Then I had a brief stint with <a href="https://elm-lang.org/">Elm</a> and Scheme Lisp. Elm is like an easier Haskell or Idris, with friendly error messages. I no longer had to deal with the higher-kinded types. Scheme is a language with almost no syntax, hence very well suited for beginners like me.</p>
+
+<p>After that, my career progressed to <a href="https://scala-lang.org/">Scala</a>, the first commercially successful language I’ve used. Oh boy, let me tell you about Scala – apart from the functional programming paradigm, it supports object-oriented programming, allowing one to mutate shared state. Also it runs on the JVM, which is pretty cool, with many third party libraries available.</p>
+
+<p>I’ve also used Python a bit meanwhile, and who hasn’t? Yes the 2 vs 3 was a fiasco but the ecosystem is amazing and it reads like pseudocode, nevermind that one doesn’t know which functions mutate things in place and which return new things. Also I drink a beer every now and then, one only lives once (OOLO), leave me alone mmkay?</p>
+
+<p>Later I’ve come to the pinnacle of my programming career: <a href="https://www.php.net/">PHP</a>. I’ve spent a good deal of time with PHP, using domain driven development, test driven development, and doing continuous integration, like a good developer should. The language might have its warts, but the productivity is amazing. We used Vagrant and Chef to manage our environments, also we’d deploy things using Docker.</p>
+
+<p>Finally, I stopped using the Symfony Framework, and started using various in-house frameworks, and sometimes even no frameworks at all. At some point I stopped using Subversion and started copying PHP files straight to the web servers. Also I found out that apart from object-oriented programming, PHP also supports “imperative programming”. This means one does not have to write code within classes and instantiate objects, rather one can directly mutate global state. This further decreased the ceremony and increased my productivity.</p>
+
+<p>One Friday, upon coming back from lunch break, I learned the customer wanted to have a points-based eshop ready by Monday morning. Their customers had been collecting points for doing whatever, and now was the time for them to buy merch using those points. Here’s the list of the merch, including photos and prices in points, please send us a weekly list of who ordered what, ta! Do you think I spent the weekend working? Nope! I buckled up, wrote five hundred lines of PHP in several hours of perfect flow, tested it a little, fixed a bug or two that came up, copied the files over to the production server, called it a day, and went home for the evening. Come Monday, everything worked just fine.</p>
+
+<hr />
+
+<p>Is this a joke? Well, the timeline, perhaps, a little bit. Apart from that, not so much. I really did write the points-based eshop in PHP in an afternoon, and it really did work. As people grow their career, they achieve more and more. Me, I achieve less and less. I really don’t have anything to point at that I wrote in Idris. [insert shrug emoji]</p>
+
+  </div>
+
+  
+</article>
+
+  
+  <article>
+  <h1>
+  
+  <a href="../elm-apply-left-vs-parentheses/index.html">Elm and Maximum call stack size exceeded</a>
+  
+  </h1>
+  <div class="meta">
+    <span class="date">2022-04-21</span>
+  </div>
+  <div class="content">
+    <p>A-ha, this will be an easy blog post!</p>
+
+<p>So perhaps your JavaScript console tells you <code class="language-plaintext highlighter-rouge">Uncaught RangeError: Maximum call stack size exceeded</code>.</p>
+
+<p>That probably means your recursion isn’t <a href="https://en.wikipedia.org/w/index.php?title=Tail_recursion">tail-recursive</a>. A recursive function calls itself. A tail-recursive function calls itself as its final step – it does not further modify the result of the recursive call.</p>
+
+<p>A thing that caught me out just now, while <code class="language-plaintext highlighter-rouge">f (a b)</code> and <code class="language-plaintext highlighter-rouge">f &lt;| a b</code> are functionally equivalent, the <em>former is tail recursive</em> while the <em>latter is not</em>.</p>
+
+<p>From <a href="https://github.com/elm/core/blob/1.0.5/src/Basics.elm#L899-L906"><code class="language-plaintext highlighter-rouge">Basics.elm</code></a>:</p>
+
+<div class="language-elm highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cm">{-| Saying `f &lt;| x` is exactly the same as `f x`.
+
+It can help you avoid parentheses, which can be nice sometimes. Maybe you want
+to apply a function to a `case` expression? That sort of thing.
+-}</span>
+<span class="n">apL</span> <span class="p">:</span> <span class="p">(</span><span class="n">a</span> <span class="o">-&gt;</span> <span class="n">b</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">a</span> <span class="o">-&gt;</span> <span class="n">b</span>
+<span class="n">apL</span> <span class="n">f</span> <span class="n">x</span> <span class="o">=</span>
+  <span class="n">f</span> <span class="n">x</span>
+</code></pre></div></div>
+
+<p>In <code class="language-plaintext highlighter-rouge">f (a b)</code>, the <code class="language-plaintext highlighter-rouge">a b</code> part is evaluated first, and then <code class="language-plaintext highlighter-rouge">f</code> is called as the last thing. In <code class="language-plaintext highlighter-rouge">f &lt;| a b</code>, the <code class="language-plaintext highlighter-rouge">&lt;|</code> itself is application of a function, thus breaking the tail elimination as <code class="language-plaintext highlighter-rouge">f</code> is not the last thing called.</p>
+
+<p>Elm says no runtime exceptions. Generally true, not too much of a stretch. But you still do have to watch out a tiny little bit…</p>
+
+  </div>
+
+  
+</article>
+
+  
+  <article>
+  <h1>
+  
+  <a href="../audio-books/index.html">Audio books</a>
+  
+  </h1>
+  <div class="meta">
+    <span class="date">2022-02-16</span>
+  </div>
+  <div class="content">
+    <p>Long walks, I get plenty of them these days. Usually listening to podcasts. I choose podcasts to learn something, but if you ask me what I listened to a week ago, I probably won’t be able to tell. So, if it’s just entertainment, I could listen to fiction as well?</p>
+
+<p>It turns out there’s plenty of good audiobooks on <a href="https://librivox.org/">LibriVox</a>. Here’s Ruth Golding’s <a href="https://golding.wordpress.com/home/other-british-readers-on-librivox/">list of British readers on Librivox</a>.</p>
+
+<p>I recently finished listening to <a href="https://librivox.org/the-count-of-monte-cristo-version-3-by-alexandre-dumas/">The Count of Monte Cristo</a>, and the following quote near the end of the book quite struck me:</p>
+
+<blockquote>
+  <p>There is neither happiness nor misery in the world; there is only the comparison of one state with another, nothing more. He who has felt the deepest grief is best able to experience supreme happiness. We must have felt what it is to die that we may appreciate the enjoyments of living.</p>
+</blockquote>
+
+  </div>
+
+  
+</article>
+
+  
+  <article>
+  <h1>
+  
+  <a href="../school-easier-than-work/index.html">School is easier than work</a>
+  
+  </h1>
+  <div class="meta">
+    <span class="date">2021-06-12</span>
+  </div>
+  <div class="content">
+    <blockquote>
+  <p>You think having to go to school is bad? These are the easy years, life is going to get much tougher when you’re an adult and have to work.</p>
+</blockquote>
+
+<p>So adults told me when I was little, and I believed it, because I had no point of comparison. And it might be true, but misses the point.</p>
+
+<p>School is forced upon children by adults, and even <em>if</em> it weren’t too bad, it wouldn’t be how children would choose to spend their time. Adults, however, have it exactly like the children think: adults have freedom and can do whatever they want. I’m not surprised kids want to be adults, because they want to have this same freedom. Children don’t want to <em>have it easy</em>, they want to <em>have freedom</em>.</p>
+
+<p>I still regularly see adults claiming kids should be grateful for being kids. Why do adults do this? It feels like taking advantage of the kids’ naivety. Adults should be grateful for being so lucky as to be adults!</p>
+
+<p>Adults: you have to work? Nope. You’ve just made some calculations and <em>choose to work</em>, because you want to have a roof over your head and food on the table and buy clothes and what not. It’s a choice, you can stop going to work anytime. Perhaps you can get another job, or you can do without and live under a bridge.</p>
+
+<p>Children: you want to have freedom? Good news – you have freedom. When adults tell you that you must do something, you don’t have to listen. Bad news – if you don’t do what the adults want, we’ll probably punish you. I’m so sorry.</p>
+
+  </div>
+
+  
+</article>
+
+  
+  <article>
+  <h1>
+  
+  <a href="../new-blog-2021/index.html">New Blog 2021</a>
+  
+  </h1>
+  <div class="meta">
+    <span class="date">2021-05-01</span>
+  </div>
+  <div class="content">
+    <p>I’ve not only stopped writing things on the blog, I also stopped updating its various workings, styles, etc. Time to change the latter, and see if it leads to the former. Knowing life, it probably won’t.</p>
+
+<h3 id="why-not-wordpress">Why not WordPress?</h3>
+
+<p>WordPress has served me well since 2006. 15 years? Not bad – there are few things with this longevity in my computers. But I’ve grown afraid of it:</p>
+<ul>
+  <li>The interface keeps changing. I’m old and don’t like it when interfaces improve.</li>
+  <li>Everything is stored in MySQL. Fine, I can take a <code class="language-plaintext highlighter-rouge">mysqldump</code> every now and then? But what can I do with it really? And I have to actually keep running a MySQL server! If WordPress were able to use SQLite, I might’ve stuck with it.</li>
+  <li>PHP, WordPress… guess how often I updated them? Yes – how didn’t everything get hacked yet?</li>
+</ul>
+
+<h3 id="why-jekyll">Why Jekyll?</h3>
+
+<p>I like versioning things with git. I like simplicity. I like plain text files I can just edit. Digital restraint or hipsterism?</p>
+
+<p>I’ve used Middleman in the past, and now can’t update my <a href="../../tsumego.tasuki.org/index.html">tsumego website</a>. Apparently my Ruby is too new for my dependencies, so I update the dependencies, and then run into <a href="https://github.com/erikhuda/thor/issues/721">a Thor issue</a>, which also is tracked on <a href="https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=955405">Debian</a> and <a href="https://bugs.launchpad.net/ubuntu/+source/ruby-thor/+bug/1885424">Ubuntu</a>, and I really don’t care about any of this and just want things to work. Jekyll seems to continue working. I hope it continues working for the next 10 years at least. And if it breaks, I’ve got everything in relatively plain html/markdown files and should be able to take it from there.</p>
+
+<h3 id="comments">Comments</h3>
+
+<p>Your wonderful comments were often much more interesting than my posts, and I worked hard to preserve them. Unfortunately, I’m not sure how to make commenting possible without suck. Some options:</p>
+
+<ol>
+  <li>Disqus, Facebook, etc: yes it’s easy, but where is the simplicity? I wanted <em>more</em> control and predictability and safe feelings, using a centralized third party to handle your precious comments would be downright irresponsible.</li>
+  <li>The <a href="https://jekyllrb.com/resources/">Jekyll resources</a> page lists some options that allow commenting using GitHub issues: I quite like that a  bit, but the end result looks dodgy – each commenter has to agree to give some random app the write access to their soul.</li>
+  <li>The poor-man solution. As this is mirrored on GitHub anyway, just go and create a PR to add a comment? It’s not exactly user friendly, but hey, at least there’s a barrier to entry. I’ve <a href="../comment/index.html">written down instructions how to add comments</a>. If GitHub ever goes away, the comments will be part of the repo and I can take them elsewhere. That, plus no one comments here anymore anyway.</li>
+</ol>
+
+  </div>
+
+  
+</article>
+<div id="pagination" class="pure-g">
+  <div class="older pure-u-1-1 pure-u-sm-1-3">
+  
+    <a href="3.html">&laquo; Older posts</a>
+  
+  </div>
+
+  <div class="page-number pure-u-1-1 pure-u-sm-1-3">
+    Page: 2 of 24
+  </div>
+
+  <div class="newer pure-u-1-1 pure-u-sm-1-3">
+  
+    <a href="../index.html">Newer posts &raquo;</a>
+  
+  </div>
+</div>
+
+    </div>
+  </body>
+</html>

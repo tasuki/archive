@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#C60">
+  <link rel="icon" href="../favicon.svg">
+
+  
+  <title>tasuki’s blog</title>
+  
+
+  <link rel="stylesheet" href="../public/pure-min.css">
+  <link rel="stylesheet" href="../public/pure-grids-responsive-min.css">
+  <link rel="stylesheet" href="../public/style.css">
+</head>
+<body>
+    <div id="header">
+      <div class="pad">
+        <a href="../index.html">tasuki’s blog</a>
+      </div>
+    </div>
+    <div id="content" class="pad">
+      
+  
+  <article>
+  <h1>
+  
+  <a href="../lsg-2008/index.html">LSG 2008</a>
+  
+  </h1>
+  <div class="meta">
+    <span class="date">2008-07-26</span>
+  </div>
+  <div class="content">
+    <p>
+“What took you so long?”
+</p>
+<p>
+Yes, I’ve returned from LSG a week ago. But I spent all my time either at work or creating the <a href="../../gallery.tasuki.org/2008/07-LSG.html">photogallery</a> (I made over 800 pictures but my memory card got full so I had to delete the bad ones, I returned with over 650 pictures and the gallery is 187, so – as you can see – it was a lot of work).
+</p>
+<p>
+LSG was great (you can see <a href="http://lsg.go.art.pl/index.php?site=linki">mroe photogalleries</a>), and I really regret having to wait almost 350 days for the next one again. Last year when I came home from LSG I just sat there for several days doing nothing and waiting for the next LSG. Luckily, this year work takes care of that, it’s really good to have something concrete to do.
+</p>
+<p>
+Sorry for a boring post, hopefully it was at least short enough. :-) (and hey – it included links to photos… by the way, my favourite pictures from my own gallery are 4, 32, 94, 100, 109, 149, 152, 176, 178 and 181)
+</p>
+  </div>
+
+  
+</article>
+
+  
+  <article>
+  <h1>
+  
+  <a href="../louise-attaque/index.html">Louise Attaque</a>
+  
+  </h1>
+  <div class="meta">
+    <span class="date">2008-07-01</span>
+  </div>
+  <div class="content">
+    <p>
+I haven’t written a post about music for a long long time. I wanted to write about Nightwish’s “new” album Dark Passion Play, but since it can be summed up with “pretty good album, too bad the new singer’s voice is nowhere near Tarja’s” and since everyone and their dog already knows Nightwish, it wouldn’t be too enlightening.
+</p>
+<p>
+In January I was searching for some good French music (since I like listening to French language) and so I asked scurge (I’d really like to link him, since he’s starting a go school, but sadly he has no webpage yet – anyway, if you are looking for a go teacher, check out “scurge” on KGS (he’s way stronger than the kgs 4d he has)) for suggestions. He told me to try Louise Attaque and remarked that they are “a bit weird”.
+</p>
+<p>
+So, yes, <a href="http://www.last.fm/music/Louise+Attaque">Louise Attaque</a> are a bit weird, but they are also absolutely awesome. Their music is pretty original, I’ve never heard anything similar before. And I can listen to their songs over and over and over and over and over and…
+</p>
+<p>
+They have released three albums so far:
+</p>
+<p>
+<strong>Louise Attaque</strong><br />
+This self-titled album is their first and in my opinion also the best. J’t’emmene au vent is my favourite Louise Attaque song (it also has a <a href="http://youtube.com/watch?v=0emXuhPTWUM">cool video</a>). Other extremely good songs are Ton invitation, Les nuits parisiennes and Fatigante (funny changes in rhythm and speed all the time).
+</p>
+<p>
+<strong>Comme on a dit</strong><br />
+Also the best album. I haven’t listened to this one as many times as the other two, but I’m trying to catch up. The best song here is <a href="http://youtube.com/watch?v=yAYKvHXXe0w">La plume</a>, people say it has a clever text – I think it’s about time for me to start learning French. Other notable songs include (but are not limited to) Tu dis rien, Sans filet, Tout Passe, Comme on a dit and Du nord au sud.
+</p>
+<p>
+<strong>A Plus Tard Crocodile</strong><br />
+Their last album is not as fantastic as the previous two… nevertheless, there are several pretty good songs: Revolver, Oui non, Nos Sourires (except the last minute, which is horrible) and Depuis Toujours (the best song from the album, imho).
+</p>
+<p>
+Oh well, at least I managed not to list <em>all</em> the songs from each album. :-)
+</p>
+  </div>
+
+  
+</article>
+
+  
+  <article>
+  <h1>
+  
+  <a href="../tone-mapping-with-gimp/index.html">Tone Mapping with GIMP</a>
+  
+  </h1>
+  <div class="meta">
+    <span class="date">2008-06-14</span>
+  </div>
+  <div class="content">
+    <p>
+“Tone mapping reduces global contrast in images while increasing local contrast and shadow/highlight detail.” or so <a href="http://gimpaddict.googlepages.com/tonemapper.html">Gimp Addict’s Tone Mapper tutorial</a> says. Go and read his tutorial, I will add few comments to it:<br />
+4) “radius of 100-500 is good” – yes, it usually is, but since we don’t know the size of the image, I’d rather say that 10% of image size (that is (width+height)/2) is a good starting point.<br />
+5) 75% is again a good starting point, but you might want to play around with the value.<br />
+7) It depends… if you want to increase the tonemapping effect, duplicating the “soft light” layer is the way to go (I’ve tried changing the layer mode and nothing else really worked at all).
+</p>
+<p>
+So I wanted to create a script that would do this. After searching the GIMP Plugin Registry, I found <a href="http://registry.gimp.org/node/4562">Tone mapping</a> script, which basically follows Gimp Addict’s guide. However, it only has two options – the amount of blur and the amount of layer transparency. That certainly isn’t enough for me. Luckily, the plugin is GPL…
+</p>
+<p>
+(((GIMP’s Script-Fu) uses Scheme) (which is (a dialect) (of the (Lisp (programming language)))) ((Lisp is a (programming language)) (for people) (who (really (really (like parentheses))))))
+</p>
+<p>
+And because I like parentheses almost half as much as an average Lisp programmer, I rewrote the Tone mapping script and created <strong><a href="../assets/2008/advancedtonemapping.scm">Advanced Tone Mapping</a></strong> script. Feel free to put it in your GIMP’s script directory (~/.gimp-2.4/scripts/ in my case).
+</p>
+<p>
+There are four parameters for Advanced Tone Mapping script:
+</p>
+<ul>
+<li>
+Gauss. Blur (% of img size) – is the amount saying how much the blurring should be used for the tone mapping. It is in percents of image size (where image size = (width+height)/2). Ten is a good default, but different values might be interesting too.
+</li>
+<li>
+Opacity of blurred layer – this is the 75 default, which can be changed if you want stronger or weaker effect.
+</li>
+<li>
+Opacity of merged layer – the default is 90. If 100 is not enough, consider increasing number of “copies of merged layer”.
+</li>
+<li>
+Copies of merged layer – when one, it’s barely noticeable, you can deny any accusations of postprocessing easily. :) Three has a lot of “halo effect” and anything above five will completely mess all colours up.
+</li>
+</ul>
+<p>
+The first set of pictures is simply a preview. The image on the left is the original image, and the image on the right is processed by Advanced Tone Mapping with Gaussian-blur set to 10, opacity of blurred layer equal 75, opacity of merged layer full 100, and finally three copies of the merged layer (note the way I use to show those values – it is also used for naming the layers, which can be handy if you later forget which layer is which or what you have done). The image on the right might be a bit over the top, but it shows nicely what can be done with Advanced Tone Mapping script:
+</p>
+<p>
+<img src="../assets/2008/tone-mapping-1.png" alt="Tone mapping" />
+</p>
+<p>
+The next example shows some pretty conservative tone mapping. The one on the left was created with almost none blur, while the one on the right has 10% blur. Note the difference: the one on the left has no halo but appears a bit flat, while the one on the right has a slight halo but also has higher level of detail.
+</p>
+<p>
+<img src="../assets/2008/tone-mapping-2.png" alt="careful Tone mapping" />
+</p>
+<p>
+Oh my… the following example shows what can go wrong with tone mapping (I’m sorry for all the people who already gouged their eyes out). The reason why image on the left appears so flat and awful is that almost no blur was applied. The image on the right is a comparison with healthy blur applied. Five copies is still a bit too much, but hey, at least it has kind of <em>action-like</em> look.
+</p>
+<p>
+<img src="../assets/2008/tone-mapping-3.png" alt="Tone mapping gone wrong" />
+</p>
+<p>
+The last image shows the difference between the default blur and maximum blur available. As you can see in the right side picture, the halo is so huge it’s almost impossible to see. The bad news is that with maximum blur we lose a lot of detail near the borders of light/dark areas.
+</p>
+<p>
+<img src="../assets/2008/tone-mapping-4.png" alt="Tone mapping different halo" />
+</p>
+<p>
+Ok, that’s it – now go and experiment with my script on your own photos. 8-)
+</p>
+<p>
+PS: Underexpose your images – the dark areas can still be lightened, while the burned out areas are usually completely white and can’t be darkened.
+</p>
+<p>
+PPS: The more contrast there is, the more layers you apply, the more blur you will usually need.
+</p>
+<p>
+PPPS: Any kind of noise in your picture will be <em>greatly</em> amplified.
+</p>
+<p>
+PPPPS: No, this is not HDR, this is just tone mapping of a single image (just jpeg, in my case). Tone mapping is a part of HDR, but HDR is not a part of tone mapping. ;)
+</p>
+  </div>
+
+  
+</article>
+
+  
+  <article>
+  <h1>
+  
+  <a href="../getting-stoopid/index.html">Getting stoopid</a>
+  
+  </h1>
+  <div class="meta">
+    <span class="date">2008-05-25</span>
+  </div>
+  <div class="content">
+    <p>
+It’s been happening for longer time. I’m getting stupid. As in “not clever”. I’m learning new ways to solve specific problems, but my general problem-solving skills are very bad nowadays (in the timeframe of several years, not specifically at the moment (actually work helps a bit, I guess)).
+</p>
+<p>
+I used to be good at solving easy problems that many people get stuck at.
+</p>
+<p>
+Let me give you an example… There are two ways of making a thumbnail from a picture:
+</p>
+<p>
+In the first one, you get width and height of the original picture and the boundaries (width, height) into which the thumbnail must fit. You resize the picture so as to preserve the width/height ratio. What is the width and height of the thumbnail?
+</p>
+<p>
+The second one is trickier, but still falls into “must be easy” category:
+</p>
+<p>
+Again, you start with width and height of the original picture, and width and height into which the thumbnail must fit. The difference is that now you must <em>fill the whole thumbnail and cut off the exceeding parts</em>. Suppose you want to have the thumbnail in the center. What are the left x-coordinate/y-coordinate and width/height of the area to cut the thumbnail from the original picture?
+</p>
+<p>
+<img src="../assets/2008/resize.gif" alt="resize" align="right" />In case you say that I’m so dumb I can’t even describe the task, here’s a picture that (hopefully) explains everything.
+</p>
+<p>
+Ok, now go and solve it. Seriously, take a pencil and paper, or fire up your favourite text editor and solve it. In case you “know it’s trivial but can’t be bothered to solve it”, don’t even bother to read on.
+</p>
+<p>
+This kind of problem that doesn’t require (almost) any prior knowledge and has simple input and simple output is the kind of problem which used to be much easier for me to solve than for most people. Well, not anymore. And I wonder – can I do anything about it?
+</p>
+<p>
+I thought that various logical puzzles might be a good way to force my brain to learn to solve problems again. So I searched a bit and found some excellent puzzles: <a href="http://xkcd.com/blue_eyes.html">blue eyes</a>, <a href="http://www.relisoft.com/science/hats.html">three hats</a>, and <a href="http://goodtoknowit.blogspot.com/2007/07/know-color-or-die-puzzle.html">prisoners with hats in a long row</a> (of course the comments under the post are wrong). The puzzles do not require any kind of “trick” to solve.
+</p>
+<p>
+PS: Please don’t post solutions to the thumbnail problem. If you solved it, you know you solved it. If you are not sure, you haven’t solved it.
+</p>
+  </div>
+
+  
+</article>
+
+  
+  <article>
+  <h1>
+  
+  <a href="../mostly-unordered-list-of-photography-tips/index.html">Mostly unordered list of photography tips</a>
+  
+  </h1>
+  <div class="meta">
+    <span class="date">2008-05-09</span>
+  </div>
+  <div class="content">
+    <p>
+For newbies, by a newbie.
+</p>
+<ul>
+<li>
+It doesn’t really matter what kind of a camera you have (ok, no cell phone camera, you need <em>some</em> kind of a lens).
+</li>
+<li>
+Most modern cameras can decide the exposure settings just fine in 90% of cases. Nevertheless, you should learn to operate in manual mode too (for example, the closest distance my camera is able to autofocus at is about 15cm, using manual focus makes it about 2cm (it used to be my dad’s camera and he thought for two years that 15cm was the closest it could do)).
+</li>
+<li>
+<strong>Flash is evil.</strong> (funny, exactly the same rule applies in webdesign)
+</li>
+<li>
+The only exception to the above rule is using flash to light nearby dark objects in an otherwise well lit scene.
+</li>
+<li>
+If you do not have enough light, feel free to increase the ISO speed. Or bring a tripod. Or emulate it somehow (don’t forget to use a short timer to avoid touching the camera when it fires).
+</li>
+<li>
+By far the most important thing is the <a href="http://www.johnharveyphoto.com/LearnComposition/"><strong>composition</strong></a>. (there are also other <a href="http://photoinf.com/">good resources</a> about <a href="http://www.livingroom.org.au/photolog/tips/digital_photography_composition_tips.php">composition</a>)
+</li>
+<li>
+Actually, there are no rules for composition. But it is still the most important thing.
+</li>
+<li>
+Postprocessing is your friend. (the examples here use <a href="http://www.gimp.org/">GIMP</a>, but similar techniques will work in other image editing software too)
+<ul>
+<li>
+Three alternative ways to do a Very Important Thing (tm):
+<ul>
+<li>
+the easiest and fastest: Colors &gt; Levels &gt; Auto (this works when you have both real “white point” and “black point” in your picture)
+</li>
+<li>
+slightly more control: Colors &gt; Levels, and play with it (you usually want to leave the output levels alone and shrink the input levels according to the histogram, you can set this individually for each color channel)
+</li>
+<li>
+and finally: Colors &gt; Curves (this is like Levels but with more control – you do not only set the starting and ending point of the curve, you can also change its shape (slight S curve often improves the image a lot)
+</li>
+</ul>
+</li>
+<li>
+Orton effect (aka dreamy look): duplicate layer &gt; Filters &gt; Blur &gt; Gaussian Blur (set something reasonable depending on your picture size, experiment) &gt; set layer mode (multiply, overlay, hard light, or whatever… experiment) &gt; set layer transparency (uh, guess what… experiment?)
+</li>
+<li>
+Tone mapping: duplicate layer &gt; duplicate layer &gt; Desaturate &gt; Invert Colors &gt; Gaussian blur &gt; Layer opacity to cca 70 &gt; merge layer down &gt; set layer mode &gt; set opacity
+</li>
+<li>
+Vignette effect (aka lomography): new layer &gt; E (elliptical regions) &gt; select accross the whole picture &gt; invert selection &gt; Select &gt; Feather (set to something reasonable, experiment) &gt; fill selected area with black &gt; set opacity (usually 20 or so)
+</li>
+<li>
+And while all these effects are great, try not to use all of them at once. :-)
+</li>
+</ul>
+</li>
+<li>
+Finally, publish your photos on the internets (flickr, picasa, etc).
+</li>
+<li>
+Flickr is still the best photosharing site around (even though they have the bloody videos now – which even started polluting Explore), it has the most amazing community and most talented photographers
+</li>
+<li>
+By the way, all that I know about photography (ok, not much) I learned on flickr, just watching Explore, and sometimes reading the comments.
+</li>
+</ul>
+<p>
+What a mess of a post. :-Z<br />
+On the other hand it does contain plenty of good info, it’s just a bit too much concentrated.
+</p>
+  </div>
+
+  
+</article>
+
+  
+  <article>
+  <h1>
+  
+  <a href="../hardy-heron/index.html">Hardy Heron</a>
+  
+  </h1>
+  <div class="meta">
+    <span class="date">2008-04-27</span>
+  </div>
+  <div class="content">
+    <p>
+As my Ubuntu Edgy (6.10) was not quite cutting edge anymore, I decided to get Hardy Heron.
+</p>
+<p>
+Upgrade over two skipped releases would be suicidal, so I decided to do a fresh install. I also wanted to preserve my old Edgy… you know – just in case. That involved cutting off half of my system partition to create a new partition. You might expect a horror story now, but in fact it all went flawlessly (I just used gparted, the ext3 got fscked, shrinked to a half without a single glitch, passed fsck again and voila).
+</p>
+<p>
+Installation of Hardy was provided by a nice graphical installer that didn’t even bother asking questions about my hardware (it just asked me about country and language settings and stuff like that). It recognised my monitor resolution, I installed the proprietary nvidia-glx-legacy drivers with two clicks (yes, it’s not even necessary to touch xorg.conf anymore). I just had to set up the wifi connection manually, because the access point has a hidden ESSID (but all the drivers were already there).
+</p>
+<p>
+I was amazed how everything works out of the box or almost out of the box. Need to play a movie and don’t have the codec? You get a pop-up asking if you would like to download the codec. You click yes and enter your password, you are all set.
+</p>
+<p>
+Hardy Heron includes Firefox 3 (beta 5 as of now), which is great, because the speedup over Firefox 2 is rather significant (and it does have some nice new features too). The only sad thing is that Google Toolbar doesn’t work in FF3B5 (yet), but well, I don’t really need to see the pagerank of every page I visit.
+</p>
+<p>
+With my old 32MB GeForce 2 I never bothered installing <a href="http://en.wikipedia.org/wiki/Compiz">Compiz</a>, but as it comes out of the box now, I just had to try it. And whooo it rocks. The cube is amazing and there is also this great “scale windows” thingy, that shows all open windows at once so that you can switch between them. And then there are hundreds of different visual effects…
+</p>
+<p>
+Gnome now allows repositioning the window toolbar items by drag&amp;drop’ing them. That is the feature I’ve always (secretely) wanted. It’s really useful (as opposed to grouping, which I always (not so secretly) hated).
+</p>
+<p>
+All I can say is: “<strong>Wow</strong>”.
+</p>
+<p>
+PS: I don’t say this often, but I have to say it now: In case you haven’t done so yet – with XP being obsolete and Vista near unusable – this is <em>definitely the best time to switch to Linux</em>. And if you encounter any problems, I’ll be happy to help you with troubleshooting.
+</p>
+  </div>
+
+  
+</article>
+
+  
+  <article>
+  <h1>
+  
+  <a href="../common-sense-and-frustration/index.html">Common sense and frustration</a>
+  
+  </h1>
+  <div class="meta">
+    <span class="date">2008-04-23</span>
+  </div>
+  <div class="content">
+    <p>
+Do you know what common sense is?
+</p>
+<p>
+Common sense is:
+</p>
+<ul>
+<li>
+NOT setting fixed height for elements whose actual height can change anytime, and especially not setting this particular height to three elements next to each other, to keep them with the same height (common sense solution is to wrap it all in another element)
+</li>
+<li>
+NOT calling your database tables j_aidx_1, j_aidx_2 … j_aidx_n and calling the columns m_1, m_2, m_3, etc; which leads to people writing queries like SELECT a.m_85, a.m_167, b.m_17, b.m_56 FROM j_aidx_5 AS a LEFT JOIN j_aidx_8 AS b ON a.m_103 = b.m_42 WHERE b.m_58 = ‘1’ AND a.12 = ‘0’
+</li>
+<li>
+invoking the live server settings as default instead of using testing environment settings as default, because when something goes wrong in the decision process, you don’t want the live server to get fucked up
+</li>
+<li>
+NOT having the very same function copied to several different “modules” of the application so as to make it extremely inconvenient to change
+</li>
+<li>
+NOT calling your backups “new”, “!new”, "<em>new“,”</em>___new“,”!!!!!new" etc, especially when each person uses a different flavour of this method
+</li>
+<li>
+using a version control system, and if you are unable to do so, calling your backups by date (preferrably in YYYY-MM-DD format, since it sorts itself naturally)
+</li>
+<li>
+using either tabs or any amount of spaces for indentation, but keeping it consistent (or at least, for fuck’s sake, keeping it consistent within one file)
+</li>
+<li>
+NOT internally calling files for inclusion 1.html, 2.html, 3.html etc., especially when you already went through the hassle of creating nice looking URL’s
+</li>
+<li>
+NOT totally breaking your URL’s and titles by adding a lot of random keywords just to game search engines, when that makes your site either unusable or extremely confusing for humans
+</li>
+<li>
+using one language (human language, like English or Czech) in your application, or at least avoiding mixing up several languages inside one particular variable or function name (findAllNovinky is just lame function name)
+</li>
+</ul>
+<p>
+… do you know what <strong><em>frustration</em></strong> is?
+</p>
+  </div>
+
+  
+</article>
+
+  
+  <article>
+  <h1>
+  
+  <a href="../epgc-krakow-2008/index.html">EPGC Kraków 2008</a>
+  
+  </h1>
+  <div class="meta">
+    <span class="date">2008-04-14</span>
+  </div>
+  <div class="content">
+    <p>
+As I was planning my journey to Krakow and there was only one reasonable train to take, I worked overtime during the week so that I could leave work earlier on Friday. Well, the train was delayed, so I wouldn’t be able to catch the following train, which meant there was basically no way to get to Krakow. After giving up for a few hours, I realised that I really really wanted to go there and decided to take a night train. So I left home at 9pm again and headed for the train. The journey was quite ok except two things: 1) I had to change trains at 3am and 2) my camera got stolen.
+</p>
+<p>
+Krakow is a beautiful city and I had several hours to walk through the center (kind of sucks I didn’t have the camera, as at 6:30am the lighting was just perfect). I especially enjoyed the Wawel castle, which provides a nice view of the city and is in itself rather spectacular.
+</p>
+<p>
+The tournament (European Pair Go Championship) was well organized, and there were free cookies and water (even for visitors such as myself!). By the way, pair go tournaments have an interesting feature that half of the participants are girls. ^^
+</p>
+<p>
+I spent the day relaxing, playing and taking photos (a friend lent me her camera because she was playing and couldn’t take photos anyway). We spent the evening at juggler’s place, which was a lot of fun… juggler has table football at home, so we spent a lot of time playing that (and the rest of the people played go, of course).
+</p>
+<p>
+Once again I got very lucky by going somewhere where I really wanted to go after a big obstacle appeared, and once again I’m really glad it went this way. I had a great time, I met lots of people whom I haven’t seen for far too long (spirit (been a while), kotasia (cute new hair), hitech (I finally started reading GEB), gertzu (thanks!), agusia (babusia~~), elusia, michal, iskierka, juggler (thx for saturday evening), vertigo (yeah, ruby, we know), sheena, yapi, shaa (hope the leg is getting better), fajnymis, kamyszyn (ban ’em all), comboy, sosna (no more photos, I promise), nil, cichacz (dupa!), kabu (xD), grabol and everyone else whose name I forgot to write in here) and I met some other people in person for the very first time (Lothus, and… um, actually, isn’t Lothus enough? ;-))
+</p>
+<p>
+Edit:<br />
+Some photo galleries:<br />
+<a href="http://photo.tasuki.org/2008-epgc-krakow/">My photo gallery</a><br />
+<a href="http://epgc2008.go.art.pl/galeria.html">Official photo page, with links to other galleries</a>
+</p>
+  </div>
+
+  
+</article>
+
+  
+  <article>
+  <h1>
+  
+  <a href="../it-is-the-journey-that-matters/index.html">It is the journey that matters</a>
+  
+  </h1>
+  <div class="meta">
+    <span class="date">2008-04-04</span>
+  </div>
+  <div class="content">
+    <blockquote>
+It’s not the end<br />
+Not the kingdom come<br />
+It is the journey that matters<br />
+<em>– Wanderlust by Nightwishes</em>
+</p>
+</blockquote>
+<p>
+I think I know why I’ve been happy recently – I found the meaning of life.
+</p>
+<p>
+And the funny thing is that I found the meaning of life without actually realizing I found it. The trigger to my realization was a video called <a href="http://www.youtube.com/watch?v=ERbvKrH-GC4">Music and Life (by Alan Watts)</a> (it’s short enough, I promise).
+</p>
+<blockquote>
+<p>
+<strong>Zen … does not confuse spirituality with thinking about God while one is peeling potatoes. Zen spirituality is just to peel the potatoes.</strong><br />
+<em>Alan Watts – The Way of Zen, pt. 2, ch. 2 (1957)</em>
+</p>
+</blockquote>
+<p>
+I think I’m starting to like this Zen thingy.
+</p>
+<p>
+As it’s the journey that matters, and not the end, being an inquisitive type, I of course started thinking about the end of the journey. And I found out I’m not really scared. When I’m dead, there will simply be void. The same one there was before I was born (or, before I was conscious (btw, this post is not big enough to contain a discussion about abortion)). It’s actually quite consoling… no matter how bad I fuck up, the worst there can be at the end is void.
+</p>
+<p>
+The only people who have a reason to be afraid of death are followers of various religions that believe in afterlife. Also, life itself is not the ultimate fun for them, as the <em>eternal</em> afterlife is far more important. Oh well, I just couldn’t do without a little trolling, could I? 8-)
+</p>
+  </div>
+
+  
+</article>
+
+  
+  <article>
+  <h1>
+  
+  <a href="../tignes-2008/index.html">Tignes 2008</a>
+  
+  </h1>
+  <div class="meta">
+    <span class="date">2008-03-24</span>
+  </div>
+  <div class="content">
+    <p>
+Friday: I couldn’t sleep well, sweating and waking up all the time. In the morning I didn’t feel any better plus I had a horrible headache. After measuring my temperature and finding out it was slightly over 38˚C, I knew I had a problem. A big problem.
+</p>
+<p>
+Decisions, decisions… First thing, I’m not going to go to work, that is completely out of question with my head spinning at about 180 rotations per minute. The big decision was whether to take vacations or become officially ill. If I became officially ill, I obviously couldn’t go to France in the afternoon. So I decided to risk it, called my boss, explained the situation and asked him whether I could take Friday off. He wasn’t too happy but he actually didn’t have much of a choice…
+</p>
+<p>
+Then I slept for few hours and after that went to visit the doctor. After explaining my symptoms, I got the expected “no way you are leaving anywhere today” response. I let her know that I’d really really like to go there, and after some tests (urine, blood, etc.), none of which ended up well, she concluded that maybe I could try it.
+</p>
+<p>
+Off to buy Paralen and Smecta. Temperature jumping back and forth between 37 and 38˚C. Funny how it was completely in sync with my headache.
+</p>
+<p>
+After getting diarrhoea, drinking smecta (I bet I could get some clay way cheaper than this) and sleeping through the whole afternoon, I was facing a decision: should I stay home, get healthy in three days and regret it for the rest of the week, or should I leave and die far from home? Opposed to advice from almost everyone, I decided to leave.
+</p>
+<p>
+Those 24 hours in the bus weren’t so bad, I just kind of sat there and waited. Both high temperature and headache were practically gone, all I was left with was a diarrhoea. And smecta for the rescue (it really tastes like mud). I think I ate about one roll during the journey.
+</p>
+<p>
+We arrived at Tignes a bit earlier than planned, so we had some time to just enjoy the sunny weather and look around the town/village.
+</p>
+<p>
+Sunday morning was rather sunny. There were ~30 centimeters of fresh snow, which was, uh oh… very nice… at least for those who were able to ski in it somehow. As for me, I never was any good at skiing in deep snow. I think I fell about 4 times. Moreover, stale rolls + smecta did not exactly give me much strength to fight all that snow. Luckily, the weather got substantially worse in the afternoon, so I just stayed home and slept through it all.
+</p>
+<p>
+I don’t remember much of Monday, except stale rolls, smecta, and bad weather. I slept through the morning and only went skiing in the afternoon, but I don’t recall the details too well.
+</p>
+<p>
+Tuesday was the turning point: The diarrhoea stopped (well, almost), I tried some new food like rice and even had two squares of chocolate. Weather was perfect, there was no new snow (ie. the pistes were groomed) so we went exploring the surroundings.
+</p>
+<p>
+You might want to <a href="http://www.tignes.net/GB_plan-pistes.html">consult the map</a>, as I’m going to present some otherwise rather boring names:
+</p>
+<p>
+After skiing on Tichot for over an hour, while my sister was getting her snowboard repaired, we went up from Val Claret through Tichot and Col du Palet to L’Aiguille Percee (2748), then went through Sache piste all the way down to Tignes les Brevieres (1550). Over 1km vertically down in one go. It was very nice and there was plenty of nature around, so we had a nice lunch in the forest. Then we returned to Tignes 2100. As there was still a lot of time left till the evening, we went over Toviere (2704) down to La Daille (1785) and then by “funiculaire” up to Rocher de Bellevarde (2827).
+</p>
+<p>
+Wednesday was also great. The weather was excellent, so we headed straight over Col de Fresse and Rocher de Bellevarde to Val d’Isere (1850). Then up to Solaise (2560) and down to Le Laisinant. From there to the fifth (!) and (as we thought) last valley. There we went down to Le Fornet (1930) where we had lunch (mmm, cheese). “Signal” was possibly the steepest red slope I’ve ever seen. We were rather surprised that Glacier de Pissaillas and the slopes on it were in yet another valley, it certainly didn’t look so on the map. And boy it was cold in there. So, after going Cascades once, we headed back using Leissieres Express, which is a silly chairlift that takes you up on one side of the hill and down on the other. Alas, it was the only way to get back. We returned in basically the same way from here (Solaise, Val d’Isere, Rocher de Bellevarde, Col de Fresse). As there was still some time left, we went to funiculaire Grande Motte, and then to the huge cabin (they call it “cable car” in English, but I don’t think that describes it well, “fucking huge cabine” describes it much better, imho). At 3456m, this was the highest point we reached in Tignes.
+</p>
+<p>
+The weather worsened significantly on Thursday. We spent the morning on Lanches, with the occasional funiculaire not to get bored. As the weather was so-so, we lunched back in our appartment. After the lunch we went to Tignes 2100, where we spent the rest of the day.
+</p>
+<p>
+Friday morning, clouds and fog everywhere. Plus 20cm of fresh snow and still snowing. First few rides were an ordeal, I tried skiing the way I’m used to (long turns accross the whole piste, mostly carving, sliding slightly on steep slopes to keep the speed under control). After getting no answer from my dad, I watched others and noticed most of the people who seemed in control of the situation were doing very short turns. I think it almost trippled my speed when I discovered (almost simultaneously) two very important things about skiing in deep snow:
+</p>
+<ul>
+<li>
+It is vital to only have your weight on one leg at a time (I used to be very precise about this, but with carving I kind of forgot, since there it is not very important). If possible, try to have the other leg high enough not to get it stuck somewhere.
+</li>
+<li>
+To greatly increase your stability, you should try to move your body in a constant direction at a constant speed. Make extremely short “turns” just with your legs. These slow you down considerably, while constant direction and constant speed of your body provide perfect stability.
+</li>
+</ul>
+<p>
+Actually I didn’t fall at all on Friday, which is very good considering the zero visibility and huge amounts of snow (which got irregularly scattered during the day). There were many (dozens) cases where I almost fell down, but always somehow miraculously prevailed.
+</p>
+<p>
+We spent the afternoon on Bollin and Tichot, as all the other lifts were closed.
+</p>
+<p>
+The journey back home took a bit longer (slightly over 24 hours) as we got stuck in a traffic jam, but otherwise it went ok.
+</p>
+<p>
+All in all, it was a great week, I further improved my carving skillz, and I finally learned to ski in deep snow. :-)
+</p>
+  </div>
+
+  
+</article>
+<div id="pagination" class="pure-g">
+  <div class="older pure-u-1-1 pure-u-sm-1-3">
+  
+    <a href="10.html">&laquo; Older posts</a>
+  
+  </div>
+
+  <div class="page-number pure-u-1-1 pure-u-sm-1-3">
+    Page: 9 of 24
+  </div>
+
+  <div class="newer pure-u-1-1 pure-u-sm-1-3">
+  
+    <a href="8.html">Newer posts &raquo;</a>
+  
+  </div>
+</div>
+
+    </div>
+  </body>
+</html>

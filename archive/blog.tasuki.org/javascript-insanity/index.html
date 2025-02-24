@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#C60">
+  <link rel="icon" href="../favicon.svg">
+
+  
+  <title>JavaScript insanity &mdash; tasuki’s blog</title>
+  
+
+  <link rel="stylesheet" href="../public/pure-min.css">
+  <link rel="stylesheet" href="../public/pure-grids-responsive-min.css">
+  <link rel="stylesheet" href="../public/style.css">
+</head>
+<body>
+    <div id="header">
+      <div class="pad">
+        <a href="../index.html">tasuki’s blog</a>
+      </div>
+    </div>
+    <div id="content" class="pad">
+      
+
+
+<article>
+  <h1>
+  
+  JavaScript insanity
+  
+  </h1>
+  <div class="meta">
+    <span class="date">2007-10-27</span>
+  </div>
+  <div class="content">
+    <p>
+Seriously, what would you think about a language that is <em>weakly typed</em> <strong>and</strong> uses the <em>same operator</em> for concatenation and addition?
+</p>
+<p>
+I think it’s insane.
+</p>
+<p>
+Well, so much for my first encounter with JavaScript. And although I encountered way more problems (most of which were caused by my own stupidity, as usual), the fact that the plus sign (aka +) either adds or concatenates (based possibly on the current mood of the interpreter) struck me as the ultimate wtf.
+</p>
+<p>
+Luckily, parseInt() comes to save the day. But still, why not rather use some other operator? I don’t really care which… just anything else, mmkay?
+</p>
+  </div>
+
+  
+  <div class="post-nav">
+    
+    <a href="../the-future-of-kgs/index.html" class="post-nav-prev">&larr;&nbsp;The future of KGS</a>
+    
+    
+    <a href="../czech-go-championship/index.html" class="post-nav-next">Czech go championship&nbsp;&rarr;</a>
+    
+  </div>
+
+  <div class="comments">
+    
+
+    <h3>4 thoughts on &ldquo;JavaScript insanity&rdquo;</h3><div class="comment">
+        <p>
+          <span class="author">
+            
+            Ondra
+            
+          </span>
+          <span class="date">2007-10-27</span>
+        </p>
+        <p><p>Chtel bych te slyset, co bys rikal na Perl ;).</p>
+</p>
+      </div><div class="comment">
+        <p>
+          <span class="author">
+            
+            <a href="http://tasuki.tasuki.org/">tasuki</a>
+            
+          </span>
+          <span class="date">2007-10-29</span>
+        </p>
+        <p><p>Perl je super. :)
+Tam nic takoveho neni, ne? Muzes uvest priklad operatoru, ktery ma v perlu vic ruznych funkci? (spojovani retezcu se iirc provadi teckou)</p>
+</p>
+      </div><div class="comment">
+        <p>
+          <span class="author">
+            
+            Ondra
+            
+          </span>
+          <span class="date">2007-10-29</span>
+        </p>
+        <p><p>V JS “+” scita cisla a slucuje retezce, nebo je v tom neco vic?</p>
+
+<p>Obecne se da rict, ze konstrukci ktery maji ruzny vyznam v ruznem kontextu (operandu) je v Perlu spousta. Treba u pole:
+@b = @a        # neco jako strcpy(b,a) v C
+$b = @a        # neco jako $b=count($a) v PHP</p>
+
+<p>No a pak me jeste napada, ale to si asi over:
+print “Hanka” + 4       # napise 4
+print “2 Lenky” + 4     # napise 6</p>
+</p>
+      </div><div class="comment">
+        <p>
+          <span class="author">
+            
+            <a href="http://tasuki.tasuki.org/">tasuki</a>
+            
+          </span>
+          <span class="date">2007-10-30</span>
+        </p>
+        <p><p>Ano, “+” v JS scita cisla i spojuje retezce.</p>
+
+<p>A k tem konstrukcim, ktere maji ruzny vyznam v ruznem kontextu – to mi vubec nevadi. Mne vadi konstrukce, ktere maji nekolik ruznych vyznamu v <em>jednom</em> kontextu.</p>
+
+<p>Vyhodnocovani prave strany podle toho co je vlevo, jak to dela perl, je podle me naopak super vec. :)</p>
+</p>
+      </div><p><a class="add-comment" href="https://github.com/tasuki/blog/edit/master/_posts/2007-10-27-javascript-insanity.html">Add your comment</a>
+       &mdash; <a href="../comment/index.html">How does this work?</a></p>
+  </div>
+  
+</article>
+
+
+    </div>
+  </body>
+</html>

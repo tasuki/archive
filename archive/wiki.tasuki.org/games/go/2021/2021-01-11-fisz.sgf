@@ -1,0 +1,357 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[6.50]TM[1800]OT[25/600 Canadian]
+PW[tasuki]PB[kamil]DT[2021-01-11]PC[The KGS Go Server at http://www.gokgs.com/]C[kamil [-\]: hej! miłej gry
+tasuki [-\]: kanadyjskie byoyomi to możemy grać - miłej gry fiszu!
+kamil [-\]: do IGLO
+tasuki [-\]: tak do tego właśnie
+]RE[B+Resign]
+;B[pd]BL[1768.331]
+;W[dp]WL[1792.147]
+;B[qp]BL[1757.975]
+;W[cd]WL[1783.587]
+;B[ec]BL[1749.126]
+;W[oq]WL[1778.813]
+;B[de]BL[1733.983]
+;W[po]WL[1771.521]
+;B[qo]BL[1728.616]
+;W[ce]WL[1764.903]
+;B[df]BL[1725.87]
+;W[pn]WL[1761.975]
+;B[qm]BL[1719.332]
+;W[cg]WL[1757.287]
+;B[pm]BL[1700.485]
+;W[dg]WL[1716.166]
+;B[jj]BL[1695.604]
+;W[qc]WL[1695.367]
+;B[cq]BL[1688.852]
+;W[qd]WL[1682.902]
+;B[cp]BL[1684.549]
+;W[pe]WL[1541.37]
+;B[do]BL[1680.879]
+;W[eo]WL[1511.614]
+;B[oe]BL[1676.763]
+;W[pf]WL[1504.244]
+;B[en]BL[1660.205]
+;W[dn]WL[1496.763]
+;B[co]BL[1656.282]
+;W[fo]WL[1477.597]
+;B[lp]BL[1650.826]
+;W[qq]WL[1437.64]
+;B[ip]BL[1623.606]C[tasuki [-\]: a to źle zagrałem
+]
+;W[fm]WL[1371.74]
+;B[em]BL[1579.703]
+;W[el]WL[1368.293]
+;B[dm]BL[1561.038]
+;W[fn]WL[1336.25]
+;B[dl]BL[1550.271]
+;W[ek]WL[1201.903]
+;B[jd]BL[1534.293]
+;W[lc]WL[1191.695]
+;B[ph]BL[1370.16]
+;W[le]WL[1151.82]
+;B[ng]BL[1290.861]
+;W[hd]WL[1131]
+;B[cf]BL[1243.294]
+;W[bf]WL[1118.023]
+;B[be]BL[1242.09]
+;W[bd]WL[1108.493]
+;B[bg]BL[1239.739]
+;W[ae]WL[1103.219]
+;B[eg]BL[1238.613]
+;W[bh]WL[1043.944]
+;B[ic]BL[1218.446]
+;W[hc]WL[1033.548]
+;B[jf]BL[1217.282]
+;W[dd]WL[1009.306]
+;B[fe]BL[1198.102]
+;W[ed]WL[1007.233]
+;B[fd]BL[1195.897]
+;W[fc]WL[1005.686]
+;B[gc]BL[1192.257]
+;W[fb]WL[1003.625]
+;B[gb]BL[1187.24]
+;W[eb]WL[993.07]C[Hipcio [2d\]: troche randomowa cala gra wyglada, ale najwidoczniej gracze widza w tym jakis sens
+Hipcio [2d\]: nie zebym sie zaglebial :)
+zenek [2d\]: czarny jakos musial mirror golamac to potem tak wyszlo :P
+]
+;B[db]BL[1149.616]C[shin0e [2d\]: btw przelamanie mirrora tengenem xD
+]
+;W[dc]WL[965.638]
+;B[ea]BL[1145.775]C[shin0e [2d\]: w sumie skuteczne ;p
+]
+;W[fa]WL[954.132]
+;B[nd]BL[1118.011]C[Hipcio [2d\]: e19 tez wogole 
+]
+;W[lg]WL[931.107]C[shin0e [2d\]: a, po tengenie jeszcze byl mirror w druga strone ;D
+shin0e [2d\]: to jeszcze ciekawsze ;p
+]
+;B[mh]BL[999.855]C[shin0e [2d\]: o18 jakby co laczy dolem, nie?
+zenek [2d\]: to teraz cop q17  i bawimy sie w gonienie bialego? :P
+]
+;W[lh]WL[863.756]C[Hipcio [2d\]: laczy ale tylko kamien m17
+]
+;B[lj]BL[976.325]C[shin0e [2d\]: a prawda
+zenek [2d\]: o 18 p18 i jak dalej laczy?
+shin0e [2d\]: to tak nieidealnie ;p
+shin0e [2d\]: o18 p18 p17 o17 n18 q17 q18 p16 p19 zenek
+Hipcio [2d\]: ale korzysc jest bialy dostaje duzy top czarny podobne centrum 
+zenek [2d\]: zaraz sobie wyklikam..
+Hipcio [2d\]: wyglada jak joseki
+]
+;W[jh]WL[811.517]
+;B[gl]BL[952.263]
+;W[hh]WL[785.707]C[shin0e [2d\]: a czekaj, chyba blad dalem ;p
+shin0e [2d\]: a nie, dobrze napisalem :D
+shin0e [2d\]: to git :D
+zenek [2d\]: laczenie dziala widze, tylko potem jakies sente z prawej dostanie czarny :P
+shin0e [2d\]: no i przede wszystkim to, co mowi Hipcio
+shin0e [2d\]: czyli o18 n17 n18 m16 
+shin0e [2d\]: i m15 od m17 odciety ;p
+shin0e [2d\]: tez ;P
+]
+;B[hb]BL[878.176]
+;W[fl]WL[710.581]
+;B[ch]BL[868.007]
+;W[dh]WL[660.195]
+;B[eh]BL[852.361]
+;W[ci]WL[637.102]
+;B[di]BL[849.133]
+;W[ag]WL[634.22]
+;B[gi]BL[831.675]
+;W[ij]WL[628.624]
+;B[gk]BL[787.79]
+;W[jk]WL[585.532]C[Hipcio [2d\]: get strong at running full board
+Hipcio [2d\]: l10 obowiazkowe
+]
+;B[kj]BL[588.741]
+;W[mi]WL[567.113]
+;B[ni]BL[572.221]
+;W[mj]WL[427.652]
+;B[li]BL[437.194]
+;W[hk]WL[361.365]
+;B[hj]BL[348.57]
+;W[ii]WL[354.044]
+;B[mk]BL[338.849]
+;W[fj]WL[333.28]
+;B[gj]BL[313.337]
+;W[hf]WL[316.69]
+;B[gd]BL[146.368]
+;W[if]WL[220.963]
+;B[jg]BL[69]
+;W[ig]WL[203.825]
+;B[ke]BL[565.569]OB[24]
+;W[me]WL[190.537]
+;B[kh]BL[551.3]OB[23]C[Hipcio [2d\]: oho połasił się
+]
+;W[kg]WL[156.972]
+;B[ki]BL[539.187]OB[22]
+;W[kf]WL[122.096]
+;B[je]BL[535.695]OB[21]
+;W[of]WL[97.71]
+;B[nf]BL[471.849]OB[20]
+;W[ne]WL[85.962]
+;B[hn]BL[463.394]OB[19]C[zenek [2d\]: j13 w sumie zbyt oczne nie jest
+Hipcio [2d\]: no jedno oko gote z opcją cięcia
+]
+;W[jm]WL[47.035]
+;B[dj]BL[456.8]OB[18]
+;W[dk]WL[43.866]
+;B[cj]BL[454.808]OB[17]
+;W[cm]WL[41.868]
+;B[cn]BL[441.609]OB[16]
+;W[cl]WL[39.049]
+;B[dn]BL[439.025]OB[15]
+;W[ck]WL[569.174]OW[24]
+;B[hl]BL[437.477]OB[14]
+;W[ik]WL[559.086]OW[23]
+;B[pp]BL[429.188]OB[13]
+;W[op]WL[545.609]OW[22]
+;B[pq]BL[426.764]OB[12]
+;W[pr]WL[543.118]OW[21]
+;B[qr]BL[425.261]OB[11]
+;W[rq]WL[503.812]OW[20]
+;B[or]BL[419.276]OB[10]
+;W[qn]WL[501.039]OW[19]
+;B[ps]BL[413.52]OB[9]
+;W[ro]WL[497.32]OW[18]
+;B[rp]BL[403.066]OB[8]
+;W[sp]WL[494.552]OW[17]
+;B[pr]BL[401.693]OB[7]
+;W[rm]WL[493.432]OW[16]
+;B[om]BL[381.833]OB[6]
+;W[nn]WL[485.243]OW[15]
+;B[ln]BL[356.341]OB[5]
+;W[lm]WL[475.588]OW[14]
+;B[mn]BL[332.54]OB[4]C[cezary [5d\]: q4 to kluczowy ruch, cala gre wisial
+]
+;W[kn]WL[450.62]OW[13]C[cezary [5d\]: mysle ze kamil ma taki talent
+cezary [5d\]: ze jak taki ruch wisi, to przypadnie on mu predzej czy pozniej 
+Mariusz [2k\]: czy aby kamil nie programuje tych robotów do gry w go?
+]
+;B[no]BL[296.884]OB[3]C[cezary [5d\]: w sensie ?
+Mariusz [2k\]: tak gra często jak to roboty 9d
+]
+;W[kp]WL[406.52]OW[12]
+;B[kq]BL[278.104]OB[2]C[Mariusz [2k\]: ja to tak widze
+cezary [5d\]: niee 
+]
+;W[gg]WL[381.12]OW[11]C[cezary [5d\]: przeciez non stop gra jakis piach w oczach bota :p
+cezary [5d\]: w sensie wszyscy bez wyjatku w jednym tępie gramy piach w oczach bota
+cezary [5d\]: wszystko sie zgadza :p
+shin0e [2d\]: :D
+Mariusz [2k\]: chyba musie f14 czy nie?
+cezary [5d\]: trudne
+]
+;B[lb]BL[73.343]OB[1]C[Mariusz [2k\]: no i co jak bot
+cezary [5d\]: haha
+cezary [5d\]: no on myslal o tym ruchu troche dluzej niz my
+cezary [5d\]: a ja juz chcialem napisac l17
+]
+;W[mc]WL[341.599]OW[10]C[cezary [5d\]: zeby po prostu przezyc
+cezary [5d\]: a od l17 nietrudno pomyslec a moze jeszcze dalej :)
+]
+;B[gp]BL[600]OB[25]C[cezary [5d\]: no i bot mowi ze m18 to spory blad
+]
+;W[id]WL[282.969]OW[9]C[Mariusz [2k\]: to tego akurat nie programował
+Mariusz [2k\]: niektóre boty programuje chuk norris
+]
+;B[kc]BL[543.956]OB[24]
+;W[jb]WL[279.208]OW[8]
+;B[kb]BL[526.075]OB[23]
+;W[fi]WL[243.158]OW[7]
+;B[lf]BL[518.824]OB[22]C[cezary [5d\]: f11 to jest ruch bota
+]
+;W[mf]WL[229.18]OW[6]
+;B[mg]BL[515.137]OB[21]
+;W[lf]WL[227.418]OW[5]
+;B[nc]BL[500.658]OB[20]
+;W[mb]WL[195.528]OW[4]
+;B[nb]BL[494.08]OB[19]
+;W[od]WL[184.59]OW[3]
+;B[ma]BL[486.42]OB[18]
+;W[ld]WL[141.323]OW[2]
+;B[ga]BL[458.834]OB[17]
+;W[da]WL[137.092]OW[1]
+;B[pb]BL[405.786]OB[16]C[cezary [5d\]: mam jakies takie
+cezary [5d\]: wrazenie ze nie da sie przezyc 
+cezary [5d\]: i miec o18 na raz
+cezary [5d\]: hm ale moze to tylko wrazenie
+]
+;W[oc]WL[600]OW[25]
+;B[qb]BL[323.737]OB[15]C[cezary [5d\]: hm
+cezary [5d\]: a teraz czarny po prostu nie zyje ?
+]
+;W[la]WL[552.599]OW[24]C[cezary [5d\]: trudne sprawy
+cezary [5d\]: nie no zyje
+Mariusz [2k\]: stawiaj 1zł na o19
+Mariusz [2k\]: znaczy ja stawiam
+cezary [5d\]: to m19 chyba nie jest poprawne
+]
+;B[ka]BL[239.486]OB[14]C[Mariusz [2k\]: no to przegrałem 1zł
+]
+;W[ff]WL[432.923]OW[23]
+;B[rc]BL[215.193]OB[13]
+;W[rd]WL[423.537]OW[22]C[Mariusz [2k\]: no i skiluje tego roga
+]
+;B[rb]BL[209.619]OB[12]
+;W[ib]WL[393.035]OW[21]
+;B[jc]BL[205.859]OB[11]
+;W[qh]WL[364.563]OW[20]
+;B[qi]BL[200.988]OB[10]
+;W[rh]WL[353.163]OW[19]
+;B[ri]BL[181.27]OB[9]
+;W[mq]WL[345.168]OW[18]
+;B[mp]BL[144.303]OB[8]
+;W[oo]WL[324.215]OW[17]
+;B[on]BL[95.394]OB[7]
+;W[nr]WL[287.268]OW[16]
+;B[sr]BL[77.368]OB[6]
+;W[sq]WL[280.4]OW[15]
+;B[so]BL[57.046]OB[5]
+;W[sn]WL[271.336]OW[14]
+;B[rr]BL[55.81]OB[4]
+;W[so]WL[269.711]OW[13]
+;B[rs]BL[51.311]OB[3]
+;W[kr]WL[257.563]OW[12]
+;B[lq]BL[45.6]OB[2]
+;W[lr]WL[254.624]OW[11]
+;B[jr]BL[44.116]OB[1]
+;W[jq]WL[202.175]OW[10]
+;B[jp]BL[600]OB[25]
+;W[nm]WL[159.985]OW[9]
+;B[mm]BL[442.978]OB[24]
+;W[nl]WL[144.066]OW[8]
+;B[ol]BL[436.748]OB[23]
+;W[iq]WL[128.651]OW[7]
+;B[ir]BL[434.05]OB[22]
+;W[hq]WL[118.545]OW[6]
+;B[hr]BL[433.035]OB[21]C[cezary [5d\]: hm chyba bialy gra wszystkie grozby do ko
+cezary [5d\]: zamiast ko ?
+]
+;W[np]WL[46.891]OW[5]
+;B[mo]BL[413.938]OB[20]
+;W[ml]WL[41.899]OW[4]
+;B[ko]BL[411.197]OB[19]
+;W[rk]WL[37.882]OW[3]
+;B[ll]BL[369.091]OB[18]
+;W[ks]WL[29.798]OW[2]
+;B[rf]BL[364.84]OB[17]
+;W[oh]WL[20.445]OW[1]
+;B[pi]BL[351.568]OB[16]C[Mariusz [2k\]: a to skubaniec zostawił takie coś na koniecz czasu vitowi
+]
+;W[qg]WL[600]OW[25]
+;B[pc]BL[295.651]OB[15]
+;W[re]WL[545.14]OW[24]C[zenek [2d\]: t11 to sente na grupe po prawej?
+zenek [2d\]: znaczy na rog
+cezary [5d\]: chyba nie
+Mariusz [2k\]: teraz t14
+]
+;B[qf]BL[240.421]OB[14]
+;W[sf]WL[530.086]OW[23]
+;B[sh]BL[229.682]OB[13]
+;W[sg]WL[512.493]OW[22]C[zenek [2d\]: to jak po t11+t8 bialy robi oko po prawej?
+]
+;B[si]BL[220.17]OB[12]C[cezary [5d\]: hm
+]
+;W[pg]WL[502.431]OW[21]C[cezary [5d\]: nie wiem :d
+]
+;B[sd]BL[214.537]OB[11]
+;W[oj]WL[499.276]OW[20]C[cezary [5d\]: ale jest jakies aji po o9 i r8
+cezary [5d\]: jak wyplaci r8 w sente na ta grupe no to wtedy ma oko
+]
+;B[oi]BL[157.13]OB[10]
+;W[nj]WL[490.93]OW[19]C[cezary [5d\]: a tu chyba jakis misrea
+cezary [5d\]: d
+]
+;B[nk]BL[139.336]OB[9]C[cezary [5d\]: ajejje biedny vitek
+tasuki [-\]: dzięki
+kamil [-\]: dzięki
+Mariusz [2k\]: ojoj a czemu traz ?
+tasuki [-\]: nie taki biedny, źle grałem od początku do końca
+cezary [5d\]: nie no dobrze grales
+Mariusz [2k\]: aha no to widze
+cezary [5d\]: bot mowi bardzo slaby ruch
+cezary [5d\]: w j4 
+kamil [-\]: chyba tempo biały stracił na dole
+tasuki [-\]: biały dużo rzeczy stracił wszędzie
+cezary [5d\]: a po r18
+cezary [5d\]: to czy czarny przypadkiem sie nie zabil?
+cezary [5d\]: tylko m19 dawalo oko
+cezary [5d\]: tak mi sie wydawalo
+cezary [5d\]: w nie nie zabil sie
+tasuki [-\]: a no tam może też zchrzaniłem :)
+cezary [5d\]: ale nie dalo sie odratowac tego o18
+cezary [5d\]: hm
+cezary [5d\]: a myslales o atakowaniu g10 ?
+cezary [5d\]: pozniej w grze
+tasuki [-\]: myślałem o atakowaniu wszystkiego od martwych kamyczków
+cezary [5d\]: zamiast przezywanie n3 to jakies ciecie i atakowanie tego czarnego
+cezary [5d\]: mhm
+tasuki [-\]: tak musi się czuć alvar
+Mariusz [2k\]: :)
+tasuki [-\]: tak, zagrałem strasznie dużo niekonsekwentnych rzeczy w tej grze
+tasuki [-\]: zawsze jakieś fully cut keimy i takie tam
+cezary [5d\]: hmm
+cezary [5d\]: zamiast t14 tez t12?
+])

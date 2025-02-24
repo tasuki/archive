@@ -1,0 +1,401 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[6.50]TM[1800]OT[3x30 byo-yomi]
+PW[Deejay]PB[tasuki]WR[5d]DT[2020-06-07]PC[The KGS Go Server at http://www.gokgs.com/]C[Deejay [5d?\]: hej
+Deejay [5d?\]: miłej gry
+tasuki [-\]: miłej!
+Deejay [5d?\]: do iglo
+]RE[B+Resign]
+;B[pd]BL[1789.634]
+;W[dp]WL[1797.896]C[tasuki [-\]: tak właśnie do tego
+]
+;B[qp]BL[1771.56]
+;W[dd]WL[1794.881]
+;B[np]BL[1763.964]
+;W[qc]WL[1791.153]
+;B[qd]BL[1729.973]
+;W[pc]WL[1788.936]
+;B[od]BL[1728.521]
+;W[nc]WL[1754.594]
+;B[oc]BL[1596.745]
+;W[ob]WL[1748.351]
+;B[nb]BL[1594.754]
+;W[mb]WL[1746.013]
+;B[pb]BL[1592.551]
+;W[na]WL[1744.751]
+;B[qb]BL[1591.55]
+;W[lq]WL[1729.201]
+;B[lp]BL[1563.924]
+;W[kp]WL[1555.951]
+;B[lo]BL[1521.964]
+;W[mr]WL[1264.451]
+;B[nr]BL[1451.197]
+;W[ko]WL[1136.167]
+;B[kn]BL[1391.499]
+;W[ln]WL[1092.96]
+;B[jn]BL[1211.377]
+;W[no]WL[906.026]
+;B[mp]BL[1104.607]C[Siasio [6d?\]: ostra jazda
+Siasio [6d?\]: spodziewałem się spokojnej pozycyjnej gry
+]
+;W[lm]WL[421.061]
+;B[ip]BL[974.157]C[tasuki [-\]: mam taką ciekawą sytuację że nie zawsze mi się pojawiają kamyczki przeciwnika
+tasuki [-\]: ale jak jest mój ruch to mi czas leci
+tasuki [-\]: więc patrzę więcej na zegar niż na plansze
+]
+;W[jq]WL[204.393]
+;B[iq]BL[922.64]
+;W[or]WL[172.175]
+;B[nq]BL[824.852]
+;W[jo]WL[69.073]
+;B[io]BL[820.298]
+;W[in]WL[63.395]
+;B[kl]BL[817.958]
+;W[ir]WL[29.291]
+;B[hr]BL[788.851]
+;W[kr]WL[24.704]
+;B[is]BL[782.312]
+;W[js]WL[30]OW[3]
+;B[jr]BL[771.416]
+;W[km]WL[30]OW[3]
+;B[jm]BL[758.787]
+;W[ir]WL[30]OW[3]
+;B[hn]BL[737.885]
+;W[hs]WL[30]OW[2]
+;B[im]BL[722.635]
+;W[pp]WL[30]OW[2]
+;B[pq]BL[710.783]
+;W[ll]WL[30]OW[2]
+;B[kk]BL[698.217]
+;W[po]WL[30]OW[2]
+;B[pr]BL[581.185]
+;W[qo]WL[30]OW[2]
+;B[rp]BL[578.576]
+;W[ro]WL[30]OW[1]
+;B[cn]BL[572.674]
+;W[gq]WL[30]OW[1]
+;B[cf]BL[520.301]
+;W[fd]WL[30]OW[1]
+;B[eq]BL[470.064]
+;W[fp]WL[30]OW[1]
+;B[ep]BL[445.07]
+;W[do]WL[30]OW[1]
+;B[eo]BL[434.343]
+;W[dn]WL[30]OW[1]
+;B[cm]BL[429.639]
+;W[dq]WL[30]OW[1]
+;B[er]BL[387.273]
+;W[en]WL[30]OW[1]
+;B[fo]BL[361.346]
+;W[dl]WL[30]OW[1]
+;B[bk]BL[334.174]
+;W[ck]WL[30]OW[1]
+;B[cj]BL[249.089]
+;W[bl]WL[30]OW[1]
+;B[cl]BL[240.945]
+;W[dk]WL[30]OW[1]
+;B[bj]BL[231.732]
+;W[bo]WL[30]OW[1]
+;B[cr]BL[207.388]
+;W[dr]WL[30]OW[1]
+;B[ds]BL[204.22]
+;W[fn]WL[30]OW[1]
+;B[gr]BL[138.339]
+;W[go]WL[30]OW[1]
+;B[fq]BL[99.848]
+;W[br]WL[30]OW[1]
+;B[bs]BL[61.007]
+;W[cq]WL[30]OW[1]
+;B[cs]BL[58.77]
+;W[ei]WL[30]OW[1]
+;B[nn]BL[30]OB[3]
+;W[qq]WL[30]OW[1]
+;B[rq]BL[30]OB[3]
+;W[oq]WL[30]OW[1]
+;B[qr]BL[30]OB[3]
+;W[op]WL[30]OW[1]
+;B[os]BL[30]OB[3]
+;W[nm]WL[30]OW[1]
+;B[on]BL[30]OB[3]
+;W[om]WL[30]OW[1]
+;B[pn]BL[30]OB[3]
+;W[qm]WL[30]OW[1]
+;B[pm]BL[30]OB[3]
+;W[pl]WL[30]OW[1]
+;B[qn]BL[30]OB[3]
+;W[rn]WL[30]OW[1]
+;B[ql]BL[30]OB[3]
+;W[rm]WL[30]OW[1]
+;B[ol]BL[30]OB[3]
+;W[pk]WL[30]OW[1]
+;B[mm]BL[30]OB[3]
+;W[nl]WL[30]OW[1]
+;B[ml]BL[30]OB[3]C[cezary [4d\]: ee
+]
+;W[nk]WL[30]OW[1]
+;B[lk]BL[30]OB[3]
+;W[rc]WL[30]OW[1]
+;B[rb]BL[30]OB[3]
+;W[ch]WL[30]OW[1]
+;B[bh]BL[30]OB[3]
+;W[be]WL[30]OW[1]
+;B[cg]BL[30]OB[3]
+;W[id]WL[30]OW[1]
+;B[qi]BL[30]OB[3]
+;W[qj]WL[30]OW[1]
+;B[rj]BL[30]OB[3]
+;W[pi]WL[30]OW[1]
+;B[qh]BL[30]OB[3]
+;W[rk]WL[30]OW[1]
+;B[oj]BL[30]OB[3]
+;W[pj]WL[30]OW[1]
+;B[lc]BL[30]OB[3]
+;W[ld]WL[30]OW[1]
+;B[kd]BL[30]OB[3]
+;W[le]WL[30]OW[1]
+;B[ke]BL[30]OB[3]
+;W[nd]WL[30]OW[1]
+;B[kf]BL[30]OB[3]
+;W[qf]WL[30]OW[1]
+;B[ph]BL[30]OB[3]
+;W[of]WL[30]OW[1]
+;B[oi]BL[30]OB[3]
+;W[oh]WL[30]OW[1]
+;B[og]BL[30]OB[3]
+;W[nh]WL[30]OW[1]
+;B[ng]BL[30]OB[3]
+;W[re]WL[30]OW[1]
+;B[rd]BL[30]OB[3]
+;W[pg]WL[30]OW[1]
+;B[mh]BL[30]OB[3]
+;W[ni]WL[30]OW[1]
+;B[nj]BL[30]OB[3]
+;W[mi]WL[30]OW[1]
+;B[mj]BL[30]OB[3]
+;W[li]WL[30]OW[1]
+;B[ok]BL[30]OB[3]
+;W[qk]WL[30]OW[1]
+;B[sk]BL[30]OB[3]
+;W[rl]WL[30]OW[1]
+;B[nf]BL[30]OB[3]
+;W[ne]WL[30]OW[1]
+;B[oe]BL[30]OB[3]
+;W[pf]WL[30]OW[1]
+;B[lf]BL[30]OB[3]
+;W[lh]WL[30]OW[1]
+;B[mg]BL[30]OB[3]
+;W[kc]WL[30]OW[1]
+;B[jc]BL[30]OB[3]
+;W[kb]WL[30]OW[1]
+;B[rg]BL[30]OB[3]
+;W[rf]WL[30]OW[1]
+;B[ri]BL[30]OB[3]
+;W[sh]WL[30]OW[1]
+;B[sg]BL[30]OB[3]
+;W[si]WL[30]OW[1]
+;B[se]BL[30]OB[3]
+;W[sf]WL[30]OW[1]
+;B[sj]BL[30]OB[3]
+;W[sl]WL[30]OW[1]
+;B[jb]BL[30]OB[3]
+;W[lb]WL[30]OW[1]
+;B[hc]BL[30]OB[3]
+;W[hd]WL[30]OW[1]
+;B[gc]BL[30]OB[3]
+;W[fc]WL[30]OW[1]
+;B[gd]BL[30]OB[3]
+;W[jg]WL[30]OW[1]
+;B[if]BL[30]OB[3]C[yakcyll [2k\]: tam prawa banda to nie jest 40p przypadkiem?
+]
+;W[hf]WL[30]OW[1]
+;B[he]BL[30]OB[3]C[yakcyll [2k\]: nvm
+]
+;W[ie]WL[30]OW[1]
+;B[ge]BL[30]OB[3]
+;W[jf]WL[30]OW[1]
+;B[ig]BL[30]OB[3]
+;W[ih]WL[30]OW[1]
+;B[hg]BL[30]OB[3]
+;W[je]WL[30]OW[1]
+;B[jd]BL[30]OB[3]
+;W[lg]WL[30]OW[1]C[mogget [4d\]: dobra wejdę w te grę powoli
+mogget [4d\]: co tu się działo
+]
+;B[mf]BL[30]OB[3]C[mogget [4d\]: dużo umierańska
+yakcyll [2k\]: tak trochę, ano
+]
+;W[hh]WL[30]OW[1]
+;B[gg]BL[30]OB[3]
+;W[gh]WL[30]OW[1]
+;B[fg]BL[30]OB[3]
+;W[gl]WL[30]OW[1]
+;B[db]BL[30]OB[3]C[mogget [4d\]: Tasuki mocno zaczął
+anarchia [-\]: staram sie zrozumiec co sie dzieje ale ciagle nie wiem
+yakcyll [2k\]: mało punktów
+yakcyll [2k\]: dużo balansowania
+]
+;W[eb]WL[30]OW[1]C[yakcyll [2k\]: tasuki bez ceregieli
+yakcyll [2k\]: a deejay udaje drakulę
+]
+;B[dc]BL[30]OB[3]C[Hipcio [?\]: w jakim sensie?
+mogget [4d\]: czyli co, Dawid powinien teraz zlagować i przegrać na czas?
+]
+;W[ic]WL[30]OW[1]C[yakcyll [2k\]: zegara
+yakcyll [2k\]: aye
+mogget [4d\]: Wybaczcie musiałem
+yakcyll [2k\]: nie siedem grup, chociaż to by lepiej pasowało
+]
+;B[hb]BL[30]OB[3]C[yakcyll [2k\]: no ale igra z losem
+]
+;W[ec]WL[30]OW[1]C[mogget [4d\]: Mateusz jest znany z tego że gra do ostatniej sekundy , robi dużo grup i jest silny
+]
+;B[cd]BL[30]OB[3]C[mogget [4d\]: W sumię w miarę pasuje do Deejaya też :P
+yakcyll [2k\]: o kurczę, ale znalazł
+mogget [4d\]: czekaj bo jestem daleko w tyle
+mogget [4d\]: zaraz zobaczę
+]
+;W[ce]WL[30]OW[1]
+;B[de]BL[30]OB[3]
+;W[ed]WL[30]OW[1]
+;B[bc]BL[30]OB[3]C[cezary [4d\]: hm zabil sie deejaY?
+yakcyll [2k\]: trochę chyba
+yakcyll [2k\]: cztery do trzech
+]
+;W[cc]WL[30]OW[1]
+;B[cb]BL[30]OB[3]
+;W[bd]WL[30]OW[1]C[mogget [4d\]: a tu się śmieszne rzeczy działy
+]
+;B[cc]BL[30]OB[3]C[yakcyll [2k\]: jakieś j18 zaraz będą działać
+]
+;W[ef]WL[30]OW[1]C[yakcyll [2k\]: oof
+cezary [4d\]: nie be
+cezary [4d\]: da
+]
+;B[df]BL[30]OB[3]
+;W[eg]WL[30]OW[1]C[yakcyll [2k\]: a, nie ma oddechóc
+mogget [4d\]: o tu też zabawnie
+yakcyll [2k\]: smutek przedwieczny
+]
+;B[ee]BL[30]OB[3]C[cezary [4d\]: e15 po prostu
+]
+;W[ff]WL[30]OW[1]C[cezary [4d\]: szkoda deejaya
+mogget [4d\]: No szkoda
+]
+;B[gf]BL[30]OB[3]C[mogget [4d\]: ale ktoś musi
+]
+;W[fe]WL[30]OW[1]C[KaC [-\]: wow
+]
+;B[fh]BL[30]OB[3]C[mogget [4d\]: nie chciał f15
+mogget [4d\]: no fear
+cezary [4d\]: ta ;p
+Hipcio [?\]: w sumie j18 sente
+]
+;W[ci]WL[30]OW[1]C[KaC [-\]: w sumie j18 praktycznie sente
+Hipcio [?\]: no tak
+Hipcio [?\]: praktycznie
+KaC [-\]: :)
+]
+;B[eh]BL[30]OB[3]
+;W[dg]WL[30]OW[1]C[mogget [4d\]: kto to wygrywa generalnie?
+yakcyll [2k\]: chyba czarny, nie
+]
+;B[bg]BL[30]OB[3]C[cezary [4d\]: ogolnie to witek
+yakcyll [2k\]: biały nie ma terytorium prawie
+mogget [4d\]: ma to sens
+]
+;W[dh]WL[30]OW[1]
+;B[bi]BL[30]OB[3]C[cezary [4d\]: witek serio no fear
+yakcyll [2k\]: j18 ostatnia szansa?
+]
+;W[fi]WL[30]OW[1]
+;B[dj]BL[30]OB[3]
+;W[di]WL[30]OW[1]
+;B[ib]BL[30]OB[3]C[yakcyll [2k\]: hm tysiąclecia
+]
+;W[ga]WL[30]OW[1]C[yakcyll [2k\]: jak odpowiedzieć na g11
+]
+;B[jh]BL[30]OB[3]
+;W[kg]WL[30]OW[1]C[Hipcio [?\]: jak najlepiej
+yakcyll [2k\]: :D
+]
+;B[ki]BL[30]OB[3]
+;W[lj]WL[30]OW[1]C[cezary [4d\]: o niee
+cezary [4d\]: to blad jest
+]
+;B[mk]BL[30]OB[3]C[yakcyll [2k\]: oiotoshi
+yakcyll [2k\]: aye
+yakcyll [2k\]: koniec
+cezary [4d\]: m10 to na pewno zly ruch
+]
+;W[qg]WL[30]OW[1]
+;B[gi]BL[30]OB[3]C[cezary [4d\]: czarny ma silniejszy kszalt
+]
+;W[hj]WL[30]OW[1]
+;B[gj]BL[30]OB[3]
+;W[gk]WL[30]OW[1]C[yakcyll [2k\]: co tu się dzieje
+]
+;B[ha]BL[30]OB[2]C[Hipcio [?\]: i can't breathe
+]
+;W[ja]WL[30]OW[1]C[yakcyll [2k\]: wow
+KaC [-\]: hmm tasuki na prawde to wszystko przeliczyl?:P
+yakcyll [2k\]: aż dziw, nie
+cezary [4d\]: f18 f19 g18 e19 f10 
+cezary [4d\]: na spokojnie zyje
+KaC [-\]: no to tasuki dobry jest
+KaC [-\]: nie no widze
+KaC [-\]: ale wczensiej nie myslalem o tym
+]
+;B[ea]BL[30]OB[1]C[cezary [4d\]: albo tak
+cezary [4d\]: jak witek znajdzie ruch to nikt tak nie znajdzie
+]
+;W[fb]WL[30]OW[1]
+;B[gb]BL[30]OB[1]C[Hipcio [?\]: ok to jeszcze raz
+Hipcio [?\]: biedny deejay
+]
+;W[fj]WL[30]OW[1]
+;B[fa]BL[30]OB[1]
+;W[aq]WL[30]OW[1]
+;B[gn]BL[30]OB[1]
+;W[bn]WL[30]OW[1]
+;B[bm]BL[30]OB[1]
+;W[dm]WL[30]OW[1]C[cezary [4d\]: co sie stalo ze z shimari w lewym gornym
+cezary [4d\]: zrobil sie teren czarnego
+cezary [4d\]: a z moyo czarnego po prawej
+]
+;B[gs]BL[30]OB[1]C[cezary [4d\]: zrobil sie trup
+cezary [4d\]: kto mi to wytlumaczy, co to za schizofreniczna gra
+]
+;W[is]WL[30]OW[1]C[Hipcio [?\]: Siasio
+]
+;B[ek]BL[30]OB[1]
+;W[fk]WL[30]OW[1]
+;B[ej]BL[30]OB[1]
+;W[el]WL[30]OW[1]
+;B[pa]BL[30]OB[1]C[cezary [4d\]: a twoja gre omawia sasha
+]
+;W[ms]WL[30]OW[1]C[cezary [4d\]: a ty nie sluchasz
+]
+;B[ns]BL[30]OB[1]
+;W[co]WL[30]OW[1]
+;B[al]BL[30]OB[1]
+;W[oo]WL[30]OW[1]
+;B[oa]BL[30]OB[1]
+;W[nb]WL[30]OW[1]C[Hipcio [?\]: rzeczywiście tak było
+]
+;B[me]BL[30]OB[1]
+;W[md]WL[30]OW[1]
+;B[jp]BL[30]OB[1]
+;W[kq]WL[30]OW[1]
+;B[kj]BL[30]OB[1]
+;W[rh]WL[30]OW[1]
+;B[ii]BL[30]OB[1]
+;W[hi]WL[30]OW[1]
+;B[ij]BL[30]OB[1]C[Deejay [5d?\]: dzięki za grę
+tasuki [-\]: dzięki
+cezary [4d\]: co sie poklepali to sie poklepali
+tasuki [-\]: już chciałem poddać, ale ten lewy górny musiałem spróbować :)
+tasuki [-\]: chyba wykład się zaczyna?
+cezary [4d\]: tak, zaczynamy
+Siasio [6d?\]: tak, zapraszam!
+tasuki [-\]: to może tam do zobaczenia :)
+Siasio [6d?\]: https://discord.gg/DX2uv2 
+])

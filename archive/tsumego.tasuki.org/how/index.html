@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+How were Tsumego Collections created?
+</title>
+<meta charset='utf-8'>
+<meta content='tsumego, go problems, study, pdf, download, print' name='keywords'>
+<meta content='Technical info on the books, the goban picture, and the website.' name='description'>
+<meta content='width=device-width' name='viewport'>
+<meta content='#1b1b1b' name='theme-color'>
+<link href="../images/favicon.svg" rel="icon" type="image/svg" />
+<link href="../stylesheets/pure-min.css" rel="stylesheet" />
+<link href="../stylesheets/pure-grids-responsive-min.css" rel="stylesheet" />
+<link href="../stylesheets/style.css" rel="stylesheet" />
+</head>
+<body>
+<div id='header'>
+<div class='pure-menu pure-menu-horizontal'>
+<div class='pad'>
+<ul class='pure-menu-list'>
+<li class='pure-menu-item'><a href="../index.html" class="pure-menu-link">Tsumego Collections</a></li>
+<li class='pure-menu-item'><a href="../faq/index.html" class="pure-menu-link">FAQ</a></li>
+<li class='pure-menu-item active'><a href="index.html" class="pure-menu-link">How?</a></li>
+</ul>
+</div>
+</div>
+<div id='banner'>
+<div class='pad'>
+<div class='pure-g'>
+<div class='pure-u-md-1-2' id='goban'></div>
+<div class='pure-u-md-1-2' id='quote'>
+<blockquote>
+<p>
+&ldquo;It is a matter of life and death, a road either
+to safety or to ruin.  Hence it is a subject of inquiry
+which can on no account be neglected.&rdquo;
+</p>
+<cite>
+&mdash; Sun Tzu: The Art of War
+</cite>
+</blockquote>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+<div id='content'>
+<div class='pad'>
+<div class='pure-g'>
+<div class='pure-u-md-1-2'>
+<h3 id="the-books">The books</h3>
+
+<p>Back in 2004, before I had any idea how to code, I created a
+monster. Started with sgf files containing the problem collections,
+wrote an <a href="https://github.com/tasuki/tsumego/blob/master/scripts/rotate.pl">awful Perl script</a> rotating the problems to the
+upper left corner. (Hey, it's just 100 lines of code and actually
+<em>does</em> something. These days I write thousands of lines of code to
+do nothing much at all.)</p>
+
+<p>Then used sgf2dg (back when it was called sgf2tex!) to spit out TeX
+output. PdfTeX to get pdfs and voila.</p>
+
+<p>This would be a good place to thank <a href="http://toxygen.me/">Toxygen</a>. When
+processed with pdfTeX, the Metafont fonts get inserted as bitmaps
+and look very ugly. I spent weeks trying to convert the Metafont go
+diagram fonts into PostScript format. Then Majo came along and
+converted them, I still have no idea how he did it. If you ever
+want to produce go pdf's from TeX, get the <a href="https://github.com/otrego/go-type1">PostScript
+fonts</a>, now maintained by the good people at Otrego.</p>
+
+<p>The mess of a <a href="https://github.com/tasuki/tsumego">source is available on GitHub</a>.</p>
+
+
+</div>
+<div class='pure-u-md-1-2'>
+<h3 id="the-website">The website</h3>
+
+<p>I forget how this was done before 2013, but from 2013 to 2024 we've
+suffered under Twitter Bootstrap. Now the website is styled by
+<a href="https://purecss.io/">Pure.css</a> to great happiness and simplification.</p>
+
+<p><a href="https://middlemanapp.com/">Middleman</a> has been aging nicely these 10 years.</p>
+
+<p>You can <a href="https://github.com/tasuki/tsumego-web">see the source of the Tsumego Collections website</a>
+and submit <a href="https://github.com/tasuki/tsumego-web/issues">bug reports</a>.</p>
+
+
+</div>
+</div>
+
+</div>
+</div>
+<footer>
+<div class='pad'>
+<p>© <a href="../../tasuki.org/index.html">Vít ‘tasuki’ Brunner</a>
+— Brought to you by <a href="http://tug.org">TeX</a>,
+<a href="https://middlemanapp.com">Middleman</a>,
+<a href="https://purecss.io/">Pure.css</a>,
+<a href="https://www.vim.org">Vim</a>, and other cool technologies.</p>
+
+</div>
+
+</footer>
+</body>
+</html>

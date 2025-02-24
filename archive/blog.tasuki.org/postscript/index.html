@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#C60">
+  <link rel="icon" href="../favicon.svg">
+
+  
+  <title>PostScript &mdash; tasuki’s blog</title>
+  
+
+  <link rel="stylesheet" href="../public/pure-min.css">
+  <link rel="stylesheet" href="../public/pure-grids-responsive-min.css">
+  <link rel="stylesheet" href="../public/style.css">
+</head>
+<body>
+    <div id="header">
+      <div class="pad">
+        <a href="../index.html">tasuki’s blog</a>
+      </div>
+    </div>
+    <div id="content" class="pad">
+      
+
+
+<article>
+  <h1>
+  
+  PostScript
+  
+  </h1>
+  <div class="meta">
+    <span class="date">2007-04-13</span>
+  </div>
+  <div class="content">
+    <p>
+I want to have some real Hex and TwixT boards, so I’ve been playing around with PostScript a bit.
+</p>
+<p>
+I found <a  href="http://doolittle.icarus.com/~larry/hex/">Larry Doolittle’s Hex board</a> and started editing it without knowing almost anything about PostScript. The results were – you guessed it – disastrous. PostScript is not really intuitive language (for me, at least). But then I found a <a  href="http://www.tailrecursive.org/postscript/postscript.html">great PostScript tutorial</a>, which helped me immensely.
+</p>
+<p>
+First I edited Larry’s Hex board – I added black outline to two opposite sides (for the sides not to get confused), and scaled and rotated the 13x13 board (which is littlegolem standard, therefore defacto universal standard) so that it’s playable with normal sized go stones and fits on A3 sized paper (I am very happy that it fits). You can download my <a  href="http://www.tasuki.org/hex13.ps">13x13 hex board on A3 for use with go stones</a>.
+</p>
+<p>
+The next thing I needed was a TwixT board. This time I only found a pdf, which was exactly not what I wanted. So, with a lot more help of the PostScript tutorial mentioned earlier, I created a PostScript <a  href="http://www.tasuki.org/twixt.ps">TwixT board</a>.
+</p>
+<p>
+I made it to be highly customizable, you can find parameters on lines 10 to 21. You can easily change size of the board (the number of holes), the space between holes, holesize, color of holes, filling of holes, color of the guiding lines (or whatever they are called, you know, those lines that help you choose the right move ;-)), width and color of the border, basic line width, and finally horizontal and vertical offset. I sincerely think all those settings could be quite useful to anyone who wants to print a customized TwixT board.
+</p>
+<p>
+I agree that the code is not really great (I stay true to the “it was difficult to write, so it should be difficult to read” principle), but it works and I think that’s what counts.
+</p>
+<p>
+Here is a short example of PostScript language:
+</p>
+<blockquote>
+<p>
+1 step mul dup moveto<br />
+boardsize 2 div 1 sub step mul bs 2 sub step mul lineto stroke
+</p>
+</blockquote>
+<p>
+Which means, rewritten to human language:
+</p>
+<blockquote>
+<p>
+move_to(1<em>step, 1</em>step);<br />
+draw_line_to((boardsize/2 – 1)<em>step, (bs – 2)</em>step);
+</p>
+</blockquote>
+<p>
+In PostScript, everything is based on LIFO (last in first out) stacks, so when you want to do 3+4, you have to write 3 4 add (3 and 4 are put into the stack and the function “add” takes two values from the top of the stack and returns their sum back on the top).
+</p>
+<p>
+I could show a lot of other PostScript examples but I think it’s better for you to <a  href="http://www.tasuki.org/twixt.ps">have a look at the code </a>yourself (it’s heavily uncommented, I didn’t want to take the fun out of it).
+</p>
+  </div>
+
+  
+  <div class="post-nav">
+    
+    <a href="../friday-the-thirteenth-tech-support/index.html" class="post-nav-prev">&larr;&nbsp;Friday the thirteenth tech support</a>
+    
+    
+    <a href="../thank-god-im-an-atheist/index.html" class="post-nav-next">Thank God I'm an atheist&nbsp;&rarr;</a>
+    
+  </div>
+
+  <div class="comments">
+    
+
+    <h3>One thought on &ldquo;PostScript&rdquo;</h3><div class="comment">
+        <p>
+          <span class="author">
+            
+            <a href="http://keo.cz">Keo</a>
+            
+          </span>
+          <span class="date">2007-04-13</span>
+        </p>
+        <p><p>No jo, zásobníkový jazyky jsou vtipný. Kromě PostScriptu (btw, ten je i v PDF) je asi nejznámější FORTH. Kdysi se dokonce vyráběly čipy, který přímo prováděly jeho kód. V současnosti se tato třída jazyků většinou používá pouze jako backend pro překladače. Např. JVM a myslím i .NET nejsou nic jiného než interprety zásobníkového kódu (i když samozřejmě binárního) a teoreticky by asi nebyl problém psát programy v “Javě” podobně úchylným způsobem, jaký jsi popsal v článku. Výhodou těchto jazyků je totiž naprostá primitivnost parsování – žádné priority operátorů a tak.</p>
+</p>
+      </div><p><a class="add-comment" href="https://github.com/tasuki/blog/edit/master/_posts/2007-04-13-postscript.html">Add your comment</a>
+       &mdash; <a href="../comment/index.html">How does this work?</a></p>
+  </div>
+  
+</article>
+
+
+    </div>
+  </body>
+</html>

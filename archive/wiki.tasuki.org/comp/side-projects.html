@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Side Projects ~ Comp ~ VitWiki</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="theme-color" content="#fdf6e3" />
+<link rel="icon" href="../favicon.svg">
+
+<style type="text/css">
+@font-face {
+  font-family: 'Alegreya'; font-style: normal; font-weight: 400; font-display: swap;
+  src: url('../fonts/alegreya-v29-latin-ext_latin-400.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Alegreya'; font-style: italic; font-weight: 400; font-display: swap;
+  src: url('../fonts/alegreya-v29-latin-ext_latin-400i.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Alegreya'; font-style: normal; font-weight: 700; font-display: swap;
+  src: url('../fonts/alegreya-v29-latin-ext_latin-700.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Alegreya SC'; font-style: normal; font-weight: 700; font-display: swap;
+  src: url('../fonts/alegreya-sc-v22-latin-ext_latin-700.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'JetBrains Mono'; font-style: normal; font-weight: 400; font-display: swap;
+  src: url('../fonts/jetbrains-mono-v13-latin-ext_latin-400.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'JetBrains Mono'; font-style: normal; font-weight: 700; font-display: swap;
+  src: url('https://wiki.tasuki.org/fonts/jetbrains-mono-v13-latin-ext_latin-700.woff2') format('woff2');
+}
+
+html { background-color: #fdf6e3; color: #586e75; font-family: Alegreya, serif; font-variant-numeric: tabular-nums; font-size: 18px; padding: 0px 10px; }
+#content { max-width: 650px; margin: auto; }
+#footer { font-size: 15px; margin-top: 2em; }
+#footer .item { white-space: nowrap; }
+
+code { color: #859900; font-family: "JetBrains Mono"; font-size: 16px; }
+
+a:link { color: #268bd2; }
+a:visited { color: #6c71c4; }
+a:hover { text-decoration: none; }
+
+p, ul, ol, table, pre { margin: .5em 0; }
+
+h1, h2, h3, h4 { font-family: "Alegreya SC"; line-height: 1; margin-top: 1.5em; margin-bottom: 0em; }
+h1 { color: #cb4b16; font-size: 30px; letter-spacing: -1px; }
+h2 { color: #b58900; font-size: 24px; }
+h3, h4 { color: #839496; font-size: 18px; letter-spacing: 1px; }
+
+ul { list-style-type: "•  "; }
+ul, ol { padding-left: 25px; }
+li::marker { color: #d33682; }
+
+th { color: #b58900; text-align: left; }
+th, td { border: 0.1px solid #eee8d5; border-collapse: collapse; padding: 2px 5px; }
+table { border: 0.1px solid #eee8d5; border-collapse: collapse; }
+
+pre { overflow: auto; }
+
+hr { border: none; border-top: 1px dotted #586e75; }
+
+@media screen and (max-width: 650px) { h1 { margin-top: 0em; } }
+</style>
+</head>
+<body>
+
+<div id="content">
+<h1 id="side-projects-todo">Side projects todo</h1>
+<p>Whatever is finished should not be here. Whatever hasn’t started
+should not be here.</p>
+<h2 id="game-comment"><a href="../../games.tasuki.org/index.html">Game
+Comment</a></h2>
+<ul>
+<li>This really really needs finishing, so much work done already and so
+little left to do…</li>
+<li>The backend is ready for user accounts/comments.</li>
+<li>The frontend isn’t. Where to put the register/login buttons?</li>
+<li>Handle comment posting/displaying.</li>
+</ul>
+<h2 id="continugo"><a
+href="../../continugo.tasuki.org/index.html">ContinuGo</a></h2>
+<ul>
+<li>Sitting pretty at ~2k loc. Perhaps could be considered finished.
+But…</li>
+<li>Wouldn’t it be cool if there was a way to play online without
+passing the urls around? What’d it take?
+<ol type="1">
+<li>A (simple) backend 🙈</li>
+<li>Frontend accommodations: a way to create a game.</li>
+<li>Frontend accommodations: a mode to allow exploring ahead without
+submitting the move. An idea: just draw circles. But then, how does one
+submit a move?</li>
+</ol></li>
+<li>If we had a backend, it should be easy to create a tournament. Why
+even have a backend if not for a tournament? But…
+<ol type="1">
+<li>A tournament would definitely require user accounts.</li>
+<li>And (server-side) time management.</li>
+<li>And server-side move validation and final scoring to determine the
+game result.</li>
+<li>Probably would have to finally implement the ko (ok, easy).</li>
+</ol></li>
+</ul>
+<h2 id="iso-maze">Iso-maze</h2>
+<ul>
+<li>Try rewriting the visuals into shadertoy-style
+everything-in-the-fragment-shader.</li>
+<li>Create a campaign. At least 10 levels.</li>
+<li>Create a mobile app perhaps?</li>
+</ul>
+
+<div id="footer">
+<span class="item">Go <a href="../index.html">home</a> or view <a href="https://github.com/tasuki/vitwiki/blob/master/comp/side-projects.md">source</a>.</span>
+<span class="item">Last modified 2025-02-14.</span>
+<span class="item">Available under <a href="https://creativecommons.org/licenses/by-sa/4.0/">cc by-sa</a>.</span>
+</div>
+</div>
+
+</body>
+</html>

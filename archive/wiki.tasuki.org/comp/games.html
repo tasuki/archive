@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Games ~ Comp ~ VitWiki</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="theme-color" content="#fdf6e3" />
+<link rel="icon" href="../favicon.svg">
+
+<style type="text/css">
+@font-face {
+  font-family: 'Alegreya'; font-style: normal; font-weight: 400; font-display: swap;
+  src: url('../fonts/alegreya-v29-latin-ext_latin-400.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Alegreya'; font-style: italic; font-weight: 400; font-display: swap;
+  src: url('../fonts/alegreya-v29-latin-ext_latin-400i.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Alegreya'; font-style: normal; font-weight: 700; font-display: swap;
+  src: url('../fonts/alegreya-v29-latin-ext_latin-700.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Alegreya SC'; font-style: normal; font-weight: 700; font-display: swap;
+  src: url('../fonts/alegreya-sc-v22-latin-ext_latin-700.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'JetBrains Mono'; font-style: normal; font-weight: 400; font-display: swap;
+  src: url('../fonts/jetbrains-mono-v13-latin-ext_latin-400.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'JetBrains Mono'; font-style: normal; font-weight: 700; font-display: swap;
+  src: url('https://wiki.tasuki.org/fonts/jetbrains-mono-v13-latin-ext_latin-700.woff2') format('woff2');
+}
+
+html { background-color: #fdf6e3; color: #586e75; font-family: Alegreya, serif; font-variant-numeric: tabular-nums; font-size: 18px; padding: 0px 10px; }
+#content { max-width: 650px; margin: auto; }
+#footer { font-size: 15px; margin-top: 2em; }
+#footer .item { white-space: nowrap; }
+
+code { color: #859900; font-family: "JetBrains Mono"; font-size: 16px; }
+
+a:link { color: #268bd2; }
+a:visited { color: #6c71c4; }
+a:hover { text-decoration: none; }
+
+p, ul, ol, table, pre { margin: .5em 0; }
+
+h1, h2, h3, h4 { font-family: "Alegreya SC"; line-height: 1; margin-top: 1.5em; margin-bottom: 0em; }
+h1 { color: #cb4b16; font-size: 30px; letter-spacing: -1px; }
+h2 { color: #b58900; font-size: 24px; }
+h3, h4 { color: #839496; font-size: 18px; letter-spacing: 1px; }
+
+ul { list-style-type: "•  "; }
+ul, ol { padding-left: 25px; }
+li::marker { color: #d33682; }
+
+th { color: #b58900; text-align: left; }
+th, td { border: 0.1px solid #eee8d5; border-collapse: collapse; padding: 2px 5px; }
+table { border: 0.1px solid #eee8d5; border-collapse: collapse; }
+
+pre { overflow: auto; }
+
+hr { border: none; border-top: 1px dotted #586e75; }
+
+@media screen and (max-width: 650px) { h1 { margin-top: 0em; } }
+</style>
+</head>
+<body>
+
+<div id="content">
+<h1 id="game-playing-by-computers">Game-playing by Computers</h1>
+<h2 id="papers">Papers</h2>
+<ul>
+<li>2017 Silver et all, <a
+href="https://www.gwern.net/docs/rl/2017-silver.pdf">Mastering the game
+of Go without human knowledge</a> (AlphaGo Zero)</li>
+<li>2017 Silver et all, <a
+href="https://arxiv.org/pdf/1712.01815.pdf">Mastering Chess and Shogi by
+Self-Play with a General Reinforcement Learning Algorithm</a> (Alpha
+Zero)</li>
+<li>2019 David Wu (Katago), <a
+href="https://arxiv.org/pdf/1902.10565.pdf">Accelerating Self-Play
+Learning in Go</a></li>
+<li>2020 Silver et all, <a
+href="https://arxiv.org/pdf/1911.08265.pdf">Mastering Atari, Go, Chess
+and Shogi by Planning with a Learned Model</a> (Mu Zero)</li>
+<li>2021 Weirui Ya et al, <a
+href="https://arxiv.org/pdf/2111.00210">Mastering Atari Games with
+Limited Data</a> (Efficient Zero; see also <a
+href="https://github.com/YeWR/EfficientZero">github</a> and <a
+href="https://www.lesswrong.com/posts/mRwJce3npmzbKfxws/efficientzero-how-it-works">lesswrong</a>)</li>
+<li>2022 Silver et al, <a
+href="https://openreview.net/pdf?id=X6D9bAHhBQ1">Planning in Stochastic
+Environments with a Learned Model</a> (Stochastic MuZero, <a
+href="https://github.com/DHDev0/Stochastic-muzero">github</a>)</li>
+</ul>
+<h2 id="interesting-repositories">Interesting Repositories</h2>
+<ul>
+<li><a href="https://github.com/lightvector/KataGo">KataGo</a></li>
+<li><a href="https://github.com/suragnair/alpha-zero-general">Alpha Zero
+General</a> and a <a
+href="https://suragnair.github.io/posts/alphazero.html">blog
+post</a></li>
+<li><a
+href="https://github.com/jonathan-laurent/AlphaZero.jl">AlphaZero.jl</a>
+(Julia) and its <a
+href="https://jonathan-laurent.github.io/AlphaZero.jl/stable/">excellent
+docs</a></li>
+<li><a href="https://github.com/werner-duvaud/muzero-general">MuZero
+General</a> (might be useful for like Wesnoth?)</li>
+<li><a
+href="https://github.com/google-deepmind/open_spiel">OpenSpiel</a> … not
+really sure what that is, but they sure implemented all the games</li>
+</ul>
+<p>Less popular but still interesting:</p>
+<ul>
+<li><a
+href="https://github.com/cgreer/alpha-zero-boosted">alpha-zero-boosted</a>
+(w/ Gradient Boosted Decision Trees) implements TwixT! some <a
+href="https://news.ycombinator.com/item?id=23599278">discussion
+here</a>…</li>
+</ul>
+
+<div id="footer">
+<span class="item">Go <a href="../index.html">home</a> or view <a href="https://github.com/tasuki/vitwiki/blob/master/comp/games.md">source</a>.</span>
+<span class="item">Last modified 2025-01-18.</span>
+<span class="item">Available under <a href="https://creativecommons.org/licenses/by-sa/4.0/">cc by-sa</a>.</span>
+</div>
+</div>
+
+</body>
+</html>

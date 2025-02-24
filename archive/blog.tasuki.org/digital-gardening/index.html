@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#C60">
+  <link rel="icon" href="../favicon.svg">
+
+  
+  <title>Digital gardening &mdash; tasuki’s blog</title>
+  
+
+  <link rel="stylesheet" href="../public/pure-min.css">
+  <link rel="stylesheet" href="../public/pure-grids-responsive-min.css">
+  <link rel="stylesheet" href="../public/style.css">
+</head>
+<body>
+    <div id="header">
+      <div class="pad">
+        <a href="../index.html">tasuki’s blog</a>
+      </div>
+    </div>
+    <div id="content" class="pad">
+      
+
+
+<article>
+  <h1>
+  
+  Digital gardening
+  
+  </h1>
+  <div class="meta">
+    <span class="date">2025-02-09</span>
+  </div>
+  <div class="content">
+    <p>During the past few years I’ve gone through some effort to keep my digital life simpler and more orderly than my real life.</p>
+
+<ul>
+  <li>Migrated from Ubuntu to Debian. Been a breeze. Debian is like Ubuntu without the bad parts. I <a href="../oh-ubuntu/index.html">blogged about still actually being happy with Ubuntu</a>, but am even happier with Debian. The Debian repos mostly move faster than I notice things. While I’d sometimes like to use a newer <code class="language-plaintext highlighter-rouge">neovim</code>, it’s not a big issue. I enjoy the stability and the feeling that my system belongs to me again.</li>
+  <li>Migrated from Dropbox to Syncthing. Syncthing gives me headaches, but fewer than Dropbox. Oh well…</li>
+  <li>Migrated from LastPass to KeePassXC. Passwords are too important to outsource to a for-profit. LastPass wasn’t the right for-profit anyway.</li>
+  <li>All the websites I maintain now self-host all the css/js/fonts. I try to avoid Bootstrap and other large dependencies anyway.</li>
+  <li>My content websites mostly use <a href="https://daringfireball.net/projects/markdown/">Markdown</a> and <a href="https://jekyllrb.com/">Jekyll</a>. Markdown might be a terrible format, but it’s good enough for me. Jekyll works for now, if it stops working, I can rewrite the parts I need in a language of choice in about an afternoon.</li>
+  <li>Stick with <a href="https://elm-lang.org/">Elm</a> for my side projects and avoid backend like the plague. I almost started learning OCaml. And Janet. And Zig. And Roc and Gleam. But for now, if I need a backend, I’ll swallow the ten thousand string types, the exorbitant size of <code class="language-plaintext highlighter-rouge">~/.stack/</code>, the slow compile times, and reluctantly use Haskell ¯\_(ツ)_/¯</li>
+  <li>I rewrote most (all?) of my favicons into hand-crafted SVG. Inkscape output is verbose and an unreadable mess. Hand-written SVG can be beautiful.</li>
+</ul>
+
+<p>Here’s my tsumego collections favicon, followed by its source:</p>
+
+<p style="text-align:center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8 8" width="50%">
+<defs>
+<filter id="blur">
+	<feGaussianBlur in="SourceGraphic" stdDeviation="0.1" />
+</filter>
+<radialGradient id="stripes" gradientTransform="translate(-4, -1) scale(6, 4)">
+	<stop offset="40%" stop-color="#EEE" />
+	<stop offset="43%" stop-color="#CCC" />
+	<stop offset="44%" stop-color="#EEE" />
+
+	<stop offset="45%" stop-color="#EEE" />
+	<stop offset="48%" stop-color="#CCC" />
+	<stop offset="49%" stop-color="#EEE" />
+
+	<stop offset="50%" stop-color="#EEE" />
+	<stop offset="53%" stop-color="#CCC" />
+	<stop offset="54%" stop-color="#EEE" />
+
+	<stop offset="55%" stop-color="#EEE" />
+	<stop offset="58%" stop-color="#CCC" />
+	<stop offset="59%" stop-color="#EEE" />
+
+	<stop offset="60%" stop-color="#EEE" />
+	<stop offset="63%" stop-color="#CCC" />
+	<stop offset="64%" stop-color="#EEE" />
+
+	<stop offset="65%" stop-color="#EEE" />
+	<stop offset="68%" stop-color="#CCC" />
+	<stop offset="69%" stop-color="#EEE" />
+
+	<stop offset="70%" stop-color="#EEE" />
+	<stop offset="73%" stop-color="#CCC" />
+	<stop offset="74%" stop-color="#EEE" />
+</radialGradient>
+<radialGradient id="edges">
+	<stop offset="80%" stop-color="#FFF0" />
+	<stop offset="100%" stop-color="#0003" />
+</radialGradient>
+<radialGradient id="highlight" gradientTransform="translate(-0.15 -0.15)">
+	<stop offset="0%" stop-color="#FFF" />
+	<stop offset="20%" stop-color="#FFF" />
+	<stop offset="50%" stop-color="#FFF0" />
+</radialGradient>
+</defs>
+
+<circle cx="4.1" cy="4.1" r="3.8" fill="#000C" filter="url(#blur)" />
+<circle cx="4" cy="4" r="3.8" fill="url(#stripes)" />
+<circle cx="4" cy="4" r="3.8" fill="url(#edges)" />
+<circle cx="4" cy="4" r="3.8" fill="url(#highlight)" />
+</svg>
+</p>
+
+<div class="language-xml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;svg</span> <span class="na">xmlns=</span><span class="s">"http://www.w3.org/2000/svg"</span> <span class="na">viewBox=</span><span class="s">"0 0 8 8"</span> <span class="na">width=</span><span class="s">"64px"</span> <span class="na">height=</span><span class="s">"64px"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;defs&gt;</span>
+<span class="nt">&lt;filter</span> <span class="na">id=</span><span class="s">"blur"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;feGaussianBlur</span> <span class="na">in=</span><span class="s">"SourceGraphic"</span> <span class="na">stdDeviation=</span><span class="s">"0.1"</span><span class="nt">/&gt;</span>
+<span class="nt">&lt;/filter&gt;</span>
+<span class="nt">&lt;radialGradient</span> <span class="na">id=</span><span class="s">"stripes"</span> <span class="na">gradientTransform=</span><span class="s">"translate(-4, -1) scale(6, 4)"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;stop</span> <span class="na">offset=</span><span class="s">"40%"</span> <span class="na">stop-color=</span><span class="s">"#EEE"</span><span class="nt">/&gt;</span>
+	<span class="nt">&lt;stop</span> <span class="na">offset=</span><span class="s">"43%"</span> <span class="na">stop-color=</span><span class="s">"#CCC"</span><span class="nt">/&gt;</span>
+	<span class="nt">&lt;stop</span> <span class="na">offset=</span><span class="s">"44%"</span> <span class="na">stop-color=</span><span class="s">"#EEE"</span><span class="nt">/&gt;</span>
+
+	<span class="nt">&lt;stop</span> <span class="na">offset=</span><span class="s">"45%"</span> <span class="na">stop-color=</span><span class="s">"#EEE"</span><span class="nt">/&gt;</span>
+	<span class="nt">&lt;stop</span> <span class="na">offset=</span><span class="s">"48%"</span> <span class="na">stop-color=</span><span class="s">"#CCC"</span><span class="nt">/&gt;</span>
+	<span class="nt">&lt;stop</span> <span class="na">offset=</span><span class="s">"49%"</span> <span class="na">stop-color=</span><span class="s">"#EEE"</span><span class="nt">/&gt;</span>
+
+	<span class="nt">&lt;stop</span> <span class="na">offset=</span><span class="s">"50%"</span> <span class="na">stop-color=</span><span class="s">"#EEE"</span><span class="nt">/&gt;</span>
+	<span class="nt">&lt;stop</span> <span class="na">offset=</span><span class="s">"53%"</span> <span class="na">stop-color=</span><span class="s">"#CCC"</span><span class="nt">/&gt;</span>
+	<span class="nt">&lt;stop</span> <span class="na">offset=</span><span class="s">"54%"</span> <span class="na">stop-color=</span><span class="s">"#EEE"</span><span class="nt">/&gt;</span>
+
+	<span class="nt">&lt;stop</span> <span class="na">offset=</span><span class="s">"55%"</span> <span class="na">stop-color=</span><span class="s">"#EEE"</span><span class="nt">/&gt;</span>
+	<span class="nt">&lt;stop</span> <span class="na">offset=</span><span class="s">"58%"</span> <span class="na">stop-color=</span><span class="s">"#CCC"</span><span class="nt">/&gt;</span>
+	<span class="nt">&lt;stop</span> <span class="na">offset=</span><span class="s">"59%"</span> <span class="na">stop-color=</span><span class="s">"#EEE"</span><span class="nt">/&gt;</span>
+
+	<span class="nt">&lt;stop</span> <span class="na">offset=</span><span class="s">"60%"</span> <span class="na">stop-color=</span><span class="s">"#EEE"</span><span class="nt">/&gt;</span>
+	<span class="nt">&lt;stop</span> <span class="na">offset=</span><span class="s">"63%"</span> <span class="na">stop-color=</span><span class="s">"#CCC"</span><span class="nt">/&gt;</span>
+	<span class="nt">&lt;stop</span> <span class="na">offset=</span><span class="s">"64%"</span> <span class="na">stop-color=</span><span class="s">"#EEE"</span><span class="nt">/&gt;</span>
+
+	<span class="nt">&lt;stop</span> <span class="na">offset=</span><span class="s">"65%"</span> <span class="na">stop-color=</span><span class="s">"#EEE"</span><span class="nt">/&gt;</span>
+	<span class="nt">&lt;stop</span> <span class="na">offset=</span><span class="s">"68%"</span> <span class="na">stop-color=</span><span class="s">"#CCC"</span><span class="nt">/&gt;</span>
+	<span class="nt">&lt;stop</span> <span class="na">offset=</span><span class="s">"69%"</span> <span class="na">stop-color=</span><span class="s">"#EEE"</span><span class="nt">/&gt;</span>
+
+	<span class="nt">&lt;stop</span> <span class="na">offset=</span><span class="s">"70%"</span> <span class="na">stop-color=</span><span class="s">"#EEE"</span><span class="nt">/&gt;</span>
+	<span class="nt">&lt;stop</span> <span class="na">offset=</span><span class="s">"73%"</span> <span class="na">stop-color=</span><span class="s">"#CCC"</span><span class="nt">/&gt;</span>
+	<span class="nt">&lt;stop</span> <span class="na">offset=</span><span class="s">"74%"</span> <span class="na">stop-color=</span><span class="s">"#EEE"</span><span class="nt">/&gt;</span>
+<span class="nt">&lt;/radialGradient&gt;</span>
+<span class="nt">&lt;radialGradient</span> <span class="na">id=</span><span class="s">"edges"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;stop</span> <span class="na">offset=</span><span class="s">"80%"</span> <span class="na">stop-color=</span><span class="s">"#FFF0"</span><span class="nt">/&gt;</span>
+	<span class="nt">&lt;stop</span> <span class="na">offset=</span><span class="s">"100%"</span> <span class="na">stop-color=</span><span class="s">"#0003"</span><span class="nt">/&gt;</span>
+<span class="nt">&lt;/radialGradient&gt;</span>
+<span class="nt">&lt;radialGradient</span> <span class="na">id=</span><span class="s">"highlight"</span> <span class="na">gradientTransform=</span><span class="s">"translate(-0.15 -0.15)"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;stop</span> <span class="na">offset=</span><span class="s">"0%"</span> <span class="na">stop-color=</span><span class="s">"#FFF"</span><span class="nt">/&gt;</span>
+	<span class="nt">&lt;stop</span> <span class="na">offset=</span><span class="s">"20%"</span> <span class="na">stop-color=</span><span class="s">"#FFF"</span><span class="nt">/&gt;</span>
+	<span class="nt">&lt;stop</span> <span class="na">offset=</span><span class="s">"50%"</span> <span class="na">stop-color=</span><span class="s">"#FFF0"</span><span class="nt">/&gt;</span>
+<span class="nt">&lt;/radialGradient&gt;</span>
+<span class="nt">&lt;/defs&gt;</span>
+
+<span class="nt">&lt;circle</span> <span class="na">cx=</span><span class="s">"4.1"</span> <span class="na">cy=</span><span class="s">"4.1"</span> <span class="na">r=</span><span class="s">"3.8"</span> <span class="na">fill=</span><span class="s">"#000C"</span> <span class="na">filter=</span><span class="s">"url(#blur)"</span><span class="nt">/&gt;</span>
+<span class="nt">&lt;circle</span> <span class="na">cx=</span><span class="s">"4"</span> <span class="na">cy=</span><span class="s">"4"</span> <span class="na">r=</span><span class="s">"3.8"</span> <span class="na">fill=</span><span class="s">"url(#stripes)"</span> <span class="nt">/&gt;</span>
+<span class="nt">&lt;circle</span> <span class="na">cx=</span><span class="s">"4"</span> <span class="na">cy=</span><span class="s">"4"</span> <span class="na">r=</span><span class="s">"3.8"</span> <span class="na">fill=</span><span class="s">"url(#edges)"</span> <span class="nt">/&gt;</span>
+<span class="nt">&lt;circle</span> <span class="na">cx=</span><span class="s">"4"</span> <span class="na">cy=</span><span class="s">"4"</span> <span class="na">r=</span><span class="s">"3.8"</span> <span class="na">fill=</span><span class="s">"url(#highlight)"</span> <span class="nt">/&gt;</span>
+<span class="nt">&lt;/svg&gt;</span>
+</code></pre></div></div>
+
+<p>Little wins for simplicity. They make me happy.</p>
+
+  </div>
+
+  
+  <div class="post-nav">
+    
+    <a href="../diminishing-returns/index.html" class="post-nav-prev">&larr;&nbsp;Diminishing returns</a>
+    
+    
+  </div>
+
+  <div class="comments">
+    
+
+    <h3>No thoughts on &ldquo;Digital gardening&rdquo;</h3><p><a class="add-comment" href="https://github.com/tasuki/blog/edit/master/_posts/2025-02-09-digital-gardening.md">Add your comment</a>
+       &mdash; <a href="../comment/index.html">How does this work?</a></p>
+  </div>
+  
+</article>
+
+
+    </div>
+  </body>
+</html>

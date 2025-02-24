@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#C60">
+  <link rel="icon" href="../favicon.svg">
+
+  
+  <title>Thoughts on representing variations and commenting on them &mdash; tasuki’s blog</title>
+  
+
+  <link rel="stylesheet" href="../public/pure-min.css">
+  <link rel="stylesheet" href="../public/pure-grids-responsive-min.css">
+  <link rel="stylesheet" href="../public/style.css">
+</head>
+<body>
+    <div id="header">
+      <div class="pad">
+        <a href="../index.html">tasuki’s blog</a>
+      </div>
+    </div>
+    <div id="content" class="pad">
+      
+
+
+<article>
+  <h1>
+  
+  Thoughts on representing variations and commenting on them
+  
+  </h1>
+  <div class="meta">
+    <span class="date">2022-11-07</span>
+  </div>
+  <div class="content">
+    <p>This is an exploratory post, trying to gather my thoughts on the topic and kindly requesting feedback.</p>
+
+<p>I enjoy playing abstract board games: Go, TwixT, Hex, etc. I play <a href="https://senseis.xmp.net/?ToroidalGo">Go on a torus board</a> and <a href="https://en.wikipedia.org/wiki/TwixT">TwixT</a> on <a href="https://www.littlegolem.net/jsp/ld/tournament.jsp?trnid=twixt.ld.SIZE48">large boards</a>. After playing a game, it’s helpful to be able to discuss what went right, what went wrong, and what could be improved. This is best done in the real world, but there are some wonderful facilities to do it online too. These use different ways to comment on games and show variations.</p>
+
+<p>The three ways I’ve seen to comment on games and show variations/branches (do have a look at the linked examples; they’re much clearer than my explanations):</p>
+
+<ol>
+  <li>The usual tree of moves (nodes) with comments on any node. Most popular, used by eg <a href="http://eidogo.com/#1GwdcSWgx">EidoGo</a>, <a href="https://gokgs.com/">KGS</a>, and <a href="https://sabaki.yichuanshen.de/">Sabaki</a>. Henceforth “tree”.</li>
+  <li>A linear sequence of moves, with comments on any node creating expandable variations inline. Seen used only on <a href="https://gokibitz.com/kifu/rytlZL24j?path=7">GoKibitz</a>. Henceforth “inline variations”.</li>
+  <li>A linear sequence of moves, with a global linear sequence of comments. Each comment can show an arbitrary number of variations starting from any move. Seen used only on <a href="http://twixt-commentator.duckdns.org/game/2226218">TwixT Commentator</a>. Henceforth “global comments”.</li>
+</ol>
+
+<p>The <strong>tree</strong> is the most ubiquitous, and I’m sure it’s the best if you want to analyze a game extremely thoroughly. The main drawback is that it’s not obvious in which order you should visit the variations and read the comments.</p>
+
+<p>The <strong>inline variations</strong> allow you to go through the game and see the variations from each move as you visit it. If there are more comments by different people on these variations, they will be ordered by time and easily skimmable. I feel this is the better user experience than the tree, perhaps unless the variations are extremely numerous with a lot of branching (in which case no one will understand them anyway).</p>
+
+<p>The <strong>global comments</strong> take inline variations to the extreme. It is a true conversation between people, you can see all the comments at once and choose which variations you want to explore based on the words that accompany them. I like this system a lot, though I guess it’s suited for light commentary and might fall apart for particularly heavily commented games.</p>
+
+<p>Which one is the best depends on the use case. Analysing a situation to death requires different tools than two casual comments after the game. Still, I’m leaning towards the <strong>inline variations</strong>. They’re simple, and should be easy to convert to <strong>global comments</strong>, and also it should be easy to display the <strong>full tree</strong> from them. Appears to me like the most flexible solution, leaving the most doors open. (Not necessarily saying opening those doors is a good idea.)</p>
+
+  </div>
+
+  
+  <div class="post-nav">
+    
+    <a href="../smiling/index.html" class="post-nav-prev">&larr;&nbsp;Smiling</a>
+    
+    
+    <a href="../pure-css/index.html" class="post-nav-next">Pure.css&nbsp;&rarr;</a>
+    
+  </div>
+
+  <div class="comments">
+    
+
+    <h3>No thoughts on &ldquo;Thoughts on representing variations and commenting on them&rdquo;</h3><p><a class="add-comment" href="https://github.com/tasuki/blog/edit/master/_posts/2022-11-07-variations.md">Add your comment</a>
+       &mdash; <a href="../comment/index.html">How does this work?</a></p>
+  </div>
+  
+</article>
+
+
+    </div>
+  </body>
+</html>

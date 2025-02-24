@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#C60">
+  <link rel="icon" href="../favicon.svg">
+
+  
+  <title>Dotrc aka ~/.*rc &mdash; tasuki’s blog</title>
+  
+
+  <link rel="stylesheet" href="../public/pure-min.css">
+  <link rel="stylesheet" href="../public/pure-grids-responsive-min.css">
+  <link rel="stylesheet" href="../public/style.css">
+</head>
+<body>
+    <div id="header">
+      <div class="pad">
+        <a href="../index.html">tasuki’s blog</a>
+      </div>
+    </div>
+    <div id="content" class="pad">
+      
+
+
+<article>
+  <h1>
+  
+  Dotrc aka ~/.*rc
+  
+  </h1>
+  <div class="meta">
+    <span class="date">2010-07-23</span>
+  </div>
+  <div class="content">
+    <p>
+If you don’t understand the title, you might just as well leave – this post is going to contain close to no useful information for you.
+</p>
+<p>
+I’ve been spending a lot of my time in the shell recently. Mostly splitting my time between bash and vim, usually in screen.
+</p>
+<p>
+I’ve always had a reasonable .bashrc, and my .vimrc used to be above average as well. But I invested some extra time to research more possibilities the dotfiles offer. You can <a href="http://github.com/tasuk/dotrc">preview and download my dotrc</a> at github.
+</p>
+<p>
+Here are some of the highlights, whatever I consider the “best of”.
+</p>
+<p>
+My .bashrc is unremarkable, I just have a lot of shortcuts for the common everyday stuff. Perhaps the only thing worth noting is title setting for screen:<br />
+<code lang="bash">PROMPT_COMMAND=‘echo -ne "k<code>echo $PWD | sed "s:.*/\(.*/.*/.*\):\1:g"</code>"’</code><br />
+I actually wrote that myself, it shows the innermost three directories that you’re in. Showing running command in title is useless, as that’s in most cases either bash or vim (rarely also mysql). Showing the full path is useless, because long titles get cut off. Showing only the current directory name is not so great either, as it leaves you without context. I’ve settled for last three so far, but two might also be useful in certain situations.
+</p>
+<p>
+Perhaps the best tip of all, reduce amount of tab hitting for completion by 50%. Put following to your .inputrc:<br />
+<code lang="bash">set show-all-if-ambiguous on</code>
+</p>
+<p>
+Next in line is my .vimrc (sorry, no .emacsrc, emacs sucks). Except for the usual stuff (nocompatible, colours, incsearch, etc.), I use few very useful and not very well known tricks.
+</p>
+<p>
+<code lang="vim">set so=10 " show 10 lines of context (above and below)</code>
+</p>
+<p>
+“so” is short for “scrolloff”, which makes sure you have some space to breathe.
+</p>
+<p>
+Last but not least, the Esc key is real far, hence:<br />
+<code lang="vim">set tm=400 " timeout for shortcuts
+</p>
+<p>
+inoremap jk <esc> "pressing j and k together escapes<br />
+inoremap kj <esc></code>
+</p>
+<p>
+Have I missed any useful tips &amp; tricks?
+</p>
+  </div>
+
+  
+  <div class="post-nav">
+    
+    <a href="../exposure-bracketing/index.html" class="post-nav-prev">&larr;&nbsp;Exposure bracketing</a>
+    
+    
+    <a href="../lsg-2010/index.html" class="post-nav-next">LSG 2010&nbsp;&rarr;</a>
+    
+  </div>
+
+  <div class="comments">
+    
+
+    <h3>No thoughts on &ldquo;Dotrc aka ~/.*rc&rdquo;</h3><p><a class="add-comment" href="https://github.com/tasuki/blog/edit/master/_posts/2010-07-23-dotrc-aka-rc.html">Add your comment</a>
+       &mdash; <a href="../comment/index.html">How does this work?</a></p>
+  </div>
+  
+</article>
+
+
+    </div>
+  </body>
+</html>

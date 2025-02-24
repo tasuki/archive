@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64">
+<defs>
+<linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+	<stop offset="  0%" stop-color="oklch(65% 0.11 350)" />
+	<stop offset=" 10%" stop-color="oklch(65% 0.11 315)" />
+	<stop offset=" 20%" stop-color="oklch(65% 0.11 280)" />
+	<stop offset=" 30%" stop-color="oklch(65% 0.11 245)" />
+	<stop offset=" 40%" stop-color="oklch(65% 0.11 210)" />
+	<stop offset=" 50%" stop-color="oklch(65% 0.11 175)" />
+	<stop offset=" 60%" stop-color="oklch(65% 0.11 140)" />
+	<stop offset=" 70%" stop-color="oklch(65% 0.11 105)" />
+	<stop offset=" 80%" stop-color="oklch(65% 0.11  70)" />
+	<stop offset=" 90%" stop-color="oklch(65% 0.11  35)" />
+	<stop offset="100%" stop-color="oklch(65% 0.11   0)" />
+</linearGradient>
+
+</defs>
+<path d="
+	M  0  8
+	L 13 58
+	h 12
+	L 16  6
+	Z
+	M  29 24
+	v  34
+	h  12
+	v -34
+	Z
+	M  29  8
+	v  12
+	h  18
+	v  38
+	h  12
+	v -38
+	h  5
+	v -12
+	Z" fill="url(#gradient)" />
+</svg>

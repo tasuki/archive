@@ -1,0 +1,169 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[6.50]TM[1800]OT[3x30 byo-yomi]
+PW[tasuki]PB[shin0e]BR[2d]DT[2020-07-26]PC[The KGS Go Server at http://www.gokgs.com/]C[tasuki [-\]: miłej gry!
+shin0e [2d\]: hej ;)
+shin0e [2d\]: miłej gry!
+shin0e [2d\]: do IGLO
+]RE[W+Resign]
+;B[pd]BL[1784.799]C[shin0e [2d\]: sorki za spóźnienie, zagapiłem się na grę Janka ;p
+shin0e [2d\]: i musialem psa jeszcze wyprowadzic :D
+tasuki [-\]: no ciekawa była
+tasuki [-\]: a pies pewnie też ciekawy
+shin0e [2d\]: hehe
+]
+;W[dp]WL[1769.782]
+;B[qp]BL[1778.807]
+;W[cd]WL[1742.982]C[mogget [5d\]: Bij! Zabij!
+]
+;B[ec]BL[1748.679]
+;W[oq]WL[1738.228]
+;B[de]BL[1742.904]
+;W[po]WL[1728.564]C[Ashitaka [1d\]: rachu czachu
+]
+;B[qo]BL[1668.976]
+;W[ce]WL[1701.547]
+;B[df]BL[1600.605]
+;W[pn]WL[1695.102]
+;B[cf]BL[1582.274]
+;W[qn]WL[1690.892]C[mogget [5d\]: i mamy pieroga!
+mogget [5d\]: znaczy jeszcze nie
+]
+;B[cn]BL[1537.572]
+;W[qf]WL[1666.447]C[shin0e [2d\]: :D
+]
+;B[nd]BL[1470.022]
+;W[fp]WL[1645.469]
+;B[en]BL[1414.88]
+;W[oe]WL[1580.377]C[tasuki [-\]: kiedyś trzeba odejść jednak :)
+shin0e [2d\]: a bylem ciekaw kiedy odejdziesz wlasnie :)
+]
+;B[od]BL[1342.243]C[tasuki [-\]: ja też :)
+shin0e [2d\]: :D
+]
+;W[gn]WL[1544.077]
+;B[dj]BL[1236.693]
+;W[mf]WL[1486.481]
+;B[kd]BL[1030.985]
+;W[qr]WL[1359.895]
+;B[qh]BL[1012.111]C[cezary [4d\]: juz widze
+cezary [4d\]: ze komentarz stasia bedzie przedni tutaj
+]
+;W[pi]WL[1273.353]C[cezary [4d\]: a w ogole dzis stas gra
+cezary [4d\]: w yenie vs podpera :)
+cezary [4d\]: w jigs
+cezary [4d\]: i to lubimy w tasukim
+cezary [4d\]: na teren zagra a i na moyo niewzgardzi
+]
+;B[qi]BL[850.509]
+;W[pj]WL[1182.286]
+;B[qj]BL[718.526]
+;W[ph]WL[1158.082]
+;B[rl]BL[664.675]
+;W[rm]WL[1141.255]
+;B[pk]BL[641.685]
+;W[ok]WL[1131.838]
+;B[qg]BL[536.598]
+;W[pg]WL[1112.756]
+;B[rf]BL[534.976]
+;W[qe]WL[1110.176]
+;B[pl]BL[531.786]
+;W[ol]WL[1104.212]
+;B[hq]BL[482.543]
+;W[jq]WL[1094.961]
+;B[jp]BL[441.539]
+;W[kq]WL[1077.258]
+;B[ho]BL[413.178]
+;W[hn]WL[1061.355]
+;B[in]BL[404.305]
+;W[im]WL[1046.419]
+;B[jn]BL[401.607]
+;W[go]WL[1022.107]C[ishii [?\]: ten ksztalt na dole tez mialem w grze z tasukim ostatnio jak gralem.. nie bylo to dobre dla mnie.. :D
+Ashitaka [1d\]: czarny wpadl w invading mode
+]
+;B[kp]BL[377.316]
+;W[lq]WL[1000.74]
+;B[jm]BL[335.154]C[shin0e [2d\]: spoko ;)
+tasuki [-\]: dzięki
+]
+(;W[il]WL[985.187]
+;B[jl]BL[279.273]
+;W[ik]WL[965.337]
+;B[gp]BL[255.316]
+;W[fq]WL[937.543]
+;B[jf]BL[133.675]
+;W[dc]WL[916.15]
+;B[db]BL[98.188]
+;W[cb]WL[912.337]
+;B[dd]BL[95.506]
+;W[cc]WL[906.334]
+;B[eb]BL[87.154]
+;W[bf]WL[889.513]
+;B[bg]BL[85.278]
+;W[ae]WL[825.029]
+;B[bp]BL[30]OB[3]
+;W[iq]WL[787.277]
+;B[kj]BL[30]OB[3]
+;W[ip]WL[728.626]
+;B[ii]BL[30]OB[2]
+;W[jj]WL[678.676]
+;B[ji]BL[30]OB[2]
+;W[ki]WL[675.712]
+;B[jk]BL[30]OB[1]
+;W[ij]WL[672.395]
+;B[lj]BL[30]OB[1]
+;W[li]WL[653.316]
+;B[hj]BL[30]OB[1]
+;W[gl]WL[634.256]
+;B[mi]BL[30]OB[1]
+;W[lg]WL[627.463]
+;B[nj]BL[30]OB[1]
+;W[ll]WL[596.818]
+;B[ml]BL[30]OB[1]
+;W[mm]WL[550.285]
+;B[ng]BL[30]OB[1]
+;W[nf]WL[535.244]
+;B[nl]BL[30]OB[1]C[Deejay [5d?\]: ulubione fuseki tasukiego = manego
+cezary [4d\]: :p
+]
+;W[om]WL[405.535]
+;B[lm]BL[30]OB[1]C[cezary [4d\]: na manego najlepsze jest zagranie t19
+]
+;W[ln]WL[395.853]C[Deejay [5d?\]: :P
+]
+;B[km]BL[30]OB[1]
+;W[nk]WL[381.948]
+;B[mk]BL[30]OB[1]C[shin0e [2d\]: hm ;p
+tasuki [-\]: no i co teraz? :)
+shin0e [2d\]: xD
+ishii [?\]: tasuki poddaje teraz, ot co
+ishii [?\]: :D
+]
+;W[mn]WL[337.19]C[Deejay [5d?\]: nie no niech zabija
+Deejay [5d?\]: cz tnie i fight
+shin0e [2d\]: dzieki :)
+tasuki [-\]: ojej
+tasuki [-\]: a no dzięki
+shin0e [2d\]: no trup :D
+shin0e [2d\]: jak nie patrzec ;D
+tasuki [-\]: to jakoś za łatwo poszło coś pod koniec
+Ashitaka [1d\]: tak od razu? ciac i walczyc
+shin0e [2d\]: a gora dziurawa jak sito :D
+cezary [4d\]: mam dwa pytania najwazniejsze
+cezary [4d\]: czy j11 cie tasuki ztiltowalo
+tasuki [-\]: ja bym nie poddawał jeszcze :P
+shin0e [2d\]: bialy ma r17 jeszcze :p
+tasuki [-\]: j11 tak ztiltowało
+cezary [4d\]: haha wiedzialem
+shin0e [2d\]: ztiltowalo? :D
+cezary [4d\]: a drugie pytanie
+cezary [4d\]: to czy piotrek utrzymuje swoj tytul
+cezary [4d\]: koksik sensei
+shin0e [2d\]: w sensie ze uznales nie no bez jaj, trzeba zabic :D
+shin0e [2d\]: ?
+shin0e [2d\]: hehe
+tasuki [-\]: utrzymuje oczywiście
+shin0e [2d\]: :D
+Deejay [5d?\]: wygląda jakby można było walczyć cz wciąż
+])
+(;W[qk]WL[991.786]C[tasuki [-\]: sorry
+]))

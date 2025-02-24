@@ -1,0 +1,524 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[6.50]TM[2400]OT[3x30 byo-yomi]
+PW[cezary]PB[tasuki]WR[4d]DT[2020-12-10]PC[The KGS Go Server at http://www.gokgs.com/]C[cezary [4d\]: milej gry
+cezary [4d\]: do iglo
+tasuki [-\]: a miłej
+]RE[B+23.50]
+;B[pd]BL[2386.762]
+;W[dp]WL[2380.188]
+;B[pp]BL[2372.649]
+;W[dd]WL[2377.065]
+;B[fc]BL[2364.97]
+;W[cf]WL[2374.147]
+;B[dc]BL[2351.878]
+;W[cc]WL[2369.035]
+;B[cb]BL[2349.898]
+;W[ec]WL[2368.157]
+;B[db]BL[2335.311]
+;W[ed]WL[2366.982]
+;B[eb]BL[2326.695]
+;W[bc]WL[2365.587]
+;B[fd]BL[2301.484]
+;W[nq]WL[2362.963]
+;B[qn]BL[2292.612]
+;W[qc]WL[2360.14]
+;B[pc]BL[2277.224]
+;W[qd]WL[2357.955]
+;B[pe]BL[2268.28]
+;W[qe]WL[2356.695]
+;B[qf]BL[2262.966]
+;W[rf]WL[2355.439]
+;B[cq]BL[2228.822]
+;W[dq]WL[2342.361]
+;B[cp]BL[2225.266]
+;W[cn]WL[2341.039]
+;B[co]BL[2201.862]
+;W[do]WL[2339.603]
+;B[bn]BL[2196.689]
+;W[cr]WL[2338.123]
+;B[br]BL[2186.939]
+;W[bo]WL[2334.409]
+;B[dr]BL[2156.386]
+;W[bq]WL[2331.736]
+;B[cs]BL[2154.271]
+;W[bp]WL[2330.888]
+;B[cr]BL[2151.1]
+;W[bm]WL[2328.475]
+;B[dn]BL[2145.678]
+;W[cm]WL[2326.941]
+;B[fq]BL[2122.034]
+;W[fn]WL[2324.753]
+;B[oq]BL[2103.033]
+;W[np]WL[2195.748]
+;B[kq]BL[1991.154]
+;W[iq]WL[2102.434]
+;B[ko]BL[1982.268]
+;W[io]WL[1800.487]
+;B[km]BL[1936.491]
+;W[on]WL[1780.376]
+;B[im]BL[1850.189]
+;W[fp]WL[1517.989]
+;B[gq]BL[1822.478]
+;W[gp]WL[1514.759]
+;B[hq]BL[1753.793]
+;W[ip]WL[1506.845]
+;B[hp]BL[1701.397]
+;W[ho]WL[1501.652]
+;B[go]BL[1698.268]
+;W[fo]WL[1494.975]C[cezary [4d\]: zw
+]
+;B[ir]BL[1670.956]
+;W[jr]WL[1491.816]C[cezary [4d\]: jestem
+cezary [4d\]: sorry musialem uciec
+cezary [4d\]: ;p
+tasuki [-\]: widzę że jesteś, fajnie :)
+]
+;B[hs]BL[1610.745]
+;W[kr]WL[1475.498]
+;B[lq]BL[1530.154]
+;W[qq]WL[1351.051]
+;B[nr]BL[1372.139]
+;W[po]WL[1269.527]
+;B[qo]BL[1337.939]
+;W[mr]WL[1172.016]
+;B[or]BL[1308.856]
+;W[qp]WL[1149.555]
+;B[lr]BL[1204.791]
+;W[ln]WL[1087.184]
+;B[kn]BL[1191.335]
+;W[pl]WL[1083.813]
+;B[ql]BL[1158.745]
+;W[qk]WL[1076.467]
+;B[rk]BL[1144.686]
+;W[pr]WL[1012.051]
+;B[op]BL[1046.509]
+;W[qm]WL[964.236]
+;B[rl]BL[1040.718]
+;W[rm]WL[962.094]C[tasuki [-\]: ehh
+]
+;B[pm]BL[953.061]
+;W[pn]WL[869.079]
+;B[sm]BL[934.947]
+;W[om]WL[828.84]
+;B[rn]BL[932.182]C[shin0e [2d\]: nie wiem co sadzic o tej walce xD
+method [3k?\]: walka w parterze
+shin0e [2d\]: tak tak
+shin0e [2d\]: ale o wyniku xD
+method [3k?\]: no wiem :)
+shin0e [2d\]: bo z jednej niby rog raczej tasuki zlapal
+]
+;W[qj]WL[704.711]C[shin0e [2d\]: bo q7 bialego raczej nie pojdzie ;p
+shin0e [2d\]: no ;P
+shin0e [2d\]: no ciekawe :)
+]
+;B[pm]BL[911.579]
+;W[rp]WL[645.94]C[shin0e [2d\]: cos mi mowi, ze s4 meh. bo r7 raczej w sente wyjdzie
+shin0e [2d\]: a sente wydaje sie istotne tu ;p
+shin0e [2d\]: ale z drugiej mozliwosc przezycia ;p
+]
+;B[qm]BL[799.501]
+;W[ok]WL[601.831]C[shin0e [2d\]: nie no, w sumie spoko
+]
+;B[nl]BL[783.396]
+;W[ol]WL[599.362]C[shin0e [2d\]: dla bialych
+]
+;B[rr]BL[749.257]
+;W[qr]WL[573.774]C[shin0e [2d\]: s10 bedzie w sente dla bialych? :P ktos wie? :D
+]
+;B[ps]BL[664.582]
+;W[rj]WL[564.161]
+;B[sk]BL[605.518]
+;W[ld]WL[560.977]
+;B[qb]BL[590.117]
+;W[rb]WL[558.581]
+;B[re]BL[562.218]C[shin0e [2d\]: a, ma sens ;p
+]
+;W[rd]WL[491.274]C[leping [2d\]: q18
+shin0e [2d\]: tylko po q18 troche presja by byla na r10 
+shin0e [2d\]: w sensie mam na mysli s16 w q18 i dalej s17 r19 s16 r18 s13 q14 r13 o17 p14 
+]
+;B[rg]BL[495.437]C[shin0e [2d\]: chyba ze tam mozna zmienic cos w joseki standardowym :D
+]
+;W[pf]WL[489.6]
+;B[qg]BL[493.36]
+;W[of]WL[484.378]
+;B[ob]BL[485.391]C[shin0e [2d\]: chyba wole to
+]
+;W[qa]WL[475.695]C[shin0e [2d\]: co zagral bialy ;p
+]
+;B[oh]BL[466.674]C[shin0e [2d\]: bo tak s13 i q17 - o obie grupy sie czarny musi troszczyc :)
+shin0e [2d\]: ale w sumie jest laczenie w t10 xD
+shin0e [2d\]: to moze mniej niz mi sie zdawalo ;p
+]
+;W[ph]WL[406.586]
+;B[pg]BL[455.565]
+;W[og]WL[400.058]
+;B[nh]BL[380.991]C[shin0e [2d\]: o15 chyba na spokojnie ;)
+leping [2d\]: a r12?
+shin0e [2d\]: a no jak mozna to tak :D
+shin0e [2d\]: slusznie mowisz chyba :D
+shin0e [2d\]: chociaz hm
+tasuki [-\]: (ten kamyczek na prawdziwym gobanie zostałby zagrany z wielkim hałasem)
+tasuki [-\]: (co nie znaczy że działa)
+shin0e [2d\]: r12 mozliwe, ze prowadzi do ko
+shin0e [2d\]: w t16 
+shin0e [2d\]: ale nie jestem pewien xD
+shin0e [2d\]: ale niedobrego dla czarnych chyba
+shin0e [2d\]: chociaz znowu - mialby wplywy na zewnatrz nawet jakby przegral to moze ;p
+shin0e [2d\]: r12 wyglada jak opcja faktycznie :)
+]
+;W[mf]WL[178.248]
+;B[sf]BL[369.295]C[shin0e [2d\]: niebezpiecznie :D
+shin0e [2d\]: sie nawalaja ostro :D
+leping [2d\]: r12 znowu, nie moa co liczyc
+shin0e [2d\]: ale i tak jak czarny zyje to nie lepiej q11?
+shin0e [2d\]: tez sente ;p
+shin0e [2d\]: nie jestem pewien :D
+shin0e [2d\]: ale mialoby chyba wiekszy wplyw na o12 p12 
+shin0e [2d\]: co myslisz? :D
+zenek [1d\]: q11 s14 i bialy naroznik bezpieczny?
+zenek [1d\]: czy trzeba cos dogrywac?
+]
+;W[pb]WL[30]OW[3]
+;B[pi]BL[359.64]C[shin0e [2d\]: trzeba bo sa ko dziwne :D
+zenek [1d\]: pokojowo jakos
+]
+;W[mj]WL[30]OW[3]C[zenek [1d\]: sie skonczylo
+leping [2d\]: wybrali salonowe rozwiązanie
+bartosz [-\]: jakos wydaje mi sie bardzo zla gra dla bialego
+shin0e [2d\]: pokojowe ale no bialy tak srednio w centrum stoi ;p
+]
+;B[mg]BL[309.849]
+;W[ne]WL[30]OW[3]C[leping [2d\]: muszę wymyślić jakieś generyczne komentarze które będę pisał losowo
+shin0e [2d\]: jak czarny dostanie cos jeszcze w centrum moze sie okazac, ze bedzie mozna wychodzic g6 :D
+zenek [1d\]:  no mi sie tez wydaje ze czarny do przodu jest
+]
+;B[lf]BL[263.878]C[zenek [1d\]: ten prawy dolny jest duzy
+shin0e [2d\]: a wydawalo mi sie, ze po s10 zagieciu powinno byc ok dla bialych ;)
+]
+;W[le]WL[30]OW[3]C[shin0e [2d\]: no jakies 20pkt ;)
+shin0e [2d\]: ale bialy cos dostal na zewnatrz i po m16 naprawde myslalem, ze stoi spoko ;p
+leping [2d\]: l17
+shin0e [2d\]: a tu no walka ;)
+]
+;B[ll]BL[201.626]C[shin0e [2d\]: p8 nie ma oczu leping :D
+shin0e [2d\]: wazna walka xD
+]
+;W[lk]WL[30]OW[3]C[nieznany: bialy nie stoi zle
+nieznany: musi tylko uciec grupo
+shin0e [2d\]: no jest walka :D
+shin0e [2d\]: ale jednak chyba przyjemniejsza dla czarnych :)
+shin0e [2d\]: no i sa aji na przyszlosc typu
+nieznany: przyjemniejsza bo czarny moze cos zyskac, a bialy tylko stracic
+shin0e [2d\]: n18 moze grozic zyciem na gorze kiedys :p
+leping [2d\]: typu r11
+leping [2d\]: po którym czarny zginie
+shin0e [2d\]: no to fakt, r11 jest ;)
+]
+;B[ml]BL[84.387]C[shin0e [2d\]: ale to jest w gote ciecie jednak :D ale fakt, trzeba uwazac :)
+]
+;W[pj]WL[30]OW[3]C[zenek [1d\]: noo trzeba by najpierw czarnego otoczyc zeby mialo ciecie sens
+shin0e [2d\]: no ciekaw jestem co tu sie wydarzy ;)
+leping [2d\]: m8 jakieś podejrzane chyba
+]
+;B[nj]BL[31.978]
+;W[nk]WL[30]OW[3]
+;B[mk]BL[27.769]
+;W[ni]WL[30]OW[3]
+;B[mi]BL[4.954]
+;W[oj]WL[30]OW[3]
+;B[lj]BL[0.909]
+;W[li]WL[30]OW[3]
+;B[nj]BL[30]OB[3]C[shin0e [2d\]: duuze ko :D
+]
+;W[oi]WL[30]OW[3]C[leping [2d\]: zalepi
+shin0e [2d\]: a, to tez ciekawe :D kompromis
+]
+;B[qh]BL[30]OB[3]
+;W[mj]WL[30]OW[3]C[shin0e [2d\]: xD
+shin0e [2d\]: nie wiem gdzie czarny ma grozbe
+]
+;B[nd]BL[30]OB[3]
+;W[mh]WL[30]OW[3]
+;B[ng]BL[30]OB[3]C[leping [2d\]: m13
+]
+;W[me]WL[30]OW[3]C[leping [2d\]: w sumie
+shin0e [2d\]: m13 p15 
+]
+;B[lh]BL[30]OB[3]C[zenek [1d\]: o14 nie bylo grozba?
+shin0e [2d\]: i czarny laczy ;)
+]
+;W[kh]WL[30]OW[3]C[shin0e [2d\]: zenek dobre pytanie :D nie jestem pewien :D
+]
+;B[lg]BL[30]OB[3]C[bartosz [-\]: gra dobra dla bialego?
+gario [4k\]: moim zdaniem wlasnie o14 bylo najwieksza grozba
+bartosz [-\]: grozba o16 wyglada smutno
+]
+;W[kj]WL[30]OW[3]
+;B[ji]BL[30]OB[3]C[shin0e [2d\]: czy ja wiem? zycie tam jest chyba jakby co ;p
+]
+;W[jh]WL[30]OW[3]
+;B[ki]BL[30]OB[3]C[shin0e [2d\]: n18 m18 n17 m17 p15 o14 p17 bam, zyjemy ;p
+leping [2d\]: t12 czeka
+bartosz [-\]: hm moze, nie liczylem zycia w sumie
+]
+;W[ii]WL[30]OW[3]
+;B[jj]BL[30]OB[3]
+;W[jk]WL[30]OW[3]
+;B[ij]BL[30]OB[3]
+;W[jf]WL[30]OW[2]
+;B[mi]BL[30]OB[3]
+;W[lj]WL[30]OW[2]C[leping [2d\]: s11 może bez ko
+]
+;B[ih]BL[30]OB[3]
+;W[kf]WL[30]OW[2]
+;B[ri]BL[30]OB[3]C[shin0e [2d\]: no teraz to juz chyba trzeba zyc ;p
+shin0e [2d\]: ok, too
+shin0e [2d\]: j9?
+zenek [1d\]: dziwne
+leping [2d\]: ko
+]
+;W[hi]WL[30]OW[2]C[zenek [1d\]: ko zostawia
+shin0e [2d\]: czy to Czarek, wiec yolo h11?
+shin0e [2d\]: a ok ;p
+]
+;B[ik]BL[30]OB[3]
+;W[mh]WL[30]OW[2]C[shin0e [2d\]: naprawde Czarek chce grac to ko w sumie? :P
+shin0e [2d\]: jak mogl po prostu wyjsc?
+]
+;B[gn]BL[30]OB[3]C[shin0e [2d\]: grubo ;p
+shin0e [2d\]: no fear
+leping [2d\]: podwójna drabinka
+]
+;W[hn]WL[30]OW[2]
+;B[mi]BL[30]OB[3]
+;W[qi]WL[30]OW[2]
+;B[ph]BL[30]OB[3]
+;W[mh]WL[30]OW[2]C[shin0e [2d\]: z prawej bialy 3 grozby
+zenek [1d\]: jakies go wygra - to czy na dole ;)
+shin0e [2d\]: czy ma jeszcze jakies bialy?
+shin0e [2d\]: g18 za male chyba?
+]
+;B[gm]BL[30]OB[3]
+;W[hm]WL[30]OW[2]
+;B[mi]BL[30]OB[3]
+;W[si]WL[30]OW[2]
+;B[rh]BL[30]OB[3]
+;W[mh]WL[30]OW[2]C[shin0e [2d\]: a, moga byc 4 z prawej
+shin0e [2d\]: chociaz punkty by trafily ;p
+]
+;B[lb]BL[30]OB[3]
+;W[jl]WL[30]OW[2]
+;B[il]BL[30]OB[3]C[leping [2d\]: m5?
+]
+;W[mi]WL[30]OW[2]
+;B[mc]BL[30]OB[3]C[leping [2d\]: to jakies yose tylko
+]
+;W[hh]WL[30]OW[1]
+;B[jd]BL[30]OB[3]
+;W[id]WL[30]OW[1]
+;B[jc]BL[30]OB[3]
+;W[jm]WL[30]OW[1]
+;B[jn]BL[30]OB[3]
+;W[in]WL[30]OW[1]
+;B[kk]BL[30]OB[3]C[cezary [4d\]: o kurde ale misread :)
+shin0e [2d\]: amdrze
+bartosz [-\]: h9?
+]
+;W[gk]WL[30]OW[1]C[tasuki [-\]: a może właśnie nie...
+shin0e [2d\]: :D
+]
+;B[dg]BL[30]OB[3]
+;W[fe]WL[30]OW[1]C[shin0e [2d\]: chyba bialy musi zabic ten d13 
+]
+;B[cg]BL[30]OB[3]
+;W[bf]WL[30]OW[1]C[shin0e [2d\]: no teraz na pewno xD
+]
+;B[fk]BL[30]OB[3]C[shin0e [2d\]: d10 jakies yolo
+shin0e [2d\]: to nie laczy ;p
+]
+;W[cj]WL[30]OW[1]
+;B[dj]BL[30]OB[3]
+;W[ci]WL[30]OW[1]
+;B[fm]BL[30]OB[3]
+;W[fl]WL[30]OW[1]C[shin0e [2d\]: yy
+]
+;B[em]BL[30]OB[3]
+;W[el]WL[30]OW[1]
+;B[gl]BL[30]OB[3]
+;W[hl]WL[30]OW[1]
+;B[dl]BL[30]OB[3]C[shin0e [2d\]: grubo
+]
+;W[dm]WL[30]OW[1]
+;B[ek]BL[30]OB[3]
+;W[en]WL[30]OW[1]C[shin0e [2d\]: a takie cos ;p
+]
+;B[kl]BL[30]OB[3]
+;W[hk]WL[30]OW[1]C[leping [2d\]: ale to chyb tylko koło ratunkowe
+]
+;B[fi]BL[30]OB[3]
+;W[fj]WL[30]OW[1]C[leping [2d\]: d11
+]
+;B[ej]BL[30]OB[3]
+;W[di]WL[30]OW[1]
+;B[ck]BL[30]OB[3]
+;W[cl]WL[30]OW[1]C[leping [2d\]: E11 \]\\
+]
+;B[ei]BL[30]OB[3]
+;W[gi]WL[30]OW[1]C[shin0e [2d\]: japonskie pro to by plakaly przy tej grze :D
+]
+;B[fg]BL[30]OB[3]C[shin0e [2d\]: ale no i tak ciezko zabic ;D
+]
+;W[ge]WL[30]OW[1]
+;B[df]BL[30]OB[3]C[leping [2d\]: japońskie pro cięły by ich jak cebulę
+shin0e [2d\]: :D
+]
+;W[el]WL[30]OW[1]C[shin0e [2d\]: no ale chodzi mi o styl tej gry :D
+shin0e [2d\]: a nie o sile jaka taka :D
+leping [2d\]: a mi o łzy
+]
+;B[ce]BL[30]OB[3]C[shin0e [2d\]: nawalanka od poczatku do konca, na koniec yolo zabijanie grupy :D
+]
+;W[de]WL[30]OW[1]C[shin0e [2d\]: aa :D hehe
+shin0e [2d\]: ok, nie skojarzylem :D
+]
+;B[be]BL[30]OB[3]C[shin0e [2d\]: no to czarny zyje
+shin0e [2d\]: ajaj
+]
+;W[cd]WL[30]OW[1]C[shin0e [2d\]: drastyczny koniec :P
+]
+;B[bg]BL[30]OB[3]C[shin0e [2d\]: bo g7 to za malo ;p
+]
+;W[fl]WL[30]OW[1]C[leping [2d\]: e14
+]
+;B[bk]BL[30]OB[3]
+;W[gb]WL[30]OW[1]
+;B[ic]BL[30]OB[3]
+;W[dk]WL[30]OW[1]C[zenek [1d\]: na brak emocji to w tej grze nie mozna narzekac
+shin0e [2d\]: oj tak :D
+leping [2d\]: ja nie nadążam :/
+nieznany: kto wygrywa?
+]
+;B[bi]BL[30]OB[3]C[zenek [1d\]: pewnie czarny
+]
+;W[bj]WL[30]OW[1]C[shin0e [2d\]: czarny raczej
+]
+;B[dl]BL[30]OB[3]C[shin0e [2d\]: chyba ze umrze xD
+]
+;W[sj]WL[30]OW[1]C[shin0e [2d\]: byo magia :p
+shin0e [2d\]: l15 jeszcze czarny ma potencjalne kolejne 20pkt ;p
+nieznany: nie umrze bo ma b12
+]
+;B[sh]BL[30]OB[3]
+;W[hc]WL[30]OW[1]C[shin0e [2d\]: mowie - byo magia by musiala zadzialac :)
+]
+;B[dk]BL[30]OB[3]C[nieznany: teraz rozumiem
+]
+;W[je]WL[30]OW[1]
+;B[hd]BL[30]OB[3]C[shin0e [2d\]: dobra, to teraz yose :D
+shin0e [2d\]: to juz mozna liczyc xD
+]
+;W[gd]WL[30]OW[1]
+;B[ie]BL[30]OB[3]
+;W[if]WL[30]OW[1]
+;B[jq]BL[30]OB[3]C[nieznany: to interesujace ze czarny zrobil duza grupe na lewej bandzie
+]
+;W[ib]WL[30]OW[1]
+;B[jb]BL[30]OB[3]C[nieznany: co prawda kosztem d18, ale znowu p18 przezylo
+]
+;W[no]WL[30]OW[1]C[shin0e [2d\]: p18 przezylo wczesniej, jako grozba ;D
+]
+;B[ia]BL[30]OB[3]
+;W[hb]WL[30]OW[1]
+;B[ef]BL[30]OB[3]
+;W[ee]WL[30]OW[1]
+;B[mq]BL[30]OB[3]
+;W[sd]WL[30]OW[1]
+;B[se]BL[30]OB[3]C[shin0e [2d\]: no czarny jakos +20?
+]
+;W[ad]WL[30]OW[1]C[shin0e [2d\]: w tych okolicach?
+]
+;B[af]BL[30]OB[3]
+;W[oa]WL[30]OW[1]
+;B[nb]BL[30]OB[3]
+;W[ar]WL[30]OW[1]C[shin0e [2d\]: a, racja :D tam na gorze dalem czarnemu p19 z blizej nieokreslonych powodow ;p
+shin0e [2d\]: ale no B+ na pewno
+]
+;B[eq]BL[30]OB[3]
+;W[oe]WL[30]OW[1]
+;B[od]BL[30]OB[3]
+;W[he]WL[30]OW[1]
+;B[id]BL[30]OB[3]
+;W[gg]WL[30]OW[1]
+;B[ff]BL[30]OB[3]
+;W[al]WL[30]OW[1]
+;B[ak]BL[30]OB[3]
+;W[fh]WL[30]OW[1]
+;B[eh]BL[30]OB[3]
+;W[kc]WL[30]OW[1]
+;B[kb]BL[30]OB[3]
+;W[gf]WL[30]OW[1]C[shin0e [2d\]: o6 3pkt
+]
+;B[mn]BL[30]OB[3]C[shin0e [2d\]: albo to ;p
+shin0e [2d\]: tylez samo
+]
+;W[mo]WL[30]OW[1]
+;B[nn]BL[30]OB[3]
+;W[oo]WL[30]OW[1]
+;B[lo]BL[30]OB[3]
+;W[nm]WL[30]OW[1]
+;B[mm]BL[30]OB[3]
+;W[ha]WL[30]OW[1]
+;B[ja]BL[30]OB[3]
+;W[ep]WL[30]OW[1]
+;B[kg]BL[30]OB[3]
+;W[jg]WL[30]OW[1]
+;B[kd]BL[30]OB[3]
+;W[ke]WL[30]OW[1]
+;B[lc]BL[30]OB[3]
+;W[na]WL[30]OW[1]
+;B[ma]BL[30]OB[3]
+;W[pa]WL[30]OW[1]
+;B[bl]BL[30]OB[3]
+;W[am]WL[30]OW[1]C[leping [2d\]: G10 1,4
+leping [2d\]: 1.5
+]
+;B[gj]BL[30]OB[3]
+;W[hj]WL[30]OW[1]
+;B[mp]BL[30]OB[3]C[leping [2d\]: K4 1
+]
+;W[jp]WL[30]OW[1]
+;B[kp]BL[30]OB[3]
+;W[aq]WL[30]OW[1]
+;B[bd]BL[30]OB[3]
+;W[ac]WL[30]OW[1]
+;B[gh]BL[30]OB[3]
+;W[fj]WL[30]OW[1]
+;B[fh]BL[30]OB[3]
+;W[gj]WL[30]OW[1]
+;B[er]BL[30]OB[3]
+;W[]WL[30]OW[1]
+;B[]BL[30]OB[3]TW[aa][ba][ca][da][ea][fa][ga][ra][sa][ab][bb][cb][db][eb][fb][qb][sb][dc][fc][gc][rc][sc][fd][hf][hg][ig][ih][nj][pk][gl][em][fm][gm][an][bn][dn][gn][ao][eo][go][ap]TB[ka][la][mb][kc][nc][oc][bf][cf][rf][ag][eg][sg][ah][bh][ch][dh][ai][ci][di][aj][bj][cj][jk][jl][sl][jm][lm][rm][ln][sn][ro][so][lp][qp][rp][sp][pq][qq][rq][sq][fr][gr][hr][jr][kr][mr][pr][qr][sr][ds][es][fs][gs][is][js][ks][ls][ms][ns][os][qs][rs][ss]C[tasuki [-\]: dzięki
+cezary [4d\]: dzieki
+tasuki [-\]: dzika gra
+cezary [4d\]: to wracam do grupy B za miesiac 
+tasuki [-\]: wiele było momentów gdzie nie spodziewałem się że wygram
+cezary [4d\]: jakos sie za bardzo polasilem na e8 
+cezary [4d\]: i pozniej jakos mi sie wydawalo ze nie musze grac tego ko w c10 
+cezary [4d\]: temu zagralem to h17 glupie
+tasuki [-\]: swoją drogą, poświęcenie tych k8 wcale nie musiało być takie złe
+tasuki [-\]: ten środek był otwarty
+tasuki [-\]: a potem ciężko mi tam było przejść
+cezary [4d\]: no ta
+cezary [4d\]: ale ja myslalem ze je lapie :D
+tasuki [-\]: nawet to moje tsuke nie działało
+tasuki [-\]: no to gorzej faktycznie..
+tasuki [-\]: a pod sam koniec nie mogłeś o18 ?
+cezary [4d\]: nie moglem
+cezary [4d\]: no nie wiem jak to sie stalo ze przezyles po lewej na tak wielka skale
+cezary [4d\]: zwykle to zabijam takie dragony :p
+tasuki [-\]: noo, to tak nie miało być chyba...
+cezary [4d\]: no zyjesz za 20 punktow tam 
+cezary [4d\]: e8 to taki glupi ruch
+tasuki [-\]: b15 może trzeba było
+])

@@ -1,0 +1,785 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[6.50]TM[1800]OT[3x30 byo-yomi]
+PW[KaC]PB[tasuki]DT[2020-08-31]PC[The KGS Go Server at http://www.gokgs.com/]C[KaC [-\]: milej gry
+KaC [-\]: do IGLO
+tasuki [-\]: miłej gry Kacu!
+tasuki [-\]: tak właśnie do tego
+]RE[B+2.50]
+;B[pd]BL[1781.046]
+;W[dp]WL[1797.856]
+;B[qp]BL[1776.079]
+;W[dd]WL[1794.932]
+;B[np]BL[1773.457]
+;W[qc]WL[1782.187]
+;B[qd]BL[1754.405]
+;W[pc]WL[1780.042]
+;B[od]BL[1752.244]
+;W[nb]WL[1764.495]
+;B[fq]BL[1723.913]
+;W[eq]WL[1701.432]
+;B[fp]BL[1717.213]
+;W[dn]WL[1699.704]
+;B[ip]BL[1645.809]
+;W[cf]WL[1694.753]
+;B[cl]BL[1639.154]
+;W[dl]WL[1564.691]
+;B[cm]BL[1588.975]
+;W[cn]WL[1559.216]
+;B[dk]BL[1554.781]
+;W[el]WL[1555.317]
+;B[ch]BL[1542.296]C[Hipcio [3d?\]: zaproszenie do c10
+]
+;W[dj]WL[1473.286]C[Hipcio [3d?\]: ale czy warto już teraz
+Hipcio [3d?\]: hmmm
+]
+;B[ek]BL[1489.038]
+;W[ck]WL[1402.031]
+;B[cj]BL[1476.116]
+;W[bk]WL[1400.069]
+;B[bj]BL[1474.635]
+;W[fk]WL[1398.663]
+;B[ej]BL[1472.05]
+;W[fj]WL[1397.439]
+;B[ei]BL[1468.465]
+;W[fi]WL[1395.364]
+;B[eh]BL[1443.218]
+;W[dm]WL[1393.383]
+;B[db]BL[1351.809]
+;W[dc]WL[1282.469]
+;B[eb]BL[1330.203]
+;W[cb]WL[1280.282]
+;B[bb]BL[1328.352]
+;W[cc]WL[1279.016]
+;B[gc]BL[1310.731]
+;W[ic]WL[1266.833]
+;B[ca]BL[1250.569]
+;W[fc]WL[1128.03]
+;B[fb]BL[1199.258]
+;W[gd]WL[1123.712]
+;B[ec]BL[1170.764]
+;W[fd]WL[1102.549]
+;B[ed]BL[1166.966]
+;W[ee]WL[1099.972]
+;B[bc]BL[1136.457]
+;W[de]WL[1086.8]
+;B[hc]BL[1128.467]
+;W[hd]WL[1085.151]
+;B[ib]BL[1120.733]
+;W[jb]WL[1080.696]
+;B[hb]BL[1081.566]
+;W[bm]WL[1053.23]
+;B[fh]BL[1068.775]
+;W[gh]WL[1049.065]
+;B[gg]BL[1053.469]
+;W[fg]WL[1034.517]C[yakcyll [3k\]: oHla amigos
+yakcyll [3k\]: Co tu się dzije
+Hipcio [3d?\]: graja w go
+yakcyll [3k\]: I to całkiem zabawnie
+Hipcio [3d?\]: dzisiaj publicznie
+Hipcio [3d?\]: :)
+yakcyll [3k\]: Aye, dzięki niebiosom
+]
+;B[hg]BL[927.811]C[Hipcio [3d?\]: bedzie kill
+yakcyll [3k\]: No więc chyba nie żyje lokalnie?
+yakcyll [3k\]: B13 czy coś
+yakcyll [3k\]: Ale dziury na zewnątrz
+cezary [4d\]: yakcyl
+cezary [4d\]: gdzie jest odcinek :)
+]
+;W[id]WL[760.532]
+;B[bg]BL[818.86]C[yakcyll [3k\]: Oj, kurde
+yakcyll [3k\]: Na Windowsie
+yakcyll [3k\]: Powiedziałem, że będzie dzisiaj
+yakcyll [3k\]: O, dograł j16
+yakcyll [3k\]: Tam coś chodziło?
+Sztygrys [?\]: nie wiem nie wiem
+Hipcio [3d?\]: trudne
+Hipcio [3d?\]: trzeba bylo czytac przez kilka minut
+Hipcio [3d?\]: jak KaC
+yakcyll [3k\]: Solidnie
+cezary [4d\]: nice
+cezary [4d\]: kaca mocno kusilo
+cezary [4d\]: ale jednak cofnal
+]
+;W[qh]WL[607.326]C[cezary [4d\]: 5 minut zainwestowac no sporo
+yakcyll [3k\]: I tak dziwne, na zasadzie
+]
+;B[nc]BL[804.451]C[yakcyll [3k\]: To wyglądało jakby biały po prostu wychodził
+yakcyll [3k\]: Nie tam żadne seki czy coś
+yakcyll [3k\]: A ten frag dosyć spory
+]
+;W[mc]WL[593.446]
+;B[ob]BL[777.939]
+;W[oc]WL[586.501]C[cezary [4d\]: hm
+]
+;B[nd]BL[775.28]C[cezary [4d\]: i po ataku
+cezary [4d\]: bo drabinka dziala dla czarnych
+]
+;W[lb]WL[570.414]
+;B[na]BL[766.05]C[cezary [4d\]: i jeszcze ko...
+Hipcio [3d?\]: jeszcze ko 
+Hipcio [3d?\]: :)
+]
+;W[mb]WL[561.783]C[yakcyll [3k\]: ohboy.jpeg
+tasuki [-\]: nie gramy ko?
+cezary [4d\]: co to za sezon jest ?
+KaC [-\]: jeszcze mozemy
+cezary [4d\]: tasuki zapomnial
+yakcyll [3k\]: ko jest, tylko dwustepowe
+cezary [4d\]: gdzie jest ko tutaj :D
+tasuki [-\]: ale to już mniej fajne
+]
+;B[rc]BL[743.31]C[KaC [-\]: :)
+]
+;W[pb]WL[558.743]C[cezary [4d\]: no ale po co grac czarnemu to ko ?
+tasuki [-\]: ...chociaż może
+yakcyll [3k\]: LOL
+tasuki [-\]: kiedy jak nie teraz?
+KaC [-\]: pozniej:)
+cezary [4d\]: co za typy :p
+yakcyll [3k\]: Słusznie prawi
+Hipcio [3d?\]: no ale bialy chetnie zagra s18
+]
+;B[pa]BL[694]
+;W[oa]WL[553.882]C[cezary [4d\]: entertainment maja na najwyzszym poziomie wyskillowany
+cezary [4d\]: tasuki chyba pijany
+yakcyll [3k\]: idk
+yakcyll [3k\]: Gdzie te groźby
+yakcyll [3k\]: F15!
+cezary [4d\]: no wlasnie
+]
+;B[ff]BL[651.661]C[cezary [4d\]: a bialy ma ich sporo
+yakcyll [3k\]: o, ale tak?
+cezary [4d\]: oo chyba sie czarny zabil ?
+yakcyll [3k\]: tak?
+cezary [4d\]: nie pewnie nie
+Hipcio [3d?\]: no nie ma laczenie
+cezary [4d\]: a b16 nie jest sente ?
+Hipcio [3d?\]: b16 a17
+Hipcio [3d?\]: iiiii
+Hipcio [3d?\]: nooo
+cezary [4d\]: ktos tsumego ostatnio rozwiazywal
+yakcyll [3k\]: :D
+yakcyll [3k\]: nie no, po a17 wciąż łączenie?
+]
+;W[eg]WL[452.51]C[yakcyll [3k\]: a, tylko
+]
+;B[ob]BL[647.684]C[Hipcio [3d?\]: wlasnie mialem podobny challenge jak tommy co caly rok rozwiazywal
+yakcyll [3k\]: groźba za groźbę
+Hipcio [3d?\]: ja sie zatrzymalem na 10 dniach
+Hipcio [3d?\]: i mam przerwe
+yakcyll [3k\]: xd
+]
+;W[bd]WL[437.549]C[cezary [4d\]: haha
+]
+;B[ac]BL[496.591]
+;W[oa]WL[433.617]
+;B[if]BL[381.815]
+;W[ef]WL[384.1]
+;B[ob]BL[377.234]
+;W[ba]WL[380.615]
+;B[aa]BL[371.585]
+;W[oa]WL[378.081]
+;B[gi]BL[308.081]C[cezary [4d\]: eh tasuki taki silny
+]
+;W[hh]WL[314.896]
+;B[ob]BL[299.607]C[Hipcio [3d?\]: j12 wypadaloby
+Hipcio [3d?\]: czarnemu
+]
+;W[ih]WL[305.802]C[cezary [4d\]: az sie nie chce dozywac do nastepnej niedzieli powiem wam
+]
+;B[qb]BL[294.749]C[yakcyll [3k\]: Co jest w następną niedzielę
+cezary [4d\]: gram przeciwko vitkowi
+yakcyll [3k\]: O kurde, zbił
+Hipcio [3d?\]: no mogl to j12
+yakcyll [3k\]: Może to był taki mindtrap
+cezary [4d\]: troche gg
+tasuki [-\]: ehh a taką ładną getę tam miałem
+yakcyll [3k\]: W sensie, biały ma grać ruch, który czarny miał grać sam
+tasuki [-\]: j12 pstrąg
+yakcyll [3k\]: czy karp
+yakcyll [3k\]: uwaga uwaga, jestem na windowsie
+]
+;W[jg]WL[229.993]C[KaC [-\]: :)
+]
+;B[qj]BL[290.821]C[cezary [4d\]: to tak jak pewnie wiekszosc ludzi na swiecie yakcyll :P
+]
+;W[kp]WL[209.291]C[yakcyll [3k\]: No ale ja to normalnie nie używam
+Hipcio [3d?\]: ja bylem na linuxie w 2003
+yakcyll [3k\]: 2020 rokiem Linuksa na desktopie
+]
+;B[oi]BL[255.17]C[yakcyll [3k\]: Jak wszystkie poprzednie
+yakcyll [3k\]: O
+cezary [4d\]: to nie wiem czy to dobrze swiadczy o linuksie
+]
+;W[iq]WL[201.125]C[Hipcio [3d?\]: :)
+yakcyll [3k\]: No więc nie bardzo
+cezary [4d\]: jesli 2020 to jest jego rok
+yakcyll [3k\]: Ale coś tam
+yakcyll [3k\]: LOL
+yakcyll [3k\]: Racja
+cezary [4d\]: i mean any other year
+cezary [4d\]: to bym sie zgodzil, spoko
+cezary [4d\]: ale 2020
+shin0e [2d\]: xD
+cezary [4d\]: to tak jakbys dostal tort
+cezary [4d\]: ale pod tortem okazuje sie ze znajduje sie gowno
+yakcyll [3k\]: Co Ty z tym gównem
+yakcyll [3k\]: Na kozetkę
+Hipcio [3d?\]: co za komentarze
+cezary [4d\]: a co, to nie pierwszy raz jakies kloaczne mam porownania ?
+yakcyll [3k\]: rofl
+cezary [4d\]: nie zdawalem sobie sprawy
+yakcyll [3k\]: #killthepidgeons2020
+cezary [4d\]: jestem po rpostu natchniony przepieknym wierszem
+]
+;B[jq]BL[136.219]
+;W[jp]WL[197.153]C[cezary [4d\]: jeszcze rok temu dwa czterysta starczalo ci bez problemu. a teraz ma dwa piecset patrzysz jakbys zobaczyla
+cezary [4d\]: gowno
+shin0e [2d\]: p11 duze ale no trzeba przyznac, ze obaj
+shin0e [2d\]: no fear ;p
+yakcyll [3k\]: lol
+yakcyll [3k\]: tasuki i kiai to synonimy
+shin0e [2d\]: no wiesz cezary
+cezary [4d\]: no nie wiem :D
+yakcyll [3k\]: i mean no but yes
+shin0e [2d\]: swego czasu brales dyche, miales na fajki, tanie wino i drozdzowke xD
+shin0e [2d\]: :D
+]
+;B[jr]BL[41.497]C[yakcyll [3k\]: śniadanie najważniejszy posiłek dnia
+yakcyll [3k\]: ojej, jakie ruchy
+cezary [4d\]: hm
+cezary [4d\]: czemu chcesz jesc fajki ?
+shin0e [2d\]: a kto nie chce? :P
+Hipcio [3d?\]: no dziwne ruchy
+shin0e [2d\]: =\]
+Hipcio [3d?\]: h3?
+yakcyll [3k\]: j5
+yakcyll [3k\]: nofear.jpeg
+cezary [4d\]: j5
+Hipcio [3d?\]: j5?
+yakcyll [3k\]: h3 j5
+cezary [4d\]: a
+Hipcio [3d?\]: a czemu nie h3?
+cezary [4d\]: juz myslalem ze atari
+yakcyll [3k\]: lmao nie
+cezary [4d\]: no juz mialem bić
+cezary [4d\]: a ten
+shin0e [2d\]: :D
+cezary [4d\]: a co jak h3 h4 ?
+yakcyll [3k\]: i mean rozumiem, 3k 'bez obrazy'  etc
+shin0e [2d\]: ja tak mysle sobie wlasnie
+yakcyll [3k\]: ale są granice
+Hipcio [3d?\]: no to g3
+shin0e [2d\]: j5? to takie srednie sie wydaje
+shin0e [2d\]: ale Cezary mowi tez j5
+shin0e [2d\]: to co ja tam wiem :D
+shin0e [2d\]: =\]
+cezary [4d\]: no to jak g3
+yakcyll [3k\]: h3 h4 brzmi nieźle
+cezary [4d\]: to ja f2 :p
+yakcyll [3k\]: ale chyba nie ma co ładować w f3
+yakcyll [3k\]: f2, o
+Hipcio [3d?\]: no wlasnie
+Hipcio [3d?\]: o te oddechy sie obawialem
+yakcyll [3k\]: lol
+cezary [4d\]: ja mysle moze h2 ?
+yakcyll [3k\]: to może g2 od razu
+cezary [4d\]: j2 jest mozliwe ale bardzo smutne
+shin0e [2d\]: h2 to popluczyny, ktore chca robic wszystko a nie robia nic?
+shin0e [2d\]: a Cezary tez mowi h2 moze xD to moze nie popluczyny :D
+cezary [4d\]: albo h4 i pozniej h2 ?
+cezary [4d\]: :D
+cezary [4d\]: skomplikowana sytuacja
+]
+;W[hp]WL[30]OW[3]C[shin0e [2d\]: o, h4 h2 moze byc odpowiedzia :D
+]
+;B[io]BL[37.259]C[Sztygrys [?\]: A h4 i H3?
+yakcyll [3k\]: klasyczny problem 'zdefiniuj działa'
+]
+;W[hq]WL[30]OW[3]C[yakcyll [3k\]: o
+Sztygrys [?\]: to za mało fancy jest?
+Hipcio [3d?\]: o prosze
+cezary [4d\]: za malo fancy 
+Hipcio [3d?\]: nofear.png
+]
+;B[lq]BL[18.958]
+;W[lp]WL[30]OW[3]C[Sztygrys [?\]: nie wygląda tak źle dla białego
+yakcyll [3k\]: no, tak sobie
+cezary [4d\]: 2/10
+]
+;B[mq]BL[30]OB[3]C[yakcyll [3k\]: f8 trzeba uważać
+yakcyll [3k\]: o, nie dał senciorów
+yakcyll [3k\]: ciekawe
+cezary [4d\]: ja bym dal
+shin0e [2d\]: f8 to tam az tak nie przeszkadza ;p
+yakcyll [3k\]: ja też, nie ma się co bać
+shin0e [2d\]: znaczy jeest ale chyba no stress
+shin0e [2d\]: :)
+yakcyll [3k\]: a oddechy to różnie
+]
+;W[ho]WL[30]OW[3]C[yakcyll [3k\]: oof.rm
+Hipcio [3d?\]: to bylo konieczne
+cezary [4d\]: jak to mowil nikolas cage w filmie skull rider
+]
+;B[jn]BL[30]OB[3]C[cezary [4d\]: you cannot live in fear
+cezary [4d\]: ghost rider
+yakcyll [3k\]: ghost bastardo
+]
+;W[in]WL[30]OW[3]
+;B[jo]BL[30]OB[3]
+;W[jm]WL[30]OW[3]C[cezary [4d\]: w ghost riderze najbardziej podobalo m  sie to
+]
+;B[kn]BL[30]OB[3]C[yakcyll [3k\]: zonk
+]
+;W[km]WL[30]OW[3]
+;B[ln]BL[30]OB[3]C[cezary [4d\]: ze nie wyszedl im ten film wiec postanowili zrobic remix
+Hipcio [3d?\]: wow
+]
+;W[lm]WL[30]OW[3]C[cezary [4d\]: i tez im nie wyszedl
+yakcyll [3k\]: wow
+Hipcio [3d?\]: ladny pushing
+]
+;B[mn]BL[30]OB[3]C[yakcyll [3k\]: ale jaki piękny
+cezary [4d\]: i teraz r3
+yakcyll [3k\]: a e s t h e t i c s
+]
+;W[mm]WL[30]OW[3]C[yakcyll [3k\]: i jeszcze
+yakcyll [3k\]: bo czemu nie
+shin0e [2d\]: a kageyama mowil nie pchac od tylu ;p
+]
+;B[nn]BL[30]OB[3]C[Hipcio [3d?\]: pushing from beyond
+]
+;W[ql]WL[30]OW[3]C[shin0e [2d\]: ale no tu ewidentnie mozna bylo ;p
+yakcyll [3k\]: no dobra, ale jak dostajesz pierdyliad punktów za to
+yakcyll [3k\]: to czemu nie
+Hipcio [3d?\]: o7 sie prosilo
+cezary [4d\]: hm
+]
+;B[pk]BL[30]OB[3]C[cezary [4d\]: jakbym mial postawic moje punkty z foxa
+shin0e [2d\]: pierdyliard to nie :P
+]
+;W[rj]WL[30]OW[3]C[cezary [4d\]: to bym postawil na czarnego
+]
+;B[ri]BL[30]OB[3]C[shin0e [2d\]: no ja tez :p
+cezary [4d\]: nawet jak bialy przezyje to co
+yakcyll [3k\]: czy wy jesteście uprzedzeni
+shin0e [2d\]: nawet moge postawic wszystkie swoje punkty!
+]
+;W[qo]WL[30]OW[3]C[shin0e [2d\]: (mam 0 ;p)
+yakcyll [3k\]: #nice
+cezary [4d\]: :D
+Hipcio [3d?\]: tyle prowadzi czarny?
+]
+;B[po]BL[30]OB[3]C[Hipcio [3d?\]: no chyba nie
+]
+;W[rk]WL[30]OW[3]
+;B[qi]BL[30]OB[3]C[shin0e [2d\]: nie ale no slabosci to bialy ma ;p
+yakcyll [3k\]: trudno powiedzieć tak na poważnie
+cezary [4d\]: a ten
+cezary [4d\]: g2 dziala ?
+]
+;W[rp]WL[30]OW[3]C[yakcyll [3k\]: biały ma słabe yose i generalnie jedno centrum
+]
+;B[ro]BL[30]OB[3]C[yakcyll [3k\]: czyli ten pas w centrum
+]
+;W[qn]WL[30]OW[3]
+;B[rq]BL[30]OB[3]C[yakcyll [3k\]: a czarny reszta
+]
+;W[pp]WL[30]OW[3]C[cezary [4d\]: no bialy juz zyje
+]
+;B[qq]BL[30]OB[3]
+;W[rn]WL[30]OW[3]
+;B[sp]BL[30]OB[3]
+;W[om]WL[30]OW[3]
+;B[nm]BL[30]OB[3]C[yakcyll [3k\]: w sumie
+Hipcio [3d?\]: tak?
+shin0e [2d\]: g2 chyba dziala
+cezary [4d\]: s7 po po prostu
+yakcyll [3k\]: zdefiniuj działa
+]
+;W[ol]WL[30]OW[3]C[shin0e [2d\]: w sensie czarny nie bardzo moze ciac w h1 ;P
+]
+;B[nl]BL[30]OB[3]
+;W[ok]WL[30]OW[3]C[yakcyll [3k\]: j2
+]
+;B[mj]BL[30]OB[3]C[cezary [4d\]: no czarny laczy sobie
+yakcyll [3k\]: że brakuje oddechów?
+yakcyll [3k\]: po h6?
+shin0e [2d\]: f8 
+cezary [4d\]: myslicie ze tasuki dlatego zagral n3 ?
+]
+;W[ni]WL[30]OW[3]C[shin0e [2d\]: h6 
+shin0e [2d\]: i tam aji w chu ;p
+yakcyll [3k\]: ok
+]
+;B[nj]BL[30]OB[3]
+;W[oj]WL[30]OW[3]C[yakcyll [3k\]: lmao
+yakcyll [3k\]: myślisz, że taki foreshadowing
+shin0e [2d\]: a, po drodze mozna e2 ;p
+]
+;B[pi]BL[30]OB[3]C[yakcyll [3k\]: o, racja
+shin0e [2d\]: bo przyjemne sente =\]
+yakcyll [3k\]: #nice
+]
+;W[qk]WL[30]OW[3]C[yakcyll [3k\]: no to co, teraz
+]
+;B[er]BL[30]OB[3]C[yakcyll [3k\]: wow
+]
+;W[dr]WL[30]OW[3]C[shin0e [2d\]: :)
+cezary [4d\]: s7 dziala ?
+cezary [4d\]: chyba nie
+yakcyll [3k\]: chyba nie
+]
+;B[gr]BL[30]OB[3]C[yakcyll [3k\]: t7?
+yakcyll [3k\]: jakieś seki może
+shin0e [2d\]: czemu nie dziala? :P
+]
+;W[ir]WL[30]OW[3]C[cezary [4d\]: t7 to nie ksztaltny ruch
+yakcyll [3k\]: o niebiosa, zaczynamy
+shin0e [2d\]: bo jeszcze nie doliczylem bylem ;p
+cezary [4d\]: myslalem ostatnio o tym yakcyl
+]
+;B[ep]BL[30]OB[3]
+;W[dq]WL[30]OW[3]C[cezary [4d\]: i mysle ze policy network tez wazne miec
+Hipcio [3d?\]: nie wiem co tam czarny 
+]
+;B[hn]BL[30]OB[3]
+;W[im]WL[30]OW[3]C[yakcyll [3k\]: czarny łączy chyba dołem?
+]
+;B[gn]BL[30]OB[3]C[Hipcio [3d?\]: wyglada na impossible
+shin0e [2d\]: no czarny ma aji a aji ;p
+yakcyll [3k\]: tak
+]
+;W[go]WL[30]OW[3]C[shin0e [2d\]: oj
+shin0e [2d\]: ale to nie ta kolejnosc chyba
+yakcyll [3k\]: czarny łączy dołem, bo biały musi zabrać sobie oddech h2
+Sztygrys [?\]: tak
+yakcyll [3k\]: naczy, szkoda punktów
+shin0e [2d\]: chyba byl czas na ciecie w f8 zanim g6 ;p
+]
+;B[fn]BL[30]OB[3]C[yakcyll [3k\]: ale i tak działa
+]
+;W[fo]WL[30]OW[3]C[cezary [4d\]: czarny przezyje po porstu
+cezary [4d\]: zrobi 2 oczu
+yakcyll [3k\]: lol
+Sztygrys [?\]: ale łączenie w sente jest
+]
+;B[eo]BL[30]OB[3]C[Sztygrys [?\]: czy ja jestem ślepy?
+shin0e [2d\]: a to jak tak tez dziala to spoko ;p
+yakcyll [3k\]: aye, ale trochę szkoda punktów
+Hipcio [3d?\]: jakie sęte
+yakcyll [3k\]: mógł wchodzić
+yakcyll [3k\]: czy nie
+cezary [4d\]: nie chce sie liczyc bo jest to l3
+]
+;W[js]WL[30]OW[2]C[yakcyll [3k\]: o
+Sztygrys [?\]: ajj
+Sztygrys [?\]: jednak nie
+yakcyll [3k\]: aj tysiąclecia
+cezary [4d\]: no teraz to czarny przezywa po prostu 
+SIscurge [6d\]: ops
+]
+;B[kr]BL[30]OB[3]C[yakcyll [3k\]: jak przeżywa
+]
+;W[en]WL[30]OW[2]C[cezary [4d\]: l2 e6 h1 j1 h2 f7 g3 g7 f1 
+cezary [4d\]: o tako
+Sztygrys [?\]: no przeżywa
+Sztygrys [?\]: normalnie
+]
+;B[gl]BL[30]OB[3]C[Hipcio [3d?\]: co to 
+]
+;W[hl]WL[30]OW[2]C[yakcyll [3k\]: panie władzo, to jest nielegalne
+Hipcio [3d?\]: f7 nie
+SIscurge [6d\]: h1 h2 g3 f1 maybe black lives :D
+]
+;B[fl]BL[30]OB[3]C[yakcyll [3k\]: wait, wtf
+yakcyll [3k\]: to działa, tak po prostu
+yakcyll [3k\]: ????
+]
+;W[fm]WL[30]OW[1]C[Sztygrys [?\]: nie
+yakcyll [3k\]: a, nie może połączyć
+yakcyll [3k\]: smutek
+]
+;B[gk]BL[30]OB[3]C[Sztygrys [?\]: czarby trochę spanikowa chyba
+]
+;W[gm]WL[30]OW[1]
+;B[pn]BL[30]OB[3]C[shin0e [2d\]: albo uznal
+]
+;W[pj]WL[30]OW[1]C[shin0e [2d\]: wiesz co? W sumie to mi styka
+shin0e [2d\]: ;P
+yakcyll [3k\]: mogło tak być
+]
+;B[lh]BL[30]OB[3]C[yakcyll [3k\]: teraz może o12 po prostu
+yakcyll [3k\]: albo tak
+yakcyll [3k\]: echhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+]
+;W[nh]WL[30]OW[1]C[Sztygrys [?\]: no i równo wciąż jest
+cezary [4d\]: niezle
+]
+;B[qg]BL[30]OB[3]
+;W[rh]WL[30]OW[1]C[shin0e [2d\]: oj to troche m12 nie poszlo ;p
+]
+;B[ph]BL[30]OB[3]
+;W[si]WL[30]OW[1]
+;B[rg]BL[30]OB[3]C[yakcyll [3k\]: o, ups
+yakcyll [3k\]: biały może tu zginąć?
+]
+;W[sh]WL[30]OW[1]C[Hipcio [3d?\]: nonie moze
+yakcyll [3k\]: wrzuta
+Hipcio [3d?\]: nic sie nie dzieje
+cezary [4d\]: gdzie ?
+Sztygrys [?\]: chyba nie
+Hipcio [3d?\]: mozna sie rozejsc
+yakcyll [3k\]: a nie, wrzuta to gorzej
+cezary [4d\]: wrzuta nic nie robi
+yakcyll [3k\]: wrzuta niszczy
+]
+;B[sg]BL[30]OB[3]
+;W[sj]WL[30]OW[1]C[yakcyll [3k\]: s7 teraz
+cezary [4d\]: marzenia
+]
+;B[og]BL[30]OB[3]
+;W[lg]WL[30]OW[1]C[Sztygrys [?\]: ale 4 kamienie moze straci
+]
+;B[mg]BL[30]OB[3]C[Sztygrys [?\]: o teraz nie
+]
+;W[lf]WL[30]OW[1]
+;B[kh]BL[30]OB[3]C[yakcyll [3k\]: a, rozumiem
+]
+;W[mf]WL[30]OW[1]C[cezary [4d\]: wrzutą sie czarny pozbawial yose
+yakcyll [3k\]: aye
+yakcyll [3k\]: zauważyłem później
+Sztygrys [?\]: chyba biały do przodu, nie?
+]
+;B[ng]BL[30]OB[3]
+;W[hj]WL[30]OW[1]C[shin0e [2d\]: chyba tak
+cezary [4d\]: no kurde
+]
+;B[gj]BL[30]OB[3]C[cezary [4d\]: niesamowite
+shin0e [2d\]: liczylem na wiecej w okolicach q14 ;p
+Hipcio [3d?\]: no nie
+shin0e [2d\]: albo mniej u czarnych ;p
+Hipcio [3d?\]: nie do przodu
+shin0e [2d\]: tfu
+shin0e [2d\]: albo mniej u bialych
+]
+;W[kg]WL[30]OW[1]C[shin0e [2d\]: w okolicach l15 ;p
+yakcyll [3k\]: bardzo równo
+Hipcio [3d?\]: b+
+]
+;B[ak]BL[30]OB[3]C[yakcyll [3k\]: no, ciekawe
+]
+;W[bl]WL[30]OW[1]C[cezary [4d\]: czarny na dole ma 35
+]
+;B[ks]BL[30]OB[3]C[cezary [4d\]: po prawej ma 26
+]
+;W[is]WL[30]OW[1]C[cezary [4d\]: na gorze 8
+]
+;B[md]BL[30]OB[3]
+;W[ld]WL[30]OW[1]C[cezary [4d\]: i po lewej 10
+Sztygrys [?\]: faktycznie Tasuki ma iwęcej zbitych
+Sztygrys [?\]: ale przewaga jest minimalna
+]
+;B[me]BL[30]OB[3]C[cezary [4d\]: 91 punktow dla czarnego 
+]
+;W[nf]WL[30]OW[1]
+;B[le]BL[30]OB[3]
+;W[ke]WL[30]OW[1]C[cezary [4d\]: bialy ma na planszy 76
+cezary [4d\]: 5 zbitych i komi
+]
+;B[of]BL[30]OB[3]C[cezary [4d\]: 87.5
+]
+;W[on]WL[30]OW[1]
+;B[oo]BL[30]OB[3]
+;W[bf]WL[30]OW[1]C[cezary [4d\]: no to jak zagra w q7 to zacznie wygrywac ?
+shin0e [2d\]: ciekawe ;)
+Hipcio [3d?\]: b+4,5
+]
+;B[kd]BL[30]OB[3]
+;W[lc]WL[30]OW[1]
+;B[je]BL[30]OB[3]
+;W[kf]WL[30]OW[1]C[yakcyll [3k\]: o ups
+cezary [4d\]: q7 duze yose bo bialy ma albo 7 punktow albo 2
+]
+;B[jh]BL[30]OB[3]
+;W[ig]WL[30]OW[1]
+;B[ij]BL[30]OB[3]C[shin0e [2d\]: *3 ;P
+shin0e [2d\]: :D
+]
+;W[jd]WL[30]OW[1]C[shin0e [2d\]: q9 2 pkt ;p
+]
+;B[pm]BL[30]OB[3]
+;W[pl]WL[30]OW[1]C[Sztygrys [?\]: 5 pkt w gote
+]
+;B[sn]BL[30]OB[3]C[cezary [4d\]: racja, 3
+]
+;W[rm]WL[30]OW[1]C[yakcyll [3k\]: nie można było s7?
+cezary [4d\]: mozna
+cezary [4d\]: nawet trzeba
+Sztygrys [?\]: o to śmiesznie
+cezary [4d\]: no bo gdzie on znajdzie teraz yose za wiecej niz 3 punkty
+shin0e [2d\]: no ale s7 gote ;p
+yakcyll [3k\]: hm
+]
+;B[hk]BL[30]OB[2]C[yakcyll [3k\]: no to bekon
+]
+;W[cg]WL[30]OW[1]
+;B[bh]BL[30]OB[2]
+;W[kj]WL[30]OW[1]C[shin0e [2d\]: ale no to wyglada
+]
+;B[hi]BL[30]OB[2]C[shin0e [2d\]: jakby Tasuki pieknie podliczyl ze mu starczy ;)
+shin0e [2d\]: chyba ze spenial ;p
+shin0e [2d\]: ktores z tych :D
+]
+;W[lj]WL[30]OW[1]C[yakcyll [3k\]: o, a tu punkty
+]
+;B[li]BL[30]OB[2]C[yakcyll [3k\]: całe dwa w gote
+]
+;W[jk]WL[30]OW[1]
+;B[il]BL[30]OB[2]
+;W[hm]WL[30]OW[1]
+;B[ik]BL[30]OB[2]C[cezary [4d\]: ta 
+cezary [4d\]: chyba starczy tasukiemu
+cezary [4d\]: bedzie b+4.5 jak hipcio przewidzial
+]
+;W[ia]WL[30]OW[1]C[yakcyll [3k\]: nie przewidział, bo nie wyrocznia
+]
+;B[ha]BL[30]OB[2]C[yakcyll [3k\]: tylko policzył
+]
+;W[ja]WL[30]OW[1]C[cezary [4d\]: nie prawda, bo policzylem ja
+yakcyll [3k\]: lol
+]
+;B[ad]BL[30]OB[2]C[cezary [4d\]: on tylko odjął
+]
+;W[ae]WL[30]OW[1]
+;B[ag]BL[30]OB[2]C[shin0e [2d\]: a myslalem, ze podliczyliscie oddzielnie ;p
+Hipcio [3d?\]: lol
+]
+;W[ne]WL[30]OW[1]
+;B[af]BL[30]OB[2]
+;W[oe]WL[30]OW[1]C[cezary [4d\]: umowilem sie z radziolem
+]
+;B[pe]BL[30]OB[2]
+;W[be]WL[30]OW[1]C[cezary [4d\]: bo ja tylko dodaje
+shin0e [2d\]: i yakcyll nauka a magia czasem trudna do rozroznienia ;)
+]
+;B[dg]BL[30]OB[2]C[cezary [4d\]: a on tylko odejmuje
+shin0e [2d\]: heheheh
+yakcyll [3k\]: tru lol
+cezary [4d\]: i tak sie zgadalismy :)
+]
+;W[al]WL[30]OW[1]C[shin0e [2d\]: no tak
+shin0e [2d\]: smart :D
+]
+;B[aj]BL[30]OB[2]C[shin0e [2d\]: team effort
+]
+;W[ml]WL[30]OW[1]
+;B[jl]BL[30]OB[2]
+;W[kl]WL[30]OW[1]
+;B[jj]BL[30]OB[2]C[yakcyll [3k\]: o, a tu zaraz +1p
+]
+;W[sm]WL[30]OW[1]C[yakcyll [3k\]: neat af
+]
+;B[so]BL[30]OB[2]
+;W[mk]WL[30]OW[1]C[shin0e [2d\]: z jakiegos powodu przeczytalem "af" jak psi szczek xD
+shin0e [2d\]: "af af!"
+shin0e [2d\]: xD
+yakcyll [3k\]: xd
+]
+;B[nk]BL[30]OB[2]
+;W[kk]WL[30]OW[1]C[cezary [4d\]: ehh
+cezary [4d\]: szkoda ze kac to przegral
+]
+;B[ma]BL[30]OB[2]
+;W[la]WL[30]OW[1]
+;B[oa]BL[30]OB[2]C[cezary [4d\]: moze jeszcze vitkowi sie czas skonczy
+shin0e [2d\]: ja tam dumny z tasukiego ;p
+yakcyll [3k\]: co, galareta?
+]
+;W[ii]WL[30]OW[1]C[shin0e [2d\]: bo tak w byo podliczyc to szacun ;p
+]
+;B[ji]BL[30]OB[2]
+;W[kc]WL[30]OW[1]
+;B[dh]BL[30]OB[2]
+;W[df]WL[30]OW[1]C[shin0e [2d\]: nie tak latwo w byo dokladnosc do 5pkt zrobic ;p i oddac grupe :D
+]
+;B[qm]BL[30]OB[2]C[shin0e [2d\]: w srodku walki :D
+cezary [4d\]: no 
+cezary [4d\]: czasami sie nie udaje piotrek :p
+]
+;W[ki]WL[30]OW[1]C[shin0e [2d\]: ;p
+]
+;B[]BL[30]OB[2]
+;W[]WL[30]OW[1]TW[ka][kb][jc][cd][kd][ce][fe][ge][he][ie][je][ff][gf][hf][if][jf][gg][hg][lk][pk][sk][cl][ll][rl][sl][am][cm][em][an][bn][fn][gn][hn][ao][bo][co][do][eo][ap][bp][cp][ep][fp][gp][aq][bq][cq][fq][gq][ar][br][cr][er][fr][gr][hr][as][bs][cs][ds][es][fs][gs][hs]TB[ba][da][ea][fa][ga][qa][ra][sa][ab][gb][pb][rb][sb][oc][pc][qc][sc][rd][sd][qe][re][se][pf][qf][rf][sf][pg][ah][mh][nh][oh][ai][bi][ci][di][fi][mi][ni][dj][fj][hj][fk][ko][lo][mo][no][jp][kp][lp][mp][op][pp][rp][kq][nq][oq][pq][sq][lr][mr][nr][or][pr][qr][rr][sr][ls][ms][ns][os][ps][qs][rs][ss]C[yakcyll [3k\]: 2.5
+Hipcio [3d?\]: damn
+KaC [-\]: dzieki
+yakcyll [3k\]: ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg
+tasuki [-\]: dzięki
+Sztygrys [?\]: nice
+KaC [-\]: ech
+tasuki [-\]: ale tu było błędów
+KaC [-\]: no troche bylo:)
+shin0e [2d\]: yakcyll kot ci na klawiaturze siadl?:P
+tasuki [-\]: nikt oprócz widzów pewnie nie jest zadowolony z tej gry :P
+Sztygrys [?\]: widzowie najważniejsi
+yakcyll [3k\]: :D
+cezary [4d\]: vitek
+Sztygrys [?\]: gracze tworzą grę, czyli sztukę
+cezary [4d\]: dziekujemy
+Mariusz [2k\]: to teraz pokazujcie te błęd y bo nie wiem gdzie są
+Sztygrys [?\]: która ma się widzom podoba
+KaC [-\]: ciekawa gra
+tasuki [-\]: to kto się tego ujmie? skoczymy na discorda?
+shin0e [2d\]: no plotno ciekawie zapelniliscie =\]
+KaC [-\]: warto przejrzec z kompem
+KaC [-\]: ja w pracy siedze 
+cezary [4d\]: dla mnie ciekawe jest to ze ten wynik jest taki bliski, sie nie spodziewalbym
+tasuki [-\]: z kompotem aż potem
+KaC [-\]: discorda tu nie amm:P
+tasuki [-\]: dla mnie ciekawe jest że wygrałem
+cezary [4d\]: hm
+shin0e [2d\]: haha :D
+cezary [4d\]: g2 moglo przezyc
+shin0e [2d\]: a ja tu Cie Tasuki tak chwalilem
+tasuki [-\]: nie miałem pojęcia jaki jest rezultat, wydało mi się że mnie Kac strasznie zjechał
+shin0e [2d\]: ze oddales g2 bo uznales a paanie, starczy mi w sumie :D
+shin0e [2d\]: i ze tak ladnie podliczyles w srodku walki xD
+tasuki [-\]: g2 mogło żyć ale nie dostałbym f10
+cezary [4d\]: ale f10
+tasuki [-\]: nie zauważyłem tej wymiany
+cezary [4d\]: to duzo mniej niz g2
+tasuki [-\]: no tak
+cezary [4d\]: g2 to z 30 punktow straty
+cezary [4d\]: a f10
+cezary [4d\]: to moze 20 zysku
+KaC [-\]: no nie przesadzajmy
+tasuki [-\]: nie no g2 za j2 to świetna wymiana dla białego
+KaC [-\]: no tak
+tasuki [-\]: szczególnie teraz :\]
+tasuki [-\]: chcemy to przejrzeć?
+shin0e [2d\]: to moze w innej kolejnosci?
+yakcyll [3k\]: no tak, ale czy tam nie było łączenia?
+KaC [-\]: mozemy sprobowac
+yakcyll [3k\]: j1 sente czarnego
+shin0e [2d\]: e2 wyplacic, wtedy ciecie?
+tasuki [-\]: a nie możemy ogarnąć dyskorda?
+shin0e [2d\]: i nie ma wymiany g2-j2
+yakcyll [3k\]: ja tu już czekam na Was
+KaC [-\]: ja nie wejde bo nie mam jak
+tasuki [-\]: jak nie masz jak
+cezary [4d\]: yakcyl ty ogarnij odcinek co go przywialo
+tasuki [-\]: grasz na zegarku?
+KaC [-\]: no w pracy nie mam ani sluchawek ani discorda 
+KaC [-\]: ani micro
+tasuki [-\]: aa
+KaC [-\]: nawet glosników nie mam:P
+cezary [4d\]: a masz telefon ?
+tasuki [-\]: to późno pracujesz
+cezary [4d\]: zainstaluj discordapp na telefonie
+KaC [-\]: panie
+Mariusz [2k\]: nie mniej fajna praca że sobie można pograć turniej :)
+KaC [-\]: nie bede siedzial w robocie do polnocy:P
+KaC [-\]: robie na siebie wiec...
+cezary [4d\]: czyli to nie problem w sluchawkach :p
+])

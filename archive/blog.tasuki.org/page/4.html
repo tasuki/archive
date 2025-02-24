@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#C60">
+  <link rel="icon" href="../favicon.svg">
+
+  
+  <title>tasuki’s blog</title>
+  
+
+  <link rel="stylesheet" href="../public/pure-min.css">
+  <link rel="stylesheet" href="../public/pure-grids-responsive-min.css">
+  <link rel="stylesheet" href="../public/style.css">
+</head>
+<body>
+    <div id="header">
+      <div class="pad">
+        <a href="../index.html">tasuki’s blog</a>
+      </div>
+    </div>
+    <div id="content" class="pad">
+      
+  
+  <article>
+  <h1>
+  
+  <a href="../the-acer-confusion/index.html">The Acer confusion</a>
+  
+  </h1>
+  <div class="meta">
+    <span class="date">2015-01-26</span>
+  </div>
+  <div class="content">
+    <p>
+Not knowing the following table can result in rather pointless arguments.
+</p>
+<table>
+<tr>
+<th>
+Latin
+</th>
+<th>
+Czech
+</th>
+<th>
+Polish
+</th>
+</tr>
+<tr>
+<td>
+Acer
+</td>
+<td>
+Javor
+</td>
+<td>
+Klon
+</td>
+</tr>
+<tr>
+<td>
+Acer platanoides
+</td>
+<td>
+Javor mléč
+</td>
+<td>
+Klon zwyczajny
+</td>
+</tr>
+<tr>
+<td>
+Acer pseudoplatanus
+</td>
+<td>
+Javor klen
+</td>
+<td>
+Klon jawor
+</td>
+</tr>
+</table>
+<p>
+One day I’ll make a compendium of Polish-Czech insanities.<br />
+Nůžky ~ nożyczki, nožičky ~ nóżki.
+</p>
+  </div>
+
+  
+</article>
+
+  
+  <article>
+  <h1>
+  
+  <a href="../explorations-in-ai-solving-robozzle/index.html">Explorations in AI – solving RoboZZle</a>
+  
+  </h1>
+  <div class="meta">
+    <span class="date">2013-07-22</span>
+  </div>
+  <div class="content">
+    <p>
+RoboZZle is a robot programming game. You can play it <a href="http://robozzle.com/">in your web browser</a> (even <a href="http://robozzle.com/js/index.aspx">without Silverlight</a>), on <a href="https://play.google.com/store/apps/details?id=com.team242.robozzle">Android</a>, or <a href="https://itunes.apple.com/en/app/robozzle/id350729261">iPhone/Pad/Pod</a>. Go and try it, otherwise the rest of this entry won’t make much sense.
+</p>
+<p>
+After a while of playing the game myself, I started getting interested in creating a program to find puzzle solutions. Having completed <a href="https://www.ai-class.com/">Intro to AI</a> by Sebastian Thrun and Peter Norvig in 2011 and never using the techniques since, this seemed like a good opportunity to explore them further. As things go, none of these techniques appear directly applicable and a simple evolutionary search seems best.
+</p>
+<h3>
+Approach
+</h3>
+<p>
+I started by writing a solution <em>runner</em>, the main output of which is determining whether a given RoboZZle program solves a puzzle. Next were a robozzle.com <em>client</em>, utilizing the awesome Python requests library, and finally <em>solver</em> randomly generating programs to be tested by the runner. You can <a href="https://github.com/tasuk/zlej-rob">browse the source code of Zlej Rob at github</a>.
+</p>
+<p>
+Some facts about the solver:
+</p>
+<ol>
+<li>
+Start with an empty program.
+</li>
+<li>
+In each generation, each of the surviving programs will have ~100 randomly generated offsprings.
+</li>
+<li>
+A program is mutated by overriding (or removing) 1 to ~3 instructions of its parent.
+</li>
+<li>
+Programs are scored: positive points for reaching a square, extra points for collecting stars, and a negative point for each program instruction.
+</li>
+<li>
+If an offspring achieved higher score than its parent, it’s added to the current program population.
+</li>
+<li>
+Program population is kept to ~100 programs with highest score.
+</li>
+</ol>
+<p>
+I decided not to cross-breed programs at all, as it doesn’t feel like it would be helpful.
+</p>
+<p>
+Surprisingly, keeping a set of all evaluated programs doesn’t eat all the memory (and prevents recalculating the same thing over and over, speeding up execution by an order of magnitude). Yay for sets of tuples!
+</p>
+<h3>
+Results
+</h3>
+<p>
+Zlej Rob has <a href="http://robozzle.com/user.aspx?name=zlejrob">solved over a 1000 puzzles</a> in a couple of weeks of running on my $5/mo <a href="https://www.digitalocean.com/?refcode=145c195a4635">DigitalOcean</a> (that’s a referral link – sign up and I’ll get rich) droplet alongside this blog and a couple other things.
+</p>
+<p>
+Zlej Rob’s good at solving <a href="http://robozzle.com/js/play.aspx?puzzle=3900">one-way street</a> <a href="http://robozzle.com/js/play.aspx?puzzle=1691">puzzles</a> <a href="http://robozzle.com/js/play.aspx?puzzle=913">with</a> <a href="http://robozzle.com/js/play.aspx?puzzle=981">one function</a>, bad at anything involving <a href="http://robozzle.com/js/play.aspx?puzzle=39">multiple functions</a>, mediocre at multiple-possibilities puzzles, and passable at <a href="http://robozzle.com/js/play.aspx?puzzle=3281">random walks</a>.
+</p>
+<p>
+Zlej Rob discovered the shortest solution for <a href="http://robozzle.com/puzzle.aspx?id=1758">Twins 2</a> (which I improved by removing a redundant function call). I think that’s pretty impressive. The solution includes <strong>a lot of</strong> recursive calls, and the replay takes ages – the robot loops and loops, seemingly never getting very far.
+</p>
+<h3>
+Ideas for improvement
+</h3>
+<ol>
+<li>
+Visualisation. Would help identifying why certain things work and others don’t. I’ve almost started writing an Angular app to do that.
+</li>
+<li>
+Smarter mutations. Mutations should include <em>abstracting random instruction subchains</em> into other functions (this could be very useful for multifunction problems where Zlej Rob usually fails terribly because it can’t connect the dots). It might also be better to <em>insert</em> instructions instead of <em>replacing</em> them.
+</li>
+<li>
+Program diversity (“similarity penalty”). Surviving population for each generation is around 100 programs (toyed with higher values with no positive results – if anything, having 1000 programs is terribly slow), and they can all easily end up being very similar, getting stuck in local minima.
+</li>
+<li>
+Higher score programs should have more offsprings. Could speed up certain puzzles but perhaps make less obvious solutions unatainable. Would need to ensure program diversity first.
+</li>
+<li>
+Hints. For puzzles with an “obvious” order in which squares must be visited (such as <a href="http://www.robozzle.com/js/play.aspx?puzzle=213">binary counting</a> or <a href="http://www.robozzle.com/js/play.aspx?puzzle=656">limit your stack</a>), mandate this order. Currently, Zlej Rob finds random solutions that sweep vast majority of the board in a haphazard manner. Forcing the order in which squares must be visited would be extremely helpful, but likely requires human participation. Perhaps that’d be cheating?
+</li>
+</ol>
+<h3>
+Where do we go from here?
+</h3>
+<p>
+Zlej Rob’s results have surpassed my expectations, especially considering I haven’t spent that much time on it. Getting Zlej Rob into top 10 of RoboZZle players seems possible but would likely require an order of magnitude more effort than I spent so far. Not sure if worth it?
+</p>
+  </div>
+
+  
+</article>
+
+  
+  <article>
+  <h1>
+  
+  <a href="../how-i-didnt-stop-eating-food/index.html">How I didn't stop eating food</a>
+  
+  </h1>
+  <div class="meta">
+    <span class="date">2013-05-30</span>
+  </div>
+  <div class="content">
+    <p>
+I’ve recently read <a href="http://robrhinehart.com/?p=298">How I Stopped Eating Food</a> and think the author is nuts. Rob claims his wonder-potion helped him clear his to-do list and got him rid of his coffee addiction. While his approach is questionable, I’ve long shared many of his goals, such as a healthy and balanced diet, while not wasting time preparing food.
+</p>
+<p>
+Here are some dishes I’ve been cooking lately:
+</p>
+<ul>
+<li>
+First my absolute favorite: fast, clean and super-healthy. Take broccoli/cauliflower/spinach/green beans/other vegetable. Wash, cut up in a couple of pieces, put in a plastic box, add a bit of water, and microwave between one and three minutes. Steamed vegetables retain both their taste and vitamins. Meanwhile, grate some cheese to sprinkle on top and wash side-dish tomatoes/paprika/carrots/other vegetables. Add a bit of pepper and pour olive oil over it all. Voila, that took about 7 minutes, dirty dishes amount to one plastic box and the grater.
+</li>
+<li>
+Preheat oven. Wrap fish in aluminium foil and put it in the oven. Go read a book for 10 minutes. Wash side-dish vegetables and perhaps cut a slice of bread. No dirty dishes.
+</li>
+<li>
+Scrambled eggs are pushing it, preparation takes like 15 minutes and there’s the dirty pan left afterwards. But sometimes I still enjoy them.
+</li>
+</ul>
+<p>
+I eat tomatoes and paprika with almost every meal. For meals without much protein, I add few slices of dead animals. If the dish doesn’t have enough fat, I add generous amount of olives and snack nuts afterwards. Oh and I’ve just discovered avocados!
+</p>
+<p>
+Breakfast is my guilty pleasure, oats (+ banana and nuts) with yogurt, often times of Greek variety, with 15 grams of saturated fat per half-a-cup, instantly getting to 75% of maximum recommended daily saturated fat intake. Oh well.
+</p>
+  </div>
+
+  
+</article>
+
+  
+  <article>
+  <h1>
+  
+  <a href="../chairs/index.html">Chairs</a>
+  
+  </h1>
+  <div class="meta">
+    <span class="date">2012-11-15</span>
+  </div>
+  <div class="content">
+    <p>
+I’ve been undergoing torture all my life. These devices of the devil bend my body 90° at the waist, and then <em>again</em> 90° at the knees. Halfway between bent and straight. I can hardly imagine anything less comfortable.
+</p>
+<p>
+I’d be happy if the chair-angles were either bigger or smaller. <a href="http://en.wikipedia.org/wiki/Kneeling_chair">Kneeling chairs</a> are nice, as the body/thighs angle is about 110°, which “reduces lower back strain by promoting proper spinal alignment”. <a href="http://en.wikipedia.org/wiki/Zafu">Zafu</a> is cool, because you can sit on it in many different ways, according to your current mood. <a href="http://en.wikipedia.org/wiki/Bean_bag_chair">Bean bags</a> are comfortable, they adjust their shape to your shape. Sitting on the floor leaning against a wall with legs stretched out and a small pillow under your back is almost as good as sitting on a bed of leaves leaning against an oak.
+</p>
+<p>
+But Aeron? No thank you.
+</p>
+  </div>
+
+  
+</article>
+
+  
+  <article>
+  <h1>
+  
+  <a href="../deja-vu-explained/index.html">Déjà vu explained</a>
+  
+  </h1>
+  <div class="meta">
+    <span class="date">2012-10-13</span>
+  </div>
+  <div class="content">
+    <p>
+So, <a href="http://en.wikipedia.org/wiki/D%C3%A9j%C3%A0_vu#Scientific_research">Wikipedia says</a>:
+</p>
+<blockquote>
+<p>
+The psychologist Edward B. Titchener in his book A Textbook of Psychology (1928), wrote that déjà vu is caused by a person getting a brief glimpse of an object or situation prior to full conscious perception, resulting in a false sense of familiarity. The explanation that has mostly been accepted of déjà vu is not that it is an act of “precognition” or “prophecy”, but rather that it is an anomaly of memory, giving the false impression that an experience is “being recalled”.
+</p>
+</blockquote>
+<p>
+What a load of bollocks. Here’s the real deal:
+</p>
+<p>
+When you experience a déjà vu, it <em>had</em> already happened to you. Your experiences are fully controlled by your mind – you do not perceive some objective reality but your subjective one.
+</p>
+<p>
+Subjective reality means you can experience different situations in a very similar way, when they put you in the <strong>same emotional state</strong>. More scientifically, the same partial chain of neurons in your brain fires in the same sequence. That’s why you remember it, that’s why you sense a déjà vu – it <em>had</em> already happened to you.
+</p>
+<p>
+From the half-assed-guesses-I-am-absolutely-convinced-about department.
+</p>
+  </div>
+
+  
+</article>
+
+  
+  <article>
+  <h1>
+  
+  <a href="../one-week-in-sheffield/index.html">One week in Sheffield</a>
+  
+  </h1>
+  <div class="meta">
+    <span class="date">2012-09-25</span>
+  </div>
+  <div class="content">
+    <ul>
+<li>
+Almost got run over dozen of times. Surprisingly, on a bike it’s easier to keep left.
+</li>
+<li>
+Stores are open (convenient; I’ve lived in a country where stores are closed).
+</li>
+<li>
+In Sainsbury’s, everything is either discounted or 3 for the price of 2. You think people would see right through that, but I still get excited when whatever I want to buy turns out to be discounted.
+</li>
+<li>
+Show me a white person in Sheffield and I’ll show you two Asians.
+</li>
+<li>
+Local “pale ale” is actually very tasty.
+</li>
+<li>
+Female cashiers twice your age call you “my love”.
+</li>
+<li>
+Yesterday at a concert I met a guy from South England who couldn’t understand the Sheffield accent either.
+</li>
+<li>
+Cheddar.
+</li>
+<li>
+Hot girls are usually Asian. Or Spanish exchange students.
+</li>
+<li>
+Full English breakfast is not bad. Though the beans take time getting used to.
+</li>
+<li>
+Sheffield is hilly. Even though five speeds are all I need on my bike, sometimes I can’t help but secretly wish for a lower speed.
+</li>
+<li>
+Ordered spicy pork noodle soup in an Asian place. It was the spicy-in, spicy-out kind.
+</li>
+<li>
+There’s no light in my hotel bathroom but the pub downstairs is way cool.
+</li>
+<li>
+Museums and galleries are plentiful and free.
+</li>
+<li>
+Had to pack and move all my things three times in one week. Bought a pull-up bar and a bicycle to make the process more challenging.
+</li>
+<li>
+Got called up on stage at a local theater play. Scared me so much that when asked where I was from, answered Argentina.
+</li>
+<li>
+Peak district is awesome.
+</li>
+</ul>
+  </div>
+
+  
+</article>
+
+  
+  <article>
+  <h1>
+  
+  <a href="../make-ubuntu-unity-usable-in-five-simple-steps/index.html">Make Ubuntu Unity usable in five simple steps</a>
+  
+  </h1>
+  <div class="meta">
+    <span class="date">2012-09-19</span>
+  </div>
+  <div class="content">
+    <p>
+Out of frustration with Unity, I’ve used several window managers/desktops recently. They are excellent at what they do, but I missed how everything (volume control, display brightness, keyboard switcher, sleep on laptop lid close, sound mixer, wifi applet, gnome keyring manager, automounting, etc.) <em>just works</em> out of the box in the default Ubuntu installation. All these things need to be taken care of separately when using a minimalistic window manager, most of them are painful, some impossible.
+</p>
+<p>
+Unity is a strange beast. Some of its features are amazing (merged topbar with window bar, semi-maximizing windows with ctrl+windows_key+left/right), while some are awful (the unholy left menu with its terrible launcher and all the other tentacles). I figured long as I can avoid the few bad parts, I’ll be happy.
+</p>
+<p>
+You’ll need to <a href="apt:compizconfig-settings-manager">install compizconfig-settings-manager</a> for most of the tweaks to work. People who say ccsm breaks things are noobs.
+</p>
+<p>
+<strong>Get the unity sidebar out of the way:</strong><br />
+Appearance: Behavior: Auto-hide: ON<br />
+Optionally also, Reveal location: Top Left Corner, and set sensitivity to something ridiculous so the cthulhu never pops out.
+</p>
+<p>
+<strong>Sensible Alt+F2:</strong><br />
+First, <a href="apt:gmrun">install gmrun</a>, a quick and small program launcher with tab completion.<br />
+Second, unbind Alt+F2 from Unity:<br />
+<pre>
+gconftool-2 \
+-s "/apps/compiz-1/plugins/unityshell/screen0/options/execute_command" \
+-t string ""
+</pre>
+<br />
+Third, bind Alt+F2 to gmrun:<br />
+ccsm: Commands: add command “gmrun”, key bindings bind to Alt+F2
+</p>
+<p>
+<strong>Default four desktops aren’t bourgeoise enough, get more:</strong><br />
+ccsm: General Options: Desktop Size
+</p>
+<p>
+<strong>Focus Follows Mouse:</strong><br />
+ccsm: General Options: Focus &amp; Raise: uncheck “Click To Focus”
+</p>
+<p>
+<strong>Fullscreen Any Window:</strong><br />
+ccsm: Extra WM Actions: Toggle Fullscreen: Alt+F11
+</p>
+<p>
+<strong>Swap Ctrl and Caps Lock:</strong><br />
+gnome-tweak-tool: Typing: Ctrl key position: Swap Ctrl and Caps Lock
+</p>
+<p>
+I find the environment comfortable to use after just these five tweaks (press and hold the windows key to see many useful Unity shortcuts), though I’m still struggling with window switching. Usually bypass it by keeping one fullscreen window per desktop.
+</p>
+<p>
+PS: Why did I write this? Further reference. Yesterday I accidentally ran “unity –reset” (do <strong>NOT</strong> ever run that) and had to google these steps (again). No more!
+</p>
+  </div>
+
+  
+</article>
+
+  
+  <article>
+  <h1>
+  
+  <a href="../eurovelo-6/index.html">From the Atlantic to the Black Sea</a>
+  
+  </h1>
+  <div class="meta">
+    <span class="date">2012-06-17</span>
+  </div>
+  <div class="content">
+    <p>
+<a href="http://eurovelo.com/">Eurovelo</a> is a network of long distance bicycle routes, most of which are still under development as of 2012. <a href="http://en.eurovelo6.org/">Eurovelo 6</a> is a path from the Atlantic to the Black Sea. It leads accross Europe through France, Switzerland, Germany, Austria, Slovakia, Hungary, Serbia, Bulgaria, and Romania.
+</p>
+<p>
+<iframe width="600" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps/ms?msa=0&amp;msid=200528394317942866331.0004c21e757bcf6669edd&amp;ie=UTF8&amp;t=p&amp;ll=47.279229,13.095703&amp;spn=14.913562,44.824219&amp;z=4&amp;output=embed">
+</iframe>
+<br /><small>See <a href="http://maps.google.com/maps/ms?msa=0&amp;msid=200528394317942866331.0004c21e757bcf6669edd&amp;ie=UTF8&amp;t=p&amp;ll=47.279229,13.095703&amp;spn=14.913562,44.824219&amp;z=4&amp;source=embed">where I slept</a> on a larger map</small>
+</p>
+<h3>
+Why bicycle touring?
+</h3>
+<p>
+<strong>Travelling is healthy for the mind, cycling for the body</strong>. I’ve been a fan of both for a while and wanted to combine them. Turns out there are extra benefits to bicycle touring: It is the right speed to travel. Cars are too fast, walking is too slow. Cycling is <strong>fast enough to reach places, and slow enough to see them</strong>. The locals will love you. They’re tired of buses full of tourists who jump out, take a picture of the famous castle, jump back in, and speed off. A bicycle rider, you are out there in the open where everyone’s equal. You get to see both <strong>the expected and the unexpected, the mundane and the extraordinary</strong>.
+</p>
+<p>
+Some more advantages include being able to eat as much as you can of whatever you want without getting fat, not having problems falling asleep, getting leg muscles of steel, awesome tan, new friends, stories to tell. Today morning feels like years ago, so much has happened since. A month ago feels like yesterday, the memories are so vivid.
+</p>
+<h3>
+Expectations vs. reality
+</h3>
+<p>
+<img src="../assets/2012/06/eurovelo6.png" alt="" title="eurovelo6" class="alignnone size-full wp-image-644" />
+</p>
+<h3>
+CouchSurfers
+</h3>
+<p>
+CouchSurfing is rather time consuming, so I planned to surf only in the beginning, when it was too cold, and sleep in a tent later on. However, it wasn’t just a convenient way to sleep for free, but primarily a great way to spend time with the locals and get to know the culture.
+</p>
+<p>
+I cannot overstate the importance of CouchSurfing for my trip. All my hosts took excellent care of me and we had lots of fun.
+</p>
+<p>
+The experiences were quite varied: I met travellers, students, teachers, photographers, programmers, (organic!) farmers, pick-up artists, baristas, flutemakers, dumpsterdivers, CEOs, builders of self-sustainable houses, psychotherapists, nuclear power plant managers, orangina tasters, hikers, bikers, artists, clowns, actors, soccer fanatics, etc. It has been extremely enriching and there just isn’t enough space here to describe it.
+</p>
+<h3>
+Bicycle tourists
+</h3>
+<p>
+A reminder that I’m not insane. Or at least not the only one. There were so many! If I felt lonely for some reason, only spending each evening with new people, bicycle tourists for the rescue! Perhaps unsurprisingly, most are either young (studying or just finished) or old (retired). Not many inbetween.
+</p>
+<p>
+Here are the cyclists who deserve special mention for their heroic feats:
+</p>
+<ul>
+<li>
+Olek, racing for three days, sleeping outside in rain with no tent
+</li>
+<li>
+Salome, rode a fixed gear from London to Basel and now rides it as a bicycle messenger
+</li>
+<li>
+Norman, from London to Venezia and then from Egypt to South Africa in 3 months
+</li>
+<li>
+Martin, wanted to beat the bike around the world record, gave up and was doing London-Istanbul in two weeks with average of measly 150-270km per day (funny thing, we met in the rain after Vienna, next to the Donauinsel where everyone gets lost, just as Martin was coming back from the dead end while I was heading towards it).
+</li>
+</ul>
+<p>
+Furthermore, Dad joined me for a week, Kev and Mat rode with me for two days, and Mauro and Jole let me camp with them on the Black Sea beach. Many more deserve mention, but there’s not enough space.
+</p>
+<h3>
+The Countries
+</h3>
+<p>
+It would be tiring to read my daily journals, so here are the highlights and summaries for the different countries. These reviews do not include CouchSurfers, it would send the scores through the roof (except Romania).
+</p>
+<p>
+<strong>France</strong><br />
+Glad to have started there. Apart from great bread, wine, and cheese, France had best signposted cycle paths with good surfaces. And apart from Serbians, the French were the most hospitable people. Once I was spotted by a group of about 25 elderly cyclists who were having a pique-nique. They waved and shouted at me until I turned my bike around and went to see them. I was provided generous amounts of wine, bread, cheese, saucisson, wine, cheese, wine, … Viva la France!
+</p>
+<p>
+My only complaints about France would be the unreasonably high price of the pensions/chambres d’hotes, and the weather. Supposedly April is the most beautiful month. Everyone tells me I got unlucky.
+</p>
+<p>
+<img src="../assets/2012/06/lisle-sur-le-doubs.jpg" alt="" title="l&#039;isle sur le doubs" class="alignnone size-full wp-image-649" />
+</p>
+<p>
+<strong>Switzerland, Germany, and Austria</strong><br />
+All three have very pictoresque towns and villages.
+</p>
+<p>
+Switzerland is <em>expensive</em>! Nine francs for one beer was quite a surprise. In Romania, you can have a three course meal for that. In a four star hotel.
+</p>
+<p>
+Germany is the country with no internet. But with cheap food and accommodation. Unless there’s a party going on, the Germans are rather reserved. Hello, thank you, good bye.
+</p>
+<p>
+I’ll never forget the terrible headwind in Austria. Otherwise, Austrians are just Czechs who happen to speak German. Pretty cool.
+</p>
+<p>
+<img src="../assets/2012/06/passau.jpg" alt="" title="passau" class="alignnone size-full wp-image-650" />
+</p>
+<p>
+<strong>Slovakia and Hungary</strong><br />
+In and out of Slovakia. People stopped responding to my greetings. Starting to look like Eastern Europe even though you can still pay in euros.
+</p>
+<p>
+Hungary is the country where köszönöm means thank you. First real language barrier. Good food, friendly people. Budapest is an amazing city.
+</p>
+<p>
+<img src="../assets/2012/06/budapest.jpg" alt="" title="budapest" class="alignnone size-full wp-image-652" />
+</p>
+<p>
+<strong>Serbia</strong><br />
+Serbians are the most hospitable people. They don’t have much, but are eager to share it all with you. Strangers bought me beers. When I was buying a couple of tomatoes and a bag of strawberries I got the bag of strawberries for free. Using Antoine’s trick, I asked for water near Belgrade, and the family offered me a tasty dinner and later a comfortable bed. They spoke Serbian, I spoke Czech, we didn’t understand each other much, and somehow it wasn’t a problem.
+</p>
+<p>
+Apart from that, the bicycle paths go on rather reasonable roads with not much traffic and there are awesome funny/silly/wise quotes on the Eurovelo signposts.
+</p>
+<p>
+<img src="../assets/2012/06/hills.jpg" alt="" title="hills" class="alignnone size-full wp-image-653" />
+</p>
+<p>
+<strong>Romania and Bulgaria</strong><br />
+Andrei says that Romania would be a beautiful country if it wasn’t full of Romanians. That’s so wrong! Romanians are very nice, but the country sucks. There’s no internet, it’s full of rabid dogs, and there are no hotels anywhere except Constanta/Mamaia, where there’s 10km of nothing but hotels lined up next to each other. Perfect vacation.
+</p>
+<p>
+There are no city centers, no main squares. In villages, there’s the Main Street. The occupation of Romanians is to sit on the benches in front of their houses on the Main Street and Greet Cyclists.
+</p>
+<p>
+The kids high-five you while the elders wave and shout something incomprehensible. Unfortunately, the language barrier is insurmountable, as vast majority of Romanians only speak Romanian. I speak enough to ask for water and say thank you, so that’s what the conversations are limited to.
+</p>
+<p>
+Bulgaria differs from Romania in two aspects: It’s about half the price and Bulgarian is a slavic language. Too bad I couldn’t spend more time there.
+</p>
+<p>
+<img src="../assets/2012/06/romania.jpg" alt="" title="romania" class="alignnone size-full wp-image-654" />
+</p>
+<h3>
+Where are the photos?
+</h3>
+<p>
+Well, that’s a bit of a touchy topic. I’m afraid of taking pictures of people. Most get scared of the big camera and start acting in strange ways. You need to be really careful. The Indians don’t let you take a photo of them because it takes away their soul. That’s wise. A photographer needs to be able to capture the soul without taking it away. Not sure I can do that. Not yet, perhaps.
+</p>
+<p>
+So, I have a couple of photo galleries from my trip. Along <a href="../../gallery.tasuki.org/2012/04-loire-castles.html">la Loire to Orleans</a>, <a href="../../gallery.tasuki.org/2012/04-loire-valley-saone-doubs.html">rest of la Loire plus Saone and Doubs</a>, <a href="../../gallery.tasuki.org/2012/05-basel-to-passau.html">Switzerland and Germany</a>, <a href="../../gallery.tasuki.org/2012/05-osterreich-slovensko-magyar.html">Austria, Slovakia, and Hungary</a>, and <a href="../../gallery.tasuki.org/2012/06-balkans.html">Serbia, Bulgaria, and Romania</a>. I’m even really happy about some of the pictures. But, I didn’t take the most important ones…
+</p>
+<h3>
+Summary
+</h3>
+<p>
+This trip was by far the greatest thing that ever happened to me, thanks to all the people I met. If you read this far, do yourself a favor, quit your job, go buy a bicycle and get a ticket to Saint-Nazaire.
+</p>
+<p>
+<img src="../assets/2012/06/short-stop.jpg" alt="" title="short-stop" class="alignnone size-full wp-image-656" />
+</p>
+  </div>
+
+  
+</article>
+
+  
+  <article>
+  <h1>
+  
+  <a href="../best-movies-part-2/index.html">Best movies, part 2</a>
+  
+  </h1>
+  <div class="meta">
+    <span class="date">2012-04-05</span>
+  </div>
+  <div class="content">
+    <p>
+In my <a href="../best-movies-of/index.html">previous blag post</a>, I’ve written about Ingmar Bergman and Krzysztof Kieślowski, my two favorite film directors. If you like their movies, you might like the following ones as well.
+</p>
+<h3>
+<a href="http://www.imdb.com/name/nm0001789/">Андрей Тарковский (Andrei Tarkovsky)</a>
+</h3>
+<p>
+<strong><a href="http://www.imdb.com/title/tt0079944/">Stalker</a></strong> – One of my best film-watching experiences ever. It was so different from what I had expected of a sci-fi movie. The sound was breathtaking. I was literally at the edge of my seat the whole time. The movie was inspired by the <a href="http://lib.ru/STRUGACKIE/engl_picnic.txt">Roadside Picnic</a> novel by Strugatsky brothers, which is also seriously cool.
+</p>
+<p>
+<strong><a href="http://www.imdb.com/title/tt0060107/">Andrei Rublev</a></strong> – based on life of an icon painter, the movie depicts life in medieval Russia. The movie was a tad too slow for me, but I did enjoy the bell-maker side story.
+</p>
+<h3>
+<a href="http://www.imdb.com/name/nm0000975/">Robert Bresson</a>
+</h3>
+<p>
+Robert Bresson had a peculiar habit of starring non-actors in his movies and discouraging them from acting. The lack of acting, in a way, makes his movies resemble books.
+</p>
+<p>
+<strong><a href="http://www.imdb.com/title/tt0049902/">A Man Escaped</a></strong> – Is about a French guy escaping from a Nazi prison. During the movie, the main hero mostly spends his time trying to disassemble his cell door with a spoon. Who would have guessed such a movie can be enjoyable?
+</p>
+<p>
+<strong><a href="http://www.imdb.com/title/tt0053168/">Pickpocket</a></strong> – As opposed to A Man Escaped, I couldn’t really associate myself with the protagonist. If I find myself unable to find a job, I’ll watch this again for educational purposes. Cinematically, it was good though.
+</p>
+<p>
+<strong><a href="http://www.imdb.com/title/tt0042619/">Diary of a Country Priest</a></strong> – Loved how the characters evolved in this film, though the priest himself was a bit of an enigma. I wonder whether Bresson was a christian or not. As a non-believer in the three-in-one god, I still greatly enjoyed this film.
+</p>
+<p>
+Next in my watchlist: more Ingmar Bergman.
+</p>
+  </div>
+
+  
+</article>
+
+  
+  <article>
+  <h1>
+  
+  <a href="../best-movies-of/index.html">Best movies of …?</a>
+  
+  </h1>
+  <div class="meta">
+    <span class="date">2012-03-26</span>
+  </div>
+  <div class="content">
+    <p>
+Orwen’s blog post <a href="http://blog.orwen.org/2012/02/nejlepsi-filmy-z-jara-2012-ukazky/">best films of spring 2012</a> inspired me to write about movies as well. Actually, I’ve only started watching movies recently, and I haven’t seen many so far. Most new movies move way too fast for me, so I prefer to watch the older ones.
+</p>
+<p>
+The post mostly consists of just a list of movies. If you’d like to see reviews, click on the links. The IMDb reviews are usually far better than anything I could produce. Just watch out for spoilers.
+</p>
+<p>
+Let’s start with my current favorite directors:
+</p>
+<h3>
+<a href="http://www.imdb.com/name/nm0000005/">Ingmar Bergman</a>
+</h3>
+<p>
+<strong><a href="http://www.imdb.com/title/tt0060827/">Persona</a></strong> – The characters were hard to understand, the story unclear, the cinematography superb. All in all one of the best films I’ve seen, will have to watch once more.
+</p>
+<p>
+<strong><a href="http://www.imdb.com/title/tt0050986/">Smultronstället</a></strong> (Wild Strawberries, but I wanna show off I can spell it out in Swedish) – A movie about life. Compared to Persona, Smultronstället was very easy to watch, though it did raise some interesting questions. I love movies with no antagonists.
+</p>
+<p>
+<strong><a href="http://www.imdb.com/title/tt0050976/">The Seventh Seal</a></strong> – IMDb says: A man seeks answers about life, death, and the existence of God as he plays chess against the Grim Reaper during the Black Plague. That’s pretty accurate. And I dig the rhyming squire.
+</p>
+<h3>
+<a href="http://www.imdb.com/name/nm0001425/">Krzysztof Kieślowski</a>
+</h3>
+<p>
+<strong>Trois Couleurs</strong> (Trzy Kolory, The Three Colours) – Inspired by the French flag and motto, they are <a href="http://www.imdb.com/title/tt0108394/">Blue</a> (liberty), <a href="http://www.imdb.com/title/tt0111507/">White</a> (equality), and <a href="http://www.imdb.com/title/tt0111495/">Red</a> (fraternity). I really liked White, though it’s the least acclaimed one. Red was very cool too. Probably I wasn’t in the right mood when watching Blue. And Jesus Christ, the IMDb trailers are so fucking terrible.
+</p>
+<p>
+<strong><a href="http://www.imdb.com/title/tt0092337/">The Decalogue</a></strong> – ten short movies based on the ten commandments. Most are very good, the first and seventh are my favorites. I still haven’t seen the last one due to Mac OS not being able to write on ext3.
+</p>
+<p>
+<strong><a href="http://www.imdb.com/title/tt0101765/">La double vie de Véronique</a></strong> (The Double Life of Veronique) – more usually one person lives two lives but sometimes two people live one life. This movie is on my re-watch list (partially because I don’t recall many of the details). Also, it might be easier to watch than any of the above – if you don’t know where to start, start right here.
+</p>
+<p>
+Stay tuned, next post is featuring Andrei Tarkovsky and Robert Bresson!
+</p>
+  </div>
+
+  
+</article>
+<div id="pagination" class="pure-g">
+  <div class="older pure-u-1-1 pure-u-sm-1-3">
+  
+    <a href="5.html">&laquo; Older posts</a>
+  
+  </div>
+
+  <div class="page-number pure-u-1-1 pure-u-sm-1-3">
+    Page: 4 of 24
+  </div>
+
+  <div class="newer pure-u-1-1 pure-u-sm-1-3">
+  
+    <a href="3.html">Newer posts &raquo;</a>
+  
+  </div>
+</div>
+
+    </div>
+  </body>
+</html>

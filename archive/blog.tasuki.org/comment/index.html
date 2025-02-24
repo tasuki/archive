@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#C60">
+  <link rel="icon" href="../favicon.svg">
+
+  
+  <title>How to comment? &mdash; tasuki’s blog</title>
+  
+
+  <link rel="stylesheet" href="../public/pure-min.css">
+  <link rel="stylesheet" href="../public/pure-grids-responsive-min.css">
+  <link rel="stylesheet" href="../public/style.css">
+</head>
+<body>
+    <div id="header">
+      <div class="pad">
+        <a href="../index.html">tasuki’s blog</a>
+      </div>
+    </div>
+    <div id="content" class="pad">
+      
+
+<article>
+  <h1>
+  
+  How to comment?
+  
+  </h1>
+  <div class="meta">
+    <span class="date"></span>
+  </div>
+  <div class="content">
+    <p>There are two ways to add comments, the lazy one and the hard one. The end result will be the same – after I approve your comment, it’ll appear under the blog post.</p>
+
+<h3 id="comment-the-lazy-way">Comment the lazy way</h3>
+
+<p>Write the comment, and <a href="../../tasuki.org/index.html">send it to me</a> using email, Face book, Keybase, KGS, or any other thing I read.</p>
+
+<p>…and… tell me to publish it? If you don’t do that, I <a href="../high-poetry/index.html">won’t just randomly quote you</a> in a blog post!</p>
+
+<h3 id="comment-the-hard-way">Comment the hard way</h3>
+
+<ol>
+  <li>Click the “Add your comment” link under a blog post (or try it on this very page!).</li>
+  <li>Follow the <a href="https://docs.github.com/en/github/managing-files-in-a-repository/editing-files-in-another-users-repository">steps to edit files in another user’s repository</a>.</li>
+  <li>
+    <p>If there is a <code class="language-plaintext highlighter-rouge">comments</code> section in the post’s front matter, add a comment at the bottom of it, otherwise create one. Here’s a sample with two comments:</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> comments:
+   - author: tasuki
+     author_url: https://tasuki.org/
+     date: 2020-02-02
+     content: |
+       This is *a comment*. An empty line creates a paragraph, like this...
+
+       We've got [Markdown](https://guides.github.com/features/mastering-markdown/) formatting,
+       specifically the [kramdown](https://kramdown.gettalong.org/) flavour.
+       You &lt;em&gt;can&lt;/em&gt; also just use basic html if you like.
+
+       Make sure to start the content part with `content: |` for yaml not to mangle things up.
+   - author: tasuki
+     author_url: https://tasuki.org/
+     date: 2020-11-11
+     content: |
+       This is a comment from a special day. Yay!
+</code></pre></div>    </div>
+  </li>
+</ol>
+
+  </div>
+
+  
+  <div class="post-nav">
+    
+    
+  </div>
+
+  <div class="comments">
+    
+
+    <h3>2 thoughts on &ldquo;How to comment?&rdquo;</h3><div class="comment">
+        <p>
+          <span class="author">
+            
+            <a href="../../tasuki.org/index.html">tasuki</a>
+            
+          </span>
+          <span class="date">2020-02-02</span>
+        </p>
+        <p><p>This is <em>a comment</em>. An empty line creates a paragraph, like this…</p>
+
+<p>We’ve got <a href="https://guides.github.com/features/mastering-markdown/">Markdown</a> formatting,
+specifically the <a href="https://kramdown.gettalong.org/">kramdown</a> flavour.
+You <em>can</em> also just use basic html if you like.</p>
+
+<p>Make sure to start the content part with <code class="language-plaintext highlighter-rouge">content: |</code> for yaml not to mangle things up.</p>
+</p>
+      </div><div class="comment">
+        <p>
+          <span class="author">
+            
+            <a href="../../tasuki.org/index.html">tasuki</a>
+            
+          </span>
+          <span class="date">2020-11-11</span>
+        </p>
+        <p><p>This is a comment from a special day. Yay!</p>
+</p>
+      </div><p><a class="add-comment" href="https://github.com/tasuki/blog/edit/master/comment.md">Add your comment</a>
+       &mdash; <a href="index.html">How does this work?</a></p>
+  </div>
+  
+</article>
+
+
+    </div>
+  </body>
+</html>

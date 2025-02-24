@@ -1,0 +1,417 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[6.50]TM[2400]OT[15/300 Canadian]
+PW[tasuki]PB[Hipcio]BR[3d]DT[2021-01-30]PC[The KGS Go Server at http://www.gokgs.com/]C[tasuki [-\]: miłej!
+Hipcio [3d\]: cześć!
+Hipcio [3d\]: miłej gry
+Hipcio [3d\]: iglo coś tam
+]RE[W+8.50]
+;B[pd]BL[2370.312]
+;W[dq]WL[2384.137]
+;B[dd]BL[2353.683]
+;W[qp]WL[2378.351]
+;B[do]BL[2350.335]
+;W[co]WL[2372.551]
+;B[cn]BL[2348.282]
+;W[cp]WL[2366.739]
+;B[dn]BL[2344.817]
+;W[fq]WL[2358.841]
+;B[dj]BL[2331.958]
+;W[qf]WL[2349.821]
+;B[nc]BL[2256.054]
+;W[qd]WL[2342.71]
+;B[qc]BL[2253.794]
+;W[rc]WL[2341.27]
+;B[qe]BL[2252.726]
+;W[rd]WL[2338.588]
+;B[pf]BL[2244.316]
+;W[re]WL[2334.863]
+;B[pe]BL[2243.327]
+;W[qg]WL[2333.045]
+;B[oh]BL[2236.296]
+;W[fc]WL[2292.384]
+;B[hc]BL[2218.323]
+;W[cc]WL[2286.243]
+;B[cd]BL[2207.795]
+;W[dc]WL[2282.785]
+;B[ed]BL[2206.093]
+;W[fd]WL[2276.927]
+;B[ec]BL[2037.364]
+;W[eb]WL[2272.168]
+;B[fb]BL[2036.32]
+;W[gb]WL[2263.396]
+;B[db]BL[2033.041]
+;W[fa]WL[2261.763]
+;B[cb]BL[2032.262]
+;W[jc]WL[2213.181]
+;B[id]BL[1972.795]
+;W[jd]WL[2199.409]
+;B[je]BL[1873.741]
+;W[ke]WL[2138.102]
+;B[ie]BL[1861.636]
+;W[bc]WL[2054.424]
+;B[bb]BL[1857.947]
+;W[hb]WL[1944.736]
+;B[kf]BL[1564.417]
+;W[le]WL[1930.543]
+;B[fe]BL[1553.374]
+;W[ge]WL[1922.714]
+;B[ff]BL[1548.408]
+;W[gf]WL[1902.233]
+;B[fg]BL[1546.621]
+;W[gg]WL[1876.578]
+;B[fh]BL[1542.971]
+;W[lf]WL[1724.811]
+;B[kg]BL[1519.279]
+;W[ig]WL[1721.714]
+;B[jg]BL[1517.2]
+;W[mh]WL[1638.012]
+;B[ki]BL[1500.292]
+;W[hj]WL[1599.006]
+;B[mi]BL[1368.621]
+;W[lh]WL[1558.847]
+;B[li]BL[1361.464]
+;W[nf]WL[1518.677]
+;B[lc]BL[1330.091]
+;W[kh]WL[1510.614]
+;B[jh]BL[1327.477]
+;W[ji]WL[1509.315]
+;B[ih]BL[1300.07]
+;W[ni]WL[1419.791]
+;B[nj]BL[1121.674]
+;W[oi]WL[1257.537]
+;B[pg]BL[1093.103]
+;W[nh]WL[1155.387]
+;B[qh]BL[1089.088]
+;W[rh]WL[1127.934]
+;B[rg]BL[1065.902]
+;W[rf]WL[1112.729]
+;B[ri]BL[1063.691]
+;W[sg]WL[1103.633]
+;B[qi]BL[1048.504]
+;W[jj]WL[1095.656]
+;B[gh]BL[1008.865]
+;W[mj]WL[1091.724]
+;B[op]BL[905.617]
+;W[mk]WL[1042.012]
+;B[qq]BL[898.811]
+;W[rq]WL[990.979]
+;B[pq]BL[895.356]
+;W[ro]WL[966.538]
+;B[kq]BL[703.173]
+;W[bl]WL[933.804]C[Hipcio [3d\]: agresja
+tasuki [-\]: że kto gdzie? :)
+Hipcio [3d\]: no weź
+Hipcio [3d\]: mój teren wiadomka
+Hipcio [3d\]: :)
+]
+;B[bm]BL[608.176]
+;W[dl]WL[902.942]C[tasuki [-\]: no to idę go zobaczyć :)
+]
+;B[el]BL[555.38]
+;W[em]WL[858.325]
+;B[dm]BL[499.715]
+;W[ek]WL[853.489]
+;B[cl]BL[478.455]
+;W[fl]WL[849.547]
+;B[ck]BL[473.927]C[Hipcio [3d\]: no i cyk
+]
+;W[mq]WL[794.281]C[cezary [5d\]: co radziol tutaj liczy?
+gimlix [?\]: m4 vs n4 moze?
+]
+;B[mp]BL[212.921]
+;W[lq]WL[788.972]
+;B[lp]BL[209.726]
+;W[kr]WL[784.03]C[cezary [5d\]: chyba radzieusz musi po prostu przetrwac godnie na dole
+cezary [5d\]: i bedzie dobrze na punkty
+cezary [5d\]: tak mi sie wydaje aale moze przeceniam ten teren czarnego po lewej
+Prometeusz [-\]: a jest cięcie w G16?
+cezary [5d\]: i to ciecie w g16
+cezary [5d\]: no jest
+gimlix [?\]: poza tym bardzoistotnektoq17
+gimlix [?\]: ups spacja sie zaciela
+]
+;B[jq]BL[293.8]OB[14]
+;W[jr]WL[760.503]
+;B[iq]BL[290.888]OB[13]
+;W[nq]WL[729.947]
+;B[np]BL[287.849]OB[12]C[cezary [5d\]: tasuki ma tak z 50 punktow
+cezary [5d\]: moze 55
+]
+;W[ir]WL[720.411]C[cezary [5d\]: czarny po lewej ma 45
+gimlix [?\]: alepoza tym tojuz za duzo nie ma 
+cezary [5d\]: no racja
+]
+;B[qn]BL[207.875]OB[11]C[cezary [5d\]: trzeba teraz jakies r6
+cezary [5d\]: no zgadzam sie z tym ruchem
+cezary [5d\]: jakos aktywnie sie ustatkowac 
+cezary [5d\]: i zagrac r18
+]
+;W[qm]WL[622.21]C[gimlix [?\]:  
+]
+;B[pm]BL[101.921]OB[10]C[gimlix [?\]: ret
+]
+;W[rm]WL[596.795]C[gimlix [?\]: hmmm dobra ide podpiac inna klawiature - tej czas chyba minal :D
+]
+;B[qk]BL[52.719]OB[9]C[Hipcio [3d\]: time!
+Hipcio [3d\]: tzn nie dodawaj
+Hipcio [3d\]: tak tylko krzyczę
+Hipcio [3d\]: :)
+tasuki [-\]: a, wiedziałeś że jest kanadyjskie byo?
+tasuki [-\]: bo jak nie to dodam :)
+Hipcio [3d\]: wiedzialem
+Hipcio [3d\]: widzialem ze dales 5 minut tylko
+tasuki [-\]: tylko 15 kamieni :\]
+tasuki [-\]: grywa się 20/5
+Hipcio [3d\]: jo
+tasuki [-\]: a nawet 30/5
+tasuki [-\]: w czechach :)
+]
+;W[pn]WL[499.638]
+;B[po]BL[49.461]OB[8]
+;W[on]WL[493.236]
+;B[qo]BL[47.604]OB[7]
+;W[pl]WL[488.033]
+;B[rn]BL[45.558]OB[6]
+;W[sn]WL[485.805]
+;B[nn]BL[42.55]OB[5]
+;W[nm]WL[475.223]
+;B[oo]BL[39.974]OB[4]
+;W[om]WL[471.475]
+;B[hq]BL[38.668]OB[3]
+;W[hr]WL[437.092]
+;B[gq]BL[34.11]OB[2]C[gimlix [?\]: zamiast laczyc dolem nie mogl bialy q17?
+gimlix [?\]: zamiast h2
+]
+;W[gr]WL[399.618]
+;B[qb]BL[32.184]OB[1]
+;W[ko]WL[365.633]
+;B[kp]BL[300]OB[15]
+;W[io]WL[334.044]
+;B[fp]BL[250.064]OB[14]
+;W[ep]WL[319.383]
+;B[fo]BL[154.877]OB[13]
+;W[ho]WL[306.755]
+;B[go]BL[151.021]OB[12]
+;W[eo]WL[289.578]
+;B[en]BL[147.93]OB[11]
+;W[fn]WL[286.814]
+;B[gn]BL[147.211]OB[10]
+;W[fm]WL[284.973]
+;B[jn]BL[146.332]OB[9]
+;W[jo]WL[270.974]
+;B[hm]BL[138.156]OB[8]C[cezary [5d\]: ciezko bedzie tym 4 kamieniom uciec
+gimlix [?\]: jakies h8 mozna sprobowac ale nie umiem calosci przeliczyc
+]
+;W[hl]WL[272.585]OW[14]C[cezary [5d\]: hmm
+]
+;B[ln]BL[49.385]OB[7]
+;W[kn]WL[263.632]OW[13]
+;B[km]BL[47.77]OB[6]
+;W[im]WL[247.679]OW[12]C[gimlix [?\]: teraz to z j7 ucieka
+]
+;B[mm]BL[34.013]OB[5]C[cezary [5d\]: no ladnie ladnie
+]
+;W[ll]WL[219.955]OW[11]
+;B[rr]BL[28.679]OB[4]
+;W[sr]WL[214.131]OW[10]
+;B[ml]BL[22.248]OB[3]
+;W[nk]WL[179.116]OW[9]
+;B[nl]BL[20.256]OB[2]
+;W[ol]WL[167.708]OW[8]
+;B[lk]BL[18.138]OB[1]
+;W[kl]WL[149.103]OW[7]
+;B[ok]BL[300]OB[15]C[gimlix [?\]: o
+]
+;W[oj]WL[145.242]OW[6]
+;B[pk]BL[198.578]OB[14]
+;W[lm]WL[136.588]OW[5]
+;B[mn]BL[195.92]OB[13]
+;W[ql]WL[133.757]OW[4]
+;B[rs]BL[178.189]OB[12]C[cezary [5d\]: bialy ma tak z 60 liczac komi
+]
+;W[rk]WL[109.234]OW[3]
+;B[or]BL[172.949]OB[11]
+;W[ei]WL[95.597]OW[2]C[cezary [5d\]: wyglada na to ze bialy prowadzi
+cezary [5d\]: czarny ma moze z 50
+]
+;B[si]BL[112.124]OB[10]
+;W[rb]WL[44.856]OW[1]
+;B[qj]BL[95.087]OB[9]
+;W[sk]WL[300]OW[15]
+;B[ra]BL[91.113]OB[8]
+;W[sh]WL[284.809]OW[14]C[gimlix [?\]: ech podziwiam ze Ci sie chce liczyc - ja sie ledwie do liczenia moich gier potrafie zmobilizowac ;)
+]
+;B[dh]BL[49.388]OB[7]C[cezary [5d\]: w nieswoich grach mi latwiej
+cezary [5d\]: w moich grach duzo gorzej mi to idzie
+]
+;W[lb]WL[260.201]OW[13]
+;B[mb]BL[45.593]OB[6]
+;W[kb]WL[256.401]OW[12]
+;B[ne]BL[39.12]OB[5]
+;W[md]WL[243.614]OW[11]
+;B[nd]BL[30.188]OB[4]
+;W[og]WL[223.236]OW[10]
+;B[ph]BL[25.928]OB[3]
+;W[mc]WL[216.993]OW[9]
+;B[me]BL[24.033]OB[2]
+;W[ld]WL[215.274]OW[8]
+;B[mf]BL[20.295]OB[1]
+;W[lg]WL[203.186]OW[7]
+;B[lj]BL[300]OB[15]
+;W[nj]WL[197.416]OW[6]C[cezary [5d\]: co z tym g16 ?
+]
+;B[gd]BL[291.982]OB[14]C[cezary [5d\]: dziekuje
+]
+;W[gc]WL[170.141]OW[5]
+;B[hd]BL[284.746]OB[13]
+;W[nb]WL[162.668]OW[4]
+;B[ob]BL[281.991]OB[12]
+;W[ma]WL[161.32]OW[3]
+;B[of]BL[280.443]OB[11]C[cezary [5d\]: b5
+]
+;W[ng]WL[142.017]OW[2]
+;B[bo]BL[238.059]OB[10]C[cezary [5d\]: wychodzi mi ze bialy prowadzi o jakies 3 punkty
+]
+;W[bp]WL[135.842]OW[1]C[cezary [5d\]: ale pewnie o wiecej
+]
+;B[ap]BL[204.591]OB[9]
+;W[aq]WL[300]OW[15]
+;B[ao]BL[192.827]OB[8]
+;W[cq]WL[292.857]OW[14]
+;B[gj]BL[123.42]OB[7]C[cezary [5d\]: noo na pewno wiecej
+cezary [5d\]: a3 to byl blad
+]
+;W[hi]WL[279.181]OW[13]C[cezary [5d\]: ale czarny nie wykorzystal
+]
+;B[hh]BL[116.443]OB[6]
+;W[di]WL[270.042]OW[12]
+;B[ci]BL[108.135]OB[5]
+;W[eh]WL[268.417]OW[11]C[cezary [5d\]: tak mis sie wydaje
+cezary [5d\]: gwarancji nie daje
+cezary [5d\]: e10 f11 g11 f10 g9 f9 g8 ale tutaj maly szachmat bialy na siebie zrobil
+]
+;B[ej]BL[47.839]OB[4]
+;W[fi]WL[265.238]OW[10]
+;B[gi]BL[41.935]OB[3]
+;W[fj]WL[262.583]OW[9]
+;B[eg]BL[39.939]OB[2]
+;W[fk]WL[261.46]OW[8]C[cezary [5d\]: o ja co
+]
+;B[hn]BL[30.331]OB[1]C[cezary [5d\]: szkoda
+]
+;W[in]WL[237.235]OW[7]
+;B[gk]BL[300]OB[15]
+;W[dk]WL[228.149]OW[6]
+;B[cj]BL[294.106]OB[14]
+;W[gl]WL[224.333]OW[5]
+;B[hk]BL[272.409]OB[13]
+;W[ik]WL[219.12]OW[4]C[gimlix [?\]: no g9 by chyba wygralo czarnemu gre
+]
+;B[da]BL[216.29]OB[12]
+;W[oa]WL[214.848]OW[3]C[gimlix [?\]: chociaz glowy nie daje bo niedokladnie liczylem
+]
+;B[pb]BL[213.453]OB[11]C[cezary [5d\]: nie chyba nie
+cezary [5d\]: za duzo bialy prowadzi
+cezary [5d\]: no ale pewnie by sie zdenerowowal
+cezary [5d\]: a jakby sie zdenerwowal to moze jakies kolejne bledy
+cezary [5d\]: bo by bylo bardzo blisko
+]
+;W[ea]WL[138.569]OW[2]C[cezary [5d\]: a zle mi sie wydawalo a3 to dobry ruch
+]
+;B[ls]BL[179.99]OB[10]
+;W[lr]WL[127.848]OW[1]
+;B[dp]BL[170.207]OB[9]
+;W[eq]WL[300]OW[15]
+;B[ns]BL[158.365]OB[8]C[cezary [5d\]: a, no wlasnie
+cezary [5d\]: jakby radziol mial to e11 zlapane
+cezary [5d\]: no to e19 przegrywalo gre
+]
+;W[ms]WL[277.758]OW[14]
+;B[mr]BL[149.471]OB[7]
+;W[nr]WL[270.671]OW[13]C[cezary [5d\]: a mzoe nie przegrywalo tylko gra jest po prsotu przegrana?
+]
+;B[ms]BL[144.826]OB[6]
+;W[ks]WL[269.188]OW[12]C[cezary [5d\]: jak to rozumiec ja nie wiem
+]
+;B[os]BL[143.332]OB[5]C[cezary [5d\]: wydaje mi sie ze zle to policzylem
+]
+;W[ic]WL[237.91]OW[11]
+;B[ii]BL[104.407]OB[4]
+;W[lo]WL[225.849]OW[10]
+;B[mo]BL[98.14]OB[3]
+;W[ij]WL[222.885]OW[9]
+;B[sb]BL[85.233]OB[2]
+;W[sc]WL[203.62]OW[8]
+;B[pp]BL[44.937]OB[1]
+;W[rp]WL[199.761]OW[7]
+;B[qa]BL[300]OB[15]
+;W[sa]WL[181.484]OW[6]
+;B[sm]BL[286.271]OB[14]
+;W[sl]WL[177.696]OW[5]
+;B[sb]BL[283.99]OB[13]
+;W[bf]WL[163.993]OW[4]
+;B[bd]BL[274.248]OB[12]
+;W[sa]WL[161.403]OW[3]
+;B[bq]BL[269.87]OB[11]
+;W[br]WL[157.875]OW[2]
+;B[sb]BL[258.414]OB[10]
+;W[am]WL[144.662]OW[1]
+;B[bn]BL[255.952]OB[9]
+;W[sa]WL[300]OW[15]
+;B[jl]BL[247.755]OB[8]
+;W[jm]WL[263.747]OW[14]
+;B[sb]BL[244.104]OB[7]
+;W[ch]WL[255.458]OW[13]
+;B[dg]BL[231.562]OB[6]
+;W[sa]WL[250.155]OW[12]
+;B[kk]BL[228.646]OB[5]
+;W[km]WL[244.861]OW[11]
+;B[sb]BL[226.166]OB[4]
+;W[bh]WL[214.302]OW[10]
+;B[ak]BL[171.986]OB[3]
+;W[sa]WL[211.204]OW[9]
+;B[ga]BL[169.439]OB[2]
+;W[ha]WL[207.696]OW[8]
+;B[sb]BL[168.412]OB[1]
+;W[if]WL[197.148]OW[7]
+;B[jf]BL[300]OB[15]
+;W[sa]WL[192.088]OW[6]
+;B[oc]BL[295.709]OB[14]
+;W[sb]WL[185.99]OW[5]
+;B[qr]BL[285.023]OB[13]
+;W[so]WL[139.748]OW[4]
+;B[sq]BL[279.855]OB[12]
+;W[sp]WL[137.45]OW[3]
+;B[ss]BL[278.543]OB[11]
+;W[sm]WL[135.475]OW[2]
+;B[sq]BL[277.472]OB[10]
+;W[bi]WL[123.767]OW[1]
+;B[bk]BL[273.759]OB[9]
+;W[sr]WL[300]OW[15]
+;B[pa]BL[272.612]OB[8]
+;W[na]WL[295.707]OW[14]
+;B[sq]BL[268.036]OB[7]
+;W[an]WL[251.95]OW[13]
+;B[al]BL[266.098]OB[6]
+;W[sr]WL[249.957]OW[12]
+;B[sf]BL[263.356]OB[5]
+;W[se]WL[247.736]OW[11]
+;B[sq]BL[262.605]OB[4]
+;W[mg]WL[224.197]OW[10]
+;B[sr]BL[258.739]OB[3]
+;W[]WL[224.197]OW[9]
+;B[]BL[258.739]OB[2]TW[ga][ia][ja][ka][la][fb][ib][jb][mb][kc][lc][kd][sd][sf][rg][ki][li][mi][kj][lj][jk][kk][lk][el][il][jl][rl][pm][jn][bq][ar][cr][dr][er][fr][as][bs][cs][ds][es][fs][gs][hs][is][js]TB[aa][ba][ca][ab][ac][bc][cc][dc][pc][ad][od][ae][be][ce][de][ee][ge][he][oe][af][bf][cf][df][ef][gf][hf][if][ag][bg][cg][gg][hg][ig][ah][bh][ch][ai][bi][aj][bj][bl][am][cm][an][no][pr][ps][qs]C[Hipcio [3d\]: dzięki
+Hipcio [3d\]: nieslusznie dostales m17
+Hipcio [3d\]: to wielk a niesprawiedliwosc
+tasuki [-\]: dzięki
+cezary [5d\]: f11 mogles zlappac zamiast e13 
+cezary [5d\]: to by sie wyrownalo  
+Hipcio [3d\]: tak!
+Hipcio [3d\]: ale
+Hipcio [3d\]: nie wiem jakie ale
+cezary [5d\]: moze byc wygral wtedy
+Hipcio [3d\]: policzylem to i zagralem inaczej
+cezary [5d\]: w sensie ze g9 zamiast e13 tak ?
+tasuki [-\]: o13 też nie było takie duże
+cezary [5d\]: ta
+])

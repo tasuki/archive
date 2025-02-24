@@ -1,0 +1,199 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[6.50]TM[1800]OT[3x30 byo-yomi]
+PW[kamil]PB[tasuki]DT[2020-12-17]PC[The KGS Go Server at http://www.gokgs.com/]C[tasuki [-\]: miłej gry!
+kamil [-\]: miłej gry (IGLO)
+]RE[B+Resign]
+;B[pd]BL[1781.346]
+;W[cc]WL[1789.02]
+;B[qp]BL[1765.535]
+;W[dq]WL[1778.73]C[tasuki [-\]: dzieci śpią?
+]
+;B[np]BL[1745.939]C[kamil [-\]: pół dzieci śpi / pół płacze
+]
+;W[dn]WL[1765.905]C[tasuki [-\]: a to nam tyle samo dzieci płacze - brzmi jak równa gra :)
+kamil [-\]: kto Ci płacze?
+tasuki [-\]: dziecko
+kamil [-\]: ...dobra - ja nic nie wiem - pogadamy po grze :)
+tasuki [-\]: (to się ma w inny sposób ogłaszać? ^^)
+]
+;B[nc]BL[1652.093]
+;W[fd]WL[1746.483]C[Mariusz [2k\]: rozmowa zaczynała się ciekawsza od gry a tu tajemniczy kamil skończył dyskusję :(
+]
+;B[iq]BL[1618.183]
+;W[dk]WL[1731.975]
+;B[qe]BL[1589.963]C[Mariusz [2k\]: r15 to aby nie za wolne?
+cezary [5d\]: to nie tajemnica 
+cezary [5d\]: vitkowi sie niedawno urodzila hania :)
+]
+;W[md]WL[1671.173]C[yakcyll [1k\]: O, czyli już
+yakcyll [1k\]: no to fajnie
+Mariusz [2k\]: o a to musze mu pogratulować :)
+]
+;B[kd]BL[1551.594]
+;W[mc]WL[1570.186]
+;B[nd]BL[1546.968]
+;W[me]WL[1568.043]
+;B[hd]BL[1524.401]
+;W[nb]WL[1539.874]
+;B[ob]BL[1514.329]
+;W[lb]WL[1516.604]
+;B[kb]BL[1442.478]
+;W[jb]WL[1468.496]
+;B[kc]BL[1427.678]
+;W[ic]WL[1393.044]
+;B[na]BL[1366.446]
+;W[id]WL[1344.974]
+;B[mb]BL[1341.645]
+;W[ke]WL[1294.007]
+;B[je]BL[1335.089]
+;W[jd]WL[1281.041]
+;B[kf]BL[1297.943]
+;W[le]WL[1274.939]C[tasuki [-\]: ehh, pincera miałem grać dalej, n18 miało być m19 ... wszystko źle
+]
+;B[lc]BL[1255.396]C[kamil [-\]: mhm
+]
+;W[lg]WL[1031.315]
+;B[ie]BL[1244.847]
+;W[he]WL[1010.925]
+;B[ig]BL[1139.228]
+;W[hf]WL[876.728]
+;B[kg]BL[1069.473]
+;W[kh]WL[822.492]
+;B[lh]BL[953.495]
+;W[if]WL[575.336]
+;B[jf]BL[939.537]
+;W[lf]WL[495.006]
+;B[jg]BL[936.562]
+;W[hg]WL[242.543]
+;B[ki]BL[608.246]
+;W[jh]WL[126.593]
+;B[ih]BL[603.866]
+;W[ji]WL[125.771]
+;B[jj]BL[584.585]
+;W[ii]WL[123.529]
+;B[hh]BL[583.617]
+;W[gh]WL[41.846]
+;B[hi]BL[575.514]
+;W[ij]WL[39.714]
+;B[gi]BL[493.191]
+;W[mh]WL[33.962]
+;B[li]BL[484.252]
+;W[fh]WL[30]OW[3]
+;B[fi]BL[419.826]
+;W[ei]WL[30]OW[3]
+;B[ik]BL[383.107]
+;W[hj]WL[30]OW[3]
+;B[gk]BL[350.691]
+;W[kj]WL[30]OW[3]
+;B[hk]BL[324.277]
+;W[jk]WL[30]OW[3]
+;B[gj]BL[322.354]
+;W[jj]WL[30]OW[3]
+;B[mi]BL[297.12]
+;W[ni]WL[30]OW[3]
+;B[mj]BL[287.242]
+;W[jl]WL[30]OW[2]
+;B[nh]BL[266.939]
+;W[mg]WL[30]OW[2]
+;B[oi]BL[261.238]
+;W[ng]WL[30]OW[2]
+;B[oh]BL[252.945]
+;W[gm]WL[30]OW[1]
+;B[ej]BL[240.431]
+;W[di]WL[30]OW[1]
+;B[eh]BL[156.87]
+;W[gg]WL[30]OW[1]
+;B[dj]BL[144.645]
+;W[cj]WL[30]OW[1]
+;B[ci]BL[142.726]
+;W[dh]WL[30]OW[1]
+;B[ch]BL[135.236]
+;W[eg]WL[30]OW[1]
+;B[dg]BL[129.988]
+;W[eh]WL[30]OW[1]
+;B[ck]BL[124.45]C[cezary [5d\]: ciezko bedzie to wydobyc kamilowi
+]
+;W[bj]WL[30]OW[1]
+;B[bk]BL[105.912]
+;W[ek]WL[30]OW[1]
+;B[fj]BL[101.197]
+;W[lq]WL[30]OW[1]
+;B[hm]BL[92.771]C[zenek [2d\]:  no czarny ma mnostwo terenu, a bialy slaba grupe w centrum...
+]
+;W[hl]WL[30]OW[1]
+;B[il]BL[55.849]
+;W[im]WL[30]OW[1]
+;B[gl]BL[52.493]
+;W[hn]WL[30]OW[1]
+;B[jm]BL[26.836]
+;W[hl]WL[30]OW[1]
+;B[in]BL[2.672]
+;W[hm]WL[30]OW[1]
+;B[aj]BL[30]OB[3]
+;W[km]WL[30]OW[1]
+;B[jn]BL[30]OB[3]
+;W[kn]WL[30]OW[1]
+;B[ho]BL[30]OB[3]
+;W[fl]WL[30]OW[1]
+;B[bi]BL[30]OB[3]
+;W[cj]WL[30]OW[1]
+;B[bj]BL[30]OB[3]
+;W[ko]WL[30]OW[1]
+;B[fm]BL[30]OB[3]
+;W[gn]WL[30]OW[1]
+;B[jp]BL[30]OB[3]
+;W[go]WL[30]OW[1]
+;B[hp]BL[30]OB[3]
+;W[gp]WL[30]OW[1]
+;B[gq]BL[30]OB[3]
+;W[fq]WL[30]OW[1]
+;B[gr]BL[30]OB[3]
+;W[pp]WL[30]OW[1]
+;B[po]BL[30]OB[3]
+;W[qo]WL[30]OW[1]
+;B[pq]BL[30]OB[3]
+;W[pn]WL[30]OW[1]
+;B[op]BL[30]OB[3]
+;W[nj]WL[30]OW[1]
+;B[mk]BL[30]OB[3]
+;W[nk]WL[30]OW[1]
+;B[nl]BL[30]OB[3]
+;W[pj]WL[30]OW[1]
+;B[ll]BL[30]OB[3]
+;W[pg]WL[30]OW[1]
+;B[pk]BL[30]OB[3]
+;W[ol]WL[30]OW[1]
+;B[ok]BL[30]OB[3]
+;W[oj]WL[30]OW[1]
+;B[qj]BL[30]OB[3]
+;W[pi]WL[30]OW[1]
+;B[ph]BL[30]OB[3]
+;W[qi]WL[30]OW[1]
+;B[qh]BL[30]OB[3]
+;W[ri]WL[30]OW[1]
+;B[rh]BL[30]OB[3]
+;W[nm]WL[30]OW[1]
+;B[ml]BL[30]OB[3]
+;W[rj]WL[30]OW[1]
+;B[om]BL[30]OB[3]
+;W[pl]WL[30]OW[1]
+;B[mn]BL[30]OB[3]C[kamil [-\]: dzięki
+tasuki [-\]: dzięki
+tasuki [-\]: chyba moje dziecko pierwsze przestało krzyczeć
+Mariusz [2k\]: tasuki gratuluję Hanki ;)
+Hipcio [3d\]: gratulacje tasuki! 
+Hipcio [3d\]: (nie chodzi o gre)
+kamil [-\]: gratulacje!
+kamil [-\]: ile ma?
+tasuki [-\]: 18kyu
+Mariusz [2k\]: haha
+tasuki [-\]: nie no może jeszcze nie
+tasuki [-\]: w sumie nie wiem
+tasuki [-\]: jeszcze nie grałem z nią w go
+Mariusz [2k\]: najpier będziesz musiał chować goban bo będzie etap zjadania kamieni
+tasuki [-\]: coś ta walka wyglądała mi dobra dla białego na początku
+tasuki [-\]: a tak, jeszcze jest przed etapem zjadania kamieni :)
+kamil [-\]: straciłeś tempo po n18
+tasuki [-\]: no n18 słabe wiem
+kamil [-\]: może nie powinienem da się ciąć w M12
+])

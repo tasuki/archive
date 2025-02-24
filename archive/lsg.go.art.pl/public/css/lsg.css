@@ -1,0 +1,93 @@
+html {
+  font-family: "Alegreya Sans", sans-serif;
+}
+h1, h2, h3, .sidebar h1, .sidebar h2, .sidebar h3 {
+  font-family: "Alegreya", serif;
+  font-weight: 700;
+  line-height: 1;
+}
+h1 { font-size: 2.5rem; margin: 0; }
+h2 { font-size: 2rem; margin-top: 2rem; }
+h1 + h3 { margin-top: 0rem; }
+
+.sidebar { padding: 20px 10px; }
+.sidebar h3 { margin-top: 1.5rem; }
+.sidebar a.howto { color: rgba(255,255,255,.3); }
+.content { padding-top: 2rem; overflow-x: auto; }
+.content > :first-child { margin-top: 0 !important; }
+table { font-variant-numeric: lining-nums tabular-nums; }
+th, td { text-align: left; }
+.right { text-align: right; }
+
+
+table.cal {
+  color: #000;
+  font-size: 16px;
+  line-height: 18px;
+  table-layout: fixed;
+  min-width: 700px;
+}
+table.cal, table.cal td, table.cal th { border: 1px solid #CCC; }
+table.cal tr th {
+  border-bottom: 2px solid #666;
+  width: 50px;
+}
+table.cal th + th { width: auto; }
+table.cal tr td, table.cal tr th {
+  background-color: #FFF;
+  padding: 5px;
+  text-align: center;
+}
+table.cal .food  { background-color: #F4CCCC; }
+table.cal .play  { background-color: #FFF2CC; }
+table.cal .learn { background-color: #D9EAD3; }
+table.cal .other { background-color: #CFE2F3; }
+
+@media (max-width: 48em) {
+  #menu-toggle, #hamburger {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    height: 5.5rem;
+    width: 6rem;
+    padding: 1.9rem;
+  }
+  #menu-toggle {
+    cursor: pointer;
+    z-index: 5;
+    opacity: 0;
+    margin: 0;
+  }
+  #hamburger {
+    z-index: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  #hamburger span {
+    display: block;
+    background-color: #999;
+    width: 100%;
+    height: .25rem;
+    border-radius: .1rem;
+    transition: 1s;
+  }
+
+  #hamburger #line1 { transition: 0.3s ease-in-out; transform-origin: 0% 0%; }
+  #hamburger #line2 { transition: 0.2s ease-in-out; }
+  #hamburger #line3 { transition: 0.3s ease-in-out; transform-origin: 0% 100%; }
+  #menu-toggle:checked ~ #hamburger #line1 { transform: rotate(45deg); }
+  #menu-toggle:checked ~ #hamburger #line2 { transform: scaleX(0); }
+  #menu-toggle:checked ~ #hamburger #line3 { transform: rotate(-45deg); }
+  .sidebar { text-align: left; }
+  .sidebar h1 { padding-right: 2.5rem; margin-bottom: 0; overflow: hidden; }
+  .sidebar h1 img { height: 7rem; margin: -4rem 0 0 -5.5rem; }
+  .sidebar nav { display: none; }
+  #menu-toggle:checked ~ nav { display: block; }
+}
+
+@media (min-width: 48em) {
+  #menu-toggle, #hamburger { display: none; }
+  .sidebar { min-height: 1200px; text-align: right; }
+}

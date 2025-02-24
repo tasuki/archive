@@ -1,0 +1,550 @@
+(;FF[4]
+CA[UTF-8]
+GM[1]
+DT[2023-03-14]
+PC[OGS: https://online-go.com/game/51898766]
+GN[doiglo]
+PB[tasuki]
+PW[bartosz]
+BR[?]
+WR[5k]
+TM[1800]OT[20 fischer]
+RE[B+R]
+SZ[19]
+KM[6.5]
+RU[Japanese]
+C[bartosz: Hej!
+bartosz: Dobrej gry
+bartosz: Do IGLA
+tasuki: miłej!
+tasuki: są kolory poprawnie?
+bartosz: Tak
+bartosz: Przed chwilą sprawdzałem nawet
+tasuki: super :)
+]
+;B[pd]
+(;W[dp]
+(;B[pp]
+(;W[dc]
+(;B[ce]
+(;W[fd]
+(;B[cc]
+(;W[cb]
+(;B[dd]
+(;W[bc]
+(;B[ec]
+(;W[cd]
+(;B[db]
+(;W[cc]
+(;B[ed]
+(;W[be]
+(;B[cf]
+(;W[nc]
+(;B[qf]
+(;W[pb]
+(;B[mc]
+(;W[md]
+(;B[lc]
+(;W[ld]
+(;B[nb]
+(;W[oc]
+(;B[kc]
+(;W[kd]
+(;B[jd]
+(;W[jc]
+(;B[ic]
+(;W[jb]
+(;B[ib]
+(;W[je]
+(;B[id]
+(;W[ne]
+(;B[qc]
+(;W[pg]
+(;B[pf]
+(;W[ng]
+(;B[ph]
+(;W[oh]
+(;B[qh]
+(;W[nq]
+(;B[pn]
+(;W[oo]
+(;B[po]
+(;W[pr]
+(;B[cq]
+(;W[dq]
+(;B[cp]
+(;W[do]
+(;B[bn]
+(;W[jp]
+(;B[hp]
+(;W[cn]
+(;B[co]
+(;W[bm]
+(;B[cm]
+(;W[dn]
+(;B[bl]
+(;W[bo]
+(;B[am]
+(;W[cr]
+(;B[bp]
+(;W[bq]
+(;B[ao]
+(;W[hn]
+(;B[io]
+(;W[jm]
+(;B[jo]
+(;W[kp]
+(;B[im]
+(;W[hm]
+(;B[il]
+(;W[in]
+(;B[jn]
+(;W[km]
+(;B[ln]
+(;W[kk]
+(;B[lo]
+(;W[mp]
+(;B[nm]
+(;W[el]
+(;B[oi]
+(;W[ni]
+(;B[oj]
+(;W[nl]
+(;B[ml]
+(;W[mk]
+(;B[nk]
+(;W[mm]
+(;B[nn]
+(;W[ll]
+(;B[no]
+(;W[ol]
+(;B[pl]
+(;W[pk]
+(;B[ok]
+(;W[ie]
+(;B[fg]
+(;W[gg]
+(;B[gh]
+(;W[hh]
+C[bartosz: zaraz wracam
+]
+(;B[gi]
+C[tasuki: spoko
+]
+(;W[hi]
+(;B[gj]
+(;W[hj]
+(;B[gk]
+(;W[bf]
+(;B[fp]
+(;W[er]
+(;B[qq]
+(;W[hd]
+(;B[gc]
+(;W[ff]
+(;B[eg]
+(;W[qr]
+(;B[hk]
+(;W[pm]
+(;B[ql]
+(;W[om]
+(;B[qm]
+(;W[gq]
+(;B[gp]
+(;W[hq]
+(;B[ij]
+(;W[ji]
+(;B[jj]
+(;W[ki]
+(;B[fn]
+(;W[dm]
+(;B[fl]
+(;W[cl]
+(;B[ck]
+(;W[dk]
+(;B[cj]
+(;W[bi]
+(;B[fq]
+(;W[fr]
+(;B[bg]
+(;W[bh]
+(;B[gf]
+(;W[hg]
+(;B[ag]
+(;W[di]
+(;B[dj]
+(;W[ej]
+(;B[dl]
+(;W[pi]
+(;B[pj]
+(;W[cl]
+(;B[ei]
+(;W[eh]
+(;B[cg]
+(;W[fi]
+(;B[dl]
+(;W[qj]
+(;B[qi]
+(;W[cl]
+(;B[eb]
+(;W[af]
+(;B[dl]
+(;W[nj]
+(;B[qk]
+(;W[cl]
+(;B[ad]
+(;W[ac]
+(;B[dl]
+(;W[ek]
+(;B[em]
+(;W[cl]
+(;B[lp]
+(;W[lq]
+(;B[dl]
+(;W[en]
+(;B[fm]
+(;W[cl]
+(;B[iq]
+(;W[bm]
+(;B[ir]
+(;W[ar]
+(;B[cm]
+(;W[dl]
+(;B[bj]
+(;W[qb]
+(;B[rr]
+(;W[rs]
+(;B[rq]
+(;W[kr]
+(;B[gr]
+(;W[ak]
+(;B[aj]
+(;W[bm]
+(;B[ai]
+(;W[al]
+(;B[cm]
+(;W[hc]
+(;B[hb]
+(;W[bm]
+(;B[bk]
+(;W[dh]
+(;B[cm]
+(;W[gd]
+(;B[fc]
+(;W[bm]
+(;B[ah]
+(;W[rb]
+(;B[sc]
+(;W[rc]
+(;B[rd]
+(;W[sb]
+(;B[fe]
+(;W[re]
+(;B[he]
+(;W[sd]
+(;B[rf]
+(;W[sf]
+(;B[qe]
+(;W[qd]
+(;B[kj]
+(;W[lj]
+(;B[rd]
+(;W[al]
+(;B[ak]
+(;W[qd]
+(;B[ii]
+(;W[jg]
+(;B[rd]
+(;W[hf]
+(;B[ge]
+(;W[qd]
+(;B[ih]
+(;W[jh]
+(;B[rd]
+(;W[ob]
+(;B[mb]
+(;W[qd]
+(;B[ig]
+(;W[if]
+(;B[rd]
+(;W[jl]
+(;B[ik]
+(;W[qd]
+(;B[bd]
+(;W[ae]
+(;B[rd]
+(;W[kb]
+(;B[lb]
+(;W[qd]
+(;B[ke]
+(;W[jf]
+(;B[rd]
+(;W[na]
+(;B[ja]
+(;W[qd]
+(;B[oq]
+(;W[or]
+(;B[rd]
+(;W[ma]
+(;B[ka]
+(;W[qd]
+(;B[mr]
+(;W[nr]
+(;B[rd]
+(;W[dg]
+(;B[ef]
+(;W[qd]
+(;B[np]
+(;W[ms]
+(;B[rd]
+(;W[df]
+(;B[de]
+(;W[qd]
+(;B[mq]
+(;W[lr]
+(;B[rd]
+(;W[fo]
+(;B[go]
+(;W[qd]
+(;B[fs]
+(;W[es]
+(;B[rd]
+(;W[gs]
+(;B[hr]
+(;W[qd]
+(;B[bs]
+(;W[cs]
+(;B[rd]
+C[bartosz: dzięki
+tasuki: dzięki!
+bartosz: sorry że tak późno
+bartosz: powinienem poddać dawno temu
+tasuki: spoko :)
+bartosz: hm jakoś mi się wydawało że był moment gdy prowadziłem
+bartosz: ale bot się nie zgadza
+tasuki: no było blisko przez jakiś czas :)
+bartosz: hm
+bartosz: nie ogarniam trybu analizy na ogs
+bartosz: ale w ruchu 92 prowadziłeś o 18?
+bartosz: nie rozumiem, myslalem ze gra jest spoko dla m;nie :D
+tasuki: N7 ładne - nie widziałem!
+bartosz: pytanie czy dobrze działa
+bartosz: bo jakoś wyszło trochę neutralnie
+bartosz: chcesz przejrzeć?
+bartosz: wydawało mi się że z tą grupą Twoją na dole gra jest obiecująca dla mnie
+bartosz: w sumie po lewej strsznie popsułęm
+bartosz: starałem się grac aktywnie ale trochę przesadziłęm :D
+tasuki: a no L9 chyba błąd
+tasuki: nie możesz ciąć?
+tasuki: pewnie coś z tego dostanę, ale chyba stracę te 4 kamienie
+bartosz: hm
+bartosz: cięcie wydaje m i się trochę przesadą
+bartosz: [object Object\]
+bartosz: nawet coś takiebo?
+bartosz: biały tu ma masę słabości
+bartosz: tak mi się wydawało
+bartosz: wolałem wzmocnić kształt i dać Ci się łączyć w dame
+tasuki: [object Object\]
+bartosz: bo oceniałem grę jako dobrą dla mnie
+bartosz: ale jak widać to zła ocena
+tasuki: 5 vs 4 oddechy
+bartosz: hm
+bartosz: [object Object\]
+bartosz: nie tak
+bartosz: ?
+tasuki: i co? :)
+tasuki: [object Object\]
+bartosz: hm nie wiem czy to takie proste
+bartosz: [object Object\]
+bartosz: coś takiego?
+bartosz: nie wiem dokładnie
+bartosz: ale mam wrazenie ze czarny  nawet jezeli tam zginie to biały ma tyle aji
+bartosz: Że coś musisz dsotać
+bartosz: Zanim to wszystko zagrasz możessz l7
+bartosz: pognębić
+bartosz: e2 jakieś aji
+tasuki: [object Object\]
+bartosz: no i wydawało mi się że ta gra jest ok dla mnie 
+tasuki: no też się trochę bałem w tej chwili :)
+bartosz: mam wrazenie ze ciecie to wszystko albo nic
+tasuki: ale jak zrobiłem ten bambus to już spoko jest dla mnie
+bartosz: no tak, jak szacowalem pkt wydawalo mi sie ze ten kierunek gry jest ok dl amnie
+bartosz: trudne warianty
+tasuki: aa więc zagrałeś L9 bo myślałeś że i tak wygrywasz?
+bartosz: no moze nie ze wygrywam, ze gra jest ok dla mnie
+bartosz: w miare rowna, moze ciut lepsza dla mnie
+tasuki: no to ma sens
+bartosz: no ale tez ciecie wydawalo mi sie podejrzane
+bartosz: nie przelicze wszystkich wariantow i tak, ale to co liczylem
+bartosz: wydawalo mi sie raczej zbyt szyte trytytką :D
+tasuki: cięcie jest git, daje piłeczkę czarnemu niech pokaże co potrafi :)
+bartosz: no najwyraźniej
+bartosz: ale troche nie rozumiem
+bartosz: ze po k7 jest 9 dla Ciebie
+tasuki: [object Object\]
+bartosz: wydawalo mi sie ze gra obu graczy ma sens
+bartosz: no a 9 pkt to strsznie duzo
+bartosz: chyba to co zagralem w LD troche slabe
+bartosz: hm myslalem chwile nad cieciem
+tasuki: ej tutaj to ai jest chyba strasznie słabe
+bartosz: z pare tygodni temu mialem to w jakiejs grze i patrzylem z AI
+bartosz: i z tego co kojarze
+bartosz: to bialy chyba potrzebuje pincera
+tasuki: ai sensei Cię zjedzie za B15 na pewno :)
+bartosz: balem sie czegos w stylu
+tasuki: aha no może
+bartosz: [object Object\]
+tasuki: a to złapiesz kamyczka i żyjesz?
+bartosz: no ale wtedy
+bartosz: czy to jest dobry rezultat dla mnie?
+bartosz: rozwiazuje Ci problemy
+tasuki: [object Object\]
+tasuki: czarny ma dwie grupy a nie ma jak wzmocnić obu imo
+tasuki: [object Object\]
+bartosz: [object Object\]
+bartosz: a tak np?4
+bartosz: wyglada jakby bialy mial sie wracac
+tasuki: no, ale to lepsze dla białego niż gra :)
+bartosz: no tak
+tasuki: silna grupa i punkty w rogu i na bandzie
+bartosz: hm moze zbyt zachowawczo faktycznie
+tasuki: [object Object\]
+bartosz: ojarze to joseki z czasow kiedy jeszcze gralem w go przed przerwa
+bartosz: i nie pamietalem dokladnie jak to idzie
+bartosz: ale sansan wydawal mi sie zlym kierunkiem jakos
+bartosz: [object Object\]
+tasuki: idea jest taka że i tak nie ma tego cięcia za bardzo
+tasuki: no może
+bartosz: po czymś takim właśnie to ciecie nie jest irytujace predzej czy pozniej?
+bartosz: ten rog wydawal mi sie troche  maly w tym momencie
+tasuki: Q13 ładne w każdym razie
+tasuki: tak chyba jest
+tasuki: tym bardziej że połączyłeś, to nie powinienem grać sansan
+bartosz: no i na ten planszy to ciecie chyba jednak irytujace troche?
+tasuki: może faktycznie
+bartosz: [object Object\]
+bartosz: że tak jakoś bialy gra?
+tasuki: nie nie z drugiej strony na pewno
+bartosz: jesli dobrze kojarze to tam jest problem z zyciem chyba
+bartosz: no ale z drugiej strony to jeszcze lpeiej chyba?
+tasuki: [object Object\]
+bartosz: dla czarnego
+bartosz: no tak to ok
+bartosz: ale dlatego jak pokazalem
+bartosz: czego sie balem
+tasuki: na tej planszy może grywalne, lokalnie dużo punktów na bandzie
+bartosz: [object Object\]
+bartosz: ze ten kamien czarnego tam grasz
+bartosz: i on lepiej stoi niz sansan
+bartosz: wiec jak bialy gra sansan to musi sie wrocic do ciecia
+bartosz: tak uznalem
+tasuki: [object Object\]
+bartosz: dlatego wolalem sam zagrac q13 i aktywniej chronic
+tasuki: starczy mieć jakikolwiek kamień i to cięcie przestaje działać :)
+bartosz: troche tak, a troche aji zostaje
+bartosz: no ale sansan na pewno nie moze byc zly
+bartosz: sprawdze sobie jak to joseki chodzi
+tasuki: no chodzi sansanem
+tasuki: ale rację masz że tutaj to cięcie O16 groźniejsze niż na przeciętnej planszy
+bartosz: chodzi mi ogólnie o wszytkie warianty
+bartosz: Bo wiem ze to skomplikowane chyba było
+bartosz: i jakies drabinki tam byly
+bartosz: ale w sumie bylem zadowolony w grze
+bartosz: bo miales tam sile
+bartosz: a wcisnalem Ci pare pkt
+bartosz: sam szybko sie zbudowalem
+bartosz: [object Object\]
+bartosz: a tak po prostu?
+bartosz: jak sansan to afjnie dla Ciebie
+tasuki: tak pewnie
+bartosz: jak wyskakuje
+bartosz: To masz lepiej niz w grze
+bartosz: bo mam gorszy ksztalt
+tasuki: akurat po mnie dziecko chodziło to zapomniałem że można pincera grać :)
+bartosz: i bez tych wymian po 3-4 linii
+bartosz: hehe :D
+bartosz: szkoda że tak krótko w takim razie chodziło
+tasuki: całkiem mnie to rozkojarzyło szczerze mówiąc
+bartosz: :)
+bartosz: domyślam sie
+bartosz: jak widac na mnie wystarczyło :)
+tasuki: byłem na siebie zły przez pół gry że nie zagrałem tego pincera, bo taki oczywisty :)
+bartosz: heh bot pewnie powie ze
+bartosz: to bez znaczenia
+tasuki: tym też się pocieszałem :)
+bartosz: tym bardziej sie dziwie
+bartosz: ze tyle pkt stracilem w fu;seki
+bartosz: w ogole jakos mi sie kojarzy
+bartosz: ze h4 sie nie gra
+tasuki: ta lewa dolna to chyba też nie jest joseki
+bartosz: bez c7
+bartosz: no widze ze tutaj bot pokazuje ze pare pkt stracilem
+tasuki: wszystkie rogi oprócz prawego dolnego ostatecznie wyszły ciut lepsze lokalnie dla mnie
+bartosz: jakos mi sie kokjarzylo ze to joseki ale moze i nie
+bartosz: wszystkie te warianty po sansanie są podobne :D
+bartosz: łatwo się pogubić co jest joseki a co nie
+tasuki: [object Object\]
+bartosz: prawy dolny imo spoko dla Ciebie
+bartosz: bo w sumie q9 praktycznie nie musisz dogrywać
+bartosz: bo jest q12 wiec to troche jak w joseki
+tasuki: [object Object\]
+bartosz: no i bialy raczej tego nie spinceruje
+tasuki: B5 na pewno bardzo zły ruch
+bartosz: hm moze racja
+bartosz: ale nie wiem czy tam nie ma wariantu
+bartosz: że czarny oddaje 3 kamienie
+bartosz: i buduje lewą
+bartosz: chociaż to bez sensu na tej planszy i tak
+tasuki: jest ale to zupełnie inny wariant
+bartosz: hm pewnie tak
+tasuki: plus to byłoby bez sensu :)
+bartosz: Muszę sobie odświeżyć 
+bartosz: faktycznie jak patrze na b5
+bartosz: to taki ruch 5k troche
+bartosz: w sumie d7 cgbya mozna
+bartosz: [object Object\]
+bartosz: jakoś tak?
+tasuki: to pewnie można grać szczególnie na tej planszy z H4
+bartosz: no podoba mi się
+tasuki: zakładam że lokalnie bez H4 lepsze jest po prostu C2 od razu
+bartosz: no ale tutaj to chyba nie
+bartosz: bo odwrocenie kierunku jest bez sensu teraz dla mnie
+bartosz: no nie?
+bartosz: do tego lewa strona nudna
+tasuki: [object Object\]
+tasuki: ale ja tam lubię rogi brać :)
+bartosz: no ma sens 
+bartosz: wiekszy niz w grze
+tasuki: w grze zamiast dać mi atari na A4 to dałeś wrzutkę w B5 :)
+bartosz: taktak, widze
+bartosz: smutek :D
+bartosz: no nic, dzięki wielkie
+tasuki: a akurat u tej grupy później życie miało znaczenie duże :)
+tasuki: dzięki
+bartosz: powodzenia w nastęnych :)
+bartosz: no tak ciagle bylem
+bartosz: krok do tylu
+tasuki: też za czat po grze, rzadko się zdardza
+bartosz: spoko, milo sie uczyc od mocnych graczy :)
+tasuki: ludzie od razu chodzą do ai dziś :)
+bartosz: ja nie lubie ze na oGs sie wyswietla od razu
+bartosz: wolalbym nie widziec
+bartosz: i dopiero pozniej sprawdzic
+tasuki: można w opcjach ukryć
+bartosz: o serio
+tasuki: ale i tak przeciwnik widzi ;)
+bartosz: w opcjach gry
+bartosz: czy opcjach konta
+tasuki: w opcjach konta
+bartosz: ok to sprawdze
+bartosz: Ale na ogs raczej nie gram
+bartosz: tylko jakies one color probowalem
+bartosz: bo na innych serwerach sie nie da
+bartosz: Dobra zmykam :)
+bartosz: Fajnie było zagrać
+tasuki: ja lubię bo jest przez www i jest fischer
+tasuki: fajnie, dzięki!
+bartosz: Milego dnia :)
+tasuki: wzajemnie!
+]
+)))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))

@@ -1,0 +1,1435 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#C60">
+  <link rel="icon" href="favicon.svg">
+
+  
+  <title>tasuki’s blog</title>
+  
+
+  <link rel="stylesheet" href="public/pure-min.css">
+  <link rel="stylesheet" href="public/pure-grids-responsive-min.css">
+  <link rel="stylesheet" href="public/style.css">
+</head>
+<body>
+    <div id="header">
+      <div class="pad">
+        <a href="index.html">tasuki’s blog</a>
+      </div>
+    </div>
+    <div id="content" class="pad">
+      
+  
+  <article>
+  <h1>
+  
+  <a href="digital-gardening/index.html">Digital gardening</a>
+  
+  </h1>
+  <div class="meta">
+    <span class="date">2025-02-09</span>
+  </div>
+  <div class="content">
+    <p>During the past few years I’ve gone through some effort to keep my digital life simpler and more orderly than my real life.</p>
+
+<ul>
+  <li>Migrated from Ubuntu to Debian. Been a breeze. Debian is like Ubuntu without the bad parts. I <a href="oh-ubuntu/index.html">blogged about still actually being happy with Ubuntu</a>, but am even happier with Debian. The Debian repos mostly move faster than I notice things. While I’d sometimes like to use a newer <code class="language-plaintext highlighter-rouge">neovim</code>, it’s not a big issue. I enjoy the stability and the feeling that my system belongs to me again.</li>
+  <li>Migrated from Dropbox to Syncthing. Syncthing gives me headaches, but fewer than Dropbox. Oh well…</li>
+  <li>Migrated from LastPass to KeePassXC. Passwords are too important to outsource to a for-profit. LastPass wasn’t the right for-profit anyway.</li>
+  <li>All the websites I maintain now self-host all the css/js/fonts. I try to avoid Bootstrap and other large dependencies anyway.</li>
+  <li>My content websites mostly use <a href="https://daringfireball.net/projects/markdown/">Markdown</a> and <a href="https://jekyllrb.com/">Jekyll</a>. Markdown might be a terrible format, but it’s good enough for me. Jekyll works for now, if it stops working, I can rewrite the parts I need in a language of choice in about an afternoon.</li>
+  <li>Stick with <a href="https://elm-lang.org/">Elm</a> for my side projects and avoid backend like the plague. I almost started learning OCaml. And Janet. And Zig. And Roc and Gleam. But for now, if I need a backend, I’ll swallow the ten thousand string types, the exorbitant size of <code class="language-plaintext highlighter-rouge">~/.stack/</code>, the slow compile times, and reluctantly use Haskell ¯\_(ツ)_/¯</li>
+  <li>I rewrote most (all?) of my favicons into hand-crafted SVG. Inkscape output is verbose and an unreadable mess. Hand-written SVG can be beautiful.</li>
+</ul>
+
+<p>Here’s my tsumego collections favicon, followed by its source:</p>
+
+<p style="text-align:center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8 8" width="50%">
+<defs>
+<filter id="blur">
+	<feGaussianBlur in="SourceGraphic" stdDeviation="0.1" />
+</filter>
+<radialGradient id="stripes" gradientTransform="translate(-4, -1) scale(6, 4)">
+	<stop offset="40%" stop-color="#EEE" />
+	<stop offset="43%" stop-color="#CCC" />
+	<stop offset="44%" stop-color="#EEE" />
+
+	<stop offset="45%" stop-color="#EEE" />
+	<stop offset="48%" stop-color="#CCC" />
+	<stop offset="49%" stop-color="#EEE" />
+
+	<stop offset="50%" stop-color="#EEE" />
+	<stop offset="53%" stop-color="#CCC" />
+	<stop offset="54%" stop-color="#EEE" />
+
+	<stop offset="55%" stop-color="#EEE" />
+	<stop offset="58%" stop-color="#CCC" />
+	<stop offset="59%" stop-color="#EEE" />
+
+	<stop offset="60%" stop-color="#EEE" />
+	<stop offset="63%" stop-color="#CCC" />
+	<stop offset="64%" stop-color="#EEE" />
+
+	<stop offset="65%" stop-color="#EEE" />
+	<stop offset="68%" stop-color="#CCC" />
+	<stop offset="69%" stop-color="#EEE" />
+
+	<stop offset="70%" stop-color="#EEE" />
+	<stop offset="73%" stop-color="#CCC" />
+	<stop offset="74%" stop-color="#EEE" />
+</radialGradient>
+<radialGradient id="edges">
+	<stop offset="80%" stop-color="#FFF0" />
+	<stop offset="100%" stop-color="#0003" />
+</radialGradient>
+<radialGradient id="highlight" gradientTransform="translate(-0.15 -0.15)">
+	<stop offset="0%" stop-color="#FFF" />
+	<stop offset="20%" stop-color="#FFF" />
+	<stop offset="50%" stop-color="#FFF0" />
+</radialGradient>
+</defs>
+
+<circle cx="4.1" cy="4.1" r="3.8" fill="#000C" filter="url(#blur)" />
+<circle cx="4" cy="4" r="3.8" fill="url(#stripes)" />
+<circle cx="4" cy="4" r="3.8" fill="url(#edges)" />
+<circle cx="4" cy="4" r="3.8" fill="url(#highlight)" />
+</svg>
+</p>
+
+<div class="language-xml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;svg</span> <span class="na">xmlns=</span><span class="s">"http://www.w3.org/2000/svg"</span> <span class="na">viewBox=</span><span class="s">"0 0 8 8"</span> <span class="na">width=</span><span class="s">"64px"</span> <span class="na">height=</span><span class="s">"64px"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;defs&gt;</span>
+<span class="nt">&lt;filter</span> <span class="na">id=</span><span class="s">"blur"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;feGaussianBlur</span> <span class="na">in=</span><span class="s">"SourceGraphic"</span> <span class="na">stdDeviation=</span><span class="s">"0.1"</span><span class="nt">/&gt;</span>
+<span class="nt">&lt;/filter&gt;</span>
+<span class="nt">&lt;radialGradient</span> <span class="na">id=</span><span class="s">"stripes"</span> <span class="na">gradientTransform=</span><span class="s">"translate(-4, -1) scale(6, 4)"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;stop</span> <span class="na">offset=</span><span class="s">"40%"</span> <span class="na">stop-color=</span><span class="s">"#EEE"</span><span class="nt">/&gt;</span>
+	<span class="nt">&lt;stop</span> <span class="na">offset=</span><span class="s">"43%"</span> <span class="na">stop-color=</span><span class="s">"#CCC"</span><span class="nt">/&gt;</span>
+	<span class="nt">&lt;stop</span> <span class="na">offset=</span><span class="s">"44%"</span> <span class="na">stop-color=</span><span class="s">"#EEE"</span><span class="nt">/&gt;</span>
+
+	<span class="nt">&lt;stop</span> <span class="na">offset=</span><span class="s">"45%"</span> <span class="na">stop-color=</span><span class="s">"#EEE"</span><span class="nt">/&gt;</span>
+	<span class="nt">&lt;stop</span> <span class="na">offset=</span><span class="s">"48%"</span> <span class="na">stop-color=</span><span class="s">"#CCC"</span><span class="nt">/&gt;</span>
+	<span class="nt">&lt;stop</span> <span class="na">offset=</span><span class="s">"49%"</span> <span class="na">stop-color=</span><span class="s">"#EEE"</span><span class="nt">/&gt;</span>
+
+	<span class="nt">&lt;stop</span> <span class="na">offset=</span><span class="s">"50%"</span> <span class="na">stop-color=</span><span class="s">"#EEE"</span><span class="nt">/&gt;</span>
+	<span class="nt">&lt;stop</span> <span class="na">offset=</span><span class="s">"53%"</span> <span class="na">stop-color=</span><span class="s">"#CCC"</span><span class="nt">/&gt;</span>
+	<span class="nt">&lt;stop</span> <span class="na">offset=</span><span class="s">"54%"</span> <span class="na">stop-color=</span><span class="s">"#EEE"</span><span class="nt">/&gt;</span>
+
+	<span class="nt">&lt;stop</span> <span class="na">offset=</span><span class="s">"55%"</span> <span class="na">stop-color=</span><span class="s">"#EEE"</span><span class="nt">/&gt;</span>
+	<span class="nt">&lt;stop</span> <span class="na">offset=</span><span class="s">"58%"</span> <span class="na">stop-color=</span><span class="s">"#CCC"</span><span class="nt">/&gt;</span>
+	<span class="nt">&lt;stop</span> <span class="na">offset=</span><span class="s">"59%"</span> <span class="na">stop-color=</span><span class="s">"#EEE"</span><span class="nt">/&gt;</span>
+
+	<span class="nt">&lt;stop</span> <span class="na">offset=</span><span class="s">"60%"</span> <span class="na">stop-color=</span><span class="s">"#EEE"</span><span class="nt">/&gt;</span>
+	<span class="nt">&lt;stop</span> <span class="na">offset=</span><span class="s">"63%"</span> <span class="na">stop-color=</span><span class="s">"#CCC"</span><span class="nt">/&gt;</span>
+	<span class="nt">&lt;stop</span> <span class="na">offset=</span><span class="s">"64%"</span> <span class="na">stop-color=</span><span class="s">"#EEE"</span><span class="nt">/&gt;</span>
+
+	<span class="nt">&lt;stop</span> <span class="na">offset=</span><span class="s">"65%"</span> <span class="na">stop-color=</span><span class="s">"#EEE"</span><span class="nt">/&gt;</span>
+	<span class="nt">&lt;stop</span> <span class="na">offset=</span><span class="s">"68%"</span> <span class="na">stop-color=</span><span class="s">"#CCC"</span><span class="nt">/&gt;</span>
+	<span class="nt">&lt;stop</span> <span class="na">offset=</span><span class="s">"69%"</span> <span class="na">stop-color=</span><span class="s">"#EEE"</span><span class="nt">/&gt;</span>
+
+	<span class="nt">&lt;stop</span> <span class="na">offset=</span><span class="s">"70%"</span> <span class="na">stop-color=</span><span class="s">"#EEE"</span><span class="nt">/&gt;</span>
+	<span class="nt">&lt;stop</span> <span class="na">offset=</span><span class="s">"73%"</span> <span class="na">stop-color=</span><span class="s">"#CCC"</span><span class="nt">/&gt;</span>
+	<span class="nt">&lt;stop</span> <span class="na">offset=</span><span class="s">"74%"</span> <span class="na">stop-color=</span><span class="s">"#EEE"</span><span class="nt">/&gt;</span>
+<span class="nt">&lt;/radialGradient&gt;</span>
+<span class="nt">&lt;radialGradient</span> <span class="na">id=</span><span class="s">"edges"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;stop</span> <span class="na">offset=</span><span class="s">"80%"</span> <span class="na">stop-color=</span><span class="s">"#FFF0"</span><span class="nt">/&gt;</span>
+	<span class="nt">&lt;stop</span> <span class="na">offset=</span><span class="s">"100%"</span> <span class="na">stop-color=</span><span class="s">"#0003"</span><span class="nt">/&gt;</span>
+<span class="nt">&lt;/radialGradient&gt;</span>
+<span class="nt">&lt;radialGradient</span> <span class="na">id=</span><span class="s">"highlight"</span> <span class="na">gradientTransform=</span><span class="s">"translate(-0.15 -0.15)"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;stop</span> <span class="na">offset=</span><span class="s">"0%"</span> <span class="na">stop-color=</span><span class="s">"#FFF"</span><span class="nt">/&gt;</span>
+	<span class="nt">&lt;stop</span> <span class="na">offset=</span><span class="s">"20%"</span> <span class="na">stop-color=</span><span class="s">"#FFF"</span><span class="nt">/&gt;</span>
+	<span class="nt">&lt;stop</span> <span class="na">offset=</span><span class="s">"50%"</span> <span class="na">stop-color=</span><span class="s">"#FFF0"</span><span class="nt">/&gt;</span>
+<span class="nt">&lt;/radialGradient&gt;</span>
+<span class="nt">&lt;/defs&gt;</span>
+
+<span class="nt">&lt;circle</span> <span class="na">cx=</span><span class="s">"4.1"</span> <span class="na">cy=</span><span class="s">"4.1"</span> <span class="na">r=</span><span class="s">"3.8"</span> <span class="na">fill=</span><span class="s">"#000C"</span> <span class="na">filter=</span><span class="s">"url(#blur)"</span><span class="nt">/&gt;</span>
+<span class="nt">&lt;circle</span> <span class="na">cx=</span><span class="s">"4"</span> <span class="na">cy=</span><span class="s">"4"</span> <span class="na">r=</span><span class="s">"3.8"</span> <span class="na">fill=</span><span class="s">"url(#stripes)"</span> <span class="nt">/&gt;</span>
+<span class="nt">&lt;circle</span> <span class="na">cx=</span><span class="s">"4"</span> <span class="na">cy=</span><span class="s">"4"</span> <span class="na">r=</span><span class="s">"3.8"</span> <span class="na">fill=</span><span class="s">"url(#edges)"</span> <span class="nt">/&gt;</span>
+<span class="nt">&lt;circle</span> <span class="na">cx=</span><span class="s">"4"</span> <span class="na">cy=</span><span class="s">"4"</span> <span class="na">r=</span><span class="s">"3.8"</span> <span class="na">fill=</span><span class="s">"url(#highlight)"</span> <span class="nt">/&gt;</span>
+<span class="nt">&lt;/svg&gt;</span>
+</code></pre></div></div>
+
+<p>Little wins for simplicity. They make me happy.</p>
+
+  </div>
+
+  
+</article>
+
+  
+  <article>
+  <h1>
+  
+  <a href="diminishing-returns/index.html">Diminishing returns</a>
+  
+  </h1>
+  <div class="meta">
+    <span class="date">2025-01-25</span>
+  </div>
+  <div class="content">
+    <p>There are many things which are vitally important to one’s overall wellbeing. Exercise, eating well, sleep, mental health, personal finance, and a few more.</p>
+
+<p>There are people who concentrate a lot on one of these, eg they exercise a lot. Nothing wrong with exercise, but doing much beyond the bare minimum is high effort low payoff.</p>
+
+<p>I try to do the <a href="https://en.wikipedia.org/wiki/Five_Tibetan_Rites">five tibetans</a> every morning. I only do seven repetitions of each, it takes about five minutes. The difference between doing nothing vs the five minutes of exercise is large. The difference between doing five minutes versus two hours, I won’t ever know but suspect it’s not so great.</p>
+
+<p>Is the same true for blogging? This was not a high effort blog post. Just something I’d like not to forget.</p>
+
+  </div>
+
+  
+</article>
+
+  
+  <article>
+  <h1>
+  
+  <a href="ultimate-tk/index.html">Ultimate Tapan Kaikki episodes</a>
+  
+  </h1>
+  <div class="meta">
+    <span class="date">2024-12-26</span>
+  </div>
+  <div class="content">
+    <p><a href="https://github.com/hkroger/ultimatetapankaikki">Ultimate TK</a> is a Finnish top down shooting game. I used to play it in high school. It’s been open sourced and there’s a nicely working cross-platform fork at <a href="https://github.com/suomipelit/ultimatetapankaikki/">suomipelit</a>.</p>
+
+<p>Here’s a bit of a cheat-sheet for the episodes, listing the enemies and goodies available at each level:</p>
+
+<details>
+  <summary><strong>BLANKET2</strong></summary>
+
+  <p><strong>BLANKET2: 1 “crossroads”</strong></p>
+
+  <ul>
+    <li><em>Size/time</em>: 32×20, 120 seconds</li>
+    <li><em>Enemies</em>: <span class="nowrap">pistol boy: 3</span>, <span class="nowrap">civilian: 2</span></li>
+    <li><em>Weapons</em>: <span class="nowrap">pistol: 1</span>, <span class="nowrap">flame thrower: 1</span></li>
+    <li><em>Bullets</em>: <span class="nowrap">9mm: 2×50</span>, <span class="nowrap">gas: 2×50</span></li>
+    <li><em>Health capsules</em>: 3</li>
+  </ul>
+
+  <p><strong>BLANKET2: 2 “containment zone”</strong></p>
+
+  <ul>
+    <li><em>Size/time</em>: 40×36, 210 seconds</li>
+    <li><em>Enemies</em>: <span class="nowrap">pistol boy: 3</span>, <span class="nowrap">shotgun maniac: 1</span>, <span class="nowrap">civilian: 2</span></li>
+    <li><em>Bullets</em>: <span class="nowrap">9mm: 1×50</span>, <span class="nowrap">12mm: 1×50</span>, <span class="nowrap">gas: 1×50</span></li>
+    <li><em>Health capsules</em>: 2</li>
+  </ul>
+
+  <p><strong>BLANKET2: 3 “entrance hall”</strong></p>
+
+  <ul>
+    <li><em>Size/time</em>: 20×34, 90 seconds</li>
+    <li><em>Enemies</em>: <span class="nowrap">pistol boy: 2</span>, <span class="nowrap">shotgun maniac: 2</span>, <span class="nowrap">uzi rebel: 1</span>, <span class="nowrap">civilian: 1</span></li>
+    <li><em>Weapons</em>: <span class="nowrap">uzi: 1</span></li>
+    <li><em>Bullets</em>: <span class="nowrap">9mm: 2×50</span>, <span class="nowrap">12mm: 1×50</span>, <span class="nowrap">shotgun shells: 1×20</span></li>
+    <li><em>Health capsules</em>: 2</li>
+  </ul>
+
+  <p><strong>BLANKET2: 4 “sub-station alpha”</strong></p>
+
+  <ul>
+    <li><em>Size/time</em>: 36×30, 180 seconds</li>
+    <li><em>Enemies</em>: <span class="nowrap">pistol boy: 3</span>, <span class="nowrap">shotgun maniac: 2</span>, <span class="nowrap">uzi rebel: 2</span>, <span class="nowrap">civilian: 2</span></li>
+    <li><em>Bullets</em>: <span class="nowrap">shotgun shells: 2×20</span></li>
+    <li><em>Health capsules</em>: 2</li>
+  </ul>
+
+  <p><strong>BLANKET2: 5 “backyard”</strong></p>
+
+  <ul>
+    <li><em>Size/time</em>: 40×34, 120 seconds</li>
+    <li><em>Enemies</em>: <span class="nowrap">pistol boy: 2</span>, <span class="nowrap">shotgun maniac: 2</span>, <span class="nowrap">uzi rebel: 2</span>, <span class="nowrap">civilian: 1</span></li>
+    <li><em>Weapons</em>: <span class="nowrap">auto rifle: 1</span>, <span class="nowrap">c4 activator: 1</span></li>
+    <li><em>Bullets</em>: <span class="nowrap">9mm: 1×50</span>, <span class="nowrap">12mm: 1×50</span>, <span class="nowrap">c4: 1×5</span>, <span class="nowrap">gas: 2×50</span></li>
+    <li><em>Health capsules</em>: 5</li>
+  </ul>
+
+  <p><strong>BLANKET2: 6 “hangar”</strong></p>
+
+  <ul>
+    <li><em>Size/time</em>: 32×34, 80 seconds</li>
+    <li><em>Enemies</em>: <span class="nowrap">pistol boy: 1</span>, <span class="nowrap">shotgun maniac: 3</span>, <span class="nowrap">uzi rebel: 1</span>, <span class="nowrap">civilian: 2</span></li>
+    <li><em>Weapons</em>: <span class="nowrap">auto rifle: 1</span></li>
+    <li><em>Bullets</em>: <span class="nowrap">12mm: 1×50</span>, <span class="nowrap">gas: 1×50</span></li>
+    <li><em>Health capsules</em>: 3</li>
+  </ul>
+
+  <p><strong>BLANKET2: 7 “airstrip cc-1013”</strong></p>
+
+  <ul>
+    <li><em>Size/time</em>: 45×20, 100 seconds</li>
+    <li><em>Enemies</em>: <span class="nowrap">shotgun maniac: 8</span>, <span class="nowrap">civilian: 2</span></li>
+    <li><em>Weapons</em>: <span class="nowrap">pistol: 1</span>, <span class="nowrap">grenade launcher: 1</span></li>
+    <li><em>Bullets</em>: <span class="nowrap">9mm: 1×50</span>, <span class="nowrap">medium grenades: 2×10</span>, <span class="nowrap">c4: 1×5</span></li>
+    <li><em>Health capsules</em>: 5</li>
+  </ul>
+
+  <p><strong>BLANKET2: 8 “guard hut”</strong></p>
+
+  <ul>
+    <li><em>Size/time</em>: 36×24, 60 seconds</li>
+    <li><em>Enemies</em>: <span class="nowrap">pistol boy: 3</span>, <span class="nowrap">shotgun maniac: 2</span>, <span class="nowrap">uzi rebel: 1</span>, <span class="nowrap">commando: 1</span>, <span class="nowrap">civilian: 3</span></li>
+    <li><em>Weapons</em>: <span class="nowrap">heavy launcher: 1</span>, <span class="nowrap">c4 activator: 1</span></li>
+    <li><em>Bullets</em>: <span class="nowrap">12mm: 2×50</span>, <span class="nowrap">shotgun shells: 1×20</span>, <span class="nowrap">medium grenades: 1×10</span>, <span class="nowrap">heavy grenades: 1×5</span>, <span class="nowrap">c4: 1×5</span>, <span class="nowrap">gas: 1×50</span></li>
+    <li><em>Health capsules</em>: 2</li>
+  </ul>
+
+  <p><strong>BLANKET2: 9 “blood storm”</strong></p>
+
+  <ul>
+    <li><em>Size/time</em>: 36×26, 160 seconds</li>
+    <li><em>Enemies</em>: <span class="nowrap">pistol boy: 4</span>, <span class="nowrap">shotgun maniac: 2</span>, <span class="nowrap">uzi rebel: 2</span>, <span class="nowrap">commando: 1</span>, <span class="nowrap">civilian: 10</span>, <span class="nowrap"><strong>punisher: 1</strong></span></li>
+    <li><em>Weapons</em>: <span class="nowrap">auto shotgun: 1</span>, <span class="nowrap">flame thrower: 1</span></li>
+    <li><em>Bullets</em>: <span class="nowrap">12mm: 2×50</span>, <span class="nowrap">shotgun shells: 1×20</span>, <span class="nowrap">medium grenades: 1×10</span>, <span class="nowrap">c4: 1×5</span>, <span class="nowrap">gas: 1×50</span></li>
+    <li><em>Health capsules</em>: 4</li>
+  </ul>
+
+  <p><strong>BLANKET2: 10 “old k-mart”</strong></p>
+
+  <ul>
+    <li><em>Size/time</em>: 42×36, 180 seconds</li>
+    <li><em>Enemies</em>: <span class="nowrap">pistol boy: 4</span>, <span class="nowrap">shotgun maniac: 2</span>, <span class="nowrap">uzi rebel: 3</span>, <span class="nowrap">commando: 1</span>, <span class="nowrap"><strong>grenade guy: 1</strong></span>, <span class="nowrap">civilian: 5</span>, <span class="nowrap"><strong>punisher: 2</strong></span></li>
+    <li><em>Weapons</em>: <span class="nowrap">auto shotgun: 2</span></li>
+    <li><em>Bullets</em>: <span class="nowrap">12mm: 2×50</span>, <span class="nowrap">shotgun shells: 1×20</span>, <span class="nowrap">c4: 1×5</span>, <span class="nowrap">gas: 2×50</span></li>
+    <li><em>Health capsules</em>: 4</li>
+  </ul>
+
+</details>
+
+<details>
+  <summary><strong>BLANKET</strong></summary>
+
+  <p><strong>BLANKET: 1 “we came to kill…“</strong></p>
+
+  <ul>
+    <li><em>Size/time</em>: 32×20, 110 seconds</li>
+    <li><em>Enemies</em>: <span class="nowrap">pistol boy: 3</span>, <span class="nowrap">civilian: 2</span></li>
+    <li><em>Weapons</em>: <span class="nowrap">pistol: 2</span></li>
+    <li><em>Bullets</em>: <span class="nowrap">9mm: 3×50</span>, <span class="nowrap">shotgun shells: 1×20</span></li>
+    <li><em>Health capsules</em>: 2</li>
+  </ul>
+
+  <p><strong>BLANKET: 2 “raid the nazi base”</strong></p>
+
+  <ul>
+    <li><em>Size/time</em>: 32×20, 190 seconds</li>
+    <li><em>Enemies</em>: <span class="nowrap">pistol boy: 3</span>, <span class="nowrap">shotgun maniac: 1</span>, <span class="nowrap">civilian: 10</span></li>
+    <li><em>Weapons</em>: <span class="nowrap">pistol: 2</span>, <span class="nowrap">shotgun: 1</span>, <span class="nowrap">uzi: 1</span></li>
+    <li><em>Bullets</em>: <span class="nowrap">9mm: 4×50</span>, <span class="nowrap">shotgun shells: 2×20</span></li>
+    <li><em>Health capsules</em>: 3</li>
+  </ul>
+
+  <p><strong>BLANKET: 3 “house number 1013”</strong></p>
+
+  <ul>
+    <li><em>Size/time</em>: 32×20, 80 seconds</li>
+    <li><em>Enemies</em>: <span class="nowrap">pistol boy: 3</span>, <span class="nowrap">shotgun maniac: 2</span>, <span class="nowrap">civilian: 1</span></li>
+    <li><em>Weapons</em>: <span class="nowrap">shotgun: 1</span></li>
+    <li><em>Bullets</em>: <span class="nowrap">9mm: 2×50</span>, <span class="nowrap">shotgun shells: 1×20</span></li>
+    <li><em>Health capsules</em>: 2</li>
+  </ul>
+
+  <p><strong>BLANKET: 4 “deserted hospital”</strong></p>
+
+  <ul>
+    <li><em>Size/time</em>: 50×25, 210 seconds</li>
+    <li><em>Enemies</em>: <span class="nowrap">pistol boy: 3</span>, <span class="nowrap">shotgun maniac: 1</span>, <span class="nowrap">uzi rebel: 2</span>, <span class="nowrap">civilian: 6</span></li>
+    <li><em>Weapons</em>: <span class="nowrap">pistol: 1</span>, <span class="nowrap">shotgun: 1</span></li>
+    <li><em>Bullets</em>: <span class="nowrap">9mm: 2×50</span>, <span class="nowrap">shotgun shells: 3×20</span></li>
+    <li><em>Health capsules</em>: 5</li>
+  </ul>
+
+  <p><strong>BLANKET: 5 “fallen angel”</strong></p>
+
+  <ul>
+    <li><em>Size/time</em>: 39×33, 130 seconds</li>
+    <li><em>Enemies</em>: <span class="nowrap">pistol boy: 3</span>, <span class="nowrap">shotgun maniac: 2</span>, <span class="nowrap">uzi rebel: 1</span>, <span class="nowrap">commando: 1</span>, <span class="nowrap">civilian: 2</span></li>
+    <li><em>Weapons</em>: <span class="nowrap">shotgun: 1</span></li>
+    <li><em>Bullets</em>: <span class="nowrap">9mm: 2×50</span>, <span class="nowrap">12mm: 2×50</span>, <span class="nowrap">shotgun shells: 1×20</span>, <span class="nowrap">gas: 1×50</span></li>
+    <li><em>Health capsules</em>: 4</li>
+  </ul>
+
+  <p><strong>BLANKET: 6 “reach the car”</strong></p>
+
+  <ul>
+    <li><em>Size/time</em>: 18×30, 60 seconds</li>
+    <li><em>Enemies</em>: <span class="nowrap">pistol boy: 2</span>, <span class="nowrap">shotgun maniac: 2</span>, <span class="nowrap"><strong>grenade guy: 1</strong></span>, <span class="nowrap">civilian: 1</span></li>
+    <li><em>Weapons</em>: <span class="nowrap">shotgun: 1</span>, <span class="nowrap">auto rifle: 1</span></li>
+    <li><em>Bullets</em>: <span class="nowrap">12mm: 1×50</span>, <span class="nowrap">shotgun shells: 1×20</span>, <span class="nowrap">c4: 1×5</span>, <span class="nowrap">gas: 1×50</span></li>
+    <li><em>Health capsules</em>: 3</li>
+  </ul>
+
+  <p><strong>BLANKET: 7 “command center”</strong></p>
+
+  <ul>
+    <li><em>Size/time</em>: 40×32, 180 seconds</li>
+    <li><em>Enemies</em>: <span class="nowrap">pistol boy: 15</span>, <span class="nowrap">civilian: 20</span>, <span class="nowrap"><strong>punisher: 1</strong></span></li>
+    <li><em>Weapons</em>: <span class="nowrap">auto rifle: 1</span>, <span class="nowrap">heavy launcher: 1</span></li>
+    <li><em>Bullets</em>: <span class="nowrap">12mm: 2×50</span>, <span class="nowrap">shotgun shells: 1×20</span>, <span class="nowrap">heavy grenades: 1×5</span>, <span class="nowrap">c4: 1×5</span></li>
+    <li><em>Health capsules</em>: 6</li>
+  </ul>
+
+  <p><strong>BLANKET: 8 “one more murder”</strong></p>
+
+  <ul>
+    <li><em>Size/time</em>: 28×22, 110 seconds</li>
+    <li><em>Enemies</em>: <span class="nowrap">shotgun maniac: 3</span>, <span class="nowrap">uzi rebel: 1</span>, <span class="nowrap">commando: 1</span>, <span class="nowrap">civilian: 3</span></li>
+    <li><em>Bullets</em>: <span class="nowrap">9mm: 1×50</span>, <span class="nowrap">12mm: 1×50</span>, <span class="nowrap">medium grenades: 1×10</span>, <span class="nowrap">c4: 1×5</span></li>
+    <li><em>Health capsules</em>: 1</li>
+  </ul>
+
+  <p><strong>BLANKET: 9 “mainframe hall”</strong></p>
+
+  <ul>
+    <li><em>Size/time</em>: 40×36, 210 seconds</li>
+    <li><em>Enemies</em>: <span class="nowrap">pistol boy: 3</span>, <span class="nowrap">shotgun maniac: 2</span>, <span class="nowrap">uzi rebel: 2</span>, <span class="nowrap"><strong>grenade guy: 1</strong></span>, <span class="nowrap">civilian: 1</span>, <span class="nowrap"><strong>punisher: 1</strong></span></li>
+    <li><em>Weapons</em>: <span class="nowrap">auto grenadier: 2</span></li>
+    <li><em>Bullets</em>: <span class="nowrap">light grenades: 4×15</span></li>
+    <li><em>Health capsules</em>: 5</li>
+  </ul>
+
+  <p><strong>BLANKET: 10 “hope ya had fun”</strong></p>
+
+  <ul>
+    <li><em>Size/time</em>: 42×38, 300 seconds</li>
+    <li><em>Enemies</em>: <span class="nowrap">pistol boy: 6</span>, <span class="nowrap">shotgun maniac: 2</span>, <span class="nowrap">uzi rebel: 1</span>, <span class="nowrap">commando: 2</span>, <span class="nowrap"><strong>grenade guy: 2</strong></span>, <span class="nowrap">civilian: 8</span>, <span class="nowrap"><strong>punisher: 2</strong></span></li>
+    <li><em>Weapons</em>: <span class="nowrap">pistol: 1</span>, <span class="nowrap">shotgun: 1</span>, <span class="nowrap">uzi: 1</span>, <span class="nowrap">auto rifle: 1</span>, <span class="nowrap">grenade launcher: 1</span>, <span class="nowrap">auto grenadier: 1</span>, <span class="nowrap">heavy launcher: 1</span>, <span class="nowrap">auto shotgun: 1</span>, <span class="nowrap">c4 activator: 1</span></li>
+    <li><em>Bullets</em>: <span class="nowrap">9mm: 2×50</span>, <span class="nowrap">12mm: 2×50</span>, <span class="nowrap">shotgun shells: 2×20</span>, <span class="nowrap">light grenades: 2×15</span>, <span class="nowrap">medium grenades: 2×10</span>, <span class="nowrap">heavy grenades: 2×5</span>, <span class="nowrap">c4: 2×5</span></li>
+    <li><em>Health capsules</em>: 6</li>
+  </ul>
+
+</details>
+
+<details>
+  <summary><strong>FIENDIS</strong></summary>
+
+  <p><strong>FIENDIS: 1 “engine damage…“</strong></p>
+
+  <ul>
+    <li><em>Size/time</em>: 40×32, 80 seconds</li>
+    <li><em>Enemies</em>: <span class="nowrap">pistol boy: 3</span></li>
+    <li><em>Weapons</em>: <span class="nowrap">pistol: 1</span>, <span class="nowrap">shotgun: 1</span></li>
+    <li><em>Bullets</em>: <span class="nowrap">9mm: 2×50</span>, <span class="nowrap">shotgun shells: 1×20</span></li>
+    <li><em>Health capsules</em>: 3</li>
+  </ul>
+
+  <p><strong>FIENDIS: 2 “an underground lab”</strong></p>
+
+  <ul>
+    <li><em>Size/time</em>: 50×20, 120 seconds</li>
+    <li><em>Enemies</em>: <span class="nowrap">shotgun maniac: 4</span></li>
+    <li><em>Weapons</em>: <span class="nowrap">uzi: 1</span></li>
+    <li><em>Bullets</em>: <span class="nowrap">9mm: 2×50</span>, <span class="nowrap">shotgun shells: 1×20</span>, <span class="nowrap">c4: 1×5</span></li>
+    <li><em>Health capsules</em>: 5</li>
+  </ul>
+
+  <p><strong>FIENDIS: 3 “they aren’t human”</strong></p>
+
+  <ul>
+    <li><em>Size/time</em>: 42×34, 110 seconds</li>
+    <li><em>Enemies</em>: <span class="nowrap">pistol boy: 3</span>, <span class="nowrap">shotgun maniac: 2</span>, <span class="nowrap">uzi rebel: 1</span>, <span class="nowrap">civilian: 3</span></li>
+    <li><em>Weapons</em>: <span class="nowrap">uzi: 1</span></li>
+    <li><em>Bullets</em>: <span class="nowrap">9mm: 1×50</span>, <span class="nowrap">shotgun shells: 1×20</span></li>
+    <li><em>Health capsules</em>: 2</li>
+  </ul>
+
+  <p><strong>FIENDIS: 4 “elevator ambushed”</strong></p>
+
+  <ul>
+    <li><em>Size/time</em>: 24×16, 20 seconds</li>
+    <li><em>Enemies</em>: <span class="nowrap">commando: 1</span>, <span class="nowrap"><strong>flamer: 1</strong></span></li>
+    <li><em>Weapons</em>: <span class="nowrap">auto rifle: 1</span></li>
+    <li><em>Bullets</em>: <span class="nowrap">9mm: 1×50</span>, <span class="nowrap">12mm: 2×50</span>, <span class="nowrap">mines: 1×5</span></li>
+    <li><em>Health capsules</em>: 2</li>
+  </ul>
+
+  <p><strong>FIENDIS: 5 “maintainance tunnel”</strong></p>
+
+  <ul>
+    <li><em>Size/time</em>: 16×38, 80 seconds</li>
+    <li><em>Enemies</em>: <span class="nowrap">pistol boy: 1</span>, <span class="nowrap">shotgun maniac: 2</span>, <span class="nowrap">commando: 2</span>, <span class="nowrap">civilian: 1</span>, <span class="nowrap"><strong>flamer: 1</strong></span></li>
+    <li><em>Bullets</em>: <span class="nowrap">12mm: 2×50</span>, <span class="nowrap">gas: 1×50</span></li>
+    <li><em>Health capsules</em>: 3</li>
+  </ul>
+
+  <p><strong>FIENDIS: 6 “storage room”</strong></p>
+
+  <ul>
+    <li><em>Size/time</em>: 40×38, 150 seconds</li>
+    <li><em>Enemies</em>: <span class="nowrap">pistol boy: 1</span>, <span class="nowrap">shotgun maniac: 2</span>, <span class="nowrap">uzi rebel: 3</span>, <span class="nowrap">commando: 2</span>, <span class="nowrap"><strong>grenade guy: 1</strong></span>, <span class="nowrap">civilian: 4</span></li>
+    <li><em>Weapons</em>: <span class="nowrap">grenade launcher: 1</span></li>
+    <li><em>Bullets</em>: <span class="nowrap">12mm: 2×50</span>, <span class="nowrap">medium grenades: 1×10</span>, <span class="nowrap">c4: 2×5</span></li>
+    <li><em>Health capsules</em>: 6</li>
+  </ul>
+
+  <p><strong>FIENDIS: 7 “cloned mutants”</strong></p>
+
+  <ul>
+    <li><em>Size/time</em>: 40×38, 170 seconds</li>
+    <li><em>Enemies</em>: <span class="nowrap">pistol boy: 3</span>, <span class="nowrap">shotgun maniac: 1</span>, <span class="nowrap">uzi rebel: 2</span>, <span class="nowrap">commando: 1</span>, <span class="nowrap">civilian: 8</span>, <span class="nowrap"><strong>punisher: 2</strong></span>, <span class="nowrap"><strong>flamer: 1</strong></span></li>
+    <li><em>Weapons</em>: <span class="nowrap">auto rifle: 1</span></li>
+    <li><em>Bullets</em>: <span class="nowrap">12mm: 2×50</span>, <span class="nowrap">gas: 2×50</span></li>
+    <li><em>Health capsules</em>: 6</li>
+  </ul>
+
+  <p><strong>FIENDIS: 8 “garage inc.”</strong></p>
+
+  <ul>
+    <li><em>Size/time</em>: 40×20, 120 seconds</li>
+    <li><em>Enemies</em>: <span class="nowrap">pistol boy: 4</span>, <span class="nowrap">shotgun maniac: 2</span>, <span class="nowrap">uzi rebel: 1</span>, <span class="nowrap">commando: 1</span>, <span class="nowrap"><strong>grenade guy: 1</strong></span>, <span class="nowrap">civilian: 6</span>, <span class="nowrap"><strong>flamer: 2</strong></span></li>
+    <li><em>Weapons</em>: <span class="nowrap">flame thrower: 1</span></li>
+    <li><em>Bullets</em>: <span class="nowrap">12mm: 1×50</span>, <span class="nowrap">light grenades: 1×15</span>, <span class="nowrap">gas: 4×50</span></li>
+    <li><em>Health capsules</em>: 3</li>
+  </ul>
+
+  <p><strong>FIENDIS: 9 “the way out”</strong></p>
+
+  <ul>
+    <li><em>Size/time</em>: 32×24, 80 seconds</li>
+    <li><em>Enemies</em>: <span class="nowrap">pistol boy: 1</span>, <span class="nowrap">commando: 3</span>, <span class="nowrap">civilian: 2</span>, <span class="nowrap"><strong>punisher: 3</strong></span>, <span class="nowrap"><strong>flamer: 1</strong></span></li>
+    <li><em>Weapons</em>: <span class="nowrap">auto grenadier: 1</span>, <span class="nowrap">c4 activator: 1</span></li>
+    <li><em>Bullets</em>: <span class="nowrap">12mm: 2×50</span>, <span class="nowrap">shotgun shells: 1×20</span>, <span class="nowrap">light grenades: 1×15</span>, <span class="nowrap">c4: 1×5</span></li>
+    <li><em>Health capsules</em>: 6</li>
+  </ul>
+
+  <p><strong>FIENDIS: 10 “final escape”</strong></p>
+
+  <ul>
+    <li><em>Size/time</em>: 40×30, 80 seconds</li>
+    <li><em>Enemies</em>: <span class="nowrap">shotgun maniac: 4</span>, <span class="nowrap">uzi rebel: 1</span>, <span class="nowrap">commando: 3</span>, <span class="nowrap"><strong>grenade guy: 1</strong></span>, <span class="nowrap">civilian: 6</span>, <span class="nowrap"><strong>punisher: 1</strong></span>, <span class="nowrap"><strong>flamer: 4</strong></span></li>
+    <li><em>Weapons</em>: <span class="nowrap">heavy launcher: 1</span></li>
+    <li><em>Bullets</em>: <span class="nowrap">12mm: 2×50</span>, <span class="nowrap">shotgun shells: 1×20</span>, <span class="nowrap">heavy grenades: 2×5</span>, <span class="nowrap">gas: 1×50</span></li>
+    <li><em>Health capsules</em>: 4</li>
+  </ul>
+
+</details>
+
+<details>
+  <summary><strong>MOTHAFUX</strong></summary>
+
+  <p><strong>MOTHAFUX: 1 “chiseled stone”</strong></p>
+
+  <ul>
+    <li><em>Size/time</em>: 40×30, 120 seconds</li>
+    <li><em>Enemies</em>: <span class="nowrap">pistol boy: 1</span>, <span class="nowrap">shotgun maniac: 1</span>, <span class="nowrap">civilian: 3</span></li>
+    <li><em>Weapons</em>: <span class="nowrap">pistol: 2</span>, <span class="nowrap">flame thrower: 1</span></li>
+    <li><em>Bullets</em>: <span class="nowrap">9mm: 2×50</span>, <span class="nowrap">gas: 2×50</span></li>
+    <li><em>Health capsules</em>: 3</li>
+  </ul>
+
+  <p><strong>MOTHAFUX: 2 “the sewage”</strong></p>
+
+  <ul>
+    <li><em>Size/time</em>: 70×20, 180 seconds</li>
+    <li><em>Enemies</em>: <span class="nowrap">pistol boy: 2</span>, <span class="nowrap">shotgun maniac: 2</span>, <span class="nowrap">civilian: 4</span></li>
+    <li><em>Weapons</em>: <span class="nowrap">shotgun: 1</span>, <span class="nowrap">c4 activator: 1</span></li>
+    <li><em>Bullets</em>: <span class="nowrap">9mm: 2×50</span>, <span class="nowrap">12mm: 1×50</span>, <span class="nowrap">shotgun shells: 2×20</span>, <span class="nowrap">c4: 2×5</span>, <span class="nowrap">gas: 1×50</span></li>
+    <li><em>Health capsules</em>: 3</li>
+  </ul>
+
+  <p><strong>MOTHAFUX: 3 “confrontation”</strong></p>
+
+  <ul>
+    <li><em>Size/time</em>: 34×25, 120 seconds</li>
+    <li><em>Enemies</em>: <span class="nowrap">pistol boy: 1</span>, <span class="nowrap">uzi rebel: 2</span>, <span class="nowrap">civilian: 2</span></li>
+    <li><em>Weapons</em>: <span class="nowrap">uzi: 1</span>, <span class="nowrap">flame thrower: 1</span></li>
+    <li><em>Bullets</em>: <span class="nowrap">9mm: 2×50</span>, <span class="nowrap">12mm: 1×50</span>, <span class="nowrap">shotgun shells: 1×20</span>, <span class="nowrap">c4: 1×5</span>, <span class="nowrap">gas: 1×50</span></li>
+    <li><em>Health capsules</em>: 2</li>
+  </ul>
+
+  <p><strong>MOTHAFUX: 4 “biohazard”</strong></p>
+
+  <ul>
+    <li><em>Size/time</em>: 60×15, 160 seconds</li>
+    <li><em>Enemies</em>: <span class="nowrap">pistol boy: 3</span>, <span class="nowrap">shotgun maniac: 3</span>, <span class="nowrap">commando: 1</span>, <span class="nowrap">civilian: 2</span></li>
+    <li><em>Weapons</em>: <span class="nowrap">auto rifle: 1</span>, <span class="nowrap">grenade launcher: 1</span></li>
+    <li><em>Bullets</em>: <span class="nowrap">12mm: 2×50</span>, <span class="nowrap">shotgun shells: 1×20</span>, <span class="nowrap">medium grenades: 1×10</span>, <span class="nowrap">gas: 2×50</span></li>
+    <li><em>Health capsules</em>: 3</li>
+  </ul>
+
+  <p><strong>MOTHAFUX: 5 “hotel room”</strong></p>
+
+  <ul>
+    <li><em>Size/time</em>: 34×24, 60 seconds</li>
+    <li><em>Enemies</em>: <span class="nowrap">pistol boy: 1</span>, <span class="nowrap">uzi rebel: 3</span>, <span class="nowrap">civilian: 7</span>, <span class="nowrap"><strong>flamer: 1</strong></span></li>
+    <li><em>Weapons</em>: <span class="nowrap">c4 activator: 1</span></li>
+    <li><em>Bullets</em>: <span class="nowrap">12mm: 1×50</span>, <span class="nowrap">medium grenades: 1×10</span>, <span class="nowrap">c4: 1×5</span>, <span class="nowrap">gas: 1×50</span></li>
+    <li><em>Health capsules</em>: 1</li>
+  </ul>
+
+  <p><strong>MOTHAFUX: 6 “sub-urban life”</strong></p>
+
+  <ul>
+    <li><em>Size/time</em>: 50×34, 220 seconds</li>
+    <li><em>Enemies</em>: <span class="nowrap">pistol boy: 3</span>, <span class="nowrap">uzi rebel: 1</span>, <span class="nowrap">commando: 2</span>, <span class="nowrap">civilian: 8</span></li>
+    <li><em>Weapons</em>: <span class="nowrap">flame thrower: 1</span></li>
+    <li><em>Bullets</em>: <span class="nowrap">9mm: 1×50</span>, <span class="nowrap">12mm: 1×50</span>, <span class="nowrap">gas: 1×50</span></li>
+    <li><em>Health capsules</em>: 3</li>
+  </ul>
+
+  <p><strong>MOTHAFUX: 7 “main street”</strong></p>
+
+  <ul>
+    <li><em>Size/time</em>: 70×40, 210 seconds</li>
+    <li><em>Enemies</em>: <span class="nowrap">pistol boy: 5</span>, <span class="nowrap">shotgun maniac: 6</span>, <span class="nowrap">uzi rebel: 2</span>, <span class="nowrap">commando: 3</span>, <span class="nowrap">civilian: 12</span>, <span class="nowrap"><strong>punisher: 1</strong></span></li>
+    <li><em>Weapons</em>: <span class="nowrap">auto rifle: 1</span>, <span class="nowrap">auto grenadier: 1</span></li>
+    <li><em>Bullets</em>: <span class="nowrap">12mm: 2×50</span>, <span class="nowrap">light grenades: 1×15</span>, <span class="nowrap">medium grenades: 1×10</span>, <span class="nowrap">c4: 1×5</span></li>
+    <li><em>Health capsules</em>: 6</li>
+  </ul>
+
+  <p><strong>MOTHAFUX: 8 “south park”</strong></p>
+
+  <ul>
+    <li><em>Size/time</em>: 42×34, 140 seconds</li>
+    <li><em>Enemies</em>: <span class="nowrap">pistol boy: 1</span>, <span class="nowrap">shotgun maniac: 3</span>, <span class="nowrap">uzi rebel: 3</span>, <span class="nowrap"><strong>grenade guy: 1</strong></span>, <span class="nowrap">civilian: 12</span></li>
+    <li><em>Weapons</em>: <span class="nowrap">c4 activator: 1</span></li>
+    <li><em>Bullets</em>: <span class="nowrap">12mm: 3×50</span>, <span class="nowrap">shotgun shells: 1×20</span>, <span class="nowrap">medium grenades: 1×10</span>, <span class="nowrap">c4: 1×5</span>, <span class="nowrap">gas: 2×50</span></li>
+    <li><em>Health capsules</em>: 5</li>
+  </ul>
+
+  <p><strong>MOTHAFUX: 9 “hell on earth”</strong></p>
+
+  <ul>
+    <li><em>Size/time</em>: 50×40, 210 seconds</li>
+    <li><em>Enemies</em>: <span class="nowrap">pistol boy: 4</span>, <span class="nowrap">uzi rebel: 4</span>, <span class="nowrap">commando: 2</span>, <span class="nowrap">civilian: 2</span>, <span class="nowrap"><strong>punisher: 2</strong></span>, <span class="nowrap"><strong>flamer: 1</strong></span></li>
+    <li><em>Weapons</em>: <span class="nowrap">auto grenadier: 1</span></li>
+    <li><em>Bullets</em>: <span class="nowrap">12mm: 1×50</span>, <span class="nowrap">light grenades: 1×15</span>, <span class="nowrap">gas: 2×50</span></li>
+    <li><em>Health capsules</em>: 5</li>
+  </ul>
+
+  <p><strong>MOTHAFUX: 10 “dawn of the dead”</strong></p>
+
+  <ul>
+    <li><em>Size/time</em>: 30×50, 180 seconds</li>
+    <li><em>Enemies</em>: <span class="nowrap">pistol boy: 1</span>, <span class="nowrap">commando: 4</span>, <span class="nowrap">civilian: 3</span>, <span class="nowrap"><strong>punisher: 3</strong></span>, <span class="nowrap"><strong>flamer: 2</strong></span></li>
+    <li><em>Weapons</em>: <span class="nowrap">heavy launcher: 1</span></li>
+    <li><em>Bullets</em>: <span class="nowrap">12mm: 1×50</span>, <span class="nowrap">shotgun shells: 1×20</span>, <span class="nowrap">heavy grenades: 1×5</span>, <span class="nowrap">gas: 1×50</span></li>
+    <li><em>Health capsules</em>: 2</li>
+  </ul>
+
+</details>
+
+<details>
+  <summary><strong>DEFAULT</strong></summary>
+
+  <p><strong>DEFAULT: 1 “pay back time”</strong></p>
+
+  <ul>
+    <li><em>Size/time</em>: 32×20, 60 seconds</li>
+    <li><em>Enemies</em>: <span class="nowrap">pistol boy: 3</span>, <span class="nowrap">civilian: 1</span></li>
+    <li><em>Weapons</em>: <span class="nowrap">pistol: 2</span></li>
+    <li><em>Bullets</em>: <span class="nowrap">9mm: 2×50</span>, <span class="nowrap">shotgun shells: 1×20</span></li>
+    <li><em>Health capsules</em>: 1</li>
+  </ul>
+
+  <p><strong>DEFAULT: 2 “plutonium store”</strong></p>
+
+  <ul>
+    <li><em>Size/time</em>: 40×30, 100 seconds</li>
+    <li><em>Enemies</em>: <span class="nowrap">pistol boy: 3</span>, <span class="nowrap">shotgun maniac: 1</span></li>
+    <li><em>Bullets</em>: <span class="nowrap">12mm: 1×50</span></li>
+    <li><em>Health capsules</em>: 1</li>
+  </ul>
+
+  <p><strong>DEFAULT: 3 “nice day to die”</strong></p>
+
+  <ul>
+    <li><em>Size/time</em>: 45×30, 150 seconds</li>
+    <li><em>Enemies</em>: <span class="nowrap">pistol boy: 2</span>, <span class="nowrap">shotgun maniac: 2</span>, <span class="nowrap">uzi rebel: 1</span></li>
+    <li><em>Weapons</em>: <span class="nowrap">shotgun: 1</span></li>
+    <li><em>Bullets</em>: <span class="nowrap">9mm: 1×50</span>, <span class="nowrap">shotgun shells: 1×20</span></li>
+    <li><em>Health capsules</em>: 2</li>
+  </ul>
+
+  <p><strong>DEFAULT: 4 “jungle george”</strong></p>
+
+  <ul>
+    <li><em>Size/time</em>: 50×40, 160 seconds</li>
+    <li><em>Enemies</em>: <span class="nowrap">pistol boy: 1</span>, <span class="nowrap">shotgun maniac: 2</span>, <span class="nowrap">uzi rebel: 2</span></li>
+    <li><em>Weapons</em>: <span class="nowrap">pistol: 1</span>, <span class="nowrap">shotgun: 1</span></li>
+    <li><em>Bullets</em>: <span class="nowrap">9mm: 2×50</span>, <span class="nowrap">shotgun shells: 1×20</span>, <span class="nowrap">c4: 2×5</span></li>
+    <li><em>Health capsules</em>: 2</li>
+  </ul>
+
+  <p><strong>DEFAULT: 5 “the aliens”</strong></p>
+
+  <ul>
+    <li><em>Size/time</em>: 80×60, 240 seconds</li>
+    <li><em>Enemies</em>: <span class="nowrap">pistol boy: 2</span>, <span class="nowrap">uzi rebel: 3</span>, <span class="nowrap">commando: 1</span>, <span class="nowrap">civilian: 10</span></li>
+    <li><em>Weapons</em>: <span class="nowrap">grenade launcher: 1</span></li>
+    <li><em>Bullets</em>: <span class="nowrap">9mm: 2×50</span>, <span class="nowrap">shotgun shells: 1×20</span>, <span class="nowrap">medium grenades: 1×10</span>, <span class="nowrap">c4: 1×5</span></li>
+    <li><em>Health capsules</em>: 3</li>
+  </ul>
+
+  <p><strong>DEFAULT: 6 “the wc”</strong></p>
+
+  <ul>
+    <li><em>Size/time</em>: 32×20, 80 seconds</li>
+    <li><em>Enemies</em>: <span class="nowrap">commando: 2</span>, <span class="nowrap"><strong>grenade guy: 1</strong></span>, <span class="nowrap">civilian: 3</span></li>
+    <li><em>Bullets</em>: <span class="nowrap">medium grenades: 1×10</span></li>
+    <li><em>Health capsules</em>: 1</li>
+  </ul>
+
+  <p><strong>DEFAULT: 7 “wolfenstein”</strong></p>
+
+  <ul>
+    <li><em>Size/time</em>: 40×30, 100 seconds</li>
+    <li><em>Enemies</em>: <span class="nowrap">uzi rebel: 5</span>, <span class="nowrap"><strong>punisher: 1</strong></span></li>
+    <li><em>Weapons</em>: <span class="nowrap">auto rifle: 1</span>, <span class="nowrap">c4 activator: 1</span></li>
+    <li><em>Bullets</em>: <span class="nowrap">12mm: 2×50</span></li>
+    <li><em>Health capsules</em>: 2</li>
+  </ul>
+
+  <p><strong>DEFAULT: 8 “wolfenstein 2”</strong></p>
+
+  <ul>
+    <li><em>Size/time</em>: 45×40, 130 seconds</li>
+    <li><em>Enemies</em>: <span class="nowrap">shotgun maniac: 4</span>, <span class="nowrap">civilian: 10</span>, <span class="nowrap"><strong>punisher: 3</strong></span></li>
+    <li><em>Bullets</em>: <span class="nowrap">shotgun shells: 2×20</span>, <span class="nowrap">c4: 1×5</span></li>
+    <li><em>Health capsules</em>: 2</li>
+  </ul>
+
+  <p><strong>DEFAULT: 9 “parkinghall 2”</strong></p>
+
+  <ul>
+    <li><em>Size/time</em>: 50×50, 150 seconds</li>
+    <li><em>Enemies</em>: <span class="nowrap">shotgun maniac: 2</span>, <span class="nowrap"><strong>grenade guy: 2</strong></span>, <span class="nowrap">civilian: 10</span>, <span class="nowrap"><strong>punisher: 1</strong></span></li>
+    <li><em>Bullets</em>: <span class="nowrap">9mm: 1×50</span>, <span class="nowrap">shotgun shells: 1×20</span>, <span class="nowrap">light grenades: 1×15</span>, <span class="nowrap">medium grenades: 1×10</span>, <span class="nowrap">c4: 1×5</span></li>
+    <li><em>Health capsules</em>: 2</li>
+  </ul>
+
+  <p><strong>DEFAULT: 10 “final battle”</strong></p>
+
+  <ul>
+    <li><em>Size/time</em>: 80×60, 300 seconds</li>
+    <li><em>Enemies</em>: <span class="nowrap">pistol boy: 1</span>, <span class="nowrap">shotgun maniac: 1</span>, <span class="nowrap">uzi rebel: 1</span>, <span class="nowrap">commando: 5</span>, <span class="nowrap"><strong>grenade guy: 1</strong></span>, <span class="nowrap">civilian: 10</span>, <span class="nowrap"><strong>punisher: 8</strong></span></li>
+    <li><em>Weapons</em>: <span class="nowrap">auto rifle: 1</span></li>
+    <li><em>Bullets</em>: <span class="nowrap">12mm: 1×50</span>, <span class="nowrap">shotgun shells: 2×20</span>, <span class="nowrap">light grenades: 1×15</span>, <span class="nowrap">medium grenades: 1×10</span></li>
+    <li><em>Health capsules</em>: 5</li>
+  </ul>
+
+</details>
+
+<p>For your (in?)convenience, I ordered the episodes by difficulty (from easiest to hardest) rather than alphabetically.</p>
+
+<p>[Edit:] I managed to find <a href="https://github.com/tasuki/ultimate-tk-levels">more episodes</a> on archive.org! Some of them might suck or crash the game, I don’t have the time to check.</p>
+
+<p>[Edit 2:] I <a href="https://github.com/tasuki/ultimate-tk">created a fork</a>. It includes the following changes:</p>
+
+<ul>
+  <li>Faster fade-in/out for less wait time.</li>
+  <li>Larger (and easily configurable) in-game viewport, so you can see more around you!</li>
+</ul>
+
+  </div>
+
+  
+</article>
+
+  
+  <article>
+  <h1>
+  
+  <a href="solar/index.html">Solar</a>
+  
+  </h1>
+  <div class="meta">
+    <span class="date">2024-07-12</span>
+  </div>
+  <div class="content">
+    <style>
+.solartile { border: 1px solid #cb4b16; float: left; margin: 9px; line-height: 50px; width: 50px; height: 110px; writing-mode: vertical-lr; transform: rotate(180deg); }
+.solartall { height: 130px; }
+.solartile tt { padding: 7px; }
+</style>
+
+<p>Original solarized colours:</p>
+
+<div>
+<div class="solartile" style="background: #002b36; color: #fdf6e3;"><tt>#002b36;</tt></div>
+<div class="solartile" style="background: #073642; color: #fdf6e3;"><tt>#073642;</tt></div>
+<div class="solartile" style="background: #586e75; color: #fdf6e3;"><tt>#586e75;</tt></div>
+<div class="solartile" style="background: #657b83; color: #fdf6e3;"><tt>#657b83;</tt></div>
+<div class="solartile" style="background: #839496; color: #002b36;"><tt>#839496;</tt></div>
+<div class="solartile" style="background: #93a1a1; color: #002b36;"><tt>#93a1a1;</tt></div>
+<div class="solartile" style="background: #eee8d5; color: #002b36;"><tt>#eee8d5;</tt></div>
+<div class="solartile" style="background: #fdf6e3; color: #002b36;"><tt>#fdf6e3;</tt></div>
+<div style="clear: both;"></div>
+<div class="solartile" style="background: #b58900; color: #fdf6e3;"><tt>#b58900;</tt></div>
+<div class="solartile" style="background: #cb4b16; color: #fdf6e3;"><tt>#cb4b16;</tt></div>
+<div class="solartile" style="background: #dc322f; color: #fdf6e3;"><tt>#dc322f;</tt></div>
+<div class="solartile" style="background: #d33682; color: #fdf6e3;"><tt>#d33682;</tt></div>
+<div class="solartile" style="background: #6c71c4; color: #fdf6e3;"><tt>#6c71c4;</tt></div>
+<div class="solartile" style="background: #268bd2; color: #fdf6e3;"><tt>#268bd2;</tt></div>
+<div class="solartile" style="background: #2aa198; color: #fdf6e3;"><tt>#2aa198;</tt></div>
+<div class="solartile" style="background: #859900; color: #fdf6e3;"><tt>#859900;</tt></div>
+<div style="clear: both;"></div>
+</div>
+
+<p>The grayish pairs are almost indistinguishable to my old eyes. In L*A*B, these are: 15 -12 -12, 20 -12 -12, 45 -7 -7, 50 -7 -7, 60 -6 -3, 65 -5 -2, 92 0 10, 97 0 10</p>
+
+<p>I tried more regular spacing as per <a href="https://colordesigner.io/gradient-generator?mode=lch#002b36-fdf6e3">OKLCH interpolation between the two extremes</a>, and quickly found out it’s actually useful to have a colour which is right next to the extreme, to be able to get a <em>slightly different</em> background.</p>
+
+<!--
+The above mentioned failed experiment...
+
+<div>
+<div class="solartile" style="background: #002b36; color: #fdf6e3;"><tt>#002b36;</tt></div>
+<div class="solartile" style="background: #25454c; color: #fdf6e3;"><tt>#25454c;</tt></div>
+<div class="solartile" style="background: #476064; color: #fdf6e3;"><tt>#476064;</tt></div>
+<div class="solartile" style="background: #697c7c; color: #fdf6e3;"><tt>#697c7c;</tt></div>
+<div class="solartile" style="background: #8c9995; color: #002b36;"><tt>#8c9995;</tt></div>
+<div class="solartile" style="background: #b0b7ae; color: #002b36;"><tt>#b0b7ae;</tt></div>
+<div class="solartile" style="background: #d6d6c8; color: #002b36;"><tt>#d6d6c8;</tt></div>
+<div class="solartile" style="background: #fdf6e3; color: #002b36;"><tt>#fdf6e3;</tt></div>
+<div style="clear: both;"></div>
+</div>
+-->
+
+<p>So, here’s an attempt to take the most extreme two colours from both sides and interpolate the four in the middle, giving a better range of usable shades:</p>
+
+<div>
+<div class="solartile" style="background: #002b36; color: #fdf6e3;"><tt>#002b36;</tt></div>
+<div class="solartile" style="background: #073642; color: #fdf6e3;"><tt>#073642;</tt></div>
+<div class="solartile" style="background: #37565e; color: #fdf6e3;"><tt>#37565e;</tt></div>
+<div class="solartile" style="background: #62797a; color: #fdf6e3;"><tt>#62797a;</tt></div>
+<div class="solartile" style="background: #8f9c98; color: #002b36;"><tt>#8f9c98;</tt></div>
+<div class="solartile" style="background: #bec2b6; color: #002b36;"><tt>#bec2b6;</tt></div>
+<div class="solartile" style="background: #eee8d5; color: #002b36;"><tt>#eee8d5;</tt></div>
+<div class="solartile" style="background: #fdf6e3; color: #002b36;"><tt>#fdf6e3;</tt></div>
+<div style="clear: both;"></div>
+</div>
+
+<p>It’s a small improvement, no?</p>
+
+<!--
+Start from slightly more extreme colours. No improvement.
+
+<div>
+<div class="solartile" style="background: #002c33; color: #fdf6e3;"><tt>#002c33;</tt></div>
+<div class="solartile" style="background: #163a3f; color: #fdf6e3;"><tt>#163a3f;</tt></div>
+<div class="solartile" style="background: #3e5a5b; color: #fdf6e3;"><tt>#3e5a5b;</tt></div>
+<div class="solartile" style="background: #677b78; color: #fdf6e3;"><tt>#677b78;</tt></div>
+<div class="solartile" style="background: #919e97; color: #002b36;"><tt>#919e97;</tt></div>
+<div class="solartile" style="background: #bdc2b6; color: #002b36;"><tt>#bdc2b6;</tt></div>
+<div class="solartile" style="background: #eae8d7; color: #002b36;"><tt>#eae8d7;</tt></div>
+<div class="solartile" style="background: #fff9e6; color: #002b36;"><tt>#fff9e6;</tt></div>
+<div style="clear: both;"></div>
+</div>
+-->
+
+<hr />
+
+<p>Continuing, the orig solarized colours:</p>
+
+<div>
+<div class="solartile" style="background: #b58900; color: #fdf6e3;"><tt>#b58900;</tt></div>
+<div class="solartile" style="background: #cb4b16; color: #fdf6e3;"><tt>#cb4b16;</tt></div>
+<div class="solartile" style="background: #dc322f; color: #fdf6e3;"><tt>#dc322f;</tt></div>
+<div class="solartile" style="background: #d33682; color: #fdf6e3;"><tt>#d33682;</tt></div>
+<div class="solartile" style="background: #6c71c4; color: #fdf6e3;"><tt>#6c71c4;</tt></div>
+<div class="solartile" style="background: #268bd2; color: #fdf6e3;"><tt>#268bd2;</tt></div>
+<div class="solartile" style="background: #2aa198; color: #fdf6e3;"><tt>#2aa198;</tt></div>
+<div class="solartile" style="background: #859900; color: #fdf6e3;"><tt>#859900;</tt></div>
+<div style="clear: both;"></div>
+</div>
+
+<!--
+Tweaks in Oklch:
+
+<div>
+<div class="solartile solartall" style="background: oklch(64%, 0.13,  91); color: #fdf6e3;"><tt>64 13  91</tt></div>
+<div class="solartile solartall" style="background: oklch(62%, 0.15,  53); color: #fdf6e3;"><tt>62 15  53</tt></div>
+<div class="solartile solartall" style="background: oklch(59%, 0.21,  20); color: #fdf6e3;"><tt>59 21  20</tt></div>
+<div class="solartile solartall" style="background: oklch(57%, 0.22, 345); color: #fdf6e3;"><tt>57 22 345</tt></div>
+<div class="solartile solartall" style="background: oklch(60%, 0.13, 282); color: #fdf6e3;"><tt>60 13 282</tt></div>
+<div class="solartile solartall" style="background: oklch(60%, 0.13, 244); color: #fdf6e3;"><tt>60 13 244</tt></div>
+<div class="solartile solartall" style="background: oklch(67%, 0.10, 195); color: #fdf6e3;"><tt>67 10 195</tt></div>
+<div class="solartile solartall" style="background: oklch(65%, 0.15, 120); color: #fdf6e3;"><tt>65 15 120</tt></div>
+<div style="clear: both;"></div>
+</div>
+-->
+
+<p>And my tweaked version:</p>
+
+<div>
+<div class="solartile" style="background: #a80; color: #fdf6e3;"><tt>#a80</tt></div>
+<div class="solartile" style="background: #c60; color: #fdf6e3;"><tt>#c60</tt></div>
+<div class="solartile" style="background: #d24; color: #fdf6e3;"><tt>#d24</tt></div>
+<div class="solartile" style="background: #c39; color: #fdf6e3;"><tt>#c39</tt></div>
+<div class="solartile" style="background: #77d; color: #fdf6e3;"><tt>#77d</tt></div>
+<div class="solartile" style="background: #28c; color: #fdf6e3;"><tt>#28c</tt></div>
+<div class="solartile" style="background: #2a9; color: #fdf6e3;"><tt>#2a9</tt></div>
+<div class="solartile" style="background: #890; color: #fdf6e3;"><tt>#890</tt></div>
+<div style="clear: both;"></div>
+</div>
+
+<p>Tweaks mainly to better separate the red from its neighbors. Also shorthand notation, because who needs more than 4096 colours? Limiting the number of available colours lets one focus on things that matter rather than focusing on things that don’t. (The irony being that improving a colour scheme is a thing that doesn’t matter.)</p>
+
+<!--
+Here, an attempt at an automatic rainbow, which falls, well flat...
+
+<div>
+<div class="solartile" style="background: #bb9900; color: #fdf6e3;"><tt>#bb9900</tt></div>
+<div class="solartile" style="background: #e27e47; color: #fdf6e3;"><tt>#e27e47</tt></div>
+<div class="solartile" style="background: #e37394; color: #fdf6e3;"><tt>#e37394</tt></div>
+<div class="solartile" style="background: #c17ed5; color: #fdf6e3;"><tt>#c17ed5</tt></div>
+<div class="solartile" style="background: #8095f4; color: #fdf6e3;"><tt>#8095f4</tt></div>
+<div class="solartile" style="background: #00ace1; color: #fdf6e3;"><tt>#00ace1</tt></div>
+<div class="solartile" style="background: #00b8a5; color: #fdf6e3;"><tt>#00b8a5</tt></div>
+<div class="solartile" style="background: #6eb156; color: #fdf6e3;"><tt>#6eb156</tt></div>
+<div style="clear: both;"></div>
+</div>
+-->
+
+<hr />
+
+<p>Here’s a screenshot from my terminal. Left is original Solarized, right is after the changes:</p>
+
+<div class="wide">
+<img alt="solarized comparison" src="assets/2024/solarized-improvements.webp" />
+</div>
+
+<!--
+---
+
+Back to the base colours:
+
+<div>
+<div class="solartile solartall" style="background: oklch(26%, 0.050, 220); color: #fdf6e3;"><tt>xoxoxo</tt></div>
+<div class="solartile solartall" style="background: oklch(31%, 0.050, 220); color: #fdf6e3;"><tt>xoxoxo</tt></div>
+<div class="solartile solartall" style="background: oklch(43%, 0.040, 215); color: #fdf6e3;"><tt>xoxoxo</tt></div>
+<div class="solartile solartall" style="background: oklch(56%, 0.025, 200); color: #fdf6e3;"><tt>xoxoxo</tt></div>
+<div class="solartile solartall" style="background: oklch(68%, 0.015, 175); color: #002b36;"><tt>xoxoxo</tt></div>
+<div class="solartile solartall" style="background: oklch(80%, 0.015, 122); color: #002b36;"><tt>xoxoxo</tt></div>
+<div class="solartile solartall" style="background: oklch(93%, 0.020,  92); color: #002b36;"><tt>xoxoxo</tt></div>
+<div class="solartile solartall" style="background: oklch(98%, 0.020,  90); color: #002b36;"><tt>xoxoxo</tt></div>
+<div style="clear: both;"></div>
+</div>
+-->
+
+<details>
+  <summary>Interested in exploring the colours in OKLCH?</summary>
+
+  <p>Here are the base colours in the format to paste to <a href="https://huetone.ardov.me/">Huetone</a>:</p>
+
+  <div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"solar base"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"hues"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+    </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"color"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"colors"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+        </span><span class="s2">"#002b36"</span><span class="p">,</span><span class="w">
+        </span><span class="s2">"#073642"</span><span class="p">,</span><span class="w">
+        </span><span class="s2">"#37565e"</span><span class="p">,</span><span class="w">
+        </span><span class="s2">"#62797a"</span><span class="p">,</span><span class="w">
+        </span><span class="s2">"#8f9c98"</span><span class="p">,</span><span class="w">
+        </span><span class="s2">"#bec2b6"</span><span class="p">,</span><span class="w">
+        </span><span class="s2">"#eee8d5"</span><span class="p">,</span><span class="w">
+        </span><span class="s2">"#fdf6e3"</span><span class="w">
+      </span><span class="p">]</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+  </span><span class="p">]</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div>  </div>
+
+  <p>And the colour wheel:</p>
+
+  <div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"solar colours"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"hues"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+    </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"color"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"colors"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+        </span><span class="s2">"#aa8800"</span><span class="p">,</span><span class="w">
+        </span><span class="s2">"#cc6600"</span><span class="p">,</span><span class="w">
+        </span><span class="s2">"#dd2244"</span><span class="p">,</span><span class="w">
+        </span><span class="s2">"#cc3399"</span><span class="p">,</span><span class="w">
+        </span><span class="s2">"#7777dd"</span><span class="p">,</span><span class="w">
+        </span><span class="s2">"#2288cc"</span><span class="p">,</span><span class="w">
+        </span><span class="s2">"#22aa99"</span><span class="p">,</span><span class="w">
+        </span><span class="s2">"#889900"</span><span class="w">
+      </span><span class="p">]</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+  </span><span class="p">]</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div>  </div>
+
+</details>
+
+  </div>
+
+  
+</article>
+
+  
+  <article>
+  <h1>
+  
+  <a href="consumption-vs-creation/index.html">Consumption vs creation</a>
+  
+  </h1>
+  <div class="meta">
+    <span class="date">2024-05-25</span>
+  </div>
+  <div class="content">
+    <p>Some people think screen-time = bad. Or that smart phones = bad. I think it’s mostly creation vs consumption, no matter the medium.</p>
+
+<p>Creation = good.<br />
+Comsumption = bad.</p>
+
+<p>Scrolling Instagram (TikTok? whatever people use these days…) is consumption (bad). Posting on Instagram: creation (good). Checking instagram followers: consumptive (bad).</p>
+
+<p>Of course it’s a spectrum. Playing computer games is more consumptive than creating them, but probably more creative than scrolling Instagram. It also depends on the particular game, playing Factorio being more creative than playing Farmville.</p>
+
+<p>I’ve been doing ok recently wrt consumption vs creation, I don’t consume much and mostly spend my little free time creating. See, even now I’m creating this blog post (good). While you’re reading it (bad). Stop and go create something!</p>
+
+  </div>
+
+  
+</article>
+
+  
+  <article>
+  <h1>
+  
+  <a href="oklch-and-rainbows/index.html">Notes on OKLCH and rainbows</a>
+  
+  </h1>
+  <div class="meta">
+    <span class="date">2024-04-30</span>
+  </div>
+  <div class="content">
+    <style>
+.oklch-show { margin: 2em 0 1em 0; width: 100%; height: 2em; }
+</style>
+
+<p>Colours are tricky! OKLCH is a colour space. OKLCH is better than most colour spaces in that changing the values leads to natural sensible results. But sometimes, those sensible results are not achievable because of physics, biology (eyes), and technology (display devices).</p>
+
+<p>Evil Martians have a <a href="https://evilmartians.com/chronicles/oklch-in-css-why-quit-rgb-hsl">very good blog post on OKLCH</a>. In case that goes down, <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/oklch">MDN has a somewhat drier explanation</a>.</p>
+
+<p>The problem with <em>the other colour spaces</em> is that changing one of the values a certain amount leads to strange results. In HSV, changing the hue by 30 sometimes shows almost the same colour, other times an entirely different one.</p>
+
+<p>In OKLCH, changing one of the values gives you nice results. Also, sometimes it gives you an inexistent colour, or a colour which is theoretically displayable, but not by your device. Oops.</p>
+
+<p>Here’s an <strong><a href="https://oklch.com/">OKLCH Color Picker &amp; Converter</a></strong>, <em>go play around with it</em>! In case it goes down, <a href="https://github.com/evilmartians/oklch-picker">source</a>.</p>
+
+<p>I like cyclical rainbow colour palettes. I like having them consist of existing and displayable colours.</p>
+
+<div class="wide">
+<div class="oklch-show" style="background: linear-gradient(90deg,
+  oklch(50% 0.08   0),
+  oklch(50% 0.08  30),
+  oklch(50% 0.08  60),
+  oklch(50% 0.08  90),
+  oklch(50% 0.08 120),
+  oklch(50% 0.08 150),
+  oklch(50% 0.08 180),
+  oklch(50% 0.08 210),
+  oklch(50% 0.08 240),
+  oklch(50% 0.08 270),
+  oklch(50% 0.08 300),
+  oklch(50% 0.08 330),
+  oklch(50% 0.08 360));">
+</div>
+</div>
+
+<p>Here’s a somewhat dark one. OKLCH with Lightness 50%, Chroma 0.08 and all them hues. Anything darker, and the chroma can’t go up because of the missing cyans (and yellows). The maximum chroma that has all the colours for Lightness 50% is 0.08 – all the chromas in this post will be the maximal possible ones for the given lightness <em>so that all the hues are still available in rgb</em>.</p>
+
+<div class="wide">
+<div class="oklch-show" style="background: linear-gradient(90deg,
+  oklch(60% 0.1   0),
+  oklch(60% 0.1  30),
+  oklch(60% 0.1  60),
+  oklch(60% 0.1  90),
+  oklch(60% 0.1 120),
+  oklch(60% 0.1 150),
+  oklch(60% 0.1 180),
+  oklch(60% 0.1 210),
+  oklch(60% 0.1 240),
+  oklch(60% 0.1 270),
+  oklch(60% 0.1 300),
+  oklch(60% 0.1 330),
+  oklch(60% 0.1 360));">
+</div>
+</div>
+
+<p>Increasing Lightness to 60%, Chroma can go up to 0.1, again hitting the cyans.</p>
+
+<div class="wide">
+<div class="oklch-show" style="background: linear-gradient(90deg,
+  oklch(76% 0.12   0),
+  oklch(76% 0.12  30),
+  oklch(76% 0.12  60),
+  oklch(76% 0.12  90),
+  oklch(76% 0.12 120),
+  oklch(76% 0.12 150),
+  oklch(76% 0.12 180),
+  oklch(76% 0.12 210),
+  oklch(76% 0.12 240),
+  oklch(76% 0.12 270),
+  oklch(76% 0.12 300),
+  oklch(76% 0.12 330),
+  oklch(76% 0.12 360));">
+</div>
+</div>
+
+<p>The maximum chroma (for preserving all the hues) is 0.12 for Lightness 71–76%.</p>
+
+<div class="wide">
+<div class="oklch-show" style="background: linear-gradient(90deg,
+  oklch(85% 0.07   0),
+  oklch(85% 0.07  30),
+  oklch(85% 0.07  60),
+  oklch(85% 0.07  90),
+  oklch(85% 0.07 120),
+  oklch(85% 0.07 150),
+  oklch(85% 0.07 180),
+  oklch(85% 0.07 210),
+  oklch(85% 0.07 240),
+  oklch(85% 0.07 270),
+  oklch(85% 0.07 300),
+  oklch(85% 0.07 330),
+  oklch(85% 0.07 360));">
+</div>
+</div>
+
+<p>At lightness 85%, the purples are becoming a problem, allowing chroma of only up to 0.07 – a light saturated purple doesn’t exist. I’m so sorry.</p>
+
+  </div>
+
+  
+</article>
+
+  
+  <article>
+  <h1>
+  
+  <a href="programming-language-2024/index.html">Choosing a programming language in 2024</a>
+  
+  </h1>
+  <div class="meta">
+    <span class="date">2024-02-22</span>
+  </div>
+  <div class="content">
+    <p>Welp. I want to write a simple backend service and have it low maintenance for the upcoming decade. I will probably want to write other simple backend services in the upcoming decade and I’m getting old so I’d rather stick to fewer than more languages. But also I’d rather the languages to be tidy. This is a stream-of-thought for my own reference, but I might end up pushing the “publish” button anyway.</p>
+
+<p>Without further ado, the contenders:</p>
+
+<h3 id="haskell">Haskell</h3>
+
+<p>I already wrote 30 lines of Haskell to do very simple API call forwarding, so I’m not starting from scratch here. The ergonomics just aren’t there:</p>
+
+<ul>
+  <li>Stack downloads a lot of things and uses exorbitant amounts of disk space. I’m running on a $5 DigitalOcean droplet!</li>
+  <li>With such strong typing I want an amazing IDEs but mostly end up typing things in vim.</li>
+  <li>Haskell is not a beautiful language. Yes it maintains backwards compatibility. Why <code class="language-plaintext highlighter-rouge">fmap</code> on functors and <code class="language-plaintext highlighter-rouge">map</code> only on lists?</li>
+  <li>I count six different string types and I’m trying very hard to count as few as possible. If one wanted to count <em>as many as possible</em>, I shudder to think what the number would be. Ideal number of string types is one.</li>
+</ul>
+
+<p>On the plus side, <a href="https://packages.debian.org/search?keywords=haskell-stack"><code class="language-plaintext highlighter-rouge">stack</code> is in my distro’s repos</a>…</p>
+
+<h3 id="php">PHP</h3>
+
+<p>Hey, I have three-ish things running PHP on the aforementioned $5 DigitalOcean droplet. Less beautiful language than Haskell, very low maintenance, just works. But hey it’s not 2004 anymore…</p>
+
+<h3 id="python">Python</h3>
+
+<p>It’s everywhere and there’s no hope of it ever going away. Its library ecosystem is amazing, its package management story is atrocious. Reads like pseudocode, but all bugs are runtime. Probably a practical choice, but is it really that much better than PHP? If I’m getting invested in another language apart from PHP, I’d like it to be nicer.</p>
+
+<h3 id="scala">Scala</h3>
+
+<p>Maybe. Having worked with Scala professionally for 7 years, I know it well and like it enough. It seems to be losing a lot of steam recently, as in its cake eaten completely by the inferior Kotlin. But it’s not disappearing completely, is it? And the ecosystem of Java (and Kotlin!) libraries is there.</p>
+
+<h3 id="f">F#</h3>
+
+<p><a href="https://fsharp.org/">F#</a> is a nicer language than Scala. But it’s not <em>that much</em> nicer and reportedly the .NET ecosystem is worse. It’s also an ecosystem I don’t know at all. There’s ASP.NET and .NET and .NET core and .NET framework and perhaps they’re complementary or one replaces the other and the naming is confusing…</p>
+
+<h3 id="idris-and-purescript-and-roc">Idris and PureScript and Roc</h3>
+
+<p><a href="https://www.idris-lang.org/">Idris</a> is Haskell without the warts, but no one uses Idris and it has no libraries. Nor even a package manager really.</p>
+
+<p><a href="https://www.purescript.org/">PureScript</a> requires a lot of imports and seems to be more of a frontend language, but perhaps I’m just being uncharitable to it. And uh JavaScript as its main compile target. It makes sense for a frontend language, of course. I use Elm and don’t complain about JavaScript being the compile target. PureScript looks real nice!</p>
+
+<p><a href="https://www.roc-lang.org/">ROC</a> is not even a thing yet.</p>
+
+<p>All three a bit too much bleeding edge.</p>
+
+<h3 id="conclusion">Conclusion</h3>
+
+<p>There is no conclusion! The only conclusion I can possibly come up with is that the nicer the language, the worse its ecosystem. The worse the language, the nicer its ecosystem. Here’s, uh, an infographic:</p>
+
+<div class="wide">
+<img alt="objective ranking of programming languages" src="assets/2024/languages.svg" />
+</div>
+
+  </div>
+
+  
+</article>
+
+  
+  <article>
+  <h1>
+  
+  <a href="tiling-gradients/index.html">Tiling gradients</a>
+  
+  </h1>
+  <div class="meta">
+    <span class="date">2024-02-08</span>
+  </div>
+  <div class="content">
+    <style>
+.tile { border: 1px solid orange; float: left; margin: 9px; width: 100px; height: 100px; }
+@keyframes animate-tile {
+  0% { background-position: 0px 0px; }
+  100% { background-position: -1000px -1000px; }
+}
+</style>
+
+<p>Here’s a test. A simple diagonal gradient from white to black, first full size, then four tiles of the same, and lastly sixteen tiles:</p>
+
+<div>
+<div class="tile" style="background: linear-gradient(135deg, #FFF, #000);"></div>
+<div class="tile" style="background: linear-gradient(135deg, #FFF, #000); background-size: 50% 50%;"></div>
+<div class="tile" style="background: linear-gradient(135deg, #FFF, #000); background-size: 25% 25%;"></div>
+<div style="clear: both;"></div>
+</div>
+
+<p>It does not tile very nicely. Neither does one which has white-black-white:</p>
+
+<div>
+<div class="tile" style="background: linear-gradient(135deg, #FFF, #000, #FFF);"></div>
+<div class="tile" style="background: linear-gradient(135deg, #FFF, #000, #FFF); background-size: 50% 50%;"></div>
+<div class="tile" style="background: linear-gradient(135deg, #FFF, #000, #FFF); background-size: 25% 25%;"></div>
+<div style="clear: both;"></div>
+</div>
+
+<p>And neither white-black-white-black one:</p>
+
+<div>
+<div class="tile" style="background: linear-gradient(135deg, #FFF, #000, #FFF, #000);"></div>
+<div class="tile" style="background: linear-gradient(135deg, #FFF, #000, #FFF, #000); background-size: 50% 50%;"></div>
+<div class="tile" style="background: linear-gradient(135deg, #FFF, #000, #FFF, #000); background-size: 25% 25%;"></div>
+<div style="clear: both;"></div>
+</div>
+
+<p>But the following one does! White-black-white-black-white:</p>
+
+<div>
+<div class="tile" style="background: linear-gradient(135deg, #FFF, #000, #FFF, #000, #FFF);"></div>
+<div class="tile" style="background: linear-gradient(135deg, #FFF, #000, #FFF, #000, #FFF); background-size: 50% 50%;"></div>
+<div class="tile" style="background: linear-gradient(135deg, #FFF, #000, #FFF, #000, #FFF); background-size: 25% 25%;"></div>
+<div style="clear: both;"></div>
+</div>
+
+<p>Then for 6, 7, and 8 it again does not tile (showing just the four tile versions):</p>
+
+<div>
+<div class="tile" style="background: linear-gradient(135deg, #FFF, #000, #FFF, #000, #FFF, #000); background-size: 50% 50%;"></div>
+<div class="tile" style="background: linear-gradient(135deg, #FFF, #000, #FFF, #000, #FFF, #000, #FFF); background-size: 50% 50%;"></div>
+<div class="tile" style="background: linear-gradient(135deg, #FFF, #000, #FFF, #000, #FFF, #000, #FFF, #000); background-size: 50% 50%;"></div>
+<div style="clear: both;"></div>
+</div>
+
+<p>For sequence of 9 it tiles! And sequence of 13 too! And… umm, 17 again?</p>
+
+<div>
+<div class="tile" style="background: linear-gradient(135deg, #FFF, #000, #FFF, #000, #FFF, #000, #FFF, #000, #FFF); background-size: 50% 50%;"></div>
+<div class="tile" style="background: linear-gradient(135deg, #FFF, #000, #FFF, #000, #FFF, #000, #FFF, #000, #FFF, #000, #FFF, #000, #FFF); background-size: 50% 50%;"></div>
+<div class="tile" style="background: linear-gradient(135deg, #FFF, #000, #FFF, #000, #FFF, #000, #FFF, #000, #FFF, #000, #FFF, #000, #FFF, #000, #FFF, #000, #FFF); background-size: 50% 50%;"></div>
+<div style="clear: both;"></div>
+</div>
+
+<p>Proof by induction!</p>
+
+<hr />
+
+<p>I’m sure this is like some very trivial mathematics. But I do not know it. And the grayscale is a little dreary, make it pop! Let’s have three colours:</p>
+
+<div>
+<div class="tile" style="background: #440154;"></div>
+<div class="tile" style="background: #26828e;"></div>
+<div class="tile" style="background: #fde725;"></div>
+<div class="tile" style="background: linear-gradient(135deg, #440154, #26828e, #fde725);"></div>
+<div style="clear: both;"></div>
+</div>
+
+<p>Call them purple, teal, yellow. Unsurprisingly, the three colours don’t tile when it’s purple-teal-yellow (sequence of 3), neither purple-teal-yellow-purple (sequence of 4), neither purple-teal-yellow-purple-teal (sequence of 5), neither sequence of 6:</p>
+
+<div>
+<div class="tile" style="background: linear-gradient(135deg, #440154, #26828e, #fde725); background-size: 50% 50%;"></div>
+<div class="tile" style="background: linear-gradient(135deg, #440154, #26828e, #fde725, #440154); background-size: 50% 50%;"></div>
+<div class="tile" style="background: linear-gradient(135deg, #440154, #26828e, #fde725, #440154, #26828e); background-size: 50% 50%;"></div>
+<div class="tile" style="background: linear-gradient(135deg, #440154, #26828e, #fde725, #440154, #26828e, #fde725); background-size: 50% 50%;"></div>
+<div style="clear: both;"></div>
+</div>
+
+<p>But for sequence of 7 (purple-teal-yellow-purple-teal-yellow-purple) it tiles! Then for 13 and 19 and 25 it does too.</p>
+
+<div>
+<div class="tile" style="background: linear-gradient(135deg, #440154, #26828e, #fde725, #440154, #26828e, #fde725, #440154); background-size: 50% 50%;"></div>
+<div class="tile" style="background: linear-gradient(135deg, #440154, #26828e, #fde725, #440154, #26828e, #fde725, #440154, #26828e, #fde725, #440154, #26828e, #fde725, #440154); background-size: 50% 50%;"></div>
+<div class="tile" style="background: linear-gradient(135deg, #440154, #26828e, #fde725, #440154, #26828e, #fde725, #440154, #26828e, #fde725, #440154, #26828e, #fde725, #440154, #26828e, #fde725, #440154, #26828e, #fde725, #440154); background-size: 50% 50%;"></div>
+<div class="tile" style="background: linear-gradient(135deg, #440154, #26828e, #fde725, #440154, #26828e, #fde725, #440154, #26828e, #fde725, #440154, #26828e, #fde725, #440154, #26828e, #fde725, #440154, #26828e, #fde725, #440154, #26828e, #fde725, #440154, #26828e, #fde725, #440154); background-size: 50% 50%;"></div>
+<div style="clear: both;"></div>
+</div>
+
+<hr />
+
+<p>Uh oh, let us take four colours now. Purple, blue, green, yellow.</p>
+
+<blockquote>
+  <p>Green green, green green. Yellow? Yellow!</p>
+</blockquote>
+
+<div>
+<div class="tile" style="background: #440154;"></div>
+<div class="tile" style="background: #31688e;"></div>
+<div class="tile" style="background: #35b779;"></div>
+<div class="tile" style="background: #fde725;"></div>
+<div style="clear: both;"></div>
+</div>
+
+<p>For sequence of 4 the tiling doesn’t work, but for sequence of 9 it does! And for 17 too, and 25.</p>
+
+<div>
+<div class="tile" style="background: linear-gradient(135deg, #440154, #31688e, #35b779, #fde725); background-size: 50% 50%;"></div>
+<div class="tile" style="background: linear-gradient(135deg, #440154, #31688e, #35b779, #fde725, #440154, #31688e, #35b779, #fde725, #440154); background-size: 50% 50%;"></div>
+<div class="tile" style="background: linear-gradient(135deg, #440154, #31688e, #35b779, #fde725, #440154, #31688e, #35b779, #fde725, #440154, #31688e, #35b779, #fde725, #440154, #31688e, #35b779, #fde725, #440154); background-size: 50% 50%;"></div>
+<div class="tile" style="background: linear-gradient(135deg, #440154, #31688e, #35b779, #fde725, #440154, #31688e, #35b779, #fde725, #440154, #31688e, #35b779, #fde725, #440154, #31688e, #35b779, #fde725, #440154, #31688e, #35b779, #fde725, #440154, #31688e, #35b779, #fde725, #440154); background-size: 50% 50%;"></div>
+<div style="clear: both;"></div>
+</div>
+
+<p>This looks very much like <code class="language-plaintext highlighter-rouge">2n + 1</code></p>
+
+<hr />
+
+<p>Five colours!</p>
+
+<div>
+<div class="tile" style="background: #440154;"></div>
+<div class="tile" style="background: #3e4a89;"></div>
+<div class="tile" style="background: #26828e;"></div>
+<div class="tile" style="background: #35b779;"></div>
+<div class="tile" style="background: #b5de2b;"></div>
+<div style="clear: both;"></div>
+</div>
+
+<p>That’ll be 11, 21, 31, 41, 51, …</p>
+
+<div>
+<div class="tile" style="background: linear-gradient(135deg, #440154, #3e4a89, #26828e, #35b779, #b5de2b, #440154, #3e4a89, #26828e, #35b779, #b5de2b, #440154); background-size: 50% 50%;"></div>
+<div class="tile" style="background: linear-gradient(135deg, #440154, #3e4a89, #26828e, #35b779, #b5de2b, #440154, #3e4a89, #26828e, #35b779, #b5de2b, #440154, #3e4a89, #26828e, #35b779, #b5de2b, #440154, #3e4a89, #26828e, #35b779, #b5de2b, #440154); background-size: 50% 50%;"></div>
+<div class="tile" style="background: linear-gradient(135deg, #440154, #3e4a89, #26828e, #35b779, #b5de2b, #440154, #3e4a89, #26828e, #35b779, #b5de2b, #440154, #3e4a89, #26828e, #35b779, #b5de2b, #440154, #3e4a89, #26828e, #35b779, #b5de2b, #440154, #3e4a89, #26828e, #35b779, #b5de2b, #440154, #3e4a89, #26828e, #35b779, #b5de2b, #440154); background-size: 50% 50%;"></div>
+<div class="tile" style="background: linear-gradient(135deg, #440154, #3e4a89, #26828e, #35b779, #b5de2b, #440154, #3e4a89, #26828e, #35b779, #b5de2b, #440154, #3e4a89, #26828e, #35b779, #b5de2b, #440154, #3e4a89, #26828e, #35b779, #b5de2b, #440154, #3e4a89, #26828e, #35b779, #b5de2b, #440154, #3e4a89, #26828e, #35b779, #b5de2b, #440154, #3e4a89, #26828e, #35b779, #b5de2b, #440154, #3e4a89, #26828e, #35b779, #b5de2b, #440154); background-size: 50% 50%;"></div>
+<div class="tile" style="background: linear-gradient(135deg, #440154, #3e4a89, #26828e, #35b779, #b5de2b, #440154, #3e4a89, #26828e, #35b779, #b5de2b, #440154, #3e4a89, #26828e, #35b779, #b5de2b, #440154, #3e4a89, #26828e, #35b779, #b5de2b, #440154, #3e4a89, #26828e, #35b779, #b5de2b, #440154, #3e4a89, #26828e, #35b779, #b5de2b, #440154, #3e4a89, #26828e, #35b779, #b5de2b, #440154, #3e4a89, #26828e, #35b779, #b5de2b, #440154, #3e4a89, #26828e, #35b779, #b5de2b, #440154, #3e4a89, #26828e, #35b779, #b5de2b, #440154); background-size: 50% 50%;"></div>
+<div style="clear: both;"></div>
+</div>
+
+<p>And lastly ten colours, with sequence of 21:</p>
+
+<div>
+<div class="tile" style="background: linear-gradient(135deg, #440154, #482878, #3e4a89, #31688e, #26828e, #1f9e89, #35b779, #6ece58, #b5de2b, #fde725);"></div>
+<div class="tile" style="background: linear-gradient(135deg, #440154, #482878, #3e4a89, #31688e, #26828e, #1f9e89, #35b779, #6ece58, #b5de2b, #fde725, #440154, #482878, #3e4a89, #31688e, #26828e, #1f9e89, #35b779, #6ece58, #b5de2b, #fde725, #440154);"></div>
+<div style="clear: both;"></div>
+</div>
+
+<hr />
+
+<h3 id="why-2n--1-">Why 2n + 1 ?</h3>
+
+<p>This is perhaps too embarassingly simple to write a blog post about, but I found none <em>and</em> found a lot of people on the internet confused by their gradients not aligning.</p>
+
+<p>The <code class="language-plaintext highlighter-rouge">n</code> here is the number of different colours in your gradient. The <code class="language-plaintext highlighter-rouge">2n + 1</code> is how many colours you need to include in your code.</p>
+
+<p>The <code class="language-plaintext highlighter-rouge">+1</code> is simple: the last colour of the palette needs to be the same as the first, as they “touch” in the corner.</p>
+
+<p>The <code class="language-plaintext highlighter-rouge">2n</code> is not that difficult either: when it was <code class="language-plaintext highlighter-rouge">n</code>, the corners touch just fine, but the sides are shifted by half against each other, not lining up. <code class="language-plaintext highlighter-rouge">2n</code> makes the sides line up, too.</p>
+
+<h3 id="bonus-time">Bonus time?</h3>
+
+<p>Here, have an animated one:</p>
+
+<div style="border: 1px solid orange; height: 100px; animation: animate-tile 10s linear infinite; background: linear-gradient(135deg, #440154, #482878, #3e4a89, #31688e, #26828e, #1f9e89, #35b779, #6ece58, #b5de2b, #fde725, #440154, #482878, #3e4a89, #31688e, #26828e, #1f9e89, #35b779, #6ece58, #b5de2b, #fde725, #440154); background-size: 1000px 1000px;"></div>
+
+  </div>
+
+  
+</article>
+
+  
+  <article>
+  <h1>
+  
+  <a href="valmorel/index.html">Valmorel</a>
+  
+  </h1>
+  <div class="meta">
+    <span class="date">2024-01-21</span>
+  </div>
+  <div class="content">
+    <p>In the nineties, when I was about ten, my parents took me to Valmorel, a ski resort in French Alps. It was my first time skiing in the Alps and I enjoyed the trip a lot. After a week of skiing, when we were leaving, I cried in the bus. My mother said don’t worry, we’d go again. But I knew this was it, there would be no other experience that could compare to going to Valmorel for the first time in my life.</p>
+
+<p>Looking back, I’m surprised how correct and prescient my reaction was. There was no other Valmorel. I’d gone skiing in the Alps many times since, almost every year. It is fun. But the magic of the first time is long gone.</p>
+
+<p>There will be other experiences, good and bad, repeated and unique. There will never be another Valmorel.</p>
+
+  </div>
+
+  
+</article>
+
+  
+  <article>
+  <h1>
+  
+  <a href="pure-css/index.html">Pure.css</a>
+  
+  </h1>
+  <div class="meta">
+    <span class="date">2023-01-27</span>
+  </div>
+  <div class="content">
+    <p>I’ve been using <a href="https://purecss.io/">Pure.css</a> whenever I need to use CSS, and love it:</p>
+
+<ul>
+  <li>It’s tiny (about 1/10th the size of Bootstrap).</li>
+  <li>It’s simple. <a href="https://github.com/pure-css/pure/tree/master/src">Go-read-the-code</a> simple.</li>
+  <li>It gets out of the way.</li>
+  <li>They <a href="https://github.com/pure-css/pure/releases">release about twice a year</a>, usually adding a single feature or so. Why move fast when slow is enough?</li>
+</ul>
+
+<p>Back in the day, I used Twitter Bootstrap for the <a href="../tsumego.tasuki.org/index.html">Tsumego Collections</a>. It’s very heavy, there’s an infinite number of classes, one has to fit in within the framework very precisely for it to work, and it requires JavaScript for the menus (???).</p>
+
+<p>The main drawback of Pure.css is its ungooglability and multitude of names. The web address is <code class="language-plaintext highlighter-rouge">purecss.io</code>, the logo says “Pure.css”, the page title says “Pure”, the left menu shows “PURE”. I honestly have no idea what the project name actually is.</p>
+
+  </div>
+
+  
+</article>
+<div id="pagination" class="pure-g">
+  <div class="older pure-u-1-1 pure-u-sm-1-3">
+  
+    <a href="page/2.html">&laquo; Older posts</a>
+  
+  </div>
+
+  <div class="page-number pure-u-1-1 pure-u-sm-1-3">
+    Page: 1 of 24
+  </div>
+
+  <div class="newer pure-u-1-1 pure-u-sm-1-3">
+  
+    Newer posts &raquo;
+  
+  </div>
+</div>
+
+    </div>
+  </body>
+</html>

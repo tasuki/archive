@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#C60">
+  <link rel="icon" href="../favicon.svg">
+
+  
+  <title>MySQL low cardinality index efficiency &mdash; tasuki’s blog</title>
+  
+
+  <link rel="stylesheet" href="../public/pure-min.css">
+  <link rel="stylesheet" href="../public/pure-grids-responsive-min.css">
+  <link rel="stylesheet" href="../public/style.css">
+</head>
+<body>
+    <div id="header">
+      <div class="pad">
+        <a href="../index.html">tasuki’s blog</a>
+      </div>
+    </div>
+    <div id="content" class="pad">
+      
+
+
+<article>
+  <h1>
+  
+  MySQL low cardinality index efficiency
+  
+  </h1>
+  <div class="meta">
+    <span class="date">2016-11-28</span>
+  </div>
+  <div class="content">
+    <p>I’ve heard the opinion that indexes on low cardinality columns don’t work well. I set out to disprove that.</p>
+
+<p>First, let’s create a table with a boolean column <em>“active”</em> and fill it with dummy data. Please note it includes a (default, B-Tree) index on the <em>“active”</em> column.</p>
+
+<div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&gt;</span> <span class="k">show</span> <span class="k">create</span> <span class="k">table</span> <span class="n">users</span><span class="err">\</span><span class="k">G</span>
+<span class="o">***************************</span> <span class="mi">1</span><span class="p">.</span> <span class="k">row</span> <span class="o">***************************</span>
+<span class="k">Table</span><span class="p">:</span> <span class="n">users</span>
+<span class="k">Create</span> <span class="k">Table</span><span class="p">:</span> <span class="k">CREATE</span> <span class="k">TABLE</span> <span class="nv">`users`</span> <span class="p">(</span>
+<span class="nv">`id`</span> <span class="nb">int</span><span class="p">(</span><span class="mi">11</span><span class="p">)</span> <span class="k">NOT</span> <span class="k">NULL</span> <span class="n">AUTO_INCREMENT</span><span class="p">,</span>
+<span class="nv">`name`</span> <span class="nb">varchar</span><span class="p">(</span><span class="mi">50</span><span class="p">)</span> <span class="k">DEFAULT</span> <span class="k">NULL</span><span class="p">,</span>
+<span class="nv">`email`</span> <span class="nb">varchar</span><span class="p">(</span><span class="mi">100</span><span class="p">)</span> <span class="k">DEFAULT</span> <span class="k">NULL</span><span class="p">,</span>
+<span class="nv">`active`</span> <span class="nb">tinyint</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span> <span class="k">DEFAULT</span> <span class="k">NULL</span><span class="p">,</span>
+<span class="k">PRIMARY</span> <span class="k">KEY</span> <span class="p">(</span><span class="nv">`id`</span><span class="p">),</span>
+<span class="k">KEY</span> <span class="nv">`active`</span> <span class="p">(</span><span class="nv">`active`</span><span class="p">)</span>
+<span class="p">)</span> <span class="n">ENGINE</span><span class="o">=</span><span class="n">InnoDB</span> <span class="k">DEFAULT</span> <span class="n">CHARSET</span><span class="o">=</span><span class="n">latin1</span>
+<span class="mi">1</span> <span class="k">row</span> <span class="k">in</span> <span class="k">set</span> <span class="p">(</span><span class="mi">0</span><span class="p">.</span><span class="mi">00</span> <span class="n">sec</span><span class="p">)</span>
+
+<span class="o">&gt;</span> <span class="k">DELIMITER</span> <span class="p">;;</span>
+<span class="o">&gt;</span> <span class="k">CREATE</span> <span class="k">PROCEDURE</span> <span class="n">insert_random</span><span class="p">(</span><span class="k">IN</span> <span class="n">amount</span> <span class="nb">INT</span><span class="p">,</span> <span class="k">IN</span> <span class="n">percent_active</span> <span class="nb">INT</span><span class="p">)</span>
+    <span class="o">-&gt;</span> <span class="k">BEGIN</span>
+    <span class="o">-&gt;</span>   <span class="k">DECLARE</span> <span class="n">counter</span> <span class="nb">INT</span> <span class="k">DEFAULT</span> <span class="mi">0</span><span class="p">;</span>
+    <span class="o">-&gt;</span>   <span class="n">myloop</span><span class="p">:</span> <span class="n">LOOP</span>
+    <span class="o">-&gt;</span>     <span class="n">if</span> <span class="p">(</span><span class="n">counter</span> <span class="o">=</span> <span class="n">amount</span><span class="p">)</span> <span class="k">THEN</span>
+    <span class="o">-&gt;</span>       <span class="n">LEAVE</span> <span class="n">myloop</span><span class="p">;</span>
+    <span class="o">-&gt;</span>     <span class="k">end</span> <span class="n">if</span><span class="p">;</span>
+    <span class="o">-&gt;</span>     <span class="k">INSERT</span> <span class="k">INTO</span> <span class="n">users</span> <span class="k">SET</span>
+    <span class="o">-&gt;</span>       <span class="n">name</span> <span class="o">=</span> <span class="n">UUID</span><span class="p">(),</span>
+    <span class="o">-&gt;</span>       <span class="n">email</span> <span class="o">=</span> <span class="n">UUID</span><span class="p">(),</span>
+    <span class="o">-&gt;</span>       <span class="n">active</span> <span class="o">=</span> <span class="n">IF</span><span class="p">(</span><span class="n">FLOOR</span><span class="p">(</span><span class="n">RAND</span><span class="p">()</span> <span class="o">*</span> <span class="mi">100</span><span class="p">)</span> <span class="o">&lt;</span> <span class="n">percent_active</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
+    <span class="o">-&gt;</span>     <span class="k">SET</span> <span class="n">counter</span> <span class="o">=</span> <span class="n">counter</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span>
+    <span class="o">-&gt;</span>   <span class="k">END</span> <span class="n">LOOP</span><span class="p">;</span>
+    <span class="o">-&gt;</span> <span class="k">END</span> <span class="p">;;</span>
+<span class="n">Query</span> <span class="n">OK</span><span class="p">,</span> <span class="mi">0</span> <span class="k">rows</span> <span class="n">affected</span> <span class="p">(</span><span class="mi">0</span><span class="p">.</span><span class="mi">00</span> <span class="n">sec</span><span class="p">)</span>
+
+<span class="o">&gt;</span> <span class="k">DELIMITER</span> <span class="p">;</span>
+
+<span class="o">&gt;</span> <span class="k">call</span> <span class="n">insert_random</span><span class="p">(</span><span class="mi">1000000</span><span class="p">,</span> <span class="mi">10</span><span class="p">);</span>
+<span class="n">Query</span> <span class="n">OK</span><span class="p">,</span> <span class="mi">1</span> <span class="k">row</span> <span class="n">affected</span> <span class="p">(</span><span class="mi">36</span><span class="p">.</span><span class="mi">60</span> <span class="n">sec</span><span class="p">)</span>
+
+<span class="o">&gt;</span> <span class="k">select</span> <span class="k">count</span><span class="p">(</span><span class="o">*</span><span class="p">)</span> <span class="k">from</span> <span class="n">users</span><span class="p">;</span>
+<span class="o">+</span><span class="c1">----------+</span>
+<span class="o">|</span> <span class="k">count</span><span class="p">(</span><span class="o">*</span><span class="p">)</span> <span class="o">|</span>
+<span class="o">+</span><span class="c1">----------+</span>
+<span class="o">|</span>  <span class="mi">1000000</span> <span class="o">|</span>
+<span class="o">+</span><span class="c1">----------+</span>
+<span class="mi">1</span> <span class="k">row</span> <span class="k">in</span> <span class="k">set</span> <span class="p">(</span><span class="mi">0</span><span class="p">.</span><span class="mi">18</span> <span class="n">sec</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>We’ve inserted a million users into our table! That took some time. Please note the 0.18 seconds to count them all.</p>
+
+<p>Now, let’s see how fast we can count the active users:</p>
+
+<div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&gt;</span> <span class="k">select</span> <span class="k">count</span><span class="p">(</span><span class="o">*</span><span class="p">)</span> <span class="k">from</span> <span class="n">users</span> <span class="k">where</span> <span class="n">active</span> <span class="o">=</span> <span class="k">true</span><span class="p">;</span>
+<span class="o">+</span><span class="c1">----------+</span>
+<span class="o">|</span> <span class="k">count</span><span class="p">(</span><span class="o">*</span><span class="p">)</span> <span class="o">|</span>
+<span class="o">+</span><span class="c1">----------+</span>
+<span class="o">|</span>    <span class="mi">99887</span> <span class="o">|</span>
+<span class="o">+</span><span class="c1">----------+</span>
+<span class="mi">1</span> <span class="k">row</span> <span class="k">in</span> <span class="k">set</span> <span class="p">(</span><span class="mi">0</span><span class="p">.</span><span class="mi">04</span> <span class="n">sec</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Cool, pretty fast. Can you explain that?</p>
+
+<div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&gt;</span> <span class="k">explain</span> <span class="k">select</span> <span class="k">count</span><span class="p">(</span><span class="o">*</span><span class="p">)</span> <span class="k">from</span> <span class="n">users</span> <span class="k">where</span> <span class="n">active</span> <span class="o">=</span> <span class="k">true</span><span class="err">\</span><span class="k">G</span>
+<span class="o">***************************</span> <span class="mi">1</span><span class="p">.</span> <span class="k">row</span> <span class="o">***************************</span>
+           <span class="n">id</span><span class="p">:</span> <span class="mi">1</span>
+  <span class="n">select_type</span><span class="p">:</span> <span class="k">SIMPLE</span>
+        <span class="k">table</span><span class="p">:</span> <span class="n">users</span>
+   <span class="n">partitions</span><span class="p">:</span> <span class="k">NULL</span>
+         <span class="k">type</span><span class="p">:</span> <span class="k">ref</span>
+<span class="n">possible_keys</span><span class="p">:</span> <span class="n">active</span>
+          <span class="k">key</span><span class="p">:</span> <span class="n">active</span>
+      <span class="n">key_len</span><span class="p">:</span> <span class="mi">2</span>
+          <span class="k">ref</span><span class="p">:</span> <span class="n">const</span>
+         <span class="k">rows</span><span class="p">:</span> <span class="mi">208462</span>
+     <span class="n">filtered</span><span class="p">:</span> <span class="mi">100</span><span class="p">.</span><span class="mi">00</span>
+        <span class="n">Extra</span><span class="p">:</span> <span class="k">Using</span> <span class="k">index</span>
+<span class="mi">1</span> <span class="k">row</span> <span class="k">in</span> <span class="k">set</span><span class="p">,</span> <span class="mi">1</span> <span class="n">warning</span> <span class="p">(</span><span class="mi">0</span><span class="p">.</span><span class="mi">00</span> <span class="n">sec</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Now let’s drop the index and run the test again:</p>
+
+<div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&gt;</span> <span class="k">alter</span> <span class="k">table</span> <span class="n">users</span> <span class="k">drop</span> <span class="k">key</span> <span class="n">active</span><span class="p">;</span>
+<span class="n">Query</span> <span class="n">OK</span><span class="p">,</span> <span class="mi">0</span> <span class="k">rows</span> <span class="n">affected</span> <span class="p">(</span><span class="mi">0</span><span class="p">.</span><span class="mi">05</span> <span class="n">sec</span><span class="p">)</span>
+<span class="n">Records</span><span class="p">:</span> <span class="mi">0</span>  <span class="n">Duplicates</span><span class="p">:</span> <span class="mi">0</span>  <span class="n">Warnings</span><span class="p">:</span> <span class="mi">0</span>
+
+<span class="o">&gt;</span> <span class="k">select</span> <span class="k">count</span><span class="p">(</span><span class="o">*</span><span class="p">)</span> <span class="k">from</span> <span class="n">users</span> <span class="k">where</span> <span class="n">active</span> <span class="o">=</span> <span class="k">true</span><span class="p">;</span>
+<span class="o">+</span><span class="c1">----------+</span>
+<span class="o">|</span> <span class="k">count</span><span class="p">(</span><span class="o">*</span><span class="p">)</span> <span class="o">|</span>
+<span class="o">+</span><span class="c1">----------+</span>
+<span class="o">|</span>    <span class="mi">99887</span> <span class="o">|</span>
+<span class="o">+</span><span class="c1">----------+</span>
+<span class="mi">1</span> <span class="k">row</span> <span class="k">in</span> <span class="k">set</span> <span class="p">(</span><span class="mi">0</span><span class="p">.</span><span class="mi">24</span> <span class="n">sec</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Wow, a lot slower… I’ve ran the selects a couple of times with consistent results to verify no caching was influencing the results. Let’s see the explain:</p>
+
+<div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&gt;</span> <span class="k">explain</span> <span class="k">select</span> <span class="k">count</span><span class="p">(</span><span class="o">*</span><span class="p">)</span> <span class="k">from</span> <span class="n">users</span> <span class="k">where</span> <span class="n">active</span> <span class="o">=</span> <span class="k">true</span><span class="err">\</span><span class="k">G</span>
+<span class="o">***************************</span> <span class="mi">1</span><span class="p">.</span> <span class="k">row</span> <span class="o">***************************</span>
+           <span class="n">id</span><span class="p">:</span> <span class="mi">1</span>
+  <span class="n">select_type</span><span class="p">:</span> <span class="k">SIMPLE</span>
+        <span class="k">table</span><span class="p">:</span> <span class="n">users</span>
+   <span class="n">partitions</span><span class="p">:</span> <span class="k">NULL</span>
+         <span class="k">type</span><span class="p">:</span> <span class="k">ALL</span>
+<span class="n">possible_keys</span><span class="p">:</span> <span class="k">NULL</span>
+          <span class="k">key</span><span class="p">:</span> <span class="k">NULL</span>
+      <span class="n">key_len</span><span class="p">:</span> <span class="k">NULL</span>
+          <span class="k">ref</span><span class="p">:</span> <span class="k">NULL</span>
+         <span class="k">rows</span><span class="p">:</span> <span class="mi">912236</span>
+     <span class="n">filtered</span><span class="p">:</span> <span class="mi">10</span><span class="p">.</span><span class="mi">00</span>
+        <span class="n">Extra</span><span class="p">:</span> <span class="k">Using</span> <span class="k">where</span>
+<span class="mi">1</span> <span class="k">row</span> <span class="k">in</span> <span class="k">set</span><span class="p">,</span> <span class="mi">1</span> <span class="n">warning</span> <span class="p">(</span><span class="mi">0</span><span class="p">.</span><span class="mi">00</span> <span class="n">sec</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>As you hopefully know: <em>“Using index”</em> good, <em>“Using where”</em> bad.</p>
+
+<p><strong>TL;DR A boolean column consisting of 10% TRUE and 90% FALSE queried for TRUE values using an index takes 0.04 sec, while not using an index takes 0.24 sec. The index speeds up the query by about a factor of six.</strong></p>
+
+<p>I’ve repeated the test with worse case scenario of a binary column split 50/50. 50% true, 50% false. The numbers are a bit less consistent, but generally around 0.16 for the indexed version and 0.24 for the unindexed version. <em>Go indexes!</em></p>
+
+  </div>
+
+  
+  <div class="post-nav">
+    
+    <a href="../on-urls/index.html" class="post-nav-prev">&larr;&nbsp;On URLs</a>
+    
+    
+    <a href="../listmap-in-scala/index.html" class="post-nav-next">ListMap in Scala&nbsp;&rarr;</a>
+    
+  </div>
+
+  <div class="comments">
+    
+
+    <h3>No thoughts on &ldquo;MySQL low cardinality index efficiency&rdquo;</h3><p><a class="add-comment" href="https://github.com/tasuki/blog/edit/master/_posts/2016-11-28-mysql-low-cardinality-index-efficiency.md">Add your comment</a>
+       &mdash; <a href="../comment/index.html">How does this work?</a></p>
+  </div>
+  
+</article>
+
+
+    </div>
+  </body>
+</html>

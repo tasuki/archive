@@ -1,0 +1,386 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[6.50]TM[2700]OT[3x30 byo-yomi]
+PW[Shinichi56]PB[tasuki]DT[2020-04-17]PC[The KGS Go Server at http://www.gokgs.com/]C[Shinichi56 [-\]: hello have a good game !
+tasuki [-\]: bonjour, have a good game!
+]RE[W+10.50]
+;B[pd]BL[2682.558]
+;W[dp]WL[2695.824]
+;B[qp]BL[2661.922]
+;W[dd]WL[2693.564]
+;B[np]BL[2656.937]
+;W[qc]WL[2655.552]
+;B[qd]BL[2627.933]
+;W[pc]WL[2651.487]
+;B[od]BL[2626.166]
+;W[nb]WL[2649.51]
+;B[cc]BL[2602.388]
+;W[cd]WL[2639.329]
+;B[dc]BL[2599.834]
+;W[ed]WL[2627.792]
+;B[fb]BL[2595.276]
+;W[lq]WL[2623.524]
+;B[cq]BL[2580.263]
+;W[cp]WL[2601.647]
+;B[dq]BL[2574.568]
+;W[eq]WL[2598.876]
+;B[er]BL[2569.66]
+;W[fr]WL[2596.687]
+;B[fq]BL[2550.274]
+;W[ep]WL[2572.256]
+;B[gr]BL[2503.827]
+;W[dr]WL[2563.806]
+;B[fs]BL[2497.08]
+;W[cr]WL[2563.19]
+;B[jq]BL[2477.549]
+;W[qj]WL[2432.077]C[SIscurge [5d\]: tasuki hraje tenhle rok vazne skvele
+SIscurge [5d\]: rad bych si s nim zahral na turnaji
+isbhal [3d\]: go go shinichi
+]
+;B[ql]BL[2361.811]
+;W[ph]WL[2426.981]
+;B[nc]BL[2336.97]
+;W[mb]WL[2339.286]
+;B[rc]BL[2314.938]
+;W[rb]WL[2337.469]C[cezary [4d\]: tasuki to moja mama tak w ogole
+cezary [4d\]: co to skvele
+]
+;B[ob]BL[2242.307]
+;W[rd]WL[2332.501]
+;B[re]BL[2240.783]
+;W[sc]WL[2321.551]
+;B[oc]BL[2238.489]
+;W[ld]WL[2301.926]C[isbhal [3d\]: this is ok for white no 
+]
+;B[pf]BL[2167.568]C[cezary [4d\]: yes
+]
+;W[gc]WL[2286.645]C[cezary [4d\]: o17 wasnt too good
+]
+;B[pb]BL[2145.387]
+;W[qb]WL[2279.114]
+;B[gb]BL[2142.625]
+;W[hc]WL[2277.245]
+;B[hb]BL[2135.712]
+;W[ic]WL[2274.847]
+;B[dj]BL[2120.925]
+;W[ch]WL[2251.636]
+;B[ng]BL[2094.004]
+;W[nj]WL[2197.816]
+;B[fj]BL[2036.416]
+;W[lg]WL[2179.825]
+;B[mh]BL[2014.871]
+;W[lj]WL[2176.12]
+;B[lh]BL[2010.38]
+;W[kh]WL[2174.299]
+;B[kg]BL[1974.184]
+;W[ki]WL[2164.199]
+;B[lf]BL[1970.949]
+;W[jg]WL[2163.285]
+;B[kf]BL[1969.709]
+;W[me]WL[2145.36]
+;B[mf]BL[1941.479]
+;W[ne]WL[2144.155]
+;B[of]BL[1917.978]
+;W[dl]WL[1930.62]C[SIscurge [5d\]: are you checking with a bot cezary?
+SIscurge [5d\]: o17 looks normalish to me
+SIscurge [5d\]: i have a doubt about q18, asi p19 could have been equally sente
+cezary [4d\]: im not
+cezary [4d\]: no no im pretty sure o17 is a slack move
+cezary [4d\]: inseong said so
+SIscurge [5d\]: aha
+SIscurge [5d\]: so what should you play instead?
+]
+;B[dh]BL[1815.277]C[cezary [4d\]: s17 s18 p18 
+SIscurge [5d\]: keima?
+cezary [4d\]: or keima
+SImasakrzz [1k\]: Tasuki Master! 
+SIscurge [5d\]: hmm
+]
+;W[ci]WL[1902.109]C[cezary [4d\]: then if white takes our s17
+cezary [4d\]: then we just connect
+]
+;B[cj]BL[1798.647]C[SIscurge [5d\]: like Id sat s15 is bigger mistake if he intended to overconcentrate himself with q14
+cezary [4d\]: we dont have this weird o17 n18 exchange
+]
+;W[di]WL[1893.012]
+;B[ei]BL[1795.091]
+;W[eh]WL[1891.406]C[SIscurge [5d\]: i see
+]
+;B[fh]BL[1761.38]
+;W[dg]WL[1889.924]
+;B[fg]BL[1754.762]
+;W[gi]WL[1885.948]
+;B[fi]BL[1750.386]
+;W[ek]WL[1884.875]C[SIscurge [5d\]: but tasuki is playing a bit strange here f10 also looks to me as it should be d12
+]
+;B[ej]BL[1747.933]C[cezary [4d\]: but im not sure if this s17 s18 p18 is good as white has r10 q12 
+SIscurge [5d\]: maybe its because of our go klub training yesterday :D
+]
+;W[cl]WL[1858.07]C[cezary [4d\]: b2 bomber
+]
+;B[ie]BL[1678.279]C[cezary [4d\]: but even bigger
+]
+;W[hf]WL[1791.33]
+;B[hk]BL[1653.761]
+;W[hq]WL[1775.158]
+;B[fp]BL[1642.449]
+;W[il]WL[1604.043]C[cezary [4d\]: well
+cezary [4d\]: id want to tenuki that 
+]
+;B[fk]BL[1546.305]C[cezary [4d\]: 5 in a row gg
+Tcha [2d\]: g7 ?
+Tcha [2d\]: or time to Q4 ?
+]
+;W[gm]WL[1430.24]C[Tcha [2d\]: :)
+]
+;B[jf]BL[1526.578]
+;W[ii]WL[1255.363]C[SIscurge [5d\]: heavy metal for black :(
+]
+;B[fm]BL[1503.239]
+;W[fn]WL[1251.055]C[Tcha [2d\]: going for the kill
+]
+;B[gl]BL[1472.337]C[cezary [4d\]: for me
+cezary [4d\]: black almost alive
+]
+;W[hm]WL[1231.388]C[cezary [4d\]: id like to have b3 exchanged like 100 moves ago
+]
+;B[el]BL[1444.103]
+;W[em]WL[1200.9]C[SIscurge [5d\]: tasuki is a patient man :)
+cezary [4d\]: he is my mother
+cezary [4d\]: please remember this
+]
+;B[fl]BL[1422.979]C[cezary [4d\]: you gotta be quite patient with a rascal like me
+Tcha [2d\]: white shold probably not try to kill
+Tcha [2d\]: except if it works
+cezary [4d\]: has to play g10 
+cezary [4d\]: otherwise black alive
+Tcha [2d\]: e6 
+]
+;W[gj]WL[1039.662]C[cezary [4d\]: :)
+cezary [4d\]: allin ;p
+Tcha [2d\]: ahah yes
+cezary [4d\]: e6 d7 f5 g6 e5 
+]
+;B[bq]BL[1345.254]
+;W[dn]WL[1014.178]C[cezary [4d\]: e6 ;p ?
+cezary [4d\]: yeah
+cezary [4d\]: too late for b3
+]
+;B[he]BL[1312.25]
+;W[gf]WL[1010.987]
+;B[ge]BL[1305.174]C[cezary [4d\]: lets say this bomber is 
+cezary [4d\]: what
+cezary [4d\]: 35 points
+cezary [4d\]: and by 35
+cezary [4d\]: i mean 60
+cezary [4d\]: upper side 38
+]
+;W[ff]WL[862.399]
+;B[fc]BL[1229.27]C[cezary [4d\]: i count white 20 before komi with assumption that white plays b2 and black gets nothing on the bottom
+]
+;W[fd]WL[824.536]C[cezary [4d\]: but he can take the corner for 15 points with o2
+cezary [4d\]: hmm
+]
+;B[gd]BL[1181.513]
+;W[br]WL[811.791]C[cezary [4d\]: wow, checked with katago
+cezary [4d\]: and it agrees
+isbhal [3d\]: q4 something like this is big no ?
+cezary [4d\]: w+25
+]
+;B[iq]BL[1035.9]C[isbhal [3d\]: nothing to do for white upper side ?
+cezary [4d\]: nope
+bunk [2k\]: w + ez
+]
+;W[pq]WL[661.401]
+;B[qq]BL[1011.15]
+;W[pp]WL[658.295]
+;B[po]BL[1004.666]
+;W[qr]WL[657.081]
+;B[rr]BL[991.69]
+;W[or]WL[655.721]
+;B[qs]BL[986.287]C[gosushi3 [4d\]: mais 
+gosushi3 [4d\]: mais
+gosushi3 [4d\]: ça fait pas les échanges à moitié par ici
+bashark [6k?\]: xD
+Tcha [2d\]: c'est un joseki moderne
+SIscurge [5d\]: tasuki gettin better
+]
+;W[pr]WL[410.37]
+;B[oo]BL[928.391]
+;W[nq]WL[391.696]
+;B[mp]BL[843.737]
+;W[mq]WL[287.507]
+;B[mk]BL[805.053]
+;W[mj]WL[285.069]
+;B[kl]BL[791.177]
+;W[ho]WL[132.742]
+;B[go]BL[724.218]
+;W[gp]WL[100.308]C[SIscurge [5d\]: w could die
+]
+;B[fo]BL[676.016]
+;W[gn]WL[96.5]
+;B[hr]BL[650.428]
+;W[op]WL[85.071]
+;B[bn]BL[372.506]
+;W[bo]WL[42.478]C[SIscurge [5d\]: i'd actually bet on b
+]
+;B[fe]BL[309.007]
+;W[ef]WL[37.511]
+;B[bc]BL[302.84]
+;W[bd]WL[1.053]
+;B[ad]BL[300.477]
+;W[ae]WL[0.102]
+;B[ac]BL[299.356]
+;W[be]WL[30]OW[3]
+;B[if]BL[226.937]C[SIscurge [5d\]: something around q10?
+]
+;W[ig]WL[30]OW[3]
+;B[ol]BL[214.44]
+;W[rl]WL[30]OW[3]
+;B[rk]BL[172.651]
+;W[qk]WL[30]OW[3]
+;B[rj]BL[170.238]
+;W[ri]WL[30]OW[3]
+;B[rm]BL[168.029]
+;W[pl]WL[30]OW[3]
+;B[qm]BL[167.18]
+;W[pk]WL[30]OW[3]
+;B[pm]BL[161.56]
+;W[sj]WL[30]OW[3]
+;B[sl]BL[158.597]
+;W[ok]WL[30]OW[3]
+;B[nl]BL[148.292]
+;W[kr]WL[30]OW[3]
+;B[ko]BL[123.318]
+;W[jr]WL[30]OW[3]
+;B[ir]BL[119.711]
+;W[ec]WL[30]OW[3]
+;B[eb]BL[117]
+;W[rs]WL[30]OW[3]
+;B[ss]BL[104.721]
+;W[km]WL[30]OW[3]
+;B[lm]BL[96.265]
+;W[kn]WL[30]OW[3]
+;B[ln]BL[94.433]
+;W[jo]WL[30]OW[3]
+;B[jl]BL[72.757]
+;W[jm]WL[30]OW[3]
+;B[jj]BL[56.79]
+;W[ik]WL[30]OW[3]
+;B[kj]BL[53.461]
+;W[li]WL[30]OW[3]
+;B[ij]BL[36.51]
+;W[hj]WL[30]OW[3]
+;B[ji]BL[20.699]
+;W[jh]WL[30]OW[3]
+;B[lk]BL[13.388]
+;W[jk]WL[30]OW[3]
+;B[kk]BL[10.198]
+;W[lo]WL[30]OW[2]
+;B[hh]BL[30]OB[3]
+;W[ih]WL[30]OW[2]
+;B[hg]BL[30]OB[3]C[SIscurge [5d\]: m5 big mistaske i think
+]
+;W[hl]WL[30]OW[2]C[bunk [2k\]: let's see
+]
+;B[hi]BL[30]OB[3]
+;W[gk]WL[30]OW[2]
+;B[rg]BL[30]OB[3]
+;W[bj]WL[30]OW[1]C[isbhal [3d\]: s13 was so big yes
+cezary [4d\]: 83 points for black
+]
+;B[kp]BL[30]OB[3]
+;W[lp]WL[30]OW[1]
+;B[mn]BL[30]OB[3]
+;W[mo]WL[30]OW[1]C[cezary [4d\]: 83 for white
+]
+;B[eo]BL[30]OB[3]C[cezary [4d\]: and komi
+cezary [4d\]: and bottom side
+]
+;W[en]WL[30]OW[1]
+;B[no]BL[30]OB[3]
+;W[nk]WL[30]OW[1]
+;B[ml]BL[30]OB[3]
+;W[rh]WL[30]OW[1]
+;B[oi]BL[30]OB[3]
+;W[do]WL[30]OW[1]
+;B[ds]BL[30]OB[3]
+;W[bs]WL[30]OW[1]
+;B[se]BL[30]OB[3]
+;W[sd]WL[30]OW[1]
+;B[qg]BL[30]OB[3]
+;W[qi]WL[30]OW[1]
+;B[ip]BL[30]OB[3]
+;W[hp]WL[30]OW[1]
+;B[io]BL[30]OB[3]
+;W[in]WL[30]OW[1]
+;B[gq]BL[30]OB[3]
+;W[hn]WL[30]OW[1]
+;B[kq]BL[30]OB[3]
+;W[ps]WL[30]OW[1]
+;B[rq]BL[30]OB[3]
+;W[rs]WL[30]OW[1]
+;B[sr]BL[30]OB[3]
+;W[ck]WL[30]OW[1]
+;B[js]BL[30]OB[3]
+;W[lr]WL[30]OW[1]
+;B[qa]BL[30]OB[3]
+;W[ra]WL[30]OW[1]
+;B[pa]BL[30]OB[3]
+;W[oh]WL[30]OW[1]
+;B[ni]BL[30]OB[3]
+;W[nh]WL[30]OW[1]
+;B[mi]BL[30]OB[3]
+;W[og]WL[30]OW[1]
+;B[nf]BL[30]OB[3]
+;W[ks]WL[30]OW[1]
+;B[is]BL[30]OB[3]
+;W[pi]WL[30]OW[1]
+;B[oj]BL[30]OB[3]
+;W[dk]WL[30]OW[1]
+;B[gh]BL[30]OB[3]
+;W[hk]WL[30]OW[1]
+;B[sg]BL[30]OB[3]
+;W[ee]WL[30]OW[1]
+;B[qs]BL[30]OB[3]
+;W[si]WL[30]OW[1]
+;B[sk]BL[30]OB[3]
+;W[rs]WL[30]OW[1]
+;B[sb]BL[30]OB[3]
+;W[sa]WL[30]OW[1]
+;B[qs]BL[30]OB[3]
+;W[db]WL[30]OW[1]
+;B[cb]BL[30]OB[3]
+;W[rs]WL[30]OW[1]
+;B[ms]BL[30]OB[3]
+;W[nr]WL[30]OW[1]
+;B[qs]BL[30]OB[3]
+;W[qo]WL[30]OW[1]
+;B[ro]BL[30]OB[3]
+;W[rs]WL[30]OW[1]
+;B[pg]BL[30]OB[3]
+;W[eg]WL[30]OW[1]
+;B[qs]BL[30]OB[3]
+;W[sm]WL[30]OW[1]
+;B[sn]BL[30]OB[3]
+;W[rs]WL[30]OW[1]
+;B[mg]BL[30]OB[3]
+;W[qs]WL[30]OW[1]
+;B[es]BL[30]OB[3]
+;W[aq]WL[30]OW[1]
+;B[cs]BL[30]OB[3]
+;W[gg]WL[30]OW[1]
+;B[sh]BL[30]OB[3]
+;W[jn]WL[30]OW[1]
+;B[pj]BL[30]OB[3]
+;W[qh]WL[30]OW[1]
+;B[jp]BL[30]OB[3]
+;W[]WL[30]OW[1]
+;B[]BL[30]OB[3]TW[sb][rc][ce][de][af][bf][cf][df][ag][bg][cg][fg][hg][ah][bh][dh][fh][gh][hh][ai][bi][ei][fi][hi][aj][cj][dj][ej][fj][ak][bk][fk][al][bl][el][fl][gl][am][bm][cm][dm][fm][im][an][bn][cn][ao][co][ap][bp][bq][cq][dq][oq][ar][mr][as][ls][ms][ns][os]TB[aa][ba][ca][da][ea][fa][ga][ha][ia][ja][ka][la][ma][na][oa][ab][bb][db][ib][jb][kb][lb][mb][nb][gc][hc][ic][jc][kc][lc][mc][hd][id][jd][kd][ld][md][nd][je][ke][le][me][ne][oe][pe][qe][qf][rf][sf][lg][ll][rl][mm][nm][om][sm][nn][on][pn][qn][rn][qo][so][rp][sp][sq][fr][gs][hs]C[Shinichi56 [-\]: thank you for the game
+tasuki [-\]: well played - thanks
+tasuki [-\]: perhaps I should have resigned, but I always saw some aji :P
+Shinichi56 [-\]: yeah i really played with fire in the center...
+bashark [6k?\]: well played both of you =)
+Shinichi56 [-\]: so many empty triangle 
+tasuki [-\]: well mostly my b2 bomber ^^
+tasuki [-\]: I guess that was suboptimal
+])

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#C60">
+  <link rel="icon" href="../favicon.svg">
+
+  
+  <title>Set DNS server in Ubuntu 20.04 Focal Fossa &mdash; tasuki’s blog</title>
+  
+
+  <link rel="stylesheet" href="../public/pure-min.css">
+  <link rel="stylesheet" href="../public/pure-grids-responsive-min.css">
+  <link rel="stylesheet" href="../public/style.css">
+</head>
+<body>
+    <div id="header">
+      <div class="pad">
+        <a href="../index.html">tasuki’s blog</a>
+      </div>
+    </div>
+    <div id="content" class="pad">
+      
+
+
+<article>
+  <h1>
+  
+  Set DNS server in Ubuntu 20.04 Focal Fossa
+  
+  </h1>
+  <div class="meta">
+    <span class="date">2020-05-01</span>
+  </div>
+  <div class="content">
+    <p>
+Set contents of <code>/etc/systemd/resolved.conf</code> to:
+</p>
+<pre>[Resolve]
+DNS=45.90.28.239 45.90.30.239
+Domains=~.</pre>
+<p>
+Apparently spaces are separators. Those are <a href="https://nextdns.io/">NextDNS</a> servers in the example btw. NextDNS has not sponsored this post.
+</p>
+<p>
+Then run: <code>$ sudo service systemd-resolved restart</code>
+</p>
+<p>
+This was one of about two hundred million things that took me too long to figure out while setting up Ubuntu 20.04.
+</p>
+<hr>
+<p>
+And in case you want to <a href="https://github.com/systemd/systemd/issues/2514#issuecomment-179203186">resolve single-label lookups, <code>systemd-resolved</code> don’t do that</a>.
+</p>
+<ul>
+<li>
+<code>apt install dnsmasq resolvconf</code>
+</li>
+<li>
+Set <code>/etc/dnsmasq.conf</code> config, eg values from <a href="https://my.nextdns.io/">my.nextdns.io</a>
+</li>
+<li>
+<a href="https://askubuntu.com/a/899338">Disable <code>systemd-resolved</code></a>
+</li>
+<li>
+Set <code>dns=dnsmasq</code> in <code>/etc/NetworkManager/NetworkManager.conf</code>
+</li>
+<li>
+Set <code>nameserver 127.0.0.1</code> in <code>/etc/resolvconf/resolv.conf.d/base</code>
+</li>
+<li>
+Restart all teh things
+</li>
+</ul>
+
+  </div>
+
+  
+  <div class="post-nav">
+    
+    <a href="../three-years-of-cold-showers/index.html" class="post-nav-prev">&larr;&nbsp;Three years of cold showers</a>
+    
+    
+    <a href="../the-joy-of-elm/index.html" class="post-nav-next">The joy of Elm&nbsp;&rarr;</a>
+    
+  </div>
+
+  <div class="comments">
+    
+
+    <h3>No thoughts on &ldquo;Set DNS server in Ubuntu 20.04 Focal Fossa&rdquo;</h3><p><a class="add-comment" href="https://github.com/tasuki/blog/edit/master/_posts/2020-05-01-set-dns-server-in-ubuntu-20-04-focal-fossa.html">Add your comment</a>
+       &mdash; <a href="../comment/index.html">How does this work?</a></p>
+  </div>
+  
+</article>
+
+
+    </div>
+  </body>
+</html>

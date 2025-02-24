@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#C60">
+  <link rel="icon" href="../favicon.svg">
+
+  
+  <title>Notes on OKLCH and rainbows &mdash; tasuki’s blog</title>
+  
+
+  <link rel="stylesheet" href="../public/pure-min.css">
+  <link rel="stylesheet" href="../public/pure-grids-responsive-min.css">
+  <link rel="stylesheet" href="../public/style.css">
+</head>
+<body>
+    <div id="header">
+      <div class="pad">
+        <a href="../index.html">tasuki’s blog</a>
+      </div>
+    </div>
+    <div id="content" class="pad">
+      
+
+
+<article>
+  <h1>
+  
+  Notes on OKLCH and rainbows
+  
+  </h1>
+  <div class="meta">
+    <span class="date">2024-04-30</span>
+  </div>
+  <div class="content">
+    <style>
+.oklch-show { margin: 2em 0 1em 0; width: 100%; height: 2em; }
+</style>
+
+<p>Colours are tricky! OKLCH is a colour space. OKLCH is better than most colour spaces in that changing the values leads to natural sensible results. But sometimes, those sensible results are not achievable because of physics, biology (eyes), and technology (display devices).</p>
+
+<p>Evil Martians have a <a href="https://evilmartians.com/chronicles/oklch-in-css-why-quit-rgb-hsl">very good blog post on OKLCH</a>. In case that goes down, <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/oklch">MDN has a somewhat drier explanation</a>.</p>
+
+<p>The problem with <em>the other colour spaces</em> is that changing one of the values a certain amount leads to strange results. In HSV, changing the hue by 30 sometimes shows almost the same colour, other times an entirely different one.</p>
+
+<p>In OKLCH, changing one of the values gives you nice results. Also, sometimes it gives you an inexistent colour, or a colour which is theoretically displayable, but not by your device. Oops.</p>
+
+<p>Here’s an <strong><a href="https://oklch.com/">OKLCH Color Picker &amp; Converter</a></strong>, <em>go play around with it</em>! In case it goes down, <a href="https://github.com/evilmartians/oklch-picker">source</a>.</p>
+
+<p>I like cyclical rainbow colour palettes. I like having them consist of existing and displayable colours.</p>
+
+<div class="wide">
+<div class="oklch-show" style="background: linear-gradient(90deg,
+  oklch(50% 0.08   0),
+  oklch(50% 0.08  30),
+  oklch(50% 0.08  60),
+  oklch(50% 0.08  90),
+  oklch(50% 0.08 120),
+  oklch(50% 0.08 150),
+  oklch(50% 0.08 180),
+  oklch(50% 0.08 210),
+  oklch(50% 0.08 240),
+  oklch(50% 0.08 270),
+  oklch(50% 0.08 300),
+  oklch(50% 0.08 330),
+  oklch(50% 0.08 360));">
+</div>
+</div>
+
+<p>Here’s a somewhat dark one. OKLCH with Lightness 50%, Chroma 0.08 and all them hues. Anything darker, and the chroma can’t go up because of the missing cyans (and yellows). The maximum chroma that has all the colours for Lightness 50% is 0.08 – all the chromas in this post will be the maximal possible ones for the given lightness <em>so that all the hues are still available in rgb</em>.</p>
+
+<div class="wide">
+<div class="oklch-show" style="background: linear-gradient(90deg,
+  oklch(60% 0.1   0),
+  oklch(60% 0.1  30),
+  oklch(60% 0.1  60),
+  oklch(60% 0.1  90),
+  oklch(60% 0.1 120),
+  oklch(60% 0.1 150),
+  oklch(60% 0.1 180),
+  oklch(60% 0.1 210),
+  oklch(60% 0.1 240),
+  oklch(60% 0.1 270),
+  oklch(60% 0.1 300),
+  oklch(60% 0.1 330),
+  oklch(60% 0.1 360));">
+</div>
+</div>
+
+<p>Increasing Lightness to 60%, Chroma can go up to 0.1, again hitting the cyans.</p>
+
+<div class="wide">
+<div class="oklch-show" style="background: linear-gradient(90deg,
+  oklch(76% 0.12   0),
+  oklch(76% 0.12  30),
+  oklch(76% 0.12  60),
+  oklch(76% 0.12  90),
+  oklch(76% 0.12 120),
+  oklch(76% 0.12 150),
+  oklch(76% 0.12 180),
+  oklch(76% 0.12 210),
+  oklch(76% 0.12 240),
+  oklch(76% 0.12 270),
+  oklch(76% 0.12 300),
+  oklch(76% 0.12 330),
+  oklch(76% 0.12 360));">
+</div>
+</div>
+
+<p>The maximum chroma (for preserving all the hues) is 0.12 for Lightness 71–76%.</p>
+
+<div class="wide">
+<div class="oklch-show" style="background: linear-gradient(90deg,
+  oklch(85% 0.07   0),
+  oklch(85% 0.07  30),
+  oklch(85% 0.07  60),
+  oklch(85% 0.07  90),
+  oklch(85% 0.07 120),
+  oklch(85% 0.07 150),
+  oklch(85% 0.07 180),
+  oklch(85% 0.07 210),
+  oklch(85% 0.07 240),
+  oklch(85% 0.07 270),
+  oklch(85% 0.07 300),
+  oklch(85% 0.07 330),
+  oklch(85% 0.07 360));">
+</div>
+</div>
+
+<p>At lightness 85%, the purples are becoming a problem, allowing chroma of only up to 0.07 – a light saturated purple doesn’t exist. I’m so sorry.</p>
+
+  </div>
+
+  
+  <div class="post-nav">
+    
+    <a href="../programming-language-2024/index.html" class="post-nav-prev">&larr;&nbsp;Choosing a programming language in 2024</a>
+    
+    
+    <a href="../consumption-vs-creation/index.html" class="post-nav-next">Consumption vs creation&nbsp;&rarr;</a>
+    
+  </div>
+
+  <div class="comments">
+    
+
+    <h3>No thoughts on &ldquo;Notes on OKLCH and rainbows&rdquo;</h3><p><a class="add-comment" href="https://github.com/tasuki/blog/edit/master/_posts/2024-04-30-oklch-and-rainbows.md">Add your comment</a>
+       &mdash; <a href="../comment/index.html">How does this work?</a></p>
+  </div>
+  
+</article>
+
+
+    </div>
+  </body>
+</html>

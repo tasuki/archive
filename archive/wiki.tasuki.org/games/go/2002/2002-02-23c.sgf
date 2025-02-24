@@ -1,0 +1,22 @@
+(;EV[Praha 2002]RO[3.]DT[2002-02-23]PC[Praha]PB[Karel Jurek]BR[1kyu]PW[Vitek]WR[3kyu]TM[75min + byoyomi 15/5]KM[5.5]RE[B+R]SZ[19];B[dp];W[pq];B[dc];W[pc];B[ci]
+;W[fq]C[Tento tah jsem sice nenašel v databázi profesionálních zahájení (na GO-CD 'fuseki.sgf'), myslím si ale, že je možný.];B[dn];W[ip];B[qe];W[od]C[Sevøení by asi bylo lepší, více hraje se spodní stranou, bílý však nemá rád moja.];B[qi];W[jc]C[Joseki je tah mezi 9 a 11, já to však nevìdìl a stejnì bych neznal možná pokraèování];B[qo];W[pl]C[Tento tah je nepovedený pokus o útok s následkem vytvoøení vlastní slabé skupiny.];B[oo];W[nq]
+
+(;B[ql]C[Nehrál bych takovýto tah - kontaktní hra posiluje bílého, myslím, že Diagram1 je lepší. Po èerného vyskoèení by si bílý netroufnul posilovat kámen 14 a odpovìdìl by. Pak by mìl bílý možnost poøádnì útoèit na èerný kámen.];W[qk];B[qm];W[qj]C[Toto je divný pokus o nìco nového.];B[pi];W[oj];B[nh]C[Na takový tah bych nikdy nepøišel ale myslím si, že je silný protože udržuje bílou skupinu stále pod tlakem.];W[nl]C[Tento tah je možná trochu zbabìlý, nìjaké posílení ale je asi potøeba.];B[mo];W[lp]C[Tento tah mìl být hrán o prùseèík níže, protože takto bílý ponechává èernému možnost hrát podle Diagramu2, který je pro nìj špatný (pro bílého, samozøejmì)]
+(;B[qq];W[df]
+(;B[cd]C[Tento tah by se podle mnì lépe vyjímal na Diagramu3, kde útoèí na 28 a zároveò oslabuje bílého stranu.];W[gc];B[cf]C[Zase to divné pøiložení.];W[cg];B[de];W[bf];B[ce];W[eh]C[To mám ale lehkou skupinku ;-)];B[ei];W[ef]C[Kdyby bílý býval vìdìl, když tento tah hrál, kam až se tato partie dostane, dával by si vìtší pozor a zahrál asi na 42.];B[bg]
+;W[bh]C[Bílý nemùže hrát tento tah a nechat se rozpojit];B[dg];W[ch];B[dh];W[eg];B[di];W[bi];B[bj];W[ag];B[fe];W[gh];B[gj];W[ee]
+;B[ed];W[fd]C[Støih vypadá pomìrnì dobøe, komplikuje èernému situaci kamene 49 a rohu.];B[ge];W[hd];B[gg];W[fi];B[fj]
+(;W[hh]C[Bílý si myslí, že má málo svobod a nemùže se ohnout. To je však hrubý omyl. Nejsem si jistý, zda je sekvence v Diagramu4 funkèní, ale vypadá lépe - èerný ani nemùže vyskoèit];B[if];W[jh];B[kf];W[ij];B[kk]C[Teï má bílý dvì slabé skupinky, a velké nadìje na umøení.];W[ll];B[kl];W[lj];B[kj];W[li];B[ki]
+;W[kh];B[lh];W[lg];B[mh];W[kg]
+(;B[le]C[O tomto tahu mi Karel sám øekl, že není z nejlepších. Èernému staèí podle diagramu sežrat skupinu vpravo, bílý si vezme pìt èerných kamenù nahoøe, èerný asi musí ještì zajistit roh a vede. (V Diagramu5 uvádím nefungující pokus bílého o zmrtvení, ve kterém je jistì spousta chyb, takže by byl silnìjšími hráèi nehratelný)];W[lk];B[il];W[mf];B[fc];W[gd];B[lc];W[fb];B[ec];W[hb]C[Bílý musí trapnì ožít, tento tah by ho mrtvil.];B[me];W[nf]
+;B[ig];W[ih];B[fg];W[fh];B[ne];W[oe];B[of]C[Èerný nevidí ohrožení svých tøí kamenù.];W[og];B[pf];W[oh];B[oi];W[ni];B[nb]
+;W[qd]
+(;B[pb]C[Podle jednoho z pøihlížejících (Vlastíka) šlo hrát první tah Diagramu6, bílý ale mìl pøipravenou variantu se sežráním èerné skupiny vpravo.];W[qb];B[oc];W[pa];B[ob];W[rd];B[re];W[nd]C[Definitivnì prohrávající tah. Bílý vidí, že v rohu mùže umøít, ale je pøesvìdèen, že prohrává. To však vùbec není dùvodem hrát takový tah. Nedokážu spoèítat, co by se stalo, kdyby bílý zbabìle ožil, ale asi by pak mìla problémy èerná skupina vpravo, zatímco by èerný ožíval svou horní];B[rc];W[sc];B[rb];W[ra]
+;B[sb];W[sd]C[Bílý naivnì hraje dál a spoléhá na slabiny èerné skupiny vpravo.];B[oa]C[Tento tah ubírá èernému svobodu a vytváøí ko.];W[mb];B[mc];W[nc];B[qa];W[qc]C[Bývalo by asi lepší zkusit najít nìjakou hrozbu.];B[lb]C[Bílý vzdal, protože má málo svobod, žádné oèi a nevidí Diagram7]
+(;N[Diagram7]C[Diagram7];W[pa];B[ma];W[sa];B[rb];W[rg]))
+(;C[Diagram6]N[Diagram6];B[qb];W[rd];B[pb];W[rf]))
+(;C[Diagram5]N[Diagram5];B[kn];W[mf];B[qc];W[qb];B[rc];W[oi];B[oh];W[pg];B[ph];W[qg];B[of]))
+(;C[Diagram4]N[Diagram4];W[hg];B[hf];W[hh]))
+(;C[Diagram3]N[Diagram3];B[gd]))
+(;C[Diagram2]N[Diagram2];B[lo];W[kp];B[mj]))
+(;C[Diagram1]N[Diagram1];B[mo];W[lq]))

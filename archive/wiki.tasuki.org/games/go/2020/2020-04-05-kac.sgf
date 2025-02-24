@@ -1,0 +1,222 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[6.50]TM[1800]OT[3x30 byo-yomi]
+PW[tasuki]PB[KaC]DT[2020-04-05]PC[The KGS Go Server at http://www.gokgs.com/]C[KaC [-\]: milej gry
+tasuki [-\]: miłej gry Kacu!
+KaC [-\]: budujemy IGLO
+KaC [-\]: :)
+]RE[W+Resign]
+;B[pd]BL[1785.476]C[tasuki [-\]: i przepraszam jeszcze raz za spóźnienie!
+]
+;W[dp]WL[1791.825]C[KaC [-\]: spoko akurat dawidek ide spac
+KaC [-\]: wiec jak dla mnie lepiej
+]
+;B[dd]BL[1772.142]
+;W[qp]WL[1786.634]
+;B[oq]BL[1762.845]
+;W[po]WL[1779.292]
+;B[lq]BL[1760.84]
+;W[cf]WL[1762.981]
+;B[cq]BL[1753.456]
+;W[cp]WL[1754.841]
+;B[dq]BL[1743.816]
+;W[ep]WL[1752.719]
+;B[eq]BL[1741.521]
+;W[fq]WL[1735.977]
+;B[fr]BL[1739.096]
+;W[gq]WL[1704.029]
+;B[gr]BL[1736.261]
+;W[hq]WL[1699.027]
+;B[dj]BL[1734.672]C[mogget [4d\]: Dawaj Tasuki!
+]
+;W[dl]WL[1679.569]
+;B[cl]BL[1711.847]C[mogget [4d\]: Za Czechy!
+]
+;W[ck]WL[1651.925]
+;B[dk]BL[1709.336]
+;W[cj]WL[1650.362]
+;B[ci]BL[1649.54]C[tasuki [-\]: Dawidek pewnie już duży jest
+KaC [-\]: no ba:)
+tasuki [-\]: czemu tak wcześnie chodzi spać? :)
+KaC [-\]: bo rodzice tez czasem musza odpoczac
+]
+;W[bi]WL[1610.441]C[tasuki [-\]: a no w sumie
+]
+;B[bj]BL[1527.475]
+;W[bk]WL[1599.518]
+;B[bh]BL[1526.105]
+;W[aj]WL[1550.481]
+;B[dh]BL[1510.123]C[KaC [-\]: bomber incoming
+tasuki [-\]: \\o/
+]
+;W[el]WL[1447.337]C[KaC [-\]: ech
+tasuki [-\]: nie wiesz gdzie grać?
+KaC [-\]: nie ma gdzie
+KaC [-\]: wlasnie w tym probklem
+tasuki [-\]: ja też nie wiem gdzie grać
+mogget [4d\]: To tenuki!
+tasuki [-\]: to możemy zagrać po pasie i koniec
+]
+;B[fd]BL[1258.119]C[KaC [-\]: :)
+]
+;W[cc]WL[1423.581]
+;B[cd]BL[1255.928]
+;W[bd]WL[1412.376]
+;B[be]BL[1243.997]
+;W[bc]WL[1386.632]C[mogget [4d\]: A to chyba niedobry san san
+]
+;B[dc]BL[1177.882]C[tasuki [-\]: hohoho
+]
+;W[cg]WL[1354.289]
+;B[ch]BL[1041.399]
+;W[ce]WL[1341.02]
+;B[ah]BL[1010.776]
+;W[ei]WL[1252.037]
+;B[di]BL[1001.34]
+;W[cm]WL[1204.513]
+;B[af]BL[972.086]
+;W[ef]WL[1181.611]
+;B[fj]BL[936.731]
+;W[gf]WL[1149.605]
+;B[hd]BL[905.482]
+;W[db]WL[1077.164]
+;B[eb]BL[902.128]
+;W[ca]WL[1059.864]
+;B[if]BL[874.317]
+;W[hh]WL[1027.245]C[mogget [4d\]: To chyba ciężko ma Tasuki
+]
+;B[gk]BL[812.103]C[savi [2d?\]: C12 teżsulnie nie wygląda 
+savi [2d?\]: o
+]
+;W[jh]WL[990.98]
+;B[fg]BL[797.651]C[mogget [4d\]: CHyba jednak biały słabszy
+]
+;W[ie]WL[863.551]
+;B[he]BL[791.368]
+;W[hf]WL[861.182]
+;B[jf]BL[788.461]
+;W[ge]WL[839.415]
+;B[gd]BL[782.818]
+;W[ee]WL[831.398]
+;B[ij]BL[735.786]
+;W[gi]WL[789.024]
+;B[gm]BL[694.181]
+;W[fi]WL[770.987]
+;B[fk]BL[611.023]C[tasuki [-\]: no i połączone
+KaC [-\]: głupi trójkąt czyż może być bardziej wysublimowane lączenie
+mogget [4d\]: wysublimowany trójkąt!
+]
+;W[il]WL[624.146]
+;B[go]BL[582.292]
+;W[hn]WL[589.281]C[cezary [4d\]: kac gra czy gada :p
+]
+;B[hm]BL[474.301]
+;W[im]WL[584.947]
+;B[ho]BL[468.243]
+;W[gn]WL[547.074]
+;B[in]BL[372.044]
+;W[fn]WL[543.792]
+;B[ik]BL[316.728]
+;W[hl]WL[489.647]C[mogget [4d\]: NIe jest łatwo
+]
+;B[hi]BL[239.741]C[mogget [4d\]: To dobre ruchy
+]
+;W[ii]WL[222.694]
+;B[hj]BL[234.791]
+;W[jn]WL[198.58]
+;B[ig]BL[228.896]
+;W[ih]WL[193.338]
+;B[kj]BL[205.428]
+;W[lh]WL[182.564]
+;B[mj]BL[174.575]
+;W[ic]WL[125.718]C[tasuki [-\]: #gramdlawidzow
+]
+;B[id]BL[134.44]
+;W[je]WL[122.438]
+;B[kf]BL[131.904]
+;W[jd]WL[114.832]
+;B[jc]BL[120.483]
+;W[le]WL[109.297]
+;B[lf]BL[90.153]
+;W[ld]WL[62.354]C[KaC [-\]: #ciekaweilemoichgropzginie
+sfberfcrw: #polecamsłownik
+]
+;B[mf]BL[30]OB[3]
+;W[ib]WL[30]OW[3]
+;B[hb]BL[30]OB[2]
+;W[jb]WL[30]OW[3]
+;B[ea]BL[30]OB[2]
+;W[ab]WL[30]OW[3]
+;B[hg]BL[30]OB[2]
+;W[gg]WL[30]OW[3]
+;B[ba]BL[30]OB[2]
+;W[ad]WL[30]OW[3]
+;B[fb]BL[30]OB[2]
+;W[nh]WL[30]OW[3]
+;B[nd]BL[30]OB[2]
+;W[ed]WL[30]OW[3]
+;B[ga]BL[30]OB[2]
+;W[ec]WL[30]OW[3]
+;B[hc]BL[30]OB[2]
+;W[mc]WL[30]OW[3]
+;B[nc]BL[30]OB[2]C[tasuki [-\]: a16 ehh
+]
+;W[fc]WL[30]OW[3]
+;B[gc]BL[30]OB[2]
+;W[ia]WL[30]OW[3]C[mogget [4d\]: Ale żeby gracze pisali najwięcej na czacie?
+]
+;B[ha]BL[30]OB[2]C[dariatka [?\]: hhhahahaah tasuki
+mogget [4d\]: Co to za leniuchowanie :P
+dariatka [?\]: #gramdlawidzow
+dariatka [?\]: hahahah
+]
+;W[mb]WL[30]OW[3]
+;B[io]BL[30]OB[2]C[mogget [4d\]: tu się dziwne rzeczy zdarzyły
+tasuki [-\]: ehh nie wiem
+tasuki [-\]: no tak, j5 duże
+tasuki [-\]: a wprowadza chaos na pewno :)
+KaC [-\]: :)
+]
+;W[jo]WL[30]OW[3]
+;B[ip]BL[30]OB[2]
+;W[fo]WL[30]OW[3]
+;B[gl]BL[30]OB[2]
+;W[kl]WL[30]OW[3]
+;B[ki]BL[30]OB[2]
+;W[kh]WL[30]OW[3]C[mogget [4d\]: Teraz już chyba Tasukiego wolę
+]
+;B[jp]BL[30]OB[2]
+;W[ml]WL[30]OW[3]
+;B[oj]BL[30]OB[2]
+;W[ol]WL[30]OW[3]
+;B[pl]BL[30]OB[2]
+;W[ok]WL[30]OW[3]
+;B[pk]BL[30]OB[2]
+;W[pj]WL[30]OW[3]
+;B[oi]BL[30]OB[2]C[Cypr14n [2k\]: ten Tasuki to jakiś silny zawodnik
+]
+;W[qj]WL[30]OW[3]C[mogget [4d\]: No raczej
+]
+;B[jm]BL[30]OB[2]
+;W[km]WL[30]OW[3]C[mogget [4d\]: Powiedziałbym, że był moim sensei, ale to nie do końca prawda
+]
+;B[om]BL[30]OB[2]C[mogget [4d\]: Często się po prostu śmiał z moich ruchów  :P
+]
+;W[pm]WL[30]OW[3]
+;B[nm]BL[30]OB[2]
+;W[mk]WL[30]OW[3]
+;B[mi]BL[30]OB[2]
+;W[mh]WL[30]OW[3]C[KaC [-\]: dobra nie wiem
+KaC [-\]: skonczyly mi sie pomysly:P
+tasuki [-\]: a no dzięki
+mogget [4d\]: A co z graniem dla widzów?
+KaC [-\]: od poczatku juz mi sie nie podobalo
+KaC [-\]: po twoim c9:P
+tasuki [-\]: właśnie to c9 chyba nie takie świetne
+tasuki [-\]: ładne poświęcenie z podwójnym hane
+mogget [4d\]: Tak
+KaC [-\]: no nie wiem musze sobie zobaczyc na spokojnie
+KaC [-\]: dzieki:)
+mogget [4d\]: też mi się podobało dla czarnego
+tasuki [-\]: a nie bo przeciąłeś :)
+tasuki [-\]: ale może hane lepsze?
+])

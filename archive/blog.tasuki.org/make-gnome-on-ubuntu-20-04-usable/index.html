@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#C60">
+  <link rel="icon" href="../favicon.svg">
+
+  
+  <title>Make Gnome on Ubuntu 20.04 usable &mdash; tasuki’s blog</title>
+  
+
+  <link rel="stylesheet" href="../public/pure-min.css">
+  <link rel="stylesheet" href="../public/pure-grids-responsive-min.css">
+  <link rel="stylesheet" href="../public/style.css">
+</head>
+<body>
+    <div id="header">
+      <div class="pad">
+        <a href="../index.html">tasuki’s blog</a>
+      </div>
+    </div>
+    <div id="content" class="pad">
+      
+
+
+<article>
+  <h1>
+  
+  Make Gnome on Ubuntu 20.04 usable
+  
+  </h1>
+  <div class="meta">
+    <span class="date">2020-10-06</span>
+  </div>
+  <div class="content">
+    <p>
+Back when I hated Unity, I wrote down <a href="../make-ubuntu-unity-usable-in-five-simple-steps/index.html">some steps to make it nicer</a>. Well I’m still on Ubuntu (which might change soon – snaps suck), and these days like to hate on Gnome.
+</p>
+<p>
+I’ve since <a href="https://github.com/tasuki/dotrc/blob/master/.Xmodmap">moved some settings to config files</a>, but most of the setup is still manual and will keep evolving as Gnome keeps breaking things.
+</p>
+<p>
+Start by installing <code>gnome-tweak-tool</code>. Under “Windows”, choose “Focus on Hover”, perhaps tweak some other settings, and then install the Extensions.
+</p>
+<p>
+Gnome ignores <code>~/.xsession</code>, <code>~/.xinitrc</code> etc, so under “Keyboard &amp; Mouse”, choose “Additional Layout Options” and “Ctrl position” and “Swap Ctrl and Caps Lock”. Also “Switching to another layout”, “Two shifts together”.
+</p>
+<p>
+Must have, without these I’d off Gnome:
+</p>
+<ul>
+<li>
+<a href="https://extensions.gnome.org/extension/1485/workspace-matrix/">Workspace Matrix</a> – my virtual desktops must be in a grid. In settings, select “Show workspace grid in the overview”.
+</li>
+<li>
+<a href="https://extensions.gnome.org/extension/2015/no-title-bar-forked/">No Title Bar – Forked</a> – Vertical space is precious, don’t take it away from me. There used to be “Pixel Saver”, then “No Title Bar”, and now “No Title Bar - Forked”. Gnome keeps breaking things, extension developers can’t keep up.
+</li>
+<li>
+<a href="https://extensions.gnome.org/extension/3010/system-monitor-next/">System Monitor Next</a> – I really need to see what my system is doing. Same story as above, there are many versions, most no longer work.
+</li>
+</ul>
+<p>
+Nice to have:
+</p>
+<ul>
+<li>
+<a href="https://extensions.gnome.org/extension/779/clipboard-indicator/">Clipboard Indicator</a> – what it says on the box.
+</li>
+<li>
+<a href="https://extensions.gnome.org/extension/800/remove-dropdown-arrows/">Remove Dropdown Arrows</a> – they’re useless and when there are too many things the whole bar gets messed up.
+</li>
+<li>
+<a href="https://extensions.gnome.org/extension/1011/dynamic-panel-transparency/">Dynamic Panel Transparency</a> – hey it looks nice.
+</li>
+</ul>
+  </div>
+
+  
+  <div class="post-nav">
+    
+    <a href="../sleep/index.html" class="post-nav-prev">&larr;&nbsp;Sleep</a>
+    
+    
+    <a href="../common-addictions/index.html" class="post-nav-next">Common addictions&nbsp;&rarr;</a>
+    
+  </div>
+
+  <div class="comments">
+    
+
+    <h3>No thoughts on &ldquo;Make Gnome on Ubuntu 20.04 usable&rdquo;</h3><p><a class="add-comment" href="https://github.com/tasuki/blog/edit/master/_posts/2020-10-06-make-gnome-on-ubuntu-20-04-usable.html">Add your comment</a>
+       &mdash; <a href="../comment/index.html">How does this work?</a></p>
+  </div>
+  
+</article>
+
+
+    </div>
+  </body>
+</html>

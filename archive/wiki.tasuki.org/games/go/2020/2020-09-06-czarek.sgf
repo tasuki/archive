@@ -1,0 +1,296 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[6.50]TM[2400]OT[3x30 byo-yomi]
+PW[cezary]PB[tasuki]WR[4d]DT[2020-09-06]PC[The KGS Go Server at http://www.gokgs.com/]C[cezary [4d\]: milej gry
+tasuki [-\]: miłej gry!
+cezary [4d\]: do iglo
+]RE[W+Resign]
+;B[pd]BL[2388.353]
+;W[dp]WL[2398.522]
+;B[qp]BL[2365.053]
+;W[oq]WL[2394.39]
+;B[dd]BL[2350.15]
+;W[po]WL[2379.394]
+;B[qo]BL[2345.67]
+;W[pn]WL[2378.249]
+;B[qm]BL[2342.59]
+;W[cf]WL[2373.078]
+;B[fc]BL[2335.419]
+;W[qc]WL[2370.432]
+;B[pc]BL[2322.953]
+;W[qd]WL[2368.594]
+;B[pe]BL[2320.793]
+;W[qe]WL[2359.133]C[mogget [4d?\]: trzeba poczekać na chuban
+mogget [4d?\]: grają za dobrze
+shin0e [2d\]: no nie ma szans, by jak na razie byl jakikolwiek blad ;p
+shin0e [2d\]: wiekszy niz
+shin0e [2d\]: -0,2pkt
+shin0e [2d\]: :D
+]
+;B[qf]BL[2201.07]
+;W[rf]WL[2356.138]
+;B[ce]BL[2183.481]C[shin0e [2d\]: czemu Cie zdegradowali Maksym? :D
+shin0e [2d\]: z 5d na 4d? :p
+]
+;W[df]WL[2236.832]C[mogget [4d?\]: To decyzja polityczna
+shin0e [2d\]: czy tak o random KGSowy?
+shin0e [2d\]: :D
+mogget [4d?\]: wiedziałem za dużo
+]
+;B[di]BL[2170.41]C[shin0e [2d\]: hehe ok
+mogget [4d?\]: I chcieli mnie uciszyć
+shin0e [2d\]: to lepiej nie mow ;p
+shin0e [2d\]: =\]
+]
+;W[gf]WL[2218.483]C[shin0e [2d\]: w sumie ktos na kogos kibicuje czy wszyscy jak ja kibicuje obu? :D
+shin0e [2d\]: komus* nie na kogos
+shin0e [2d\]: i kibicuja*
+]
+;B[cn]BL[2003.078]
+;W[cl]WL[2158.87]
+;B[en]BL[1956.412]C[Mariusz [2k\]: ja oglądam
+]
+;W[fp]WL[1981.859]
+;B[dk]BL[1943.669]
+;W[co]WL[1977.921]
+;B[bn]BL[1930.208]
+;W[ed]WL[1947.56]C[Hipcio [3d?\]: niech wygra lepszy
+]
+;B[ec]BL[1919.682]
+;W[cc]WL[1945.612]
+;B[de]BL[1804.031]
+;W[be]WL[1916.157]
+;B[bd]BL[1779.587]
+;W[bg]WL[1876.078]
+;B[ae]BL[1752.287]
+;W[af]WL[1874.41]C[mogget [4d?\]: Ja kibicuję
+mogget [4d?\]: Tasuki! Tasuki!
+]
+;B[bf]BL[1729.392]
+;W[qn]WL[1872.864]
+;B[rn]BL[1724.614]
+;W[be]WL[1871.666]C[shin0e [2d\]: a no to tak nie moze byc, ze tylko jeden ma wyznawcow ;P
+shin0e [2d\]: Cza-rek!
+Mariusz [2k\]: wazeliniarz :)
+shin0e [2d\]: :D
+shin0e [2d\]: bardziej szwajcaria :p
+shin0e [2d\]: niz wazeliniarze =\]
+Mariusz [2k\]: wazeliniarze :D
+shin0e [2d\]: wazeliniarz*
+shin0e [2d\]: =\]
+shin0e [2d\]: no jak napisalem, obu kibicuje ;p
+shin0e [2d\]: taki matchup 
+shin0e [2d\]: =\]
+Mariusz [2k\]: aha Ty polityk
+]
+;B[bc]BL[1610.923]
+;W[ad]WL[1858.308]
+;B[dc]BL[1523.312]
+;W[ld]WL[1852.344]C[Mariusz [2k\]: czarny jakoś tak bardzo pacyfistycznie
+shin0e [2d\]: jakby co komentarz Moggeta =\]
+]
+;B[qb]BL[1445.856]
+;W[rb]WL[1848.389]C[Mariusz [2k\]: kiepska sprawa przy takich grach :( szkoda odchodzić
+]
+;B[re]BL[1408.79]C[Mariusz [2k\]: trzeba ustalić żeby nie grali jak są komentarze
+]
+;W[rd]WL[1814.777]
+;B[rg]BL[1372.195]
+;W[pf]WL[1801.461]
+;B[sf]BL[1341.307]
+;W[qg]WL[1792.827]
+;B[rf]BL[1338.377]
+;W[pb]WL[1790.155]
+;B[ob]BL[1310.247]
+;W[qa]WL[1786.8]
+;B[qh]BL[1272.015]
+;W[of]WL[1753.968]
+;B[md]BL[1171.245]
+;W[nd]WL[1510.022]
+;B[me]BL[1099.35]
+;W[mc]WL[1453.215]
+;B[lc]BL[1095.894]
+;W[nc]WL[1420.676]
+;B[kd]BL[1092.147]
+;W[pm]WL[1382.881]
+;B[ql]BL[1081.741]
+;W[dl]WL[1336.046]
+;B[el]BL[1077.445]
+;W[ck]WL[1331.657]
+;B[ek]BL[1008.34]
+;W[cj]WL[1318.651]
+;B[gn]BL[865.416]
+;W[hp]WL[1261.128]
+;B[le]BL[861.573]
+;W[in]WL[1173.868]
+;B[jq]BL[827.138]
+;W[lq]WL[1087.074]
+;B[gq]BL[821.238]
+;W[gp]WL[1084.839]
+;B[hq]BL[814.477]
+;W[fq]WL[1079.578]
+;B[ip]BL[811.63]
+;W[io]WL[1077.292]
+;B[kp]BL[714.159]
+;W[ir]WL[1066.484]
+;B[iq]BL[704.038]
+;W[kn]WL[1043.998]
+;B[lp]BL[693.872]
+;W[mq]WL[1038.89]
+;B[ln]BL[676.446]
+;W[lm]WL[1033.37]
+;B[mn]BL[662.265]
+;W[mm]WL[1024.929]
+;B[mp]BL[621.569]
+;W[jr]WL[967.286]
+;B[np]BL[615.949]
+;W[nq]WL[955.482]
+;B[ko]BL[491.372]
+;W[kq]WL[880.302]
+;B[nm]BL[474.79]
+;W[nl]WL[877.962]
+;B[jn]BL[419.283]
+;W[km]WL[875.31]
+;B[jm]BL[418.359]
+;W[jo]WL[874.388]
+;B[ol]BL[361.587]C[Mariusz [2k\]: ciężko
+]
+;W[nn]WL[846.767]
+;B[om]BL[357.32]
+;W[no]WL[807.601]
+;B[im]BL[305.87]
+;W[ho]WL[777.616]
+;B[lk]BL[302.112]
+;W[ml]WL[629.251]
+;B[ef]BL[295.908]
+;W[eg]WL[627.447]
+;B[fg]BL[294.994]
+;W[ff]WL[626.27]
+;B[ee]BL[292.463]
+;W[eh]WL[608.365]
+;B[gg]BL[179.879]
+;W[gi]WL[596.475]C[Hipcio [3d?\]: coś tu się pozabijało
+]
+;B[hg]BL[170.404]
+;W[ei]WL[571.906]
+;B[dj]BL[120.695]
+;W[ch]WL[558.234]
+;B[nf]BL[100.806]
+;W[og]WL[522.235]
+;B[ng]BL[49.312]
+;W[oh]WL[515.11]
+;B[ii]BL[30.13]
+;W[pl]WL[503.967]
+;B[qk]BL[30]OB[3]
+;W[qi]WL[501.893]
+;B[ri]BL[30]OB[3]
+;W[ph]WL[500.523]
+;B[rh]BL[30]OB[3]
+;W[mb]WL[484.048]
+;B[pq]BL[30]OB[3]
+;W[pr]WL[461.84]
+;B[qr]BL[30]OB[3]
+;W[pp]WL[460.527]
+;B[lb]BL[30]OB[3]
+;W[la]WL[458.871]
+;B[oe]BL[30]OB[3]
+;W[ne]WL[447.651]
+;B[na]BL[30]OB[3]
+;W[ma]WL[428.054]
+;B[jb]BL[30]OB[3]
+;W[ja]WL[415.411]
+;B[ia]BL[30]OB[3]
+;W[ka]WL[414.444]
+;B[ib]BL[30]OB[3]
+;W[qq]WL[412.054]
+;B[rq]BL[30]OB[3]
+;W[dm]WL[330.613]
+;B[dn]BL[30]OB[3]
+;W[gl]WL[316.63]
+;B[bp]BL[30]OB[3]
+;W[cq]WL[304.31]
+;B[bq]BL[30]OB[3]
+;W[bo]WL[287.332]
+;B[ao]BL[30]OB[3]
+;W[cr]WL[285.949]
+;B[hm]BL[30]OB[3]
+;W[em]WL[280.637]C[Hipcio [3d?\]: cos tu sie dalej zabija
+]
+;B[fm]BL[30]OB[2]
+;W[fl]WL[278.941]
+;B[gk]BL[30]OB[2]
+;W[fk]WL[277.382]
+;B[fj]BL[30]OB[2]
+;W[gj]WL[275.024]
+;B[hk]BL[30]OB[2]
+;W[fi]WL[266.466]
+;B[hl]BL[30]OB[2]
+;W[ej]WL[264.253]
+;B[mi]BL[30]OB[2]
+;W[ok]WL[231.347]
+;B[br]BL[30]OB[2]
+;W[rr]WL[219.744]
+;B[pq]BL[30]OB[2]
+;W[nh]WL[216.175]
+;B[mh]BL[30]OB[2]
+;W[qq]WL[215.46]
+;B[oc]BL[30]OB[2]
+;W[nb]WL[213.533]
+;B[pq]BL[30]OB[2]
+;W[mg]WL[207.814]
+;B[mf]BL[30]OB[2]
+;W[qq]WL[206.448]
+;B[kb]BL[30]OB[2]
+;W[oa]WL[204.552]
+;B[pq]BL[30]OB[2]
+;W[fo]WL[198.255]
+;B[cp]BL[30]OB[2]
+;W[do]WL[191.809]
+;B[fn]BL[30]OB[2]
+;W[qq]WL[189.922]
+;B[cs]BL[30]OB[2]
+;W[rp]WL[176.21]
+;B[er]BL[30]OB[2]
+;W[fr]WL[174.65]
+;B[dq]BL[30]OB[2]
+;W[ro]WL[166.842]C[cezary [4d\]: dzieki
+tasuki [-\]: ehh
+tasuki [-\]: no dzięki
+tasuki [-\]: nic mi w tej grze nie poszło
+tasuki [-\]: od początku było źle
+tasuki [-\]: już dawno nie miałem takiej beznadziejnej gry
+Mariusz [2k\]: za pasywnie chyba co?
+tasuki [-\]: nie wydaje mi się że za pasywnie
+cezary [4d\]: hmm
+tasuki [-\]: patrz jak poumierałem wszędzie
+cezary [4d\]: a15 pulapka
+cezary [4d\]: i pozniej bylo ciezko
+tasuki [-\]: w ogóle strasznie ostro zagrałeś na tej dolnej bandzie
+cezary [4d\]: hmm
+cezary [4d\]: bo n4
+tasuki [-\]: myślałem że zagrasz coś spokojnego i wygrasz
+cezary [4d\]: sredni ruch
+tasuki [-\]: a zagrałeś coś szalonego a i tak wygrałeś
+cezary [4d\]: no taki mialem plan
+cezary [4d\]: ale po n4 no to kurde
+cezary [4d\]: mysle koncze juz jak moge
+cezary [4d\]: do yose to duzo momentow zeby sie pomylic :p
+cezary [4d\]: a czemu zagrales t14 ?
+tasuki [-\]: a nie wiem
+tasuki [-\]: połączyć miałem?
+tasuki [-\]: nie znam tych joseków
+cezary [4d\]: tak
+tasuki [-\]: no szybko się skapnąłem że a15 źle
+tasuki [-\]: ale jednak za późno
+tasuki [-\]: nie znam tych rzeczy i tu nie ma czasu żeby je wymyślać :)
+cezary [4d\]: hmm
+cezary [4d\]: ten b13
+cezary [4d\]: bociała technika
+cezary [4d\]: ludzie z tego niekorzystali tak czesto 
+cezary [4d\]: ostatnio gralem gre i dokladnie tak samo wszedlem w ta pulapke 
+cezary [4d\]: w podobnej sytuacji
+cezary [4d\]: wiec wydaje mi sie ze bardzo latwo zagrac to a15
+tasuki [-\]: no tak, szybko tam zagrałem
+cezary [4d\]: mhm
+cezary [4d\]: a ta walka w prawym gornym
+cezary [4d\]: no to
+])

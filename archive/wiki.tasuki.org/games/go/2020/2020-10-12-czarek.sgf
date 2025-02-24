@@ -1,0 +1,239 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[6.50]TM[2400]OT[3x30 byo-yomi]
+PW[cezary]PB[tasuki]WR[4d]DT[2020-10-12]PC[The KGS Go Server at http://www.gokgs.com/]C[tasuki [-\]: smacznego
+]RE[B+Resign]
+;B[pd]BL[2391.162]C[cezary [4d\]: milej gry
+cezary [4d\]: do iglo
+]
+;W[dp]WL[2371.582]
+;B[qp]BL[2377.336]
+;W[oq]WL[2369.03]
+;B[cd]BL[2349.814]
+;W[po]WL[2359.207]
+;B[qo]BL[2332.434]
+;W[pn]WL[2357.689]
+;B[qm]BL[2304.597]
+;W[ec]WL[2314.07]
+;B[de]BL[2271.941]
+;W[hc]WL[2304.127]
+;B[cq]BL[2212.338]
+;W[cp]WL[2278.223]
+;B[dq]BL[2203.551]
+;W[fq]WL[2276.938]
+;B[eq]BL[2164.886]C[mogget [6d?\]: Jedziemy to
+]
+;W[ep]WL[2249.08]
+;B[fr]BL[2150.002]
+;W[bq]WL[2244.352]
+;B[br]BL[2126.056]C[mogget [6d?\]: Ale grają komputerowe joseki
+mogget [6d?\]: bez sensu
+]
+;W[er]WL[2223.911]
+;B[dr]BL[2021.516]
+;W[gr]WL[2218.493]
+;B[es]BL[2018.224]
+;W[gq]WL[2189.261]
+;B[cj]BL[1991.885]
+;W[qc]WL[2162.579]
+;B[pc]BL[1985.854]
+;W[qd]WL[2161.61]
+;B[pe]BL[1983.551]
+;W[rf]WL[2142.223]
+;B[jc]BL[1972.365]
+;W[he]WL[2030.03]
+;B[je]BL[1935.666]
+;W[ch]WL[1995.649]
+;B[dc]BL[1887.046]
+;W[ei]WL[1963.568]C[yakcyll [2k\]: dobry vieczer
+]
+;B[dl]BL[1792.977]C[yakcyll [2k\]: tutaj jakieś śmieszne kształty generalnie
+obserwator [?\]: e14
+]
+;W[gj]WL[1693.487]C[obserwator [?\]: c6
+bartosz [2d\]: g7
+]
+;B[fo]BL[1517.121]C[obserwator [-\]: d6
+]
+;W[en]WL[1671.181]C[anarchia [-\]: obejrzalem dzis wyklad Siasia o tzw "peepach", f5 to glowny bohater
+]
+;B[fp]BL[1462.346]C[anarchia [-\]: bialy spoko zaczal, niby komputerowo, ale w klimacie retro
+anarchia [-\]: w fuseki zamiast brac drugi rog najpierw zaatakowal komoku
+anarchia [-\]: ostro 
+obserwator [-\]: c6
+anarchia [-\]: e14 to byl fajny pomysl
+anarchia [-\]: ale ten atak przy uzyciu g10 tez jest pomyslowy
+]
+;W[ho]WL[1448.054]
+;B[eo]BL[1202.386]
+;W[dn]WL[1437.773]
+;B[fn]BL[1197.189]C[obserwator [-\]: c7
+]
+;W[cm]WL[1383.153]
+;B[fm]BL[1141.081]
+;W[cl]WL[1359.612]C[obserwator [-\]: e10
+]
+;B[hm]BL[1054.802]
+;W[im]WL[1353.07]
+;B[il]BL[1044.988]
+;W[jm]WL[1339.743]
+;B[hn]BL[1041.41]C[anarchia [-\]: h7 bolesne, bialy dostanie sciane
+]
+;W[io]WL[1336.501]C[anarchia [-\]: ciekawe, czy mozna bylo cos bardziej aktywnego, celujacego w kontratak na g2
+]
+;B[dk]BL[1007.758]C[obserwator [-\]: b6
+]
+;W[bj]WL[1172.054]C[anarchia [-\]: dolna banda jest za duza, czarny bedzie musial redukowac lub cos zbijac
+]
+;B[bi]BL[997.542]
+;W[ck]WL[1166.162]
+;B[ci]BL[908.539]
+;W[ak]WL[1164.133]
+;B[dh]BL[866.372]C[anarchia [-\]: j3 w imie zasad
+]
+;W[di]WL[1034.516]
+;B[dj]BL[859.141]
+;W[dg]WL[1028.296]C[anarchia [-\]: d12 to chyba niewypal
+]
+;B[bp]BL[804.53]
+;W[bo]WL[1021.571]C[anarchia [-\]: ale wygladal kuszaco
+]
+;B[aq]BL[801.479]C[yakcyll [2k\]: d12 jeszcze ugryzie
+anarchia [-\]: aji jest gigantyczne, to fakt
+cezary [4d\]: hehe najgorzej
+]
+;W[do]WL[837.001]
+;B[jl]BL[777.281]C[tasuki [-\]: może być :)
+]
+;W[km]WL[817.263]
+;B[ij]BL[739.577]
+;W[ed]WL[774.108]
+;B[qg]BL[629.228]
+;W[rg]WL[739.742]
+;B[pq]BL[564.169]
+;W[or]WL[736.516]
+;B[lk]BL[530.923]
+;W[ol]WL[689.276]
+;B[ml]BL[497.265]
+;W[mn]WL[584.177]
+;B[bh]BL[390.057]
+;W[eh]WL[580.286]
+;B[cf]BL[381.244]
+;W[ql]WL[575.687]
+;B[qn]BL[354.167]
+;W[qr]WL[567.296]
+;B[pm]BL[349.749]
+;W[om]WL[562.831]
+;B[op]BL[201.813]
+;W[no]WL[560.133]
+;B[pr]BL[166.386]
+;W[ps]WL[534.095]
+;B[rr]BL[163.299]
+;W[pb]WL[270.818]
+;B[ob]BL[155.738]
+;W[qb]WL[269.433]
+;B[pl]BL[100.013]
+;W[nb]WL[263.869]
+;B[oa]BL[25.14]
+;W[nd]WL[262.366]
+;B[nc]BL[17.473]
+;W[mc]WL[261.205]
+;B[oc]BL[16.628]C[anarchia [-\]: no to bijatyka na calego
+]
+;W[kc]WL[222.335]C[anarchia [-\]: czy bialy musial sie tam wbijac?
+]
+;B[kd]BL[30]OB[3]
+;W[ld]WL[219.081]
+;B[kb]BL[30]OB[3]
+;W[of]WL[210.055]
+;B[qe]BL[30]OB[3]
+;W[re]WL[205.278]
+;B[pg]BL[30]OB[3]
+;W[le]WL[170.128]C[yakcyll [2k\]: ocznie czarny wyglądał lepiej
+yakcyll [2k\]: widocznie biały policzył i uznał, że bez potencjału swojego nie da rady
+]
+;B[lb]BL[30]OB[3]
+;W[nh]WL[107.079]
+;B[mb]BL[30]OB[3]
+;W[ee]WL[20.097]
+;B[qq]BL[30]OB[3]
+;W[np]WL[14.138]
+;B[qs]BL[30]OB[3]
+;W[os]WL[11.493]
+;B[oj]BL[30]OB[3]
+;W[qi]WL[4.519]
+;B[pi]BL[30]OB[3]
+;W[kg]WL[2.494]C[mogget [6d?\]: To teraz mozna oglądać
+]
+;B[qj]BL[30]OB[3]
+;W[ri]WL[1.131]
+;B[gp]BL[30]OB[3]C[yakcyll [2k\]: Jeszcze Ci głowę zawrócę na fb
+]
+;W[iq]WL[30]OW[3]C[anarchia [-\]: jest w miare rowno na punkty, wiele zalezy od bijatyki w centrum
+]
+;B[hp]BL[30]OB[3]
+;W[ip]WL[30]OW[3]
+;B[hq]BL[30]OB[3]
+;W[hr]WL[30]OW[3]
+;B[jg]BL[30]OB[3]
+;W[kh]WL[30]OW[3]
+;B[db]BL[30]OB[3]C[anarchia [-\]: ale jakos nie wierze, ze bialy musial sie wbijac tam
+]
+;W[rj]WL[30]OW[2]
+;B[qk]BL[30]OB[3]
+;W[gl]WL[30]OW[2]
+;B[jh]BL[30]OB[3]
+;W[eb]WL[30]OW[2]
+;B[mi]BL[30]OB[3]C[mogget [6d?\]: co tu się działo jak mnie nie było?
+]
+;W[mh]WL[30]OW[2]C[anarchia [-\]: bialy mowil caly czas: "ta grupa zyje"
+]
+;B[li]BL[30]OB[3]C[mogget [6d?\]: A to joseki w lewym dolnym to nie lubię dla czarnego
+]
+;W[lc]WL[30]OW[2]C[mogget [6d?\]: bo takie pasywne jest
+mogget [6d?\]: i miał rację biały?
+]
+;B[lh]BL[30]OB[3]
+;W[lg]WL[30]OW[2]C[anarchia [-\]: nawet jesli tak, to czarny zmniejszy punkty grupy po lewej
+]
+;B[og]BL[30]OB[3]C[anarchia [-\]: ale czy mial racje, to sie zaraz okaze...
+]
+;W[ke]WL[30]OW[2]
+;B[jd]BL[30]OB[3]C[anarchia [-\]: wyglada na ko
+mogget [6d?\]: bardzo spokojnie grali
+]
+;W[jf]WL[30]OW[1]
+;B[if]BL[30]OB[3]
+;W[kf]WL[30]OW[1]
+;B[ng]BL[30]OB[3]
+;W[ji]WL[30]OW[1]
+;B[ii]BL[30]OB[3]
+;W[mg]WL[30]OW[1]C[mogget [6d?\]: a to nie trup?
+]
+;B[nf]BL[30]OB[3]C[yakcyll [2k\]: Lokalnie
+yakcyll [2k\]: Nie widzę aji za dużo either
+anarchia [-\]: moglo byc ko, ale wybral komplikacje
+anarchia [-\]: chyba musial
+anarchia [-\]: ko to bylaby zaglada
+]
+;W[oh]WL[30]OW[1]
+;B[ph]BL[30]OB[3]C[yakcyll [2k\]: Znam ten ból
+mogget [6d?\]: czyli tu trup, ale w Brazylii już żyje?
+yakcyll [2k\]: --
+]
+;W[ki]WL[30]OW[1]
+;B[kj]BL[30]OB[3]C[mogget [6d?\]: A to Czarek chyba faktycznie przesadził
+]
+;W[hl]WL[30]OW[1]
+;B[fl]BL[30]OB[3]C[mogget [6d?\]: A to generalnie ważny mecz
+cezary [4d\]: dzieki
+tasuki [-\]: dzięki
+tasuki [-\]: trzeba było nie grać w mój teren
+cezary [4d\]: lol ;p
+Mariusz [2k\]: tasuki mocny jest
+tasuki [-\]: ;)
+tasuki [-\]: tasuki ma szczęście czasami
+anarchia [-\]: w obronie sweo domu moze nawet zabic!
+mogget [6d?\]: To co Tasuki, czujesz presję wygrywania tej grupy A?
+obserwator [-\]: n14 może dawało życie zamiast m17
+tasuki [-\]: nie, usatysfakcjonowałem się już
+])

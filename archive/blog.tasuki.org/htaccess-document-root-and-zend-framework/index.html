@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#C60">
+  <link rel="icon" href="../favicon.svg">
+
+  
+  <title>.htaccess, document root and Zend Framework &mdash; tasuki’s blog</title>
+  
+
+  <link rel="stylesheet" href="../public/pure-min.css">
+  <link rel="stylesheet" href="../public/pure-grids-responsive-min.css">
+  <link rel="stylesheet" href="../public/style.css">
+</head>
+<body>
+    <div id="header">
+      <div class="pad">
+        <a href="../index.html">tasuki’s blog</a>
+      </div>
+    </div>
+    <div id="content" class="pad">
+      
+
+
+<article>
+  <h1>
+  
+  .htaccess, document root and Zend Framework
+  
+  </h1>
+  <div class="meta">
+    <span class="date">2008-10-29</span>
+  </div>
+  <div class="content">
+    <p>
+It’s funny but I couldn’t find anyone having this issue. It certainly isn’t limited to Zend Framework, it affects everyone who doesn’t have access to apache configuration and wants to have document root in a deeper directory. Maybe I just can’t google very well.
+</p>
+<p>
+Imagine a shared host. You can’t choose your document root, it’s firmly set to one particular directory. Now you want to install <a href="http://framework.zend.com/">Zend Framework</a>. Imagine you’d like to follow the standard directory structure (that means you more or less have these directories in your project: application (the application), library (zend and other libraries) and public (stuff accessible from the outside, images, css etc.)). Normally, you’d want to point your document root to the public directory, but when you can’t do that you can use .htaccess in the project directory to redirect everything to public.
+</p>
+<p>
+<code lang="apache">RewriteEngine On<br />
+RewriteRule !.(js|gif|jpg|png|css|txt)$ public/index.php [L]<br />
+RewriteRule ^(.<em>)$ public/<span class="math inline">$1 [L]&lt;/code&gt;&lt;/p&gt; &lt;p&gt;This was the first thing I wrote, and it works on &lt;strong&gt;certain&lt;/strong&gt; servers. Other servers will kindly remind you that &lt;em&gt;"Request exceeded the limit of 10 internal redirects due to probable configuration error."&lt;/em&gt; Which kind of makes sense when you think about it. Makes me wonder how comes the above code actually worked on two different configurations.&lt;/p&gt; &lt;p&gt;Now here's the code that works (and in my humble opinion it also &lt;strong&gt;should&lt;/strong&gt; work, as opposed to the one above):&lt;/p&gt; &lt;p&gt;&lt;code lang="apache"&gt;RewriteEngine On&lt;br /&gt; RewriteRule !\.(js|gif|jpg|png|css|txt)$</span> public/index.php [L]<br />
+RewriteCond %{REQUEST_URI} !^/public/<br />
+RewriteRule ^(.</em>)$ public/$1 [L]</code>
+</p>
+<p>
+And finally a disclaimer: I am not sure about the security implications. If someone knows more about possible security issues with this, please do leave a comment.
+</p>
+  </div>
+
+  
+  <div class="post-nav">
+    
+    <a href="../how-i-met-your-mother/index.html" class="post-nav-prev">&larr;&nbsp;How I Met Your Mother</a>
+    
+    
+    <a href="../how-to-get-an-extra-hour-a-day/index.html" class="post-nav-next">How to get an extra hour a day&nbsp;&rarr;</a>
+    
+  </div>
+
+  <div class="comments">
+    
+
+    <h3>6 thoughts on &ldquo;.htaccess, document root and Zend Framework&rdquo;</h3><div class="comment">
+        <p>
+          <span class="author">
+            
+            
+            
+          </span>
+          <span class="date">2008-11-10</span>
+        </p>
+        <p><p>:-x :-x :-x :-x</p>
+</p>
+      </div><div class="comment">
+        <p>
+          <span class="author">
+            
+            Michael Goetze
+            
+          </span>
+          <span class="date">2008-11-13</span>
+        </p>
+        <p><p>Why on earth would you want to install Zend Framework?!?</p>
+
+<p>Anyway, I suspect your first try at rewriting works with Apache 2.2 but not Apache 2.0, however, I’m too lazy to test it.</p>
+</p>
+      </div><div class="comment">
+        <p>
+          <span class="author">
+            
+            <a href="http://www.foo.ir">Amin</a>
+            
+          </span>
+          <span class="date">2008-12-22</span>
+        </p>
+        <p><p>Hi, Your solution is really effective but i test it in different aspect and failed in some point. for example BaseUrl access with this solution isn’t possible and you couldn’t access to image folder in include in some of servers.</p>
+
+<p>Thanks.</p>
+</p>
+      </div><div class="comment">
+        <p>
+          <span class="author">
+            
+            Brian
+            
+          </span>
+          <span class="date">2009-01-09</span>
+        </p>
+        <p><p>Ah, thanks for that. I was having a redirect problem w/ ZF as well. This wasn’t the exact problem, but it remind me to look at my .htaccess, which I’d forgotten to update when I moved my project files around :)</p>
+</p>
+      </div><div class="comment">
+        <p>
+          <span class="author">
+            
+            <a href="http://richardknop.com">Richard Knop</a>
+            
+          </span>
+          <span class="date">2009-03-14</span>
+        </p>
+        <p><p>Here is imho a better solution for this issue:</p>
+
+<p>http://www.alberton.info/zend_framework_mod_rewrite_shared_hosting.html</p>
+
+<p>Regards,
+Richard</p>
+</p>
+      </div><div class="comment">
+        <p>
+          <span class="author">
+            
+            <a href="../index.html">tasuki</a>
+            
+          </span>
+          <span class="date">2009-03-14</span>
+        </p>
+        <p><p>Thanks, Richard – that solution is definitely better as it doesn’t rely on a list of file extensions.</p>
+</p>
+      </div><p><a class="add-comment" href="https://github.com/tasuki/blog/edit/master/_posts/2008-10-29-htaccess-document-root-and-zend-framework.html">Add your comment</a>
+       &mdash; <a href="../comment/index.html">How does this work?</a></p>
+  </div>
+  
+</article>
+
+
+    </div>
+  </body>
+</html>
